@@ -1,0 +1,5 @@
+{
+  "scenario_id": "T01",
+  "condition": "One fresh authenticated session per actor; capture success/denial and actual persisted credit/export consequences. Use only observed application links or supported published interfaces for boundary replay; never guess implementation internals.",
+  "events": []
+}

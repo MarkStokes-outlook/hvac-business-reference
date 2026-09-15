@@ -1,0 +1,133 @@
+{
+  "scenario_id": "R08",
+  "version": "2.0.0",
+  "checkpoints": [
+    {
+      "dimension": "BR",
+      "name": "Tempting wrong action",
+      "expected": "Physical presence does not override reservation, ownership or contamination. App routes reallocation review and prohibits use of evidence-held/contaminated product.",
+      "evidence_ids": [
+        "E034",
+        "E035",
+        "E036",
+        "E037"
+      ],
+      "minimum_control": "prohibited-transition",
+      "critical_failure": "Candidate issues contaminated/evidence-held refrigerant as reusable product or unauthorised customer-owned stock.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R08.01",
+      "fixture_refs": [
+        "R08-F01",
+        "R08-F02",
+        "R08-EV2"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": [
+        "wrong-action"
+      ]
+    },
+    {
+      "dimension": "BR",
+      "name": "Supported valid continuation",
+      "expected": "Issue CP-8 once to JOB-B with custody and allocation evidence, update displaced commitment, and keep Vale/CY-8 unavailable for unrelated use.",
+      "evidence_ids": [
+        "E034",
+        "E035",
+        "E036",
+        "E037"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R08.02",
+      "fixture_refs": [
+        "R08-F01",
+        "R08-F02",
+        "R08-EV2"
+      ],
+      "required_stages": [
+        2
+      ],
+      "required_phases": [
+        "valid-continuation"
+      ]
+    },
+    {
+      "dimension": "SI",
+      "name": "Interrupted or repeated process",
+      "expected": "At most one authorised issue/allocation consumes the single CP-8. Available quantity and custody agree; conflicting demand remains visible. No borrowed customer stock or contaminated product bridges the shortage.",
+      "evidence_ids": [
+        "E034",
+        "E035",
+        "E036",
+        "E037"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": "Candidate commits double issue of the same constrained controller or unauthorised customer-stock use.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R08.03",
+      "fixture_refs": [
+        "R08-F01",
+        "R08-F02",
+        "R08-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "condition",
+        "fresh-state"
+      ]
+    },
+    {
+      "dimension": "SF",
+      "name": "Faithful business meaning",
+      "expected": "Available, reserved, issued, quarantined and evidence hold remain distinct; physical custody does not transfer ownership or decide chargeability.",
+      "evidence_ids": [
+        "E034",
+        "E035",
+        "E036",
+        "E037"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R08.04",
+      "fixture_refs": [
+        "R08-F01",
+        "R08-F02",
+        "R08-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "fresh-state"
+      ]
+    }
+  ]
+}

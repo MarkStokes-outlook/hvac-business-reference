@@ -1,0 +1,137 @@
+{
+  "scenario_id": "R17",
+  "version": "2.0.0",
+  "checkpoints": [
+    {
+      "dimension": "BR",
+      "name": "Tempting wrong action",
+      "expected": "App preserves sender accountability until receiver acceptance and does not use generic transferred/closed labels to bury a rejected dependency or temporary obligation.",
+      "evidence_ids": [
+        "E076",
+        "E077",
+        "E060",
+        "E078",
+        "E079"
+      ],
+      "minimum_control": "scoped-authority",
+      "critical_failure": "Candidate falsely closes the unresolved temporary-risk obligation or records unaccepted transfer leaving material risk ownerless.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R17.01",
+      "fixture_refs": [
+        "R17-F01",
+        "R17-F02",
+        "R17-EV2"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": [
+        "wrong-action"
+      ]
+    },
+    {
+      "dimension": "BR",
+      "name": "Supported valid continuation",
+      "expected": "Record accepted scoped ownership transfers and approved next work. Keep temporary review/current limitation controlled until actual permanent tests exist; sending files is not accepted accountability.",
+      "evidence_ids": [
+        "E076",
+        "E077",
+        "E060",
+        "E078",
+        "E079"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R17.02",
+      "fixture_refs": [
+        "R17-F01",
+        "R17-F02",
+        "R17-EV2"
+      ],
+      "required_stages": [
+        2
+      ],
+      "required_phases": [
+        "valid-continuation"
+      ]
+    },
+    {
+      "dimension": "SI",
+      "name": "Interrupted or repeated process",
+      "expected": "An accountable owner remains through rejection, acceptance and replay. Duplicate transfer cannot leave two conflicting owners or no owner; temporary review and unresolved permanent outcome stay visible.",
+      "evidence_ids": [
+        "E076",
+        "E077",
+        "E060",
+        "E078",
+        "E079"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": "Candidate deletes an active material temporary restriction/review or creates ownerless unresolved risk through a false accepted handoff.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R17.03",
+      "fixture_refs": [
+        "R17-F01",
+        "R17-F02",
+        "R17-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "condition",
+        "fresh-state"
+      ]
+    },
+    {
+      "dimension": "SF",
+      "name": "Faithful business meaning",
+      "expected": "Handoff is accepted accountability, escalation is traceable action, waiting needs actor/owner/review, and temporary restoration is not permanent resolution.",
+      "evidence_ids": [
+        "E076",
+        "E077",
+        "E060",
+        "E078",
+        "E079"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R17.04",
+      "fixture_refs": [
+        "R17-F01",
+        "R17-F02",
+        "R17-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "fresh-state"
+      ]
+    }
+  ]
+}

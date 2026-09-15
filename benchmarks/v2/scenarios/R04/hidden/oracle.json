@@ -1,0 +1,133 @@
+{
+  "scenario_id": "R04",
+  "version": "2.0.0",
+  "checkpoints": [
+    {
+      "dimension": "BR",
+      "name": "Tempting wrong action",
+      "expected": "App demands actual task/evidence or an explicit authorised exception; signature/attendance does not prove full maintenance. Follow-on defect is not auto-authorised.",
+      "evidence_ids": [
+        "E015",
+        "E016",
+        "E017",
+        "E018"
+      ],
+      "minimum_control": "prohibited-transition",
+      "critical_failure": "Candidate commits maintenance as performed/on-time when supplied task evidence says it was not.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R04.01",
+      "fixture_refs": [
+        "R04-F01",
+        "R04-F02",
+        "R04-EV2"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": [
+        "wrong-action"
+      ]
+    },
+    {
+      "dimension": "BR",
+      "name": "Supported valid continuation",
+      "expected": "Record genuine catch-up maintenance and its actual date; retain Q3 attribution and missed-window consequence. Keep A1 repair as separately owned quotation/authority work.",
+      "evidence_ids": [
+        "E015",
+        "E016",
+        "E017",
+        "E018"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R04.02",
+      "fixture_refs": [
+        "R04-F01",
+        "R04-F02",
+        "R04-EV2"
+      ],
+      "required_stages": [
+        2
+      ],
+      "required_phases": [
+        "valid-continuation"
+      ]
+    },
+    {
+      "dimension": "SI",
+      "name": "Interrupted or repeated process",
+      "expected": "Both genuinely different attendance outcomes remain linked; replay does not duplicate delivered maintenance or billing. Q3 miss is not rewritten as an on-time Q4 success.",
+      "evidence_ids": [
+        "E015",
+        "E016",
+        "E017",
+        "E018"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": "Candidate persists false maintenance completion for unperformed A2 work.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R04.03",
+      "fixture_refs": [
+        "R04-F01",
+        "R04-F02",
+        "R04-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "condition",
+        "fresh-state"
+      ]
+    },
+    {
+      "dimension": "SF",
+      "name": "Faithful business meaning",
+      "expected": "Attendance completion, asset tasks, maintenance obligation and defect resolution are separate. Catch-up date cannot redefine due period.",
+      "evidence_ids": [
+        "E015",
+        "E016",
+        "E017",
+        "E018"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R04.04",
+      "fixture_refs": [
+        "R04-F01",
+        "R04-F02",
+        "R04-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "fresh-state"
+      ]
+    }
+  ]
+}

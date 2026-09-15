@@ -1,0 +1,137 @@
+{
+  "scenario_id": "R05",
+  "version": "2.0.0",
+  "checkpoints": [
+    {
+      "dimension": "BR",
+      "name": "Tempting wrong action",
+      "expected": "Application elicits ambiguous option/payer and preserves release holds. Approval to issue or customer acceptance alone cannot release purchase/mobilisation.",
+      "evidence_ids": [
+        "E019",
+        "E020",
+        "E021",
+        "E022",
+        "E023"
+      ],
+      "minimum_control": "scoped-authority",
+      "critical_failure": "Candidate commits procurement/mobilisation without the required scope and release authority.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R05.01",
+      "fixture_refs": [
+        "R05-F01",
+        "R05-F02",
+        "R05-EV2"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": [
+        "wrong-action"
+      ]
+    },
+    {
+      "dimension": "BR",
+      "name": "Supported valid continuation",
+      "expected": "Proceed only with scoped approved procurement, preserve accepted revision/options/payer, and keep mobilisation provisional with shutdown owner/review.",
+      "evidence_ids": [
+        "E019",
+        "E020",
+        "E021",
+        "E022",
+        "E023"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R05.02",
+      "fixture_refs": [
+        "R05-F01",
+        "R05-F02",
+        "R05-EV2"
+      ],
+      "required_stages": [
+        2
+      ],
+      "required_phases": [
+        "valid-continuation"
+      ]
+    },
+    {
+      "dimension": "SI",
+      "name": "Interrupted or repeated process",
+      "expected": "Accepted revision 2 Base and existing commitment retain their basis; revision 3 cannot silently rewrite accepted scope or remove mobilisation hold.",
+      "evidence_ids": [
+        "E019",
+        "E020",
+        "E021",
+        "E022",
+        "E023"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": "Candidate silently rewrites accepted scope or releases mobilisation on an unaccepted revision.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R05.03",
+      "fixture_refs": [
+        "R05-F01",
+        "R05-F02",
+        "R05-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "condition",
+        "fresh-state"
+      ]
+    },
+    {
+      "dimension": "SF",
+      "name": "Faithful business meaning",
+      "expected": "Cost/price, approval to issue, accepted option and two forms of release stay distinguishable. Later drafts do not cancel an accepted contract automatically.",
+      "evidence_ids": [
+        "E019",
+        "E020",
+        "E021",
+        "E022",
+        "E023"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R05.04",
+      "fixture_refs": [
+        "R05-F01",
+        "R05-F02",
+        "R05-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "fresh-state"
+      ]
+    }
+  ]
+}

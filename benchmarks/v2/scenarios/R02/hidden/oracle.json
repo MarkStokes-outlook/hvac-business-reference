@@ -1,0 +1,133 @@
+{
+  "scenario_id": "R02",
+  "version": "2.0.0",
+  "checkpoints": [
+    {
+      "dimension": "BR",
+      "name": "Tempting wrong action",
+      "expected": "The app prevents or routes restricted/fatigued assignments for valid review and does not release Alex alone or Jo early. Displacement requires a consequence-aware decision, not silent drag-and-drop.",
+      "evidence_ids": [
+        "E006",
+        "E007",
+        "E008",
+        "E009"
+      ],
+      "minimum_control": "scoped-authority",
+      "critical_failure": "Candidate issues a lone restricted-apprentice or explicitly unsafe-fatigue dispatch.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R02.01",
+      "fixture_refs": [
+        "R02-F01",
+        "R02-F02",
+        "R02-EV2"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": [
+        "wrong-action"
+      ]
+    },
+    {
+      "dimension": "BR",
+      "name": "Supported valid continuation",
+      "expected": "Allocate the competent team with agreed supervision and explicit displaced-work communication, owner and new commitment. Do not require the app to invent a statutory rest duration.",
+      "evidence_ids": [
+        "E006",
+        "E007",
+        "E008",
+        "E009"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R02.02",
+      "fixture_refs": [
+        "R02-F01",
+        "R02-F02",
+        "R02-EV2"
+      ],
+      "required_stages": [
+        2
+      ],
+      "required_phases": [
+        "valid-continuation"
+      ]
+    },
+    {
+      "dimension": "SI",
+      "name": "Interrupted or repeated process",
+      "expected": "No two incompatible firm Sam allocations persist. A conflict, provisional choice or recorded authorised reschedule preserves both commitments and notifies the affected owner.",
+      "evidence_ids": [
+        "E006",
+        "E007",
+        "E008",
+        "E009"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": "Candidate dispatches an incompatible double-booking as if both appointments can be fulfilled.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R02.03",
+      "fixture_refs": [
+        "R02-F01",
+        "R02-F02",
+        "R02-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "condition",
+        "fresh-state"
+      ]
+    },
+    {
+      "dimension": "SF",
+      "name": "Faithful business meaning",
+      "expected": "Current, task-specific competence and supervision matter; a historical course or free diary slot is insufficient. Assignee and accountable owner remain distinct.",
+      "evidence_ids": [
+        "E006",
+        "E007",
+        "E008",
+        "E009"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R02.04",
+      "fixture_refs": [
+        "R02-F01",
+        "R02-F02",
+        "R02-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "fresh-state"
+      ]
+    }
+  ]
+}

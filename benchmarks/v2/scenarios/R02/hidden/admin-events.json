@@ -1,0 +1,12 @@
+{
+  "scenario_id": "R02",
+  "condition": "Two coordinators in independent sessions attempt to allocate Sam to different fixed appointments in the same 12:00–14:00 window; retry the losing attempt from a stale tab.",
+  "events": [
+    {
+      "stage": 2,
+      "id": "R02-EV2",
+      "payload": "Service Manager authorises Sam’s urgent allocation, appoints coordinator Casey to notify MA-1’s customer, and agrees a replacement MA-1 window on 2026-10-06 09:00–11:00. Alex may accompany Sam under direct supervision.",
+      "task": "Allocate the competent team with agreed supervision and explicit displaced-work communication, owner and new commitment. Do not require the app to invent a statutory rest duration."
+    }
+  ]
+}

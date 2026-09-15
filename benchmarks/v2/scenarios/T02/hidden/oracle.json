@@ -1,0 +1,86 @@
+{
+  "scenario_id": "T02",
+  "version": "2.0.0",
+  "checkpoints": [
+    {
+      "dimension": "PT",
+      "name": "Truthful failure/retry handling",
+      "expected": "Before-commit failure is not falsely shown issued. After-commit acknowledgement loss offers observable reconciliation/recovery; retry produces one intended invoice and stock issue, or controls unintended duplicates before consequential submission. Preserve actual adverse events even after correction.",
+      "evidence_ids": [
+        "E089",
+        "E098",
+        "E099"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": "Candidate issues unintended duplicate commercial charge or material constrained stock issue.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "T02.01",
+      "fixture_refs": [
+        "T02-F01",
+        "T02-F02"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": []
+    },
+    {
+      "dimension": "SI",
+      "name": "Persisted consequence after restart",
+      "expected": "Fresh sessions after actual service restart agree with accepted invoice and stock history, approval basis and remaining availability. No claimed completed action is lost or resurrected; partial completion has a visible next action.",
+      "evidence_ids": [
+        "E070",
+        "E036",
+        "E005"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": "Candidate loses material accepted invoice/stock state while representing completion.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "T02.02",
+      "fixture_refs": [
+        "T02-F01",
+        "T02-F02"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": []
+    },
+    {
+      "dimension": "PT",
+      "name": "Continuity and controlled recovery",
+      "expected": "An authorised administrator can recover access to essential records and resume the interrupted operation through delivered supported procedures; records and meaningful failure information are available. No architecture, arbitrary recovery duration or production certification required.",
+      "evidence_ids": [
+        "E100",
+        "E101"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "T02.03",
+      "fixture_refs": [
+        "T02-F01",
+        "T02-F02"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": []
+    }
+  ]
+}

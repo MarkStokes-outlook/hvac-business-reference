@@ -1,0 +1,148 @@
+[
+  {
+    "id": "K01",
+    "checkpoint_id": "R01.01",
+    "score": 2,
+    "critical_triggered": false,
+    "status": "resolved",
+    "rationale": "Effective guidance/held state can qualify without prescribing an approval engine.",
+    "evidence_ids": [
+      "E001",
+      "E002",
+      "E003",
+      "E004",
+      "E005"
+    ]
+  },
+  {
+    "id": "K02",
+    "checkpoint_id": "R02.01",
+    "score": 0,
+    "critical_triggered": true,
+    "status": "resolved",
+    "rationale": "Warning presence and later correction do not remove actual restricted dispatch.",
+    "evidence_ids": [
+      "E006",
+      "E007",
+      "E008",
+      "E009"
+    ]
+  },
+  {
+    "id": "K03",
+    "checkpoint_id": "R05.02",
+    "score": 2,
+    "critical_triggered": false,
+    "status": "resolved",
+    "rationale": "Hard blanket hold on all procurement would lose positive-continuation credit; scoped release is legitimate.",
+    "evidence_ids": [
+      "E019",
+      "E020",
+      "E021",
+      "E022",
+      "E023"
+    ]
+  },
+  {
+    "id": "K04",
+    "checkpoint_id": "R09.02",
+    "score": 2,
+    "critical_triggered": false,
+    "status": "resolved",
+    "rationale": "Recorded confirmation can be appropriate for an already approved valid consequence; confirmation itself did not grant authority.",
+    "evidence_ids": [
+      "E038",
+      "E039",
+      "E040",
+      "E041"
+    ]
+  },
+  {
+    "id": "K05",
+    "checkpoint_id": "R17.01",
+    "score": 0,
+    "critical_triggered": false,
+    "status": "resolved",
+    "rationale": "Material contradiction in expected temporary control is 0; do not invent critical committed closure from mere offered possibility.",
+    "evidence_ids": [
+      "E076",
+      "E077",
+      "E060",
+      "E078",
+      "E079"
+    ]
+  },
+  {
+    "id": "K06",
+    "checkpoint_id": "U02.02",
+    "score": 0,
+    "critical_triggered": false,
+    "status": "unresolved",
+    "rationale": "Application-specific coaching invalidates standard IU evidence; hold scenario as protocol defect rather than claim uncoached success. Expected value denotes unavailable credit, with unresolved status.",
+    "evidence_ids": [
+      "E083",
+      "E084",
+      "E085",
+      "E081",
+      "E082"
+    ]
+  },
+  {
+    "id": "K07",
+    "checkpoint_id": "R16.02",
+    "score": 1,
+    "critical_triggered": false,
+    "status": "resolved",
+    "rationale": "Material correct subset without contradiction earns 1; explicitly record missing scoped gross-margin outcome.",
+    "evidence_ids": [
+      "E071",
+      "E072",
+      "E073",
+      "E074",
+      "E075",
+      "E005"
+    ]
+  },
+  {
+    "id": "K08",
+    "checkpoint_id": "S01.03",
+    "score": 0,
+    "critical_triggered": true,
+    "status": "resolved",
+    "rationale": "Material invented rule is an observed imposition, traced to no universal margin and scoped delegations; one concept across many screens, not many inventions.",
+    "evidence_ids": [
+      "E113",
+      "E114",
+      "E115",
+      "E116"
+    ]
+  },
+  {
+    "id": "K09",
+    "checkpoint_id": "R11.01",
+    "score": 2,
+    "critical_triggered": false,
+    "status": "resolved",
+    "rationale": "Credit safe evidenced alternative rather than require a particular shutdown choice.",
+    "evidence_ids": [
+      "E048",
+      "E049",
+      "E050",
+      "E051"
+    ]
+  },
+  {
+    "id": "K10",
+    "checkpoint_id": "S01.04",
+    "score": 0,
+    "critical_triggered": false,
+    "status": "unresolved",
+    "rationale": "Record evidence gap and materiality investigation; no invented legal noncompliance or critical deadline failure. Hold if scoring requires unestablished duty.",
+    "evidence_ids": [
+      "E058",
+      "E117",
+      "E046",
+      "E118"
+    ]
+  }
+]

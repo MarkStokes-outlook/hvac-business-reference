@@ -1,0 +1,13 @@
+{
+  "scenario_id": "R10",
+  "facts": [
+    {
+      "id": "R10-F01",
+      "statement": "Recently installed asset fails. Investigation W10 is internally authorised; cause remains unknown. Manufacturer offers replacement part only, no labour/travel/access reimbursement. Registration was submitted, not accepted. Removed part is needed as claim evidence."
+    },
+    {
+      "id": "R10-F02",
+      "statement": "Engineer suspects third-party controls but has no verified conclusion. Manager and finance have not agreed customer charging. Costs so far: labour £200, travel £40, part £300; no recovery received."
+    }
+  ]
+}

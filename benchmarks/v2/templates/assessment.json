@@ -1,0 +1,44 @@
+{
+  "run_id": "REPLACE",
+  "scenario_id": "R01",
+  "suite_fingerprint": "REPLACE_FROM_RELEASE_LOCK",
+  "canonical_baseline": "REPLACE_FROM_MANIFEST",
+  "build_sha256": "REPLACE_64_HEX",
+  "configuration_sha256": "REPLACE_64_HEX",
+  "bundle_fingerprint": "REPLACE_FROM_SEAL",
+  "assessment_kind": "independent",
+  "evaluator": {
+    "id": "REPLACE",
+    "model": "REPLACE",
+    "configuration": "REPLACE",
+    "prompt_sha256": "REPLACE_64_HEX",
+    "blind_to_other_scores": true,
+    "blind_to_methodology": true
+  },
+  "issues": [],
+  "checkpoints": [
+    {
+      "id": "R01.01",
+      "score": 0,
+      "status": "resolved",
+      "reason": "REPLACE",
+      "observed_subset": "REPLACE with artifact-backed actual observed outcome, including denial or absent capability",
+      "missing_element": "",
+      "observation_refs": [
+        "O002"
+      ],
+      "evidence_ids": [
+        "REPLACE_FROM_ORACLE"
+      ],
+      "confidence": "medium",
+      "critical_triggered": false,
+      "incident_id": ""
+    }
+  ],
+  "semantic_findings": [],
+  "assessed_dimensions": [
+    "BR",
+    "SI",
+    "SF"
+  ]
+}

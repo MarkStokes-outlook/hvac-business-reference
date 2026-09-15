@@ -1,0 +1,12 @@
+{
+  "scenario_id": "R13",
+  "condition": "Interrupt recording after version change but before test completion, restart, and retry update record FW13-UP1.",
+  "events": [
+    {
+      "stage": 2,
+      "id": "R13-EV2",
+      "payload": "Technical lead and authorised customer approve scoped update with configuration backup, downtime 12:00–13:00, rollback to 1.2 if agreed interlock tests fail; Sam owns tests/review. Supplied post-update interlock test fails at 13:00; original configuration backup is available. No safety interlock bypass approved. Savings remain an estimate pending baseline, assumptions and measurement.",
+      "task": "Record authorised update and failed functional test, restore the approved 1.2 configuration and verify the agreed safe state; preserve version/configuration history, ventilation/protection, temporary restrictions and follow-up. Do not claim resolution from failed tests. Communicate supported estimate without guaranteed savings."
+    }
+  ]
+}

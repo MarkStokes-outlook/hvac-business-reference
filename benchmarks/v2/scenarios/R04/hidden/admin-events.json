@@ -1,0 +1,12 @@
+{
+  "scenario_id": "R04",
+  "condition": "Submit the no-access attendance twice, refresh, then add the actual later A2 attendance to the same obligation.",
+  "events": [
+    {
+      "stage": 2,
+      "id": "R04-EV2",
+      "payload": "A2 access is confirmed and all its authorised maintenance tasks/evidence are supplied as completed on 2026-10-07. No retrospective Q3 variation or A1 repair approval is supplied.",
+      "task": "Record genuine catch-up maintenance and its actual date; retain Q3 attribution and missed-window consequence. Keep A1 repair as separately owned quotation/authority work."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "scenario_id": "T02",
+  "condition": "Use isolated branch snapshots for before/after-commit trials. Administrator records exactly which request/event was accepted; never inject business approval or duplicate suppression on behalf of candidate. An inability to induce/observe the condition is unresolved instrumentation, not a pass.",
+  "events": []
+}

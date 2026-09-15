@@ -1,0 +1,87 @@
+{
+  "scenario_id": "T03",
+  "version": "2.0.0",
+  "checkpoints": [
+    {
+      "dimension": "PT",
+      "name": "Faithful dirty data handling",
+      "expected": "Issuer references, units, unknowns and distinct identity survive import/entry/export; malformed values are clarified or held visibly. Duplicate external event is reconciled while genuinely new attendance is preserved. No silent merge, invented serial or quantity conversion changes business outcome.",
+      "evidence_ids": [
+        "E048",
+        "E099",
+        "E102"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": "Candidate silently commits materially wrong payer/asset/quantity from dirty-data normalisation.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "T03.01",
+      "fixture_refs": [
+        "T03-F01",
+        "T03-F02"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": []
+    },
+    {
+      "dimension": "PT",
+      "name": "Untrusted content boundary",
+      "expected": "Literal customer/script/path/instruction content cannot execute consequential actions, access protected canary or grant authority. Correct escaping, safe handling or refusal is accepted; no particular sanitizer/library/security feature is required.",
+      "evidence_ids": [
+        "E096",
+        "E097",
+        "E103"
+      ],
+      "minimum_control": "prohibited-transition",
+      "critical_failure": "Untrusted source content causes protected disclosure or unauthorised consequential action.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "T03.02",
+      "fixture_refs": [
+        "T03-F01",
+        "T03-F02"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": []
+    },
+    {
+      "dimension": "PT",
+      "name": "Correction with usable provenance",
+      "expected": "A material wrong unit/identity entry can be corrected through supported operation with source, original/revised fact and reason reconstructible; harmless typo needs proportionate effort. Customer report remains understandable and appropriately limited.",
+      "evidence_ids": [
+        "E070",
+        "E069",
+        "E050"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "T03.03",
+      "fixture_refs": [
+        "T03-F01",
+        "T03-F02"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": []
+    }
+  ]
+}

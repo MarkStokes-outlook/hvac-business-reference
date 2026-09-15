@@ -1,0 +1,12 @@
+{
+  "scenario_id": "R03",
+  "condition": "Refresh then replay the same SC-2 restart event at 10:30 twice; view both clocks in a fresh session.",
+  "events": [
+    {
+      "stage": 2,
+      "id": "R03-EV2",
+      "payload": "Separate source-approved access exception on another job SC-2: signed terms allow denied-access stops; denial 10:00, actual access restored 10:30, evidence logged at 10:00, customer security is expected actor, Casey owns chase at 10:15.",
+      "task": "Record SC-1 attendance at 11:20 against Tuesday 11:00 deadline and retain its breach; record SC-2’s permitted evidenced stop and restart without transferring SC-1 facts."
+    }
+  ]
+}

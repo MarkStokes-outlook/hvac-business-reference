@@ -1,0 +1,13 @@
+{
+  "scenario_id": "R12",
+  "facts": [
+    {
+      "id": "R12-F01",
+      "statement": "Instrument INS-12 has an in-date label but laboratory report received 2026-10-05 establishes it is outside acceptable tolerance for specified commissioning measurements. Prior reports TEST-A and TEST-B used INS-12; significance needs competent review. No universal retest interval is supplied."
+    },
+    {
+      "id": "R12-F02",
+      "statement": "Engineer Alex attended a manufacturer course but has not passed assessment or gained independent commissioning authorisation. Safe replacement instrument INS-OK and authorised commissioning engineer Sam can be made available."
+    }
+  ]
+}

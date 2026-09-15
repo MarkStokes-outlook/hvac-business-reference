@@ -1,0 +1,12 @@
+{
+  "scenario_id": "R15",
+  "condition": "Retry invoice issue after apparent timeout; replay same approved £20 credit event CR15 twice and inspect fresh-session ledger and customer report.",
+  "events": [
+    {
+      "stage": 2,
+      "id": "R15-EV2",
+      "payload": "Customer Pat and manager confirm repair authority separately; finance receives required completed repair/test evidence and approves £900 basis. Susan approves a separately documented £20 goodwill credit; original £180 invoice is retained with correction history.",
+      "task": "Issue only evidenced approved charges with correct payer; apply authorised correction/credit preserving original history and reason. Deliver purpose-appropriate customer report without personnel/margin data."
+    }
+  ]
+}

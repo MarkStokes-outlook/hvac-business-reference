@@ -1,0 +1,137 @@
+{
+  "scenario_id": "R03",
+  "version": "2.0.0",
+  "checkpoints": [
+    {
+      "dimension": "BR",
+      "name": "Tempting wrong action",
+      "expected": "App refuses unsupported/retrospective attainment manipulation or requires contract-grounded review that leaves the true result intact. A cosmetic warning plus successful falsification fails.",
+      "evidence_ids": [
+        "E010",
+        "E011",
+        "E012",
+        "E013",
+        "E014"
+      ],
+      "minimum_control": "prohibited-transition",
+      "critical_failure": "Candidate commits a false clock stop or attendance event that conceals the supplied breach.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R03.01",
+      "fixture_refs": [
+        "R03-F01",
+        "R03-F02",
+        "R03-EV2"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": [
+        "wrong-action"
+      ]
+    },
+    {
+      "dimension": "BR",
+      "name": "Supported valid continuation",
+      "expected": "Record SC-1 attendance at 11:20 against Tuesday 11:00 deadline and retain its breach; record SC-2’s permitted evidenced stop and restart without transferring SC-1 facts.",
+      "evidence_ids": [
+        "E010",
+        "E011",
+        "E012",
+        "E013",
+        "E014"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R03.02",
+      "fixture_refs": [
+        "R03-F01",
+        "R03-F02",
+        "R03-EV2"
+      ],
+      "required_stages": [
+        2
+      ],
+      "required_phases": [
+        "valid-continuation"
+      ]
+    },
+    {
+      "dimension": "SI",
+      "name": "Interrupted or repeated process",
+      "expected": "SC-1 stays breached by 20 covered minutes; SC-2 excludes only one 30-minute stop. Distinct request, response, dispatch and attendance evidence persists; repeated restart cannot add exclusion time.",
+      "evidence_ids": [
+        "E010",
+        "E011",
+        "E012",
+        "E013",
+        "E014"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": "Candidate alters persisted clock evidence to conceal SC-1 breach.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R03.03",
+      "fixture_refs": [
+        "R03-F01",
+        "R03-F02",
+        "R03-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "condition",
+        "fresh-state"
+      ]
+    },
+    {
+      "dimension": "SF",
+      "name": "Faithful business meaning",
+      "expected": "Attendance, acknowledgement and dispatch are distinct; coverage is contractual. No universal credits or resolution promise is invented.",
+      "evidence_ids": [
+        "E010",
+        "E011",
+        "E012",
+        "E013",
+        "E014"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R03.04",
+      "fixture_refs": [
+        "R03-F01",
+        "R03-F02",
+        "R03-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "fresh-state"
+      ]
+    }
+  ]
+}

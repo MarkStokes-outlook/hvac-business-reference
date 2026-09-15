@@ -114,3 +114,7 @@ The canonical terminology includes a domain-owned state model registry mapping 1
 The first benchmark reference implementation tests cross-domain operational reasoning against that business model. It now also defines a benchmark-specific public-brand projection and a reproducible website-generation assignment, allowing generated public artefacts to be assessed without exposing or redefining the full internal knowledge base.
 
 Remaining improvements should favour demonstrable reasoning gaps, contradictory terms or business decisions that cannot yet be explained from repository evidence over indiscriminate document creation.
+
+## Fit-for-purpose evaluation suites
+
+[Frozen V1](benchmarks/v1/README.md) measures competent operational use. [Additive V2](benchmarks/v2/README.md) retains that measurement and adds independent application-control, usability, semantic-fidelity, state-integrity and technical-fitness assessments with public/hidden separation and sealed-evidence administration. V2 is content locked for labelled pilot administration; independent calibration remains pending. Neither suite redefines canonical business truth under `docs/`.

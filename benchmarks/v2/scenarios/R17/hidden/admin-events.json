@@ -1,0 +1,12 @@
+{
+  "scenario_id": "R17",
+  "condition": "Refresh after rejected handoff; replay acceptance from a stale tab, and try ending temporary arrangement before permanent repair evidence exists.",
+  "events": [
+    {
+      "stage": 2,
+      "id": "R17-EV2",
+      "payload": "Technical lead confirms exact part HX-17; customer Pat and Daniel separately authorise specified repair/purchase £500 excluding VAT. Casey sends full scope, evidence, temporary limits, authority and review requirements to Erin; Erin explicitly accepts purchase/chase ownership, while Morgan accepts permanent-resolution ownership and next review 2026-10-07 10:00.",
+      "task": "Record accepted scoped ownership transfers and approved next work. Keep temporary review/current limitation controlled until actual permanent tests exist; sending files is not accepted accountability."
+    }
+  ]
+}

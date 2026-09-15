@@ -1,0 +1,12 @@
+{
+  "scenario_id": "R01",
+  "condition": "Resubmit the same comfort report reference AC-CALL-1 after refresh; then submit a genuinely new room symptom under AC-CALL-2.",
+  "events": [
+    {
+      "stage": 2,
+      "id": "R01-EV2",
+      "payload": "Pat authorises a diagnostic attendance only, capped at £180 excluding VAT, on AC-1; Service Manager separately releases that diagnosis. Access and Sam’s competence are confirmed. No repair authority is granted.",
+      "task": "Proceed with authorised diagnosis and protective work within their separate limits. Keep repair and entitlement questions under an owned review, with the source of each authority visible."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "scenario_id": "T01",
+  "version": "2.0.0",
+  "checkpoints": [
+    {
+      "dimension": "PT",
+      "name": "Authentication boundary",
+      "expected": "No unauthenticated, wrong-credential or logged-out session reads protected canary content or commits a protected action. Authenticated authorised access works; visible login/role labels alone earn no credit.",
+      "evidence_ids": [
+        "E096",
+        "E097"
+      ],
+      "minimum_control": "prohibited-transition",
+      "critical_failure": "Candidate releases protected canary information or commits consequential actions without authentication.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "T01.01",
+      "fixture_refs": [
+        "T01-F01",
+        "T01-F02"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": []
+    },
+    {
+      "dimension": "PT",
+      "name": "Authorisation enforcement",
+      "expected": "Sam/Kim actual sessions cannot read out-of-purpose canaries, unassigned customer security or issue CR-T1; denial survives deep-link/request replay and stale UI. Fin can issue the approved credit. UI hiding alone fails.",
+      "evidence_ids": [
+        "E096",
+        "E068"
+      ],
+      "minimum_control": "prohibited-transition",
+      "critical_failure": "Candidate discloses protected personnel/customer security or issues credit outside actor’s episode authority.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "T01.02",
+      "fixture_refs": [
+        "T01-F01",
+        "T01-F02"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": []
+    },
+    {
+      "dimension": "PT",
+      "name": "Information boundary and provenance",
+      "expected": "Customer/subcontractor reports/downloads contain only necessary permitted information; permitted operational history is usable. Capture actual actor/time/object/approval source for CR-T1 without demanding a named audit framework.",
+      "evidence_ids": [
+        "E069",
+        "E070",
+        "E096"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": "Candidate exports protected canary information across the declared boundary.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "T01.03",
+      "fixture_refs": [
+        "T01-F01",
+        "T01-F02"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": []
+    }
+  ]
+}

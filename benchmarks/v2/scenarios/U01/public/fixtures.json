@@ -1,0 +1,9 @@
+{
+  "scenario_id": "U01",
+  "facts": [
+    {
+      "id": "U01-F01",
+      "statement": "New episode UC1: caller reports “the upstairs unit is not cooling” at Alder Court. Two upstairs rooms have different units; caller cannot identify which. They can arrange access, not approve charges. Maintenance-only agreement; reactive terms unknown. Casey owns clarification with caller at 11:00."
+    }
+  ]
+}

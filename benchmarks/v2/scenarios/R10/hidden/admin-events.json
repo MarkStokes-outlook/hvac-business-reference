@@ -1,0 +1,12 @@
+{
+  "scenario_id": "R10",
+  "condition": "Replay manufacturer parts-only approval and submit charge twice after an apparent timeout; reload warranty case in a fresh session.",
+  "events": [
+    {
+      "stage": 2,
+      "id": "R10-EV2",
+      "payload": "Supplied competent technical report verifies third-party alteration, not Frostline/supplier defect. Account manager approves customer communication/charging under attached diagnostic agreement; finance confirms £240 excluding VAT basis and evidence. Susan authorises treatment of the £300 replacement part under manufacturer terms; claim recovery still unreceived.",
+      "task": "Convert only the evidenced agreed customer charge after all three inputs. Preserve gross costs, partial recovery scope, linked remedial outcome, evidence custody and continuing recovery owner/review."
+    }
+  ]
+}

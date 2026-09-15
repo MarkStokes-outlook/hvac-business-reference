@@ -1,0 +1,13 @@
+{
+  "scenario_id": "R14",
+  "facts": [
+    {
+      "id": "R14-F01",
+      "statement": "Customer says “your work was unacceptable; water damaged our office and the electrical plant may still be unsafe”. They do not say complaint. Root cause/liability unverified; failed component, photos and original worksheet are relevant evidence."
+    },
+    {
+      "id": "R14-F02",
+      "statement": "Coordinator Casey has no settlement authority. Proposed £100 goodwill is not authorised; safety actions are incomplete. Susan owns insurer-policy notification verification; Service Manager owns complaint communication at 12:00."
+    }
+  ]
+}

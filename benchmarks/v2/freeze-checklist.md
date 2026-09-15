@@ -1,0 +1,9 @@
+# Freeze and administration checklist
+
+Completed authoring requirements: canonical/framework review; V1 preservation; independent dimensions; explicit invalid and valid paths; realistic perturbations; public/hidden separation; source-indexed expectations and critical predicates; evidence gaps; independent scoring/adjudication contracts; release/source locks; export, sealing and gate validation with synthetic tool self-checks.
+
+`release-lock.json` freezes the exact content and canonical/V1 hashes. Validate it before every export/run. Outputs and candidate artifacts never belong inside the frozen release. Future corrections require explicit version/dependency review and a new lock; never silently edit expectations to favour a candidate. Human task authorisation permits these direct additive repository changes; no approval to evaluate a candidate has been requested or inferred.
+
+Before calibrated cross-method/model claims, benchmark maintainers must record an independent administrator protocol rehearsal and two independent evaluator calibrations using benchmark-authored synthetic traces, including refusal, effective warning/confirmation, bypassed approval, legitimate alternative, partial subset, duplicate retry, unresolved source gap and material invention. Audit agreement and adjust only prospectively before scored candidate comparisons. Author tool self-checks are not independent model validation. No candidate inspection is needed for this rehearsal; none was run here.
+
+Release can be exported and administered as a labelled bounded pilot. Independent calibration sign-off remains pending; full production certification, empirical usability adoption and long-run load/recovery targets are outside this corpus/suite. Actual administration additionally needs sandbox/build/configuration, faithful adapters, fresh users/model sessions, condition instrumentation and independent judges, supplied by the run administrator rather than benchmark authors.

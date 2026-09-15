@@ -1,0 +1,5 @@
+# U06: Clarify a quotation acceptance
+
+Your business role: estimator. All named customer/job/test facts here are synthetic episode inputs, not enduring company rules.
+
+U06-F01: New episode UQ6: quote Q-UQ6 has Base and Enhanced options; email “go ahead with what we discussed” identifies neither. Sender is an identifiable facilities contact; spend authority not supplied. Estimator River owns clarification with procurement contact Pat at 11:00. No release or deposit confirmation.

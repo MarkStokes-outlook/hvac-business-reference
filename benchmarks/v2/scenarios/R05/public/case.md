@@ -1,0 +1,7 @@
+# R05: Ambiguous award and staged project release
+
+Your business role: estimator. All named customer/job/test facts here are synthetic episode inputs, not enduring company rules.
+
+R05-F01: Q-5 revision 1 option Base £12,000 excluded controls; revision 2 Base £13,000 and Enhanced £16,000. Revision 2 is approved to issue, not to purchase. Email says “go ahead with the discussed one” and PO references an unresolved group trading name.
+
+R05-F02: Finance deposit condition and legal payer remain unresolved. Equipment supplier offer expires 2026-10-09. Site shutdown permission is absent. Project owner Morgan is assigned to review, due 2026-10-06.

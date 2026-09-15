@@ -1,0 +1,13 @@
+{
+  "scenario_id": "T04",
+  "facts": [
+    {
+      "id": "T04-F01",
+      "statement": "Use the delivered frozen build/configuration and ordinary supported setup/restart/recovery instructions. Synthetic essential site/job/approval/report records are seeded; no live dependencies or messages. Candidate claims about deployment capability are recorded as claims until exercised."
+    },
+    {
+      "id": "T04-F02",
+      "statement": "Repeat U02 field recording on 390×844 viewport and U04 invoice workflow keyboard-only at desktop 200% zoom. These are benchmark test conditions, not an invented Frostline accessibility standard or device policy. A role-appropriate user must be able to read labels, identify focus/errors and complete consequential work."
+    }
+  ]
+}

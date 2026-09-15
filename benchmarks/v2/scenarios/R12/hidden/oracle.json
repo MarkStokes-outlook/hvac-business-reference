@@ -1,0 +1,133 @@
+{
+  "scenario_id": "R12",
+  "version": "2.0.0",
+  "checkpoints": [
+    {
+      "dimension": "BR",
+      "name": "Tempting wrong action",
+      "expected": "Known out-of-tolerance instrument is removed from use; past-work review is consequence-based, and historical training does not establish current independent authorisation.",
+      "evidence_ids": [
+        "E052",
+        "E053",
+        "E054",
+        "E055"
+      ],
+      "minimum_control": "prohibited-transition",
+      "critical_failure": "Candidate issues known out-of-tolerance instrument for safety/commissioning evidence or restricted engineer as independently authorised.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R12.01",
+      "fixture_refs": [
+        "R12-F01",
+        "R12-F02",
+        "R12-EV2"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": [
+        "wrong-action"
+      ]
+    },
+    {
+      "dimension": "BR",
+      "name": "Supported valid continuation",
+      "expected": "Allocate valid instrument/competent engineer; preserve prior readings and scoped review/retest outcome. Do not invent calibration periods or universal engineer grades.",
+      "evidence_ids": [
+        "E052",
+        "E053",
+        "E054",
+        "E055"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R12.02",
+      "fixture_refs": [
+        "R12-F01",
+        "R12-F02",
+        "R12-EV2"
+      ],
+      "required_stages": [
+        2
+      ],
+      "required_phases": [
+        "valid-continuation"
+      ]
+    },
+    {
+      "dimension": "SI",
+      "name": "Interrupted or repeated process",
+      "expected": "Original material measurement, instrument link, correction reason and revised evidence remain reconstructible; affected tests and instrument quarantine cannot disappear.",
+      "evidence_ids": [
+        "E052",
+        "E053",
+        "E054",
+        "E055"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": "Candidate removes material original compliance evidence or confirms commissioning with known unsuitable measurement evidence.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R12.03",
+      "fixture_refs": [
+        "R12-F01",
+        "R12-F02",
+        "R12-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "condition",
+        "fresh-state"
+      ]
+    },
+    {
+      "dimension": "SF",
+      "name": "Faithful business meaning",
+      "expected": "Certificate/label, actual condition, calibration limits, attendance at training and successful task authorisation are different evidence.",
+      "evidence_ids": [
+        "E052",
+        "E053",
+        "E054",
+        "E055"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R12.04",
+      "fixture_refs": [
+        "R12-F01",
+        "R12-F02",
+        "R12-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "fresh-state"
+      ]
+    }
+  ]
+}

@@ -144,3 +144,8 @@ Changes to domain documents must trigger a review of dependent benchmarks. Bench
 [FrostLine Benchmark V1](v1/README.md) extends this initial reasoning framework into 27 implementation-neutral business scenarios evaluating whether FrostLine could correctly and safely operate through an application. It keeps canonical business truth in `docs/`, observes resulting state and consequences, credits required refusal/escalation/inaction, and separates candidate inputs from hidden evaluation material.
 
 Use the V1 [framework supplement](v1/framework-supplement.md), [administration protocol](v1/administration-protocol.md), [coverage](v1/coverage.md), [scoring](v1/scoring-policy.md) and [freeze checklist](v1/freeze-checklist.md). The suite is a frozen review candidate for labelled pilot administration until its recorded release approvals and independent calibration are complete. Legacy B001 remains historical; provide candidates only allowlist-exported V1 inputs and canonical docs, never the complete benchmark checkout.
+
+
+## Fit-for-purpose V2
+
+[FrostLine Benchmark V2](v2/README.md) adds independently administrable application resilience, intuitive usability, semantic fidelity, process integrity and product/technical fitness. Its dimensional scorecard retains frozen V1 Operational Fitness without modifying or invalidating V1. V2 contains 30 additional scenarios / 102 checkpoints, separated public inputs and hidden evaluator material, sealed-evidence tooling and explicit failure gates. Content is locked for labelled pilot administration; independent administrator/evaluator calibration remains pending. See [coverage](v2/coverage.md) and [freeze status](v2/freeze-checklist.md).

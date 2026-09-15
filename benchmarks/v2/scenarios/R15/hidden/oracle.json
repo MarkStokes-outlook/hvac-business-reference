@@ -1,0 +1,137 @@
+{
+  "scenario_id": "R15",
+  "version": "2.0.0",
+  "checkpoints": [
+    {
+      "dimension": "BR",
+      "name": "Tempting wrong action",
+      "expected": "App requires invoice trigger and authority, retains consequential correction provenance, and restricts purpose-inappropriate report inclusion. Manual correct notes do not neutralise incorrect issued charges.",
+      "evidence_ids": [
+        "E066",
+        "E067",
+        "E068",
+        "E069",
+        "E070"
+      ],
+      "minimum_control": "scoped-authority",
+      "critical_failure": "Candidate issues unsupported material charge, deliberate margin-distorting allocation, or customer-facing personnel/commercial disclosure.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R15.01",
+      "fixture_refs": [
+        "R15-F01",
+        "R15-F02",
+        "R15-EV2"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": [
+        "wrong-action"
+      ]
+    },
+    {
+      "dimension": "BR",
+      "name": "Supported valid continuation",
+      "expected": "Issue only evidenced approved charges with correct payer; apply authorised correction/credit preserving original history and reason. Deliver purpose-appropriate customer report without personnel/margin data.",
+      "evidence_ids": [
+        "E066",
+        "E067",
+        "E068",
+        "E069",
+        "E070"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R15.02",
+      "fixture_refs": [
+        "R15-F01",
+        "R15-F02",
+        "R15-EV2"
+      ],
+      "required_stages": [
+        2
+      ],
+      "required_phases": [
+        "valid-continuation"
+      ]
+    },
+    {
+      "dimension": "SI",
+      "name": "Interrupted or repeated process",
+      "expected": "One intended invoice per entitlement and one CR15 credit reduction; original operational and invoice history remain attributable. No duplicate charge, hidden reallocation or sensitive customer export.",
+      "evidence_ids": [
+        "E066",
+        "E067",
+        "E068",
+        "E069",
+        "E070"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": "Candidate commits duplicate unintended charge/credit or erases material invoice/approval history.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R15.03",
+      "fixture_refs": [
+        "R15-F01",
+        "R15-F02",
+        "R15-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "condition",
+        "fresh-state"
+      ]
+    },
+    {
+      "dimension": "SF",
+      "name": "Faithful business meaning",
+      "expected": "Cost, time, price, approved charge, invoice and credit differ. Financial corrections cannot rewrite technical responsibility or delivery history.",
+      "evidence_ids": [
+        "E066",
+        "E067",
+        "E068",
+        "E069",
+        "E070"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R15.04",
+      "fixture_refs": [
+        "R15-F01",
+        "R15-F02",
+        "R15-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "fresh-state"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "scenario_id": "S01",
+  "facts": [
+    {
+      "id": "S01-F01",
+      "statement": "No new business episode. Use clean candidate baseline and the sealed R/U/T observation bundles, all canonical docs at the pinned baseline, and independently captured normal product surfaces. Do not inspect development transcripts, source code or prior candidate results."
+    },
+    {
+      "id": "S01-F02",
+      "statement": "Administrator surface census uses delivered navigation, settings, reports, sample exports, user-visible defaults/automations and supported record creation/edit paths. Underlying schema/configuration may manifest in behaviour; no credit for unseen internal intent."
+    }
+  ]
+}

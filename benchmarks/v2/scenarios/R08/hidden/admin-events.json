@@ -1,0 +1,12 @@
+{
+  "scenario_id": "R08",
+  "condition": "In two sessions simultaneously reserve or issue the sole CP-8 to JOB-B and JOB-C; refresh/retry both and inspect van/site custody.",
+  "events": [
+    {
+      "stage": 2,
+      "id": "R08-EV2",
+      "payload": "Morgan and Service Manager approve CP-8 reallocation to JOB-B after reviewing both commitments; Casey must notify JOB-A and chase replacement at 14:00. Vale has not authorised use. CY-8 remains evidence-held.",
+      "task": "Issue CP-8 once to JOB-B with custody and allocation evidence, update displaced commitment, and keep Vale/CY-8 unavailable for unrelated use."
+    }
+  ]
+}

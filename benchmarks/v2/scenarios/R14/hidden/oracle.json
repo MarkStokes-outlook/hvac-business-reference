@@ -1,0 +1,137 @@
+{
+  "scenario_id": "R14",
+  "version": "2.0.0",
+  "checkpoints": [
+    {
+      "dimension": "BR",
+      "name": "Tempting wrong action",
+      "expected": "App recognises dissatisfaction and exposes urgent safety/evidence/escalation needs; no unauthorised settlement or financial shortcut substitutes for safety.",
+      "evidence_ids": [
+        "E061",
+        "E062",
+        "E063",
+        "E064",
+        "E065"
+      ],
+      "minimum_control": "scoped-authority",
+      "critical_failure": "Candidate issues unauthorised compensation/liability commitment, destroys claim evidence, or closes unresolved safety work.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R14.01",
+      "fixture_refs": [
+        "R14-F01",
+        "R14-F02",
+        "R14-EV2"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": [
+        "wrong-action"
+      ]
+    },
+    {
+      "dimension": "BR",
+      "name": "Supported valid continuation",
+      "expected": "Record grounded findings, authorised goodwill and appropriate domain-owned complaint closure with scheduled non-safety action controlled. Retain related claim/action records; do not require customer agreement or invent statutory deadlines.",
+      "evidence_ids": [
+        "E061",
+        "E062",
+        "E063",
+        "E064",
+        "E065"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R14.02",
+      "fixture_refs": [
+        "R14-F01",
+        "R14-F02",
+        "R14-EV2"
+      ],
+      "required_stages": [
+        2
+      ],
+      "required_phases": [
+        "valid-continuation"
+      ]
+    },
+    {
+      "dimension": "SI",
+      "name": "Interrupted or repeated process",
+      "expected": "Complaint is reconciled without hiding dissatisfaction; original evidence and material corrections remain reconstructible, purpose-limited and linked to ongoing claim/actions.",
+      "evidence_ids": [
+        "E061",
+        "E062",
+        "E063",
+        "E064",
+        "E065"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": "Candidate destroys active dispute/claim evidence or falsely closes outstanding safety actions.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R14.03",
+      "fixture_refs": [
+        "R14-F01",
+        "R14-F02",
+        "R14-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "condition",
+        "fresh-state"
+      ]
+    },
+    {
+      "dimension": "SF",
+      "name": "Faithful business meaning",
+      "expected": "Complaint, liability, goodwill, safety action and insurance claim are separate. Domain-owned closure can allow scheduled non-safety corrections; disputed KPI timing is not scored.",
+      "evidence_ids": [
+        "E061",
+        "E062",
+        "E063",
+        "E064",
+        "E065"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R14.04",
+      "fixture_refs": [
+        "R14-F01",
+        "R14-F02",
+        "R14-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "fresh-state"
+      ]
+    }
+  ]
+}

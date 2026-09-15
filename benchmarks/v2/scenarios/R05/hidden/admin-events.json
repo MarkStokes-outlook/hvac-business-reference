@@ -1,0 +1,12 @@
+{
+  "scenario_id": "R05",
+  "condition": "With purchase commitment already linked, edit a new draft quotation to revision 3 Enhanced and reload the old project tab.",
+  "events": [
+    {
+      "stage": 2,
+      "id": "R05-EV2",
+      "payload": "Authorised customer Pat identifies Q-5 revision 2 Base, legal payer Birch Estates Ltd, £13,000 excluding VAT. Finance confirms required deposit received. Daniel releases procurement for specified equipment up to £6,000; mobilisation remains held pending shutdown.",
+      "task": "Proceed only with scoped approved procurement, preserve accepted revision/options/payer, and keep mobilisation provisional with shutdown owner/review."
+    }
+  ]
+}

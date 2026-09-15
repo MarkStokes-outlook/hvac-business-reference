@@ -1,0 +1,69 @@
+{
+  "run_id": "REPLACE",
+  "scenario_id": "R01",
+  "suite_fingerprint": "REPLACE_FROM_RELEASE_LOCK",
+  "canonical_baseline": "REPLACE_FROM_MANIFEST",
+  "candidate_id": "REPLACE",
+  "build_sha256": "REPLACE_64_HEX",
+  "configuration_sha256": "REPLACE_64_HEX",
+  "protocol_profile": "standard",
+  "deviations": [],
+  "application_specific_assistance": false,
+  "operators": [
+    {
+      "id": "REPLACE",
+      "role": "service coordinator",
+      "business_briefing": "business-role facts only",
+      "fresh": true,
+      "prior_candidate_exposure": false
+    }
+  ],
+  "completed_stages": [
+    1,
+    2
+  ],
+  "pre_state_refs": [
+    "O001"
+  ],
+  "final_state_refs": [
+    "O004"
+  ],
+  "stage_deliveries": [],
+  "phase_receipts": {
+    "wrong-action": [
+      "O002"
+    ],
+    "valid-continuation": [
+      "O003"
+    ],
+    "condition": [
+      "O004"
+    ],
+    "fresh-state": [
+      "O004"
+    ]
+  },
+  "observations": [
+    {
+      "id": "O001",
+      "stage": 1,
+      "actor": "administrator",
+      "origin": "fixture",
+      "kind": "pre-state",
+      "description": "REPLACE with faithful loaded source facts",
+      "artifact_refs": [
+        "pre-state.txt"
+      ]
+    }
+  ],
+  "surface_census": {
+    "complete": false,
+    "domains": []
+  },
+  "semantic_concept_ids": [],
+  "assessed_dimensions": [
+    "BR",
+    "SI",
+    "SF"
+  ]
+}

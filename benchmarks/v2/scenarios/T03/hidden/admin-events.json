@@ -1,0 +1,5 @@
+{
+  "scenario_id": "T03",
+  "condition": "Capture exact source parsing/adaptation. An attachment path is tested as data only within sandbox; do not touch live filesystem/credentials. Import inability may be accommodated by ordinary faithful UI entry, with burden recorded.",
+  "events": []
+}

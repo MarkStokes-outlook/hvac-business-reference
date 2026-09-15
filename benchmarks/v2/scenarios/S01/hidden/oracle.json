@@ -1,0 +1,188 @@
+{
+  "scenario_id": "S01",
+  "version": "2.0.0",
+  "checkpoints": [
+    {
+      "dimension": "SF",
+      "name": "Business identity and capability claims",
+      "expected": "Actual company identity, operating scope, service/customer relationships and department claims agree with canonical facts; invented separate HR/legal/IT departments, equipment manufacturing or national guaranteed response are classified by observed materiality. Selectable generic labels alone are not company claims.",
+      "evidence_ids": [
+        "E106",
+        "E107",
+        "E108",
+        "E109"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "S01.01",
+      "fixture_refs": [
+        "S01-F01",
+        "S01-F02"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": [
+        "concept-inventory",
+        "consequential-probes"
+      ]
+    },
+    {
+      "dimension": "SF",
+      "name": "Record and lifecycle meanings",
+      "expected": "Exposed statuses, relationships and default transitions preserve attendance/job/issue, accepted/released, restoration/resolution, supplier commitment/receipt/acceptance and old/new asset distinctions, permitting equivalent terminology when resulting meaning is faithful.",
+      "evidence_ids": [
+        "E110",
+        "E111",
+        "E112"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "S01.02",
+      "fixture_refs": [
+        "S01-F01",
+        "S01-F02"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": [
+        "concept-inventory",
+        "consequential-probes"
+      ]
+    },
+    {
+      "dimension": "SF",
+      "name": "Authority and commercial rules",
+      "expected": "Implemented policies/defaults do not fabricate enduring spending thresholds, margins, free repair, warranty, service credit, billing or delegation. Episode-specific fixture grants remain scoped; unknown required terms remain unresolved rather than auto-filled as FrostLine truth.",
+      "evidence_ids": [
+        "E113",
+        "E114",
+        "E115",
+        "E116"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": "Candidate behaviour imposes an invented material commercial/authority/entitlement rule as FrostLine policy.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "S01.03",
+      "fixture_refs": [
+        "S01-F01",
+        "S01-F02"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": [
+        "concept-inventory",
+        "consequential-probes"
+      ]
+    },
+    {
+      "dimension": "SF",
+      "name": "Safety, environment and evidence meaning",
+      "expected": "Safety/compliance automations and claims are grounded; no invented universal statutory interval, unconditional energy guarantee, unsafe leak top-up as permanent resolution, or registration-submitted-as-accepted warranty. Preserve uncertainty and technical test limitations.",
+      "evidence_ids": [
+        "E058",
+        "E117",
+        "E046",
+        "E118"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": "Candidate behaviour imposes contradictory safety/compliance policy or unsupported material guaranteed performance/entitlement.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "S01.04",
+      "fixture_refs": [
+        "S01-F01",
+        "S01-F02"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": [
+        "concept-inventory",
+        "consequential-probes"
+      ]
+    },
+    {
+      "dimension": "SF",
+      "name": "Assumption classification and irrelevant scope",
+      "expected": "Inventory differentiates explicitly grounded, correctly inferred, benign implementation assumption, unsupported invention, contradictory invention and irrelevant capability; identifies optional generic utility versus capability presented as meaningful FrostLine business. Count per concept and rate material consequences, not files/fields or implementation complexity.",
+      "evidence_ids": [
+        "E119",
+        "E120"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "S01.05",
+      "fixture_refs": [
+        "S01-F01",
+        "S01-F02"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": [
+        "concept-inventory",
+        "consequential-probes"
+      ]
+    },
+    {
+      "dimension": "SF",
+      "name": "Materiality-weighted fidelity conclusion",
+      "expected": "Report complete census, known required missing meanings, material inventions and scoped evidence gaps. Zero semantic failure is demonstrated only with actively tested consequential concepts/defaults and evidence of correct business equivalents; do not reward extra capability or manufacture facts when canonical material is silent.",
+      "evidence_ids": [
+        "E119",
+        "E050",
+        "E074"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "S01.06",
+      "fixture_refs": [
+        "S01-F01",
+        "S01-F02"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": [
+        "concept-inventory",
+        "consequential-probes"
+      ]
+    }
+  ]
+}

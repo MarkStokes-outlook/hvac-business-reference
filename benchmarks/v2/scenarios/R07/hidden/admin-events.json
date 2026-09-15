@@ -1,0 +1,12 @@
+{
+  "scenario_id": "R07",
+  "condition": "After an apparent submission timeout, retry the same purchase commitment reference PUR-7; then replay its supplier acknowledgement.",
+  "events": [
+    {
+      "stage": 2,
+      "id": "R07-EV2",
+      "payload": "Susan approves the cumulative £1,200 requirement from correctly scoped supplier NorthParts. Technical lead confirms original controller CP-7 specification; customer-required original specification is unchanged. Supplier acknowledgement later confirms quantity, price and delivery 2026-10-08.",
+      "task": "Place exactly the approved purchase and distinguish issued order from subsequent supplier acknowledgement. Keep specified item and evidence-linked authority."
+    }
+  ]
+}

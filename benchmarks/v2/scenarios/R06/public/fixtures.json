@@ -1,0 +1,13 @@
+{
+  "scenario_id": "R06",
+  "facts": [
+    {
+      "id": "R06-F01",
+      "statement": "Released project PR-6 includes drain connection, functional BMS interlock test and commissioning sheets. Drain connection was omitted by Frostline, not excluded. Customer requests an extra zone but has not approved its price."
+    },
+    {
+      "id": "R06-F02",
+      "statement": "Plant runs locally; required BMS interlock test is not done. Training handover received by caretaker is not commercial acceptance. Project owner Morgan reviews residuals 2026-10-06."
+    }
+  ]
+}

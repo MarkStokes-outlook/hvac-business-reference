@@ -1,0 +1,12 @@
+{
+  "scenario_id": "R06",
+  "condition": "Save stale pre-approval completion form after V6 and commissioning evidence have been recorded in another session.",
+  "events": [
+    {
+      "stage": 2,
+      "id": "R06-EV2",
+      "payload": "Independent source confirms drain corrected, interlock test passed and commissioning sheets delivered. Customer Pat and Daniel approve extra-zone variation V6 within stated scope/value £2,000 excluding VAT. Minor labelling snag remains scheduled with Morgan on 2026-10-08; finance still reviewing final account.",
+      "task": "Progress approved variation, accept evidenced commissioning and appropriate practical completion; preserve minor residual owner and separate financial closure."
+    }
+  ]
+}

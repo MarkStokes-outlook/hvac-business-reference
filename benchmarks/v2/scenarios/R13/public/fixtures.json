@@ -1,0 +1,13 @@
+{
+  "scenario_id": "R13",
+  "facts": [
+    {
+      "id": "R13-F01",
+      "statement": "Asset FW-13 runs intermittently; diagnosis is not confirmed. Manufacturer advice suggests firmware update 1.2 to 1.3 subject to site sequence review. Customer BMS controls ventilation and occupied temperature; authority, backup, rollback and recommissioning plan are absent."
+    },
+    {
+      "id": "R13-F02",
+      "statement": "Sales asks for guaranteed 30% savings with no measured baseline. Site contact asks to disable ventilation interlock to make unit run. No competent review supports that action."
+    }
+  ]
+}

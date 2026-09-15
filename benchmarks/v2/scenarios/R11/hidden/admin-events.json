@@ -1,0 +1,12 @@
+{
+  "scenario_id": "R11",
+  "condition": "Re-import the same OLD archive references twice after linking NEW; then edit NEW’s room alias from a stale tab.",
+  "events": [
+    {
+      "stage": 2,
+      "id": "R11-EV2",
+      "payload": "Independent physical verification gives roof serial 220; technical lead confirms notice exclusion for that asset and specified safe action completed on NEW-11. Correct payer for NEW’s job is supplied by separate customer authority.",
+      "task": "Reconcile relationships with source/aliases, preserve retired OLD history, record genuinely verified roof exclusion and evidenced NEW recall completion."
+    }
+  ]
+}

@@ -79,3 +79,17 @@ Coverage labels are descriptive, not scores. A benchmark's rubric determines wha
 The current proposed suite is [FrostLine fit-for-purpose Benchmark V1](v1/README.md), governed by its application-assessment framework supplement, protocol, evidence maps and freeze checklist. Its [coverage matrix](v1/coverage.md) supersedes the initial B001-only designed-coverage table for V1 membership.
 
 B001 1.0.0 remains at [the original path](B001-reactive-callout-triage-and-control/README.md) as a draft historical reasoning reference. V1 B001 2.0.0 retains that intent/episode with a materially different application submission/scoring contract; scores are not comparable and its unused website/public projection is outside V1. No identifier is reused for a different capability. The registry lists the current proposed version; it does not mark the historical draft active.
+
+
+## V2 suite membership
+
+The additive [V2 framework](v2/README.md) retains V1 membership/status and results unchanged. V2's source baseline is `57b6005599792913e17a390c48260c40d94430f6`; exact canonical content is pinned by document hashes and compared to V1 before reuse. Suite owner: Benchmark maintainers; dependency review: 2026-09-15. V2 is a **freeze candidate — content locked for labelled pilot administration, independent calibration pending**. Direct installation is explicitly authorised by the task; this entry does not change any V1 approval/status.
+
+| V2 IDs | Version | Membership | Measurement |
+|---|---|---|---|
+| R01–R17 | 2.0.0 | 17 control/process episodes | BR, SF, SI with independent assertion/phase selection |
+| U01–U08 | 2.0.0 | 8 fresh-user tasks | IU |
+| T01–T04 | 2.0.0 | 4 observable technical episodes | PT, plus SI persistence in T02 |
+| S01 | 2.0.0 | 1 product-surface census/inventory | SF |
+
+The exact individual IDs/titles, scenario versions, domains and source dependencies are authoritative in [V2 manifest](v2/suite-manifest.json), [coverage](v2/coverage.md) and per-scenario metadata/oracles. No V1 ID is reused or retired. Additional dimension profiles do not require V1 administration, but a complete bounded deployment conclusion requires comparable Operational Fitness under the unchanged V1 policy.

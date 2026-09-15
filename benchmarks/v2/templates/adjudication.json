@@ -1,0 +1,42 @@
+{
+  "adjudicator": {
+    "id": "REPLACE",
+    "model": "REPLACE",
+    "configuration": "REPLACE"
+  },
+  "decisions": {
+    "R01.01": {
+      "original_positions": [
+        "REPLACE exact A position",
+        "REPLACE exact B position"
+      ],
+      "rationale": "REPLACE",
+      "canonical_basis": [
+        "REPLACE_FROM_EVIDENCE_INDEX"
+      ],
+      "observation_refs": [
+        "O002"
+      ],
+      "final": {
+        "id": "R01.01",
+        "score": 0,
+        "status": "resolved",
+        "reason": "REPLACE",
+        "observed_subset": "REPLACE with artifact-backed actual observed outcome, including denial or absent capability",
+        "missing_element": "",
+        "observation_refs": [
+          "O002"
+        ],
+        "evidence_ids": [
+          "REPLACE_FROM_ORACLE"
+        ],
+        "confidence": "medium",
+        "critical_triggered": false,
+        "incident_id": ""
+      },
+      "fixture_refs": [
+        "R01-F01"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "scenario_id": "R09",
+  "condition": "Replay carrier delivery event DEL-9 twice, then replay cancellation and return-request event after restart.",
+  "events": [
+    {
+      "stage": 2,
+      "id": "R09-EV2",
+      "payload": "Competent technical inspection accepts undamaged unit only. Supplier grants RMA-9 for damaged unit with replacement/credit under review, but no money/credit received. Erin approves controlled reassignment of undamaged unit to stock after ownership and cost review.",
+      "task": "Preserve damaged quarantine/return custody and cancelled-work exposure; make only assessed suitable stock available. Separate undisputed invoice treatment, disputed line and unreceived recovery."
+    }
+  ]
+}

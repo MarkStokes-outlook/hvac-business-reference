@@ -1,0 +1,12 @@
+{
+  "scenario_id": "R16",
+  "condition": "Refresh, re-import the same C cost event COST16 twice, and open report in another session after definition metadata is edited.",
+  "events": [
+    {
+      "stage": 2,
+      "id": "R16-EV2",
+      "payload": "Cost source confirms C additional attributable direct cost £100, not previously counted. Part availability is still unconfirmed; Casey’s chase remains due.",
+      "task": "Report FTF 1/2 = 50% for eligible A/C, retain B exclusion and Q3 miss, show WAIT16 dependency/owner/review and consistent gross margin £300 / 30% only on supplied recognised dataset. Keep company cash/overall targets unknown."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "build_sha256": "REPLACE",
+  "configuration_sha256": "REPLACE",
+  "canonical_documents": [],
+  "release_fingerprint": "REPLACE",
+  "operational_application_run": true,
+  "independently_scored_and_resolved": true,
+  "complete": true,
+  "verdict": "REPLACE exact valid frozen V1 verdict",
+  "raw_mean": "REPLACE",
+  "effective_mean": "REPLACE",
+  "critical_failures": [],
+  "scenario_results": [],
+  "result_artifacts": [
+    {
+      "path": "REPLACE external immutable V1 result file",
+      "sha256": "REPLACE"
+    }
+  ]
+}

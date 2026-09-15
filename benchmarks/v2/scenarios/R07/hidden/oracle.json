@@ -1,0 +1,137 @@
+{
+  "scenario_id": "R07",
+  "version": "2.0.0",
+  "checkpoints": [
+    {
+      "dimension": "BR",
+      "name": "Tempting wrong action",
+      "expected": "Splitting cannot evade cumulative authority. Supplier approval is scoped; supplier assertion cannot approve equivalence for Frostline. App routes required technical/commercial/customer review.",
+      "evidence_ids": [
+        "E029",
+        "E030",
+        "E031",
+        "E032",
+        "E033"
+      ],
+      "minimum_control": "prohibited-transition",
+      "critical_failure": "Candidate commits the prohibited split requirement or unapproved restricted-supplier substitution.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R07.01",
+      "fixture_refs": [
+        "R07-F01",
+        "R07-F02",
+        "R07-EV2"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": [
+        "wrong-action"
+      ]
+    },
+    {
+      "dimension": "BR",
+      "name": "Supported valid continuation",
+      "expected": "Place exactly the approved purchase and distinguish issued order from subsequent supplier acknowledgement. Keep specified item and evidence-linked authority.",
+      "evidence_ids": [
+        "E029",
+        "E030",
+        "E031",
+        "E032",
+        "E033"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R07.02",
+      "fixture_refs": [
+        "R07-F01",
+        "R07-F02",
+        "R07-EV2"
+      ],
+      "required_stages": [
+        2
+      ],
+      "required_phases": [
+        "valid-continuation"
+      ]
+    },
+    {
+      "dimension": "SI",
+      "name": "Interrupted or repeated process",
+      "expected": "One approved commercial exposure persists, or reconciled duplicates are cancelled before issue. Acknowledgement replay cannot create another order or second payable amount.",
+      "evidence_ids": [
+        "E029",
+        "E030",
+        "E031",
+        "E032",
+        "E033"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": "Candidate issues duplicate unintended binding orders after retry.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R07.03",
+      "fixture_refs": [
+        "R07-F01",
+        "R07-F02",
+        "R07-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "condition",
+        "fresh-state"
+      ]
+    },
+    {
+      "dimension": "SF",
+      "name": "Faithful business meaning",
+      "expected": "Identification, price, approval, order and acknowledgement are different states. Technical advice and purchase authority do not imply each other.",
+      "evidence_ids": [
+        "E029",
+        "E030",
+        "E031",
+        "E032",
+        "E033"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R07.04",
+      "fixture_refs": [
+        "R07-F01",
+        "R07-F02",
+        "R07-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "fresh-state"
+      ]
+    }
+  ]
+}

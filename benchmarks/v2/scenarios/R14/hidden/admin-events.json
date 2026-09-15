@@ -1,0 +1,12 @@
+{
+  "scenario_id": "R14",
+  "condition": "Replay the same customer complaint reference CMP14 twice; attempt to replace original worksheet after the dispute, then refresh.",
+  "events": [
+    {
+      "stage": 2,
+      "id": "R14-EV2",
+      "payload": "Competent specialist confirms safety controlled, findings communicated and customer response recorded. Susan approves £100 goodwill without liability admission; non-safety corrective work scheduled with Morgan, learning action owned. Insurer requirements are supplied separately and followed.",
+      "task": "Record grounded findings, authorised goodwill and appropriate domain-owned complaint closure with scheduled non-safety action controlled. Retain related claim/action records; do not require customer agreement or invent statutory deadlines."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "scenario_id": "U07",
+  "version": "2.0.0",
+  "checkpoints": [
+    {
+      "dimension": "IU",
+      "name": "Uncoached task outcome",
+      "expected": "Discover complaint/urgent route and record concern plus bounded protective action and communication owner; ordinary terminology does not demand formal complaint word.",
+      "evidence_ids": [
+        "E092",
+        "E093",
+        "E094"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "U07.01",
+      "fixture_refs": [
+        "U07-F01"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": [
+        "fresh-user-1",
+        "fresh-user-2"
+      ]
+    },
+    {
+      "dimension": "IU",
+      "name": "Discoverability and understandable recovery",
+      "expected": "Both fresh users can locate the workflow, identify required information, recover a mistaken selection using UI, and correctly explain resulting state without application-specific coaching. Capture paths, terminology confusion, dead ends, assistance, steps, elapsed time and recovery. Unnecessary burden is judged by task consequence, not a preferred screen count.",
+      "evidence_ids": [
+        "E092",
+        "E093",
+        "E094",
+        "E081",
+        "E082"
+      ],
+      "minimum_control": "guidance",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "U07.02",
+      "fixture_refs": [
+        "U07-F01"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": [
+        "fresh-user-1",
+        "fresh-user-2"
+      ]
+    }
+  ]
+}

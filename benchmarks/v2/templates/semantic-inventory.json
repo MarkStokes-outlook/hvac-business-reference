@@ -1,0 +1,36 @@
+{
+  "surface_census": {
+    "complete": false,
+    "domains": [
+      "identity",
+      "lifecycle",
+      "authority",
+      "safety",
+      "information",
+      "reporting"
+    ],
+    "role_surfaces": []
+  },
+  "concepts": [
+    {
+      "id": "C001",
+      "claim_or_implied_meaning": "REPLACE",
+      "surfaces": [],
+      "observation_refs": [],
+      "persisted_effect": "REPLACE",
+      "required_missing_meaning": false
+    }
+  ],
+  "evaluator_finding_contract": {
+    "id": "C001",
+    "classification": "unsupported-invention",
+    "materiality": 2,
+    "reason": "REPLACE",
+    "observation_refs": [
+      "O001"
+    ],
+    "evidence_ids": [],
+    "gap_search": "REPLACE exact scoped canonical search and absent answer",
+    "status": "resolved"
+  }
+}

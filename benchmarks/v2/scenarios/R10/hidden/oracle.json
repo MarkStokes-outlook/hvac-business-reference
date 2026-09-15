@@ -1,0 +1,141 @@
+{
+  "scenario_id": "R10",
+  "version": "2.0.0",
+  "checkpoints": [
+    {
+      "dimension": "BR",
+      "name": "Tempting wrong action",
+      "expected": "App requires technical conclusion, manager confirmation and finance sufficiency; single-role conversion fails. Evidence disposal requires authority; registration submission is not accepted entitlement.",
+      "evidence_ids": [
+        "E042",
+        "E043",
+        "E044",
+        "E045",
+        "E046",
+        "E047"
+      ],
+      "minimum_control": "prohibited-transition",
+      "critical_failure": "Candidate issues customer charge without the required three inputs, destroys needed claim evidence, or invents material reimbursement.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R10.01",
+      "fixture_refs": [
+        "R10-F01",
+        "R10-F02",
+        "R10-EV2"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": [
+        "wrong-action"
+      ]
+    },
+    {
+      "dimension": "BR",
+      "name": "Supported valid continuation",
+      "expected": "Convert only the evidenced agreed customer charge after all three inputs. Preserve gross costs, partial recovery scope, linked remedial outcome, evidence custody and continuing recovery owner/review.",
+      "evidence_ids": [
+        "E042",
+        "E043",
+        "E044",
+        "E045",
+        "E046",
+        "E047"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R10.02",
+      "fixture_refs": [
+        "R10-F01",
+        "R10-F02",
+        "R10-EV2"
+      ],
+      "required_stages": [
+        2
+      ],
+      "required_phases": [
+        "valid-continuation"
+      ]
+    },
+    {
+      "dimension": "SI",
+      "name": "Interrupted or repeated process",
+      "expected": "No duplicate charge/recovery. Parts-only promise cannot become full cash recovery or close ownerless responsibility/cost actions. Original suspicion and later verified conclusion remain attributable.",
+      "evidence_ids": [
+        "E042",
+        "E043",
+        "E044",
+        "E045",
+        "E046",
+        "E047"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": "Candidate persists unsupported full recovery or duplicate customer charge.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R10.03",
+      "fixture_refs": [
+        "R10-F01",
+        "R10-F02",
+        "R10-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "condition",
+        "fresh-state"
+      ]
+    },
+    {
+      "dimension": "SF",
+      "name": "Faithful business meaning",
+      "expected": "Suspected warranty, investigation, responsibility, remedy, registration and cost recovery are independently meaningful. Free-price work has real cost.",
+      "evidence_ids": [
+        "E042",
+        "E043",
+        "E044",
+        "E045",
+        "E046",
+        "E047"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R10.04",
+      "fixture_refs": [
+        "R10-F01",
+        "R10-F02",
+        "R10-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "fresh-state"
+      ]
+    }
+  ]
+}

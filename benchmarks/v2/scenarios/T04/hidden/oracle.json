@@ -1,0 +1,86 @@
+{
+  "scenario_id": "T04",
+  "version": "2.0.0",
+  "checkpoints": [
+    {
+      "dimension": "PT",
+      "name": "Credible delivered operation",
+      "expected": "Supported setup/restart reaches usable authenticated business software with persistent essential records and a practical way to recover essential data. External dependencies/secrets are declared and safely sandboxed, failures are intelligible; a mock happy-path claim is insufficient.",
+      "evidence_ids": [
+        "E100",
+        "E101"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "T04.01",
+      "fixture_refs": [
+        "T04-F01",
+        "T04-F02"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": []
+    },
+    {
+      "dimension": "PT",
+      "name": "Mobile work consequence",
+      "expected": "Field user can read/select/submit U02 outcome and essential evidence at supplied mobile viewport without clipped required controls, misdirected actions or false state. Responsive beauty alone earns no credit.",
+      "evidence_ids": [
+        "E104",
+        "E096",
+        "E105"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "T04.02",
+      "fixture_refs": [
+        "T04-F01",
+        "T04-F02"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": []
+    },
+    {
+      "dimension": "PT",
+      "name": "Accessible consequential workflow",
+      "expected": "Keyboard-only, zoomed U04 permits finding labels/focus/errors, correcting mistaken payer selection and issuing correct evidenced invoice. Record blocked operations/confusion; no preferred component library or nominal compliance badge.",
+      "evidence_ids": [
+        "E089",
+        "E082",
+        "E081"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "T04.03",
+      "fixture_refs": [
+        "T04-F01",
+        "T04-F02"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": []
+    }
+  ]
+}

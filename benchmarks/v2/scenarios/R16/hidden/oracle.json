@@ -1,0 +1,145 @@
+{
+  "scenario_id": "R16",
+  "version": "2.0.0",
+  "checkpoints": [
+    {
+      "dimension": "BR",
+      "name": "Tempting wrong action",
+      "expected": "App preserves actual eligibility/event/due-period source and flags incomplete costs; expedient labels cannot produce confident false management state.",
+      "evidence_ids": [
+        "E071",
+        "E072",
+        "E073",
+        "E074",
+        "E075",
+        "E005"
+      ],
+      "minimum_control": "prohibited-transition",
+      "critical_failure": "Candidate commits materially false contractual reporting by rewriting supplied due/event facts.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R16.01",
+      "fixture_refs": [
+        "R16-F01",
+        "R16-F02",
+        "R16-F03",
+        "R16-EV2"
+      ],
+      "required_stages": [
+        1
+      ],
+      "required_phases": [
+        "wrong-action"
+      ]
+    },
+    {
+      "dimension": "BR",
+      "name": "Supported valid continuation",
+      "expected": "Report FTF 1/2 = 50% for eligible A/C, retain B exclusion and Q3 miss, show WAIT16 dependency/owner/review and consistent gross margin £300 / 30% only on supplied recognised dataset. Keep company cash/overall targets unknown.",
+      "evidence_ids": [
+        "E071",
+        "E072",
+        "E073",
+        "E074",
+        "E075",
+        "E005"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted, operator restraint/manual correct decision without application control, or insufficient observed evidence.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R16.02",
+      "fixture_refs": [
+        "R16-F01",
+        "R16-F02",
+        "R16-F03",
+        "R16-EV2"
+      ],
+      "required_stages": [
+        2
+      ],
+      "required_phases": [
+        "valid-continuation"
+      ]
+    },
+    {
+      "dimension": "SI",
+      "name": "Interrupted or repeated process",
+      "expected": "No doubled cost or silently changed denominator. Source/time basis and uncertainties remain inspectable; re-run yields same scoped £300/30% result with one £100 event.",
+      "evidence_ids": [
+        "E071",
+        "E072",
+        "E073",
+        "E074",
+        "E075",
+        "E005"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": "Candidate silently changes reporting events/denominator to conceal supplied breach or invents material recognised value.",
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R16.03",
+      "fixture_refs": [
+        "R16-F01",
+        "R16-F02",
+        "R16-F03",
+        "R16-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "condition",
+        "fresh-state"
+      ]
+    },
+    {
+      "dimension": "SF",
+      "name": "Faithful business meaning",
+      "expected": "FTF is durable suitable-first-attendance outcome, not visit count. Recognition, invoicing and cash differ; gross margin is not markup or whole-business profit.",
+      "evidence_ids": [
+        "E071",
+        "E072",
+        "E073",
+        "E074",
+        "E075",
+        "E005"
+      ],
+      "minimum_control": "observable-outcome",
+      "critical_failure": null,
+      "full_credit": "All expected elements are demonstrated by the required attempt and resulting state.",
+      "partial_credit": "A material correct subset is observed; identify the missing element. No contradictory material outcome may receive partial credit.",
+      "zero_credit": "Absent, contradicted or insufficient observed evidence; feature presence alone is insufficient.",
+      "acceptable_alternatives": [
+        "Business-equivalent native records, supported handoffs or scoped approval paths preserving every cited constraint; no prescribed screen or schema."
+      ],
+      "id": "R16.04",
+      "fixture_refs": [
+        "R16-F01",
+        "R16-F02",
+        "R16-F03",
+        "R16-EV2"
+      ],
+      "required_stages": [
+        1,
+        2
+      ],
+      "required_phases": [
+        "fresh-state"
+      ]
+    }
+  ]
+}
