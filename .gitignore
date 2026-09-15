@@ -1,0 +1,6 @@
+# DaemonCore — committed (project code)
+.daemoncore/
+AGENTS.md
+CLAUDE.md
+gemini-boot.md
+.DS_Store
