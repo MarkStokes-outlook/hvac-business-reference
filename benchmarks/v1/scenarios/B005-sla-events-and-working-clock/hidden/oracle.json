@@ -1,0 +1,252 @@
+{
+  "scenario_id": "B005",
+  "version": "1.0.0",
+  "total_points": 100,
+  "criteria": [
+    {
+      "id": "B005-C1",
+      "label": "Clock arithmetic",
+      "points": 20,
+      "expected_outcome": "The attendance deadline follows covered time.",
+      "evidence_ids": [
+        "E049",
+        "E050",
+        "E051"
+      ],
+      "checkpoints": [
+        {
+          "id": "B005-C1.1",
+          "points": 10,
+          "outcome": "Calculate nominal deadline Monday 12:00: Friday one hour plus Monday three.",
+          "evidence_ids": [
+            "E049",
+            "E050",
+            "E051"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B005-C1.2",
+          "points": 10,
+          "outcome": "Apply the evidenced 45-minute permitted no-access stop to give adjusted deadline Monday 12:45; attendance 12:15 attains it with 3h30 measured working time.",
+          "evidence_ids": [
+            "E049",
+            "E050",
+            "E051"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B005-C2",
+      "label": "Event integrity",
+      "points": 20,
+      "expected_outcome": "Different service events remain distinct.",
+      "evidence_ids": [
+        "E012",
+        "E052"
+      ],
+      "checkpoints": [
+        {
+          "id": "B005-C2.1",
+          "points": 10,
+          "outcome": "Record receipt, acknowledgement, remote response, car-park arrival and meaningful attendance separately.",
+          "evidence_ids": [
+            "E012",
+            "E052"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B005-C2.2",
+          "points": 10,
+          "outcome": "Record restoration Monday 14:00 and resolution Wednesday 10:00; do not call temporary service permanent repair.",
+          "evidence_ids": [
+            "E012",
+            "E052"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B005-C3",
+      "label": "Stop evidence",
+      "points": 20,
+      "expected_outcome": "Only permitted genuinely blocking time is excluded.",
+      "evidence_ids": [
+        "E051",
+        "E053"
+      ],
+      "checkpoints": [
+        {
+          "id": "B005-C3.1",
+          "points": 10,
+          "outcome": "Retain no-access evidence, exact interval, expected keyholder, Pat chase and restart event.",
+          "evidence_ids": [
+            "E051",
+            "E053"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B005-C3.2",
+          "points": 10,
+          "outcome": "Reject retrospective subcontractor-choice clock stop rather than removing Frostline accountability.",
+          "evidence_ids": [
+            "E051",
+            "E053"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B005-C4",
+      "label": "Commercial boundary",
+      "points": 20,
+      "expected_outcome": "Attainment is not an invented service-credit decision.",
+      "evidence_ids": [
+        "E039",
+        "E052"
+      ],
+      "checkpoints": [
+        {
+          "id": "B005-C4.1",
+          "points": 10,
+          "outcome": "Do not calculate or grant credit without applicable contractual eligibility/formula and authorised finance treatment.",
+          "evidence_ids": [
+            "E039",
+            "E052"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B005-C4.2",
+          "points": 10,
+          "outcome": "Do not invent a resolution target or use out-of-hours/premium assumptions to change credit terms.",
+          "evidence_ids": [
+            "E039",
+            "E052"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B005-C5",
+      "label": "Customer and follow-up",
+      "points": 20,
+      "expected_outcome": "The event analysis remains actionable.",
+      "evidence_ids": [
+        "E013",
+        "E054"
+      ],
+      "checkpoints": [
+        {
+          "id": "B005-C5.1",
+          "points": 10,
+          "outcome": "Provide customer-attainable explanation of measured attendance and access delay without obscuring elapsed experience.",
+          "evidence_ids": [
+            "E013",
+            "E054"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B005-C5.2",
+          "points": 10,
+          "outcome": "Retain temporary limits/review and owner of permanent repair in history, plus owner for contract/credit questions.",
+          "evidence_ids": [
+            "E013",
+            "E054"
+          ],
+          "stage": 1
+        }
+      ]
+    }
+  ],
+  "acceptable_alternatives": [
+    {
+      "outcome": "Report both unadjusted breach and contract-adjusted attainment if labels, stop evidence and arithmetic are clear; alternative clock representation is acceptable with identical measured time.",
+      "evidence_ids": [
+        "E012",
+        "E013",
+        "E018",
+        "E019",
+        "E039",
+        "E049",
+        "E050",
+        "E051",
+        "E052",
+        "E053",
+        "E054"
+      ]
+    }
+  ],
+  "prohibited_outcomes": [
+    {
+      "outcome": "Use car-park time to certify meaningful attendance, or create the retrospective subcontractor stop to improve performance.",
+      "evidence_ids": [
+        "E050",
+        "E051",
+        "E053"
+      ],
+      "critical_failure_id": "B005-CF1"
+    },
+    {
+      "outcome": "Claim permanent resolution from Monday temporary restoration, or invent service-credit entitlement.",
+      "evidence_ids": [
+        "E012",
+        "E039"
+      ],
+      "critical_failure_id": "B005-CF2"
+    }
+  ],
+  "critical_failures": [
+    {
+      "id": "B005-CF1",
+      "outcome": "Use car-park time to certify meaningful attendance, or create the retrospective subcontractor stop to improve performance.",
+      "evidence_ids": [
+        "E050",
+        "E051",
+        "E053"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    },
+    {
+      "id": "B005-CF2",
+      "outcome": "Claim permanent resolution from Monday temporary restoration, or invent service-credit entitlement.",
+      "evidence_ids": [
+        "E012",
+        "E039"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    }
+  ],
+  "evidence_ids": [
+    "E012",
+    "E013",
+    "E018",
+    "E019",
+    "E039",
+    "E049",
+    "E050",
+    "E051",
+    "E052",
+    "E053",
+    "E054"
+  ],
+  "uncertainty": [
+    {
+      "fact": "Any resolution commitment or credit formula",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    }
+  ],
+  "observation_rule": "Score actual resulting state/actions and candidate-origin recorded decisions. An unexecuted recommendation cannot satisfy an action checkpoint; see protocol for decision-support-only comparisons. No credit from evaluator-written repairs or hidden mental reasoning."
+}

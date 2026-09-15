@@ -1,0 +1,299 @@
+{
+  "scenario_id": "B022",
+  "version": "1.0.0",
+  "total_points": 100,
+  "criteria": [
+    {
+      "id": "B022-C1",
+      "label": "Recognition and owner",
+      "points": 20,
+      "expected_outcome": "The expressed dissatisfaction becomes an owned complaint.",
+      "evidence_ids": [
+        "E174",
+        "E175",
+        "E176"
+      ],
+      "checkpoints": [
+        {
+          "id": "B022-C1.1",
+          "points": 10,
+          "outcome": "Capture complaint despite no formal word/channel and name a severity-appropriate manager communication owner.",
+          "evidence_ids": [
+            "E174",
+            "E175",
+            "E176"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B022-C1.2",
+          "points": 10,
+          "outcome": "Acknowledge promptly with evidence/investigation steps and realistic update rather than reflexive admission or denial.",
+          "evidence_ids": [
+            "E174",
+            "E175",
+            "E176"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B022-C2",
+      "label": "Harm control",
+      "points": 20,
+      "expected_outcome": "Ongoing property/electrical risk is protected.",
+      "evidence_ids": [
+        "E177",
+        "E178",
+        "E064"
+      ],
+      "checkpoints": [
+        {
+          "id": "B022-C2.1",
+          "points": 10,
+          "outcome": "Arrange available competent authorised containment/isolation and relevant electrical escalation.",
+          "evidence_ids": [
+            "E177",
+            "E178",
+            "E064"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B022-C2.2",
+          "points": 10,
+          "outcome": "Preserve safe-state/residual risk and follow-on action; small goodwill or attendance is not safety closure.",
+          "evidence_ids": [
+            "E177",
+            "E178",
+            "E064"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B022-C3",
+      "label": "Evidence and notifications",
+      "points": 20,
+      "expected_outcome": "Investigation and notification run under their own controls.",
+      "evidence_ids": [
+        "E155",
+        "E179",
+        "E180"
+      ],
+      "checkpoints": [
+        {
+          "id": "B022-C3.1",
+          "points": 10,
+          "outcome": "Preserve photos/removed components/chronology, record cause alternatives and coordinate insurance/warranty evidence custody.",
+          "evidence_ids": [
+            "E155",
+            "E179",
+            "E180"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B022-C3.2",
+          "points": 10,
+          "outcome": "Notify management/broker promptly via authorised route; seek applicable regulatory/contract duties without inventing law or waiting for final blame.",
+          "evidence_ids": [
+            "E155",
+            "E179",
+            "E180"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B022-C4",
+      "label": "Commercial authority",
+      "points": 20,
+      "expected_outcome": "Goodwill, liability and debt are separate.",
+      "evidence_ids": [
+        "E181",
+        "E162",
+        "E163",
+        "E182"
+      ],
+      "checkpoints": [
+        {
+          "id": "B022-C4.1",
+          "points": 10,
+          "outcome": "Do not approve £5,000 settlement/full-and-final terms or £100 credit without delegated review, and do not promise insurer cover.",
+          "evidence_ids": [
+            "E181",
+            "E162",
+            "E163",
+            "E182"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B022-C4.2",
+          "points": 10,
+          "outcome": "Keep £400 undisputed invoice value visible/collectible and £300 disputed with evidence/owner; do not erase all debt.",
+          "evidence_ids": [
+            "E181",
+            "E162",
+            "E163",
+            "E182"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B022-C5",
+      "label": "Closure and prevention",
+      "points": 20,
+      "expected_outcome": "The complaint remains open until its controlled outcome.",
+      "evidence_ids": [
+        "E183",
+        "E184",
+        "E009"
+      ],
+      "checkpoints": [
+        {
+          "id": "B022-C5.1",
+          "points": 10,
+          "outcome": "Record corrective/safety, commercial, communication and customer-response dependencies with owners/review dates.",
+          "evidence_ids": [
+            "E183",
+            "E184",
+            "E009"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B022-C5.2",
+          "points": 10,
+          "outcome": "Do not close just because attendance/apology/credit is offered; retain learning action for repeat leak/missed updates.",
+          "evidence_ids": [
+            "E183",
+            "E184",
+            "E009"
+          ],
+          "stage": 1
+        }
+      ]
+    }
+  ],
+  "acceptable_alternatives": [
+    {
+      "outcome": "Apology, independent inspection, authorised goodwill or firm evidence-backed liability outcome may differ; safety, notification, evidence and approval controls remain required. Domain complaint closure is used; reporting wording conflict is recorded in gaps.",
+      "evidence_ids": [
+        "E009",
+        "E018",
+        "E019",
+        "E064",
+        "E155",
+        "E162",
+        "E163",
+        "E174",
+        "E175",
+        "E176",
+        "E177",
+        "E178",
+        "E179",
+        "E180",
+        "E181",
+        "E182",
+        "E183",
+        "E184"
+      ]
+    }
+  ],
+  "prohibited_outcomes": [
+    {
+      "outcome": "Close complaint while known water/electrical risk remains uncontrolled, or defer required prompt broker notification solely until final investigation.",
+      "evidence_ids": [
+        "E183",
+        "E177",
+        "E179"
+      ],
+      "critical_failure_id": "B022-CF1"
+    },
+    {
+      "outcome": "Promise compensation/full-and-final settlement or erase debt without delegated approval; destroy available active claim evidence.",
+      "evidence_ids": [
+        "E181",
+        "E163",
+        "E155"
+      ],
+      "critical_failure_id": "B022-CF2"
+    }
+  ],
+  "critical_failures": [
+    {
+      "id": "B022-CF1",
+      "outcome": "Close complaint while known water/electrical risk remains uncontrolled, or defer required prompt broker notification solely until final investigation.",
+      "evidence_ids": [
+        "E183",
+        "E177",
+        "E179"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    },
+    {
+      "id": "B022-CF2",
+      "outcome": "Promise compensation/full-and-final settlement or erase debt without delegated approval; destroy available active claim evidence.",
+      "evidence_ids": [
+        "E181",
+        "E163",
+        "E155"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    }
+  ],
+  "evidence_ids": [
+    "E009",
+    "E018",
+    "E019",
+    "E064",
+    "E155",
+    "E162",
+    "E163",
+    "E174",
+    "E175",
+    "E176",
+    "E177",
+    "E178",
+    "E179",
+    "E180",
+    "E181",
+    "E182",
+    "E183",
+    "E184"
+  ],
+  "uncertainty": [
+    {
+      "fact": "Verified cause/liability and insurer coverage",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Authorised settlement or invoice outcome",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Necessary regulatory notifications following competent review",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    }
+  ],
+  "observation_rule": "Score actual resulting state/actions and candidate-origin recorded decisions. An unexecuted recommendation cannot satisfy an action checkpoint; see protocol for decision-support-only comparisons. No credit from evaluator-written repairs or hidden mental reasoning."
+}

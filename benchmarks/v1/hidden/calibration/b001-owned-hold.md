@@ -1,0 +1,13 @@
+# B001 synthetic observation: owned brief hold
+
+## Observations to score
+
+- **O001 (stage 1 10:25, candidate-origin control record):** Coordinator Lena records partial loss floors 4–5, comfort still elsewhere, reported absence of smoke/leak/alarm, fault cause and priority not confirmed. Calls account/contract owner for schedule coverage, reactive authority and exact SLA; owns these checks until accepted handoff. No entitlement or diagnosis asserted.
+- **O002 (10:27, candidate-origin response preparation):** Samir diagnostic availability is reserved provisionally; task limited to released boiler/pump/conventional-control checks and evidence collection. Dispatch acceptance/authority still pending; no advanced BMS instruction is issued. Physical dispatch held briefly while Lena checks coverage/access, with management review 10:45 or earlier if impact/safety worsens.
+- **O003 (10:29, actual sandbox escalation):** Helen asked to decide commercial diagnostic limit and agree any Ellie displacement with project owner, stating commissioning impact and conditional 15:15 availability. Maintenance PO is not used for parts/specialist spend; Lena asks authorised customer procurement contact to validate chargeable scope/reference. No new cost is committed.
+- **O004 (10:30, actual sandbox customer update):** Priya receives partial-impact assessment, checks underway and conditional bounded diagnostic preparation. Lena asks for riser key and updated impact, promises an update at 10:45, and makes no arrival/restoration/resolution guarantee. The customer issue remains unresolved.
+- **O005 (stage boundary 10:31, app record snapshot):** Triage/coverage and access confirmation in progress. Lena owns near-term contract/authority/key/engineer-acceptance actions, expected actors account owner/customer managing agent/Samir, review 10:45 and Helen escalation for unresolved coverage, specialist need or changed risk. No resolved/completed outcome appears.
+
+## Author anchor (withhold until independent scoring complete)
+
+All ten checkpoints can receive 10; raw/effective 100, no critical failure. O001 supports C1.1/C1.2; O002 supports C2.1/C2.2 with the expressly accepted brief controlled hold rather than mandatory physical dispatch; O003 supports C3.1/C3.2; O005 supports C4.1/C4.2; O004 supports C5.1/C5.2. Canonical dependencies and allowable brief hold are declared in the B001 oracle/reference, especially attendance authority, competence, management displacement and next-action controls. Do not deduct simply for choosing the hold alternative. No simulated approval should be inferred from the fact an escalation was sent.

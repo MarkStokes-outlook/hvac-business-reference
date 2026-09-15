@@ -1,0 +1,25 @@
+{
+  "scenario_id": "B012",
+  "stage": 1,
+  "context": "Isolated synthetic business episode; dates/amounts/contracts/people below are case-specific source facts, not new enduring Frostline policy.",
+  "records": [
+    {
+      "id": "B012-F1",
+      "statement": "Wednesday 16:00. Accepted project requires full controls-sequence commissioning, equipment schedule/manual handover and warranty registration. Units run locally, but required BMS sequence/interface tests have not been performed. Customer has seen them running and asks to close the project."
+    },
+    {
+      "id": "B012-F2",
+      "statement": "Manuals and final serial schedule are outstanding. Registration submitted to manufacturer portal but status “evidence incomplete”, requiring commissioning results. Cosmetic panel touch-up is a minor recorded snag. No evidence says the untested controls interface is minor. Invoice stages follow accepted contract; final entitlement evidence is not yet complete."
+    },
+    {
+      "id": "B012-F3",
+      "statement": "Project owner Pat has internal authority to arrange remaining competent commissioning and documentation. Customer access for testing is available Friday 09:00–12:00."
+    }
+  ],
+  "unknowns": [
+    "Required interface test results",
+    "Registration acceptance",
+    "Final invoice/closure evidence"
+  ],
+  "request": "Process project completion and the later retention request without collapsing the related records."
+}

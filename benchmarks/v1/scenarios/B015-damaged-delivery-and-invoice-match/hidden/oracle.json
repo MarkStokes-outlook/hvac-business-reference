@@ -1,0 +1,272 @@
+{
+  "scenario_id": "B015",
+  "version": "1.0.0",
+  "total_points": 100,
+  "criteria": [
+    {
+      "id": "B015-C1",
+      "label": "Receipt and acceptance",
+      "points": 20,
+      "expected_outcome": "Delivery signature does not create usable stock.",
+      "evidence_ids": [
+        "E129",
+        "E130",
+        "E131"
+      ],
+      "checkpoints": [
+        {
+          "id": "B015-C1.1",
+          "points": 10,
+          "outcome": "Record two physical packages/one accepted unit and wrong-damaged quarantine with provenance.",
+          "evidence_ids": [
+            "E129",
+            "E130",
+            "E131"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B015-C1.2",
+          "points": 10,
+          "outcome": "Exclude wrong/damaged unit from available stock and two-unit readiness.",
+          "evidence_ids": [
+            "E129",
+            "E130",
+            "E131"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B015-C2",
+      "label": "Recovery custody",
+      "points": 20,
+      "expected_outcome": "Supplier exception protects replacement/credit rights.",
+      "evidence_ids": [
+        "E132",
+        "E131"
+      ],
+      "checkpoints": [
+        {
+          "id": "B015-C2.1",
+          "points": 10,
+          "outcome": "Preserve packaging/photos, exact wrong-model/condition, original PO and receipt evidence.",
+          "evidence_ids": [
+            "E132",
+            "E131"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B015-C2.2",
+          "points": 10,
+          "outcome": "Assign procurement return authority/replacement/credit chase before five-working-day deadline.",
+          "evidence_ids": [
+            "E132",
+            "E131"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B015-C3",
+      "label": "Programme",
+      "points": 20,
+      "expected_outcome": "Failed supply changes the dependent mobilisation.",
+      "evidence_ids": [
+        "E095",
+        "E060"
+      ],
+      "checkpoints": [
+        {
+          "id": "B015-C3.1",
+          "points": 10,
+          "outcome": "Notify project owner that tomorrow two-unit installation is not ready and decide reschedule/safe independent stage under authority.",
+          "evidence_ids": [
+            "E095",
+            "E060"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B015-C3.2",
+          "points": 10,
+          "outcome": "Record affected labour/customer commitment, replacement date confidence and next review.",
+          "evidence_ids": [
+            "E095",
+            "E060"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B015-C4",
+      "label": "Invoice matching",
+      "points": 20,
+      "expected_outcome": "Disputed and undisputed amounts are differentiated.",
+      "evidence_ids": [
+        "E133",
+        "E134"
+      ],
+      "checkpoints": [
+        {
+          "id": "B015-C4.1",
+          "points": 10,
+          "outcome": "Identify £2,000 correct unit and £100 agreed freight as evidenced potentially undisputed amounts, subject to confirmed delivery terms; wrong unit £2,000 and premium £150 remain disputed.",
+          "evidence_ids": [
+            "E133",
+            "E134"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B015-C4.2",
+          "points": 10,
+          "outcome": "Do not pay full invoice from carrier signature or automatically withhold valid undisputed amount just to hide unmatched lines.",
+          "evidence_ids": [
+            "E133",
+            "E134"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B015-C5",
+      "label": "Cost and ownership",
+      "points": 20,
+      "expected_outcome": "The unresolved financial and operational actions remain visible.",
+      "evidence_ids": [
+        "E135",
+        "E128"
+      ],
+      "checkpoints": [
+        {
+          "id": "B015-C5.1",
+          "points": 10,
+          "outcome": "Retain £2,150 disputed amount, expected credit/replacement and separate accepted cost allocation without treating credit as received.",
+          "evidence_ids": [
+            "E135",
+            "E128"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B015-C5.2",
+          "points": 10,
+          "outcome": "Give finance/project/customer proportionate update with owner, due/review and invoice-payment decision route.",
+          "evidence_ids": [
+            "E135",
+            "E128"
+          ],
+          "stage": 1
+        }
+      ]
+    }
+  ],
+  "acceptable_alternatives": [
+    {
+      "outcome": "If contract terms condition all freight on full correct delivery, mark £100 under reviewed uncertainty rather than force payment; fixture establishes agreed freight value but not that condition. A reviewed safe independent stage is acceptable.",
+      "evidence_ids": [
+        "E018",
+        "E019",
+        "E060",
+        "E095",
+        "E113",
+        "E128",
+        "E129",
+        "E130",
+        "E131",
+        "E132",
+        "E133",
+        "E134",
+        "E135"
+      ]
+    }
+  ],
+  "prohibited_outcomes": [
+    {
+      "outcome": "Install or count the wrong/damaged unit as available, or certify two-unit readiness from signed packages.",
+      "evidence_ids": [
+        "E130",
+        "E131"
+      ],
+      "critical_failure_id": "B015-CF1"
+    },
+    {
+      "outcome": "Release full supplier invoice/extra freight solely from proof of delivery, or mark unreceived credit as cash recovery.",
+      "evidence_ids": [
+        "E133",
+        "E134",
+        "E113"
+      ],
+      "critical_failure_id": "B015-CF2"
+    }
+  ],
+  "critical_failures": [
+    {
+      "id": "B015-CF1",
+      "outcome": "Install or count the wrong/damaged unit as available, or certify two-unit readiness from signed packages.",
+      "evidence_ids": [
+        "E130",
+        "E131"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    },
+    {
+      "id": "B015-CF2",
+      "outcome": "Release full supplier invoice/extra freight solely from proof of delivery, or mark unreceived credit as cash recovery.",
+      "evidence_ids": [
+        "E133",
+        "E134",
+        "E113"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    }
+  ],
+  "evidence_ids": [
+    "E018",
+    "E019",
+    "E060",
+    "E095",
+    "E113",
+    "E128",
+    "E129",
+    "E130",
+    "E131",
+    "E132",
+    "E133",
+    "E134",
+    "E135"
+  ],
+  "uncertainty": [
+    {
+      "fact": "Supplier return/replacement/credit decision and date",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Authority for premium freight",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "New two-unit mobilisation readiness",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    }
+  ],
+  "observation_rule": "Score actual resulting state/actions and candidate-origin recorded decisions. An unexecuted recommendation cannot satisfy an action checkpoint; see protocol for decision-support-only comparisons. No credit from evaluator-written repairs or hidden mental reasoning."
+}

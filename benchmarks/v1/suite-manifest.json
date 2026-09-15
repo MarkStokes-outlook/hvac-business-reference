@@ -1,0 +1,975 @@
+{
+  "suite": "FrostLine fit-for-purpose Benchmark V1",
+  "version": "1.0.0",
+  "status": "freeze candidate; approval and independent calibration pending",
+  "canonical_baseline": "e61e7c4199aeafb0d232f8fb1f31c1eb61ec10a2",
+  "canonical_documents": [
+    {
+      "path": "docs/assets/equipment-and-asset-records.md",
+      "sha256": "23cd6a4bf9a7ef289952c6223c3b38d758b94a003ce17a696d04ffa9872acc3e"
+    },
+    {
+      "path": "docs/commercial/commercial-model.md",
+      "sha256": "54679faa38d6b1e3ae8610e5b21bfd1510e432ddcc38abb70d778ab92ce51bd1"
+    },
+    {
+      "path": "docs/company/company-history.md",
+      "sha256": "d5f568a146feab3837ae6647e61dfa90e16be36d0d18b52f429938a188db87de"
+    },
+    {
+      "path": "docs/company/company-profile.md",
+      "sha256": "bfbcf260dd30dbcd0464b85f7934a2b7f832019e34eaaac6ecca1e70f252b3fb"
+    },
+    {
+      "path": "docs/company/culture-and-values.md",
+      "sha256": "81bb4bbfb781c05108c02e1e5dfa38d40f0fec86a6d99c4a7be6f9daae113644"
+    },
+    {
+      "path": "docs/compliance/safety-quality-and-environment.md",
+      "sha256": "a16f53d02a0a523c0eed690e2b683f8f3afc98f73f8376f608cdc9526d9583d6"
+    },
+    {
+      "path": "docs/contracts/service-contracts.md",
+      "sha256": "e48775290db5f4607c2af85d87980f804310cebcc7f0588fde344b9fbb308f63"
+    },
+    {
+      "path": "docs/contracts/slas-response-and-coverage.md",
+      "sha256": "b542bc3433a087ba35748852d6a2ab7473c15f34c07df26dded07659f04749b9"
+    },
+    {
+      "path": "docs/customer-service/complaints-escalations-and-service-recovery.md",
+      "sha256": "645b89db19fc5209647ab36ad128b128eca9f20e104bfebb8e61311a15e8cafb"
+    },
+    {
+      "path": "docs/customers/customer-and-site-model.md",
+      "sha256": "d25696637079cdf1e6237a726bb8a89db4899d760c9431a90e34edb25305ceda"
+    },
+    {
+      "path": "docs/dispatch/resource-planning-and-scheduling.md",
+      "sha256": "d48e8827c30b0fa7f348da08db74e84d7e93feb185a18d4328c4215c844853dc"
+    },
+    {
+      "path": "docs/environment/refrigerants-energy-and-environmental-performance.md",
+      "sha256": "028f34421d95ffdc9bc5904aefdc5ee5b232b3d679595f87fda2ebbe20bf4c4e"
+    },
+    {
+      "path": "docs/field-engineering/site-visits-and-engineer-workflow.md",
+      "sha256": "97cac30cc001f001bf5cf041f2f6b7fcefe201c33a641cb54ec05c6c479c372a"
+    },
+    {
+      "path": "docs/finance/invoicing-cost-control-and-credit.md",
+      "sha256": "c6cd247f4e989cb9656c6104ba8074bdaf1bbf2d6f5d1f1e30a2c089476302ff"
+    },
+    {
+      "path": "docs/fleet/vans-tools-and-calibration.md",
+      "sha256": "6cba8ef0886a541639f3fb04ba051d52b1899cf01f73b2398a3f978c43d83d55"
+    },
+    {
+      "path": "docs/governance/canonical-terminology-and-record-relationships.md",
+      "sha256": "604883e138b576d266ad5ce21e4c9fc654faac2363279f5713b9fad58cc992cd"
+    },
+    {
+      "path": "docs/governance/decision-rights-and-operational-authority.md",
+      "sha256": "9b5ef82998dfa75d96517321166e0d950447832a9ddc988a68fbcedd1610abb5"
+    },
+    {
+      "path": "docs/governance/repository-constitution.md",
+      "sha256": "cded09bf80d2868bc4196b7d2cb9798726de8baab2b917d28f8437835d32db34"
+    },
+    {
+      "path": "docs/information/records-documents-and-communication.md",
+      "sha256": "2f01663e713e2c0a486215b4c8f49d5d0943e2d15f1bcc8f95a614c5c578cbc5"
+    },
+    {
+      "path": "docs/manufacturers/manufacturer-relationships.md",
+      "sha256": "04df452c666090b4a36cecf0557d840ae00dab226ba2a28d71fee06ff0792c4d"
+    },
+    {
+      "path": "docs/operations/exceptions-handoffs-and-next-action-control.md",
+      "sha256": "27b104a632ee5dc80c87d94bb4860f45488b5d6e7aaf4652241646b93e59e938"
+    },
+    {
+      "path": "docs/operations/work-lifecycle.md",
+      "sha256": "2c5a1a4c1d532450f0508f1876acf91e89f808f3cb0d3ea06dfd5490bcf82eb8"
+    },
+    {
+      "path": "docs/organisation/organisation-overview.md",
+      "sha256": "691536c5184c79bd1d079d2f1fd2488de01f4273ced68e3b3c262066bf2416fc"
+    },
+    {
+      "path": "docs/people/roles-skills-and-availability.md",
+      "sha256": "c75da68cedd62e6d68ec6ee46a6a2f3672dedde7f017da4983769883dd8295c9"
+    },
+    {
+      "path": "docs/people/training-competence-and-career-development.md",
+      "sha256": "776dd1f7b191bf7973dd85e2cc2e51504d33dc5afec9c5ed3569c4bef04313a7"
+    },
+    {
+      "path": "docs/procurement/purchasing-and-supplier-control.md",
+      "sha256": "f5279673ccf1727a65df47e3d3b0798af494955b00350584098043a4144bef97"
+    },
+    {
+      "path": "docs/projects/installation-project-delivery.md",
+      "sha256": "5358a1c4ee40be418d4d4f207fb8d4a105a4ba334bf7b6300fec9c81f192d0a0"
+    },
+    {
+      "path": "docs/quoting/estimating-and-quotation.md",
+      "sha256": "2e6f880fca94c1f1162c68280b88deceaa29a8a73ed1ad22739cc75b508ba5d8"
+    },
+    {
+      "path": "docs/reporting/business-metrics-and-kpis.md",
+      "sha256": "6db8a224b923c1fb17f5b3ac0c8ffa91a24f65e9e199e0ccd4c1c0105b648608"
+    },
+    {
+      "path": "docs/risk/insurance-claims-and-business-risk.md",
+      "sha256": "0e6f857a68802e9b575f70e94d1600e50bd25959d5ee86d87c2840b10d52ed65"
+    },
+    {
+      "path": "docs/sales/customer-acquisition-and-account-development.md",
+      "sha256": "1c00da97397120a096b30552d81b35d0b6c126d1ed19ecae164ded0149f2fa49"
+    },
+    {
+      "path": "docs/service/planned-and-reactive-service.md",
+      "sha256": "2f2ae3787581f978158e90d98c8861700da87588c80c5fa55eec4a4ab6aeea70"
+    },
+    {
+      "path": "docs/services/services-overview.md",
+      "sha256": "37eb991ab625a2bf8081e563fb6dc28ebcfe1ee59ef9866b338bf12fb56cde26"
+    },
+    {
+      "path": "docs/supply-chain/suppliers-stock-and-subcontractors.md",
+      "sha256": "4644a921a0422d89d86b2761f25909cacb9b36092e21211509d3e8e877ba1937"
+    },
+    {
+      "path": "docs/technical-support/diagnostics-controls-and-technical-escalation.md",
+      "sha256": "51703d9de727b3f7c0e41ec65ec74d523d27b3978e370a7fd53e9c20caafadcd"
+    },
+    {
+      "path": "docs/warehouse/warehouse-stock-and-material-control.md",
+      "sha256": "2419f32148c4e0bb1bdadba527d8b14f34633321dad97833d1f6e34a52080fb6"
+    },
+    {
+      "path": "docs/warranty/warranty-responsibility-and-remedial-work.md",
+      "sha256": "024cd8ffb3a9e73c3554316fb27cff4998143bf0a0f0df970635ea596fa40a5c"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "B001",
+      "title": "Reactive callout triage and control",
+      "version": "2.0.0",
+      "path": "scenarios/B001-reactive-callout-triage-and-control",
+      "domains": [
+        "service",
+        "contracts",
+        "dispatch",
+        "authority"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006",
+        "E007",
+        "E008",
+        "E009",
+        "E010",
+        "E011",
+        "E012",
+        "E013",
+        "E014",
+        "E015",
+        "E016",
+        "E017",
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "id": "B002",
+      "title": "Authorised repair through delivery and invoicing",
+      "version": "1.0.0",
+      "path": "scenarios/B002-authorised-repair-to-invoice",
+      "domains": [
+        "service",
+        "field",
+        "finance",
+        "customers"
+      ],
+      "stages": 2,
+      "total_points": 100,
+      "evidence_ids": [
+        "E015",
+        "E018",
+        "E019",
+        "E020",
+        "E021",
+        "E022",
+        "E023",
+        "E024",
+        "E025",
+        "E026",
+        "E027",
+        "E028",
+        "E029",
+        "E030",
+        "E031",
+        "E032"
+      ]
+    },
+    {
+      "id": "B003",
+      "title": "Maintenance completion with access gaps and defects",
+      "version": "1.0.0",
+      "path": "scenarios/B003-maintenance-partial-and-defects",
+      "domains": [
+        "maintenance",
+        "contracts",
+        "field",
+        "exceptions"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E009",
+        "E011",
+        "E018",
+        "E019",
+        "E030",
+        "E033",
+        "E034",
+        "E035",
+        "E036",
+        "E037",
+        "E038",
+        "E039"
+      ]
+    },
+    {
+      "id": "B004",
+      "title": "Missed maintenance period and evidence-led renewal",
+      "version": "1.0.0",
+      "path": "scenarios/B004-missed-maintenance-and-renewal",
+      "domains": [
+        "maintenance",
+        "contracts",
+        "commercial",
+        "reporting"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E009",
+        "E018",
+        "E019",
+        "E037",
+        "E039",
+        "E040",
+        "E041",
+        "E042",
+        "E043",
+        "E044",
+        "E045",
+        "E046",
+        "E047",
+        "E048"
+      ]
+    },
+    {
+      "id": "B005",
+      "title": "Working-hour SLA with access and subcontract dependencies",
+      "version": "1.0.0",
+      "path": "scenarios/B005-sla-events-and-working-clock",
+      "domains": [
+        "contracts",
+        "service",
+        "reporting"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E012",
+        "E013",
+        "E018",
+        "E019",
+        "E039",
+        "E049",
+        "E050",
+        "E051",
+        "E052",
+        "E053",
+        "E054"
+      ]
+    },
+    {
+      "id": "B006",
+      "title": "Competing demand, safe teams and overnight fatigue",
+      "version": "1.0.0",
+      "path": "scenarios/B006-priority-displacement-and-rest",
+      "domains": [
+        "dispatch",
+        "people",
+        "projects",
+        "service"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E003",
+        "E009",
+        "E011",
+        "E018",
+        "E019",
+        "E021",
+        "E042",
+        "E055",
+        "E056",
+        "E057",
+        "E058",
+        "E059",
+        "E060",
+        "E061"
+      ]
+    },
+    {
+      "id": "B007",
+      "title": "Emergency protection on an account under credit stop",
+      "version": "1.0.0",
+      "path": "scenarios/B007-make-safe-on-credit-stop",
+      "domains": [
+        "finance",
+        "service",
+        "safety",
+        "authority"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E009",
+        "E011",
+        "E018",
+        "E019",
+        "E062",
+        "E063",
+        "E064",
+        "E065",
+        "E066",
+        "E067",
+        "E068"
+      ]
+    },
+    {
+      "id": "B008",
+      "title": "Quotation acceptance, options and contracting entity",
+      "version": "1.0.0",
+      "path": "scenarios/B008-acceptance-revision-and-payer",
+      "domains": [
+        "quoting",
+        "customers",
+        "finance",
+        "projects"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E009",
+        "E018",
+        "E019",
+        "E069",
+        "E070",
+        "E071",
+        "E072",
+        "E073",
+        "E074",
+        "E075",
+        "E076",
+        "E077",
+        "E078",
+        "E079"
+      ]
+    },
+    {
+      "id": "B009",
+      "title": "Estimate maturity, margin and provisional scope",
+      "version": "1.0.0",
+      "path": "scenarios/B009-estimate-maturity-and-provisional-cost",
+      "domains": [
+        "quoting",
+        "commercial",
+        "finance"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E009",
+        "E018",
+        "E019",
+        "E074",
+        "E080",
+        "E081",
+        "E082",
+        "E083",
+        "E084",
+        "E085",
+        "E086",
+        "E087",
+        "E088"
+      ]
+    },
+    {
+      "id": "B010",
+      "title": "Project procurement release and mobilisation hold",
+      "version": "1.0.0",
+      "path": "scenarios/B010-staged-project-release",
+      "domains": [
+        "projects",
+        "procurement",
+        "dispatch",
+        "authority"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E009",
+        "E018",
+        "E019",
+        "E089",
+        "E090",
+        "E091",
+        "E092",
+        "E093",
+        "E094",
+        "E095",
+        "E096",
+        "E097",
+        "E098",
+        "E099",
+        "E100"
+      ]
+    },
+    {
+      "id": "B011",
+      "title": "Project changes versus Frostline correction",
+      "version": "1.0.0",
+      "path": "scenarios/B011-project-change-and-own-error",
+      "domains": [
+        "projects",
+        "quoting",
+        "commercial",
+        "field"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E015",
+        "E018",
+        "E019",
+        "E030",
+        "E032",
+        "E079",
+        "E099",
+        "E101",
+        "E102",
+        "E103",
+        "E104",
+        "E105"
+      ]
+    },
+    {
+      "id": "B012",
+      "title": "Commissioning, handover and independent retention events",
+      "version": "1.0.0",
+      "path": "scenarios/B012-commissioning-handover-and-retention",
+      "domains": [
+        "projects",
+        "manufacturers",
+        "finance",
+        "assets"
+      ],
+      "stages": 2,
+      "total_points": 100,
+      "evidence_ids": [
+        "E018",
+        "E019",
+        "E028",
+        "E099",
+        "E106",
+        "E107",
+        "E108",
+        "E109",
+        "E110",
+        "E111",
+        "E112",
+        "E113"
+      ]
+    },
+    {
+      "id": "B013",
+      "title": "Asset identity reconciliation after replacement",
+      "version": "1.0.0",
+      "path": "scenarios/B013-asset-reconciliation-and-replacement",
+      "domains": [
+        "assets",
+        "customers",
+        "contracts",
+        "information"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E004",
+        "E009",
+        "E015",
+        "E018",
+        "E019",
+        "E035",
+        "E043",
+        "E044",
+        "E073",
+        "E079",
+        "E114",
+        "E115",
+        "E116",
+        "E117",
+        "E118",
+        "E119"
+      ]
+    },
+    {
+      "id": "B014",
+      "title": "Parts identification, restricted supplier and substitution",
+      "version": "1.0.0",
+      "path": "scenarios/B014-parts-identification-and-substitution",
+      "domains": [
+        "procurement",
+        "technical",
+        "manufacturers",
+        "dispatch"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E011",
+        "E018",
+        "E019",
+        "E087",
+        "E091",
+        "E120",
+        "E121",
+        "E122",
+        "E123",
+        "E124",
+        "E125",
+        "E126",
+        "E127",
+        "E128"
+      ]
+    },
+    {
+      "id": "B015",
+      "title": "Damaged direct delivery and supplier invoice exceptions",
+      "version": "1.0.0",
+      "path": "scenarios/B015-damaged-delivery-and-invoice-match",
+      "domains": [
+        "procurement",
+        "warehouse",
+        "projects",
+        "finance"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E018",
+        "E019",
+        "E060",
+        "E095",
+        "E113",
+        "E128",
+        "E129",
+        "E130",
+        "E131",
+        "E132",
+        "E133",
+        "E134",
+        "E135"
+      ]
+    },
+    {
+      "id": "B016",
+      "title": "Scarce stock allocation and customer-owned spares",
+      "version": "1.0.0",
+      "path": "scenarios/B016-scarce-stock-and-customer-ownership",
+      "domains": [
+        "warehouse",
+        "dispatch",
+        "projects",
+        "commercial"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E009",
+        "E011",
+        "E018",
+        "E019",
+        "E054",
+        "E059",
+        "E136",
+        "E137",
+        "E138",
+        "E139",
+        "E140",
+        "E141",
+        "E142",
+        "E143"
+      ]
+    },
+    {
+      "id": "B017",
+      "title": "Cancelled work, surplus custody and continuing exposure",
+      "version": "1.0.0",
+      "path": "scenarios/B017-cancelled-work-surplus-and-returns",
+      "domains": [
+        "procurement",
+        "warehouse",
+        "finance",
+        "operations"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E009",
+        "E018",
+        "E019",
+        "E025",
+        "E028",
+        "E079",
+        "E112",
+        "E132",
+        "E134",
+        "E144",
+        "E145",
+        "E146",
+        "E147",
+        "E148",
+        "E149"
+      ]
+    },
+    {
+      "id": "B018",
+      "title": "Warranty restoration with parts-only recovery and evidence custody",
+      "version": "1.0.0",
+      "path": "scenarios/B018-warranty-parts-only-and-evidence",
+      "domains": [
+        "warranty",
+        "manufacturers",
+        "warehouse",
+        "finance"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E009",
+        "E018",
+        "E019",
+        "E112",
+        "E113",
+        "E150",
+        "E151",
+        "E152",
+        "E153",
+        "E154",
+        "E155",
+        "E156",
+        "E157",
+        "E158",
+        "E159"
+      ]
+    },
+    {
+      "id": "B019",
+      "title": "Warranty investigation converted to customer charge",
+      "version": "1.0.0",
+      "path": "scenarios/B019-warranty-to-customer-charge",
+      "domains": [
+        "warranty",
+        "finance",
+        "authority",
+        "service"
+      ],
+      "stages": 2,
+      "total_points": 100,
+      "evidence_ids": [
+        "E009",
+        "E018",
+        "E019",
+        "E024",
+        "E029",
+        "E079",
+        "E097",
+        "E160",
+        "E161",
+        "E162",
+        "E163"
+      ]
+    },
+    {
+      "id": "B020",
+      "title": "Manufacturer safety notice with incomplete asset identity",
+      "version": "1.0.0",
+      "path": "scenarios/B020-recall-scope-and-unknown-serial",
+      "domains": [
+        "manufacturers",
+        "assets",
+        "safety",
+        "dispatch"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E018",
+        "E019",
+        "E021",
+        "E023",
+        "E035",
+        "E056",
+        "E073",
+        "E097",
+        "E113",
+        "E159",
+        "E164",
+        "E165"
+      ]
+    },
+    {
+      "id": "B021",
+      "title": "Out-of-tolerance instruments and task-specific competence",
+      "version": "1.0.0",
+      "path": "scenarios/B021-calibration-competence-and-prior-work",
+      "domains": [
+        "fleet",
+        "people",
+        "compliance",
+        "projects"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E005",
+        "E009",
+        "E018",
+        "E019",
+        "E058",
+        "E079",
+        "E166",
+        "E167",
+        "E168",
+        "E169",
+        "E170",
+        "E171",
+        "E172",
+        "E173"
+      ]
+    },
+    {
+      "id": "B022",
+      "title": "Service complaint, property incident and insurer notification",
+      "version": "1.0.0",
+      "path": "scenarios/B022-complaint-incident-and-liability",
+      "domains": [
+        "customer-service",
+        "risk",
+        "compliance",
+        "finance"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E009",
+        "E018",
+        "E019",
+        "E064",
+        "E155",
+        "E162",
+        "E163",
+        "E174",
+        "E175",
+        "E176",
+        "E177",
+        "E178",
+        "E179",
+        "E180",
+        "E181",
+        "E182",
+        "E183",
+        "E184"
+      ]
+    },
+    {
+      "id": "B023",
+      "title": "Purpose-limited disclosure and active-claim record corrections",
+      "version": "1.0.0",
+      "path": "scenarios/B023-purpose-limited-information-and-history",
+      "domains": [
+        "information",
+        "authority",
+        "customer-service"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E009",
+        "E018",
+        "E019",
+        "E079",
+        "E097",
+        "E155",
+        "E185",
+        "E186",
+        "E187",
+        "E188"
+      ]
+    },
+    {
+      "id": "B024",
+      "title": "Management reporting from outcomes and incomplete financial evidence",
+      "version": "1.0.0",
+      "path": "scenarios/B024-management-metrics-and-business-state",
+      "domains": [
+        "reporting",
+        "finance",
+        "service",
+        "contracts"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E009",
+        "E018",
+        "E019",
+        "E024",
+        "E037",
+        "E039",
+        "E040",
+        "E135",
+        "E153",
+        "E174",
+        "E189",
+        "E190",
+        "E191",
+        "E192",
+        "E193",
+        "E194",
+        "E195",
+        "E196",
+        "E197"
+      ]
+    },
+    {
+      "id": "B025",
+      "title": "Tender qualification and unsupported performance commitments",
+      "version": "1.0.0",
+      "path": "scenarios/B025-tender-qualification-and-energy-claims",
+      "domains": [
+        "sales",
+        "quoting",
+        "environment",
+        "risk"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E009",
+        "E018",
+        "E019",
+        "E052",
+        "E074",
+        "E108",
+        "E198",
+        "E199",
+        "E200",
+        "E201",
+        "E202",
+        "E203",
+        "E204",
+        "E205",
+        "E206",
+        "E207",
+        "E208",
+        "E209"
+      ]
+    },
+    {
+      "id": "B026",
+      "title": "Controls firmware advice and system consequences",
+      "version": "1.0.0",
+      "path": "scenarios/B026-controls-firmware-and-system-consequences",
+      "domains": [
+        "technical",
+        "manufacturers",
+        "projects",
+        "authority"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E009",
+        "E011",
+        "E018",
+        "E019",
+        "E023",
+        "E054",
+        "E094",
+        "E122",
+        "E204",
+        "E210",
+        "E211",
+        "E212",
+        "E213",
+        "E214",
+        "E215"
+      ]
+    },
+    {
+      "id": "B027",
+      "title": "Verbal spend authority, premium attendance and service credits",
+      "version": "1.0.0",
+      "path": "scenarios/B027-verbal-spend-limits-and-service-credit",
+      "domains": [
+        "contracts",
+        "finance",
+        "authority",
+        "service"
+      ],
+      "stages": 1,
+      "total_points": 100,
+      "evidence_ids": [
+        "E004",
+        "E008",
+        "E009",
+        "E011",
+        "E018",
+        "E019",
+        "E026",
+        "E039",
+        "E049",
+        "E050",
+        "E051",
+        "E067",
+        "E079",
+        "E100",
+        "E162",
+        "E163",
+        "E216",
+        "E217"
+      ]
+    }
+  ],
+  "primary_score": "27 equally weighted business scenarios; 2700 raw points; report mean effective score and critical failures",
+  "threshold_convention": "provisional V1: each scenario ≥75 and no critical failures; suite fit-for-purpose demonstration requires every scenario passed",
+  "implementation_assumptions": "none"
+}

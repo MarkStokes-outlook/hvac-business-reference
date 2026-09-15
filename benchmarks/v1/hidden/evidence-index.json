@@ -1,0 +1,1955 @@
+[
+  {
+    "id": "E001",
+    "path": "docs/service/planned-and-reactive-service.md",
+    "heading": "Reactive requests",
+    "start_line": 80,
+    "end_line": 99,
+    "section_sha256": "fe4d3b549b1c83a1a5ad3fac8bd87b66aa0728af30e23e6da0fb6697ac70b759",
+    "section_text": "## Reactive requests\n\nReactive work begins when a customer reports a fault, loss of service, alarm, leak, unusual noise, comfort complaint or other operational problem.\n\nThe initial report may be inaccurate or incomplete. A customer may describe an entire system as failed when one zone is affected, or report an air-conditioning fault that is actually caused by controls, power supply or building conditions.\n\nThe incoming request should distinguish:\n\n- who is reporting the issue;\n- whether that person can authorise attendance or expenditure;\n- affected site, service location, system and asset where known;\n- symptom and operational impact;\n- immediate safety, environmental or property risk;\n- when the issue began;\n- actions already taken;\n- access availability; and\n- applicable contract or charging basis.\n\nCoordinators gather enough information to triage response. Engineers remain responsible for diagnosis within their competence.\n\n"
+  },
+  {
+    "id": "E002",
+    "path": "docs/contracts/slas-response-and-coverage.md",
+    "heading": "Impact assessment",
+    "start_line": 68,
+    "end_line": 83,
+    "section_sha256": "e9ae62ee932c4fff38927d58e3992bd0e44744d05eb5e9ea16b78cea82530bda",
+    "section_text": "## Impact assessment\n\nAssessment considers:\n\n- immediate safety and property risk;\n- total or partial service loss;\n- critical areas, processes or occupants;\n- backup plant and redundancy;\n- food, medicine, stock or data exposure;\n- weather and expected duration;\n- operating hours and business continuity;\n- temporary measures already in place; and\n- contractual criticality designations.\n\nThe same failed asset can produce different priorities at different sites.\n\n"
+  },
+  {
+    "id": "E003",
+    "path": "docs/contracts/slas-response-and-coverage.md",
+    "heading": "Priority and severity",
+    "start_line": 44,
+    "end_line": 67,
+    "section_sha256": "78160af3581e0c256068b85b61b875bf1f02560b76d69308246f36dde15a87bb",
+    "section_text": "## Priority and severity\n\nPriority reflects current impact and required response, not customer seniority or volume of chasing.\n\nA typical model is:\n\n### Priority 1 — critical\n\nImmediate or severe risk to people, property, critical stock, essential operation or environmental control, with no adequate workaround.\n\n### Priority 2 — high\n\nMajor operational degradation or substantial loss of service where impact is serious but not presently at Priority 1 severity.\n\n### Priority 3 — normal\n\nPartial failure, comfort issue or non-critical defect where the customer remains broadly operational.\n\n### Priority 4 — planned\n\nMinor defect, advisory work or activity suitable for normal scheduling.\n\nPriority is provisional until enough facts exist and may move up or down. The reason, evidence, time and decision-maker for a material reclassification are recorded.\n\n"
+  },
+  {
+    "id": "E004",
+    "path": "docs/service/planned-and-reactive-service.md",
+    "heading": "Attendance authority",
+    "start_line": 135,
+    "end_line": 150,
+    "section_sha256": "6b971140acccef10dc618ec66cd23d727f2183cfc643bdd3e66dba39c5ee7a6b",
+    "section_text": "## Attendance authority\n\nBefore dispatch, Frostline establishes the authority relied upon for the attendance. This may be:\n\n- an included contract entitlement;\n- an agreed call-out or diagnostic rate;\n- a customer purchase order;\n- an accepted quotation;\n- a pre-agreed spending limit;\n- an internal customer-care or warranty-investigation decision; or\n- emergency make-safe authority.\n\nAuthority to diagnose does not automatically include authority to repair, order parts, work overtime or appoint a specialist.\n\nWhere customer authority cannot be confirmed but immediate risk exists, action is limited to what is reasonably necessary to make safe or prevent escalation, with the decision and follow-up recorded.\n\n"
+  },
+  {
+    "id": "E005",
+    "path": "docs/dispatch/resource-planning-and-scheduling.md",
+    "heading": "Engineer capability",
+    "start_line": 79,
+    "end_line": 97,
+    "section_sha256": "e9218464610785d22c69b513a5b38366678326030c1347248dc0dba9610d4b8b",
+    "section_text": "## Engineer capability\n\nAllocation considers more than free time. Relevant factors include:\n\n- technical discipline;\n- equipment and manufacturer experience;\n- current certification and internal authorisation;\n- electrical competence;\n- refrigerant-handling competence;\n- controls knowledge;\n- site clearance or induction;\n- working-at-height and access capability;\n- customer familiarity;\n- lone-working suitability;\n- supervision requirements; and\n- ability to lead multi-person work.\n\nThe nearest engineer is not necessarily the correct engineer. Assignment records the basis for material exceptions where a less familiar or more restricted person is used.\n\n"
+  },
+  {
+    "id": "E006",
+    "path": "docs/field-engineering/site-visits-and-engineer-workflow.md",
+    "heading": "Dispatch acceptance",
+    "start_line": 31,
+    "end_line": 44,
+    "section_sha256": "18f6638a0106bc7d444dd41de0bb6ff696803b24f9bee14087dd7362a25180a9",
+    "section_text": "## Dispatch acceptance\n\nReceiving an assignment does not require an engineer to accept work silently where:\n\n- the scope is unclear;\n- competence or authorisation is insufficient;\n- necessary equipment is unavailable;\n- safe travel or working time is doubtful;\n- access has not been prepared;\n- the planned duration is clearly unrealistic; or\n- the instruction conflicts with another active responsibility.\n\nConcerns are escalated promptly. Quietly attending and hoping the problem disappears transfers avoidable risk to the customer and business.\n\n"
+  },
+  {
+    "id": "E007",
+    "path": "docs/governance/decision-rights-and-operational-authority.md",
+    "heading": "Operational decisions",
+    "start_line": 42,
+    "end_line": 47,
+    "section_sha256": "b3a282ff54ac278ef4693cdcaf9d64501d43832eb70feafc70603554541180bf",
+    "section_text": "### Operational decisions\n\nOperational decisions determine who attends, when work is scheduled, what dependencies must be arranged and which existing commitments may be displaced.\n\nService coordinators can allocate routine work within agreed competence and capacity rules. Managers decide significant reprioritisation, overtime, multi-engineer attendance, project disruption and exceptional out-of-hours mobilisation.\n\n"
+  },
+  {
+    "id": "E008",
+    "path": "docs/finance/invoicing-cost-control-and-credit.md",
+    "heading": "Customer authority and purchase orders",
+    "start_line": 72,
+    "end_line": 100,
+    "section_sha256": "32d506813b5a024ea426293c4252334f0e4187ec71276ad582d6c433781af7f0",
+    "section_text": "## Customer authority and purchase orders\n\nMany customers require a purchase order or other reference before invoicing. The absence of that reference does not always mean Frostline lacked authority to attend, particularly for emergency work, but it can delay or prevent payment.\n\nStaff distinguish between:\n\n- authority to investigate;\n- authority to incur a limited call-out charge;\n- authority to perform a repair;\n- authority to order specified parts;\n- authority to proceed up to a spending limit;\n- authority to undertake a replacement or project; and\n- authority to vary an existing scope.\n\nThese permissions may come from different people and have different financial limits.\n\nA purchase-order number quoted in an email is validated against:\n\n- customer entity;\n- supplier name;\n- scope description;\n- value and currency;\n- site or project;\n- VAT treatment where relevant;\n- expiry or release conditions; and\n- whether the issuer had authority.\n\nA purchase order does not automatically override Frostline's quotation, accept unreviewed customer terms or authorise work outside the stated value.\n\n"
+  },
+  {
+    "id": "E009",
+    "path": "docs/operations/exceptions-handoffs-and-next-action-control.md",
+    "heading": "The next-action principle",
+    "start_line": 9,
+    "end_line": 21,
+    "section_sha256": "15b20307468d6f14cee70ea6ac37d5f0b03cf943bbc0862478e9233eb9210bbc",
+    "section_text": "## The next-action principle\n\nEvery active job, project issue, quotation, purchase requirement, warranty case, complaint or invoice dispute should have:\n\n- one current state;\n- one clearly described next material action;\n- one accountable owner for that action;\n- a due date or review trigger;\n- the dependency preventing immediate progress, where applicable; and\n- an escalation route if the action cannot be completed.\n\nA list of people copied into a message is not ownership. A generic team queue is useful for intake, but an ageing exception must eventually have a named accountable owner or a deliberately assigned duty role.\n\n"
+  },
+  {
+    "id": "E010",
+    "path": "docs/operations/exceptions-handoffs-and-next-action-control.md",
+    "heading": "Handoffs",
+    "start_line": 81,
+    "end_line": 98,
+    "section_sha256": "dbcead0f5fd1fd12d061d0f4f78c375cafb2ba837ee6f3d701d38512b708d698",
+    "section_text": "## Handoffs\n\nA handoff transfers responsibility for the next action, not merely information.\n\nA complete handoff identifies:\n\n- the receiving owner;\n- the outcome required;\n- relevant deadline or urgency;\n- decisions already made;\n- authority already obtained;\n- unresolved questions;\n- customer commitments made;\n- documents and evidence available; and\n- what will happen if the receiver does not accept the handoff.\n\nThe sender retains responsibility until the receiving person or duty role has accepted the handoff, either explicitly or through a defined operating rule.\n\n"
+  },
+  {
+    "id": "E011",
+    "path": "docs/service/planned-and-reactive-service.md",
+    "heading": "Customer communication",
+    "start_line": 225,
+    "end_line": 241,
+    "section_sha256": "dd11a8ab8d03b1ffce579cecf10aaad29025fa004a5d04e3819dc6f5d8332799",
+    "section_text": "## Customer communication\n\nCustomers value updates almost as much as attendance. Coordinators communicate:\n\n- acknowledgement and assessed priority;\n- the applicable response commitment;\n- expected attendance;\n- delays or changes;\n- engineer findings at an appropriate level of confidence;\n- immediate safety and operating status;\n- temporary limitations;\n- parts, evidence or approval requirements;\n- current commercial position where known; and\n- next action, owner and review point.\n\nCommunication is especially important when a job is waiting. \"Open\" is not a useful customer explanation. Frostline states what is being awaited, what it is doing next and when the position will be reviewed.\n\n"
+  },
+  {
+    "id": "E012",
+    "path": "docs/contracts/slas-response-and-coverage.md",
+    "heading": "Core terminology",
+    "start_line": 11,
+    "end_line": 27,
+    "section_sha256": "8e502f073851813daed8f4217a5af5ff2cdb8f28e8d192cc486e76417b27b656",
+    "section_text": "## Core terminology\n\nSLA events are distinct:\n\n- **Request received** — the agreed service channel has received sufficient information to create a work request.\n- **Acknowledgement** — Frostline confirms receipt and provides a reference or ownership route.\n- **Initial response** — first meaningful human or agreed automated response, potentially including remote triage.\n- **Attendance dispatched** — a suitable engineer has been released to travel; this is not arrival.\n- **Attendance** — a suitable engineer reaches the agreed service location and is reasonably able to begin the intended intervention.\n- **Diagnosis** — a supported technical conclusion or defined investigation outcome.\n- **Restoration** — return of an agreed minimum service level, including an authorised temporary measure where applicable.\n- **Resolution** — completion of the agreed remedial outcome, not merely attendance or temporary restoration.\n- **Closure** — operational, evidential and commercial actions are sufficiently complete for the relevant record.\n- **Clock stop** — a contractually permitted exclusion of elapsed time because a defined dependency prevents progress.\n\nThese events must not be collapsed into one “completed” timestamp.\n\n"
+  },
+  {
+    "id": "E013",
+    "path": "docs/contracts/slas-response-and-coverage.md",
+    "heading": "Communication commitments",
+    "start_line": 220,
+    "end_line": 235,
+    "section_sha256": "edaaf7d63ac8121016b08d5413eaa78dba91941372fa73ebf0aa99c14ef1c0b0",
+    "section_text": "## Communication commitments\n\nFor significant incidents, updates occur at the agreed interval even when there is no material technical change.\n\nA useful update states:\n\n- current impact and safety condition;\n- latest verified finding;\n- what remains uncertain;\n- restoration status;\n- dependency and owner;\n- next action; and\n- next update time.\n\nAn update saying only “still chasing” provides little control value unless it identifies what is being chased and what happens next.\n\n"
+  },
+  {
+    "id": "E014",
+    "path": "docs/contracts/slas-response-and-coverage.md",
+    "heading": "Contract hierarchy",
+    "start_line": 28,
+    "end_line": 43,
+    "section_sha256": "68eb405938cec10f68845af5ff0795fc4580388a0a8218a083740c8d5ae81958",
+    "section_text": "## Contract hierarchy\n\nWhere SLA wording conflicts with the signed contract, accepted quotation, schedule of service or formally agreed variation, the applicable contractual hierarchy is reviewed rather than silently selecting the most convenient interpretation.\n\nOperational teams should know:\n\n- which document defines the target;\n- which customer, sites and assets are covered;\n- effective dates and renewal position;\n- coverage hours;\n- exclusions;\n- service-credit rules; and\n- who can approve a change.\n\nInformal promises by an engineer or coordinator do not amend an SLA unless made by an authorised person and properly recorded.\n\n"
+  },
+  {
+    "id": "E015",
+    "path": "docs/governance/decision-rights-and-operational-authority.md",
+    "heading": "Customer-scope decisions",
+    "start_line": 48,
+    "end_line": 63,
+    "section_sha256": "ec6b388eb1928aecbbf887978959176afa748d793a9b3f9004262058109ef98e",
+    "section_text": "### Customer-scope decisions\n\nCustomer authority establishes permission to perform work and, where applicable, responsibility for payment.\n\nAcceptable evidence may include:\n\n- an accepted quotation;\n- a purchase order;\n- a signed contract;\n- a contractually agreed call-out or repair limit;\n- a written variation instruction;\n- recorded verbal authority from a known authorised contact; or\n- an emergency instruction supported by the applicable contract and escalation record.\n\nSite presence, urgency or an engineer's recommendation do not by themselves establish customer authority.\n\n"
+  },
+  {
+    "id": "E016",
+    "path": "docs/governance/canonical-terminology-and-record-relationships.md",
+    "heading": "Resolution",
+    "start_line": 171,
+    "end_line": 174,
+    "section_sha256": "d50e05cb0af823e8bc319de983f8f809ad0ca42f5d1fa4f4afede35c1e339c2e",
+    "section_text": "### Resolution\n\nCompletion of the agreed permanent remedial outcome. Resolution is not merely attendance, diagnosis or temporary restoration. It may depend on parts, customer approval, third-party action or design change.\n\n"
+  },
+  {
+    "id": "E017",
+    "path": "docs/operations/work-lifecycle.md",
+    "heading": "10. Closure and retained knowledge",
+    "start_line": 152,
+    "end_line": 159,
+    "section_sha256": "fb2c2dad5f35f53eb6dd066862720af970758d58f8d6eface48fef7eb84fd8a5",
+    "section_text": "## 10. Closure and retained knowledge\n\nClosure is not a single event. A job may be operationally complete (scope delivered and evidence recorded), financially open (awaiting invoice release or cost finalisation) and commercially unresolved (warranty recovery or dispute pending) at the same time. Each dimension has its own owner and review trigger.\n\nThe job is ready for operational closure when the authorised scope has been performed and required immediate evidence has been produced. Financial closure requires that cost, invoicing and recovery are resolved. Warranty or complaint cases may remain open beyond both.\n\nClosure does not make the information disposable. Prior work informs future fault diagnosis, replacement planning, warranty decisions, asset history, customer conversations and contract renewal.\n\n"
+  },
+  {
+    "id": "E018",
+    "path": "docs/governance/repository-constitution.md",
+    "heading": "4. Preserve uncertainty",
+    "start_line": 21,
+    "end_line": 24,
+    "section_sha256": "fb4b8cabdab25321c18c916a935e946852d3c6b850cb43ab483c1806679c33eb",
+    "section_text": "### 4. Preserve uncertainty\n\nWhere the business has not decided something, where records conflict, or where different people hold different understandings, that uncertainty must be represented rather than silently resolved.\n\n"
+  },
+  {
+    "id": "E019",
+    "path": "docs/governance/decision-rights-and-operational-authority.md",
+    "heading": "Core principle",
+    "start_line": 9,
+    "end_line": 19,
+    "section_sha256": "b4440cc51e85451d1b26a37fe78b35e09962f192c78af61b4269991f1e4ec9d4",
+    "section_text": "## Core principle\n\nEvery material action should answer four distinct questions:\n\n1. **Is the action safe and technically justified?**\n2. **Is the person performing it competent and authorised?**\n3. **Has the customer or other paying party authorised the scope and cost?**\n4. **Has Frostline authorised the commitment of labour, materials, subcontractors or credit?**\n\nA positive answer to one question does not imply a positive answer to the others.\n\n"
+  },
+  {
+    "id": "E020",
+    "path": "docs/field-engineering/site-visits-and-engineer-workflow.md",
+    "heading": "Minor repairs",
+    "start_line": 165,
+    "end_line": 170,
+    "section_sha256": "38f34009353ab9c137adb3406c2cf222cd9988fdf214c710d25ba9677c8a0b97",
+    "section_text": "## Minor repairs\n\nA minor repair may be completed where it is safe, technically justified, within competence, covered by existing scope or delegated authority and supported by available materials.\n\nThe record identifies why the engineer believed the work was authorised. “It was only a small part” is not an authority model.\n\n"
+  },
+  {
+    "id": "E021",
+    "path": "docs/dispatch/resource-planning-and-scheduling.md",
+    "heading": "Readiness checks",
+    "start_line": 59,
+    "end_line": 78,
+    "section_sha256": "11b1ea5ff40c69d6b3593a67011db5c05c12a43ce2e4f956d529d7872e3dee00",
+    "section_text": "## Readiness checks\n\nBefore work is treated as ready, planning considers whether the following are sufficiently established:\n\n- customer, site, system or asset identity;\n- reported need or accepted scope;\n- applicable contract or quotation;\n- customer authority and any spending limit;\n- Frostline authority to commit labour, materials or subcontractors;\n- priority and response commitment;\n- access, inductions, permits and shutdown arrangements;\n- known hazards and method requirements;\n- engineer competence and authorisation;\n- parts, tools, test equipment and specialist resources;\n- realistic duration;\n- customer communication; and\n- dependencies whose failure would make attendance unproductive.\n\nNot every item must be perfect before an emergency diagnostic attendance. The planner should, however, know which uncertainties are deliberately being accepted.\n\n"
+  },
+  {
+    "id": "E022",
+    "path": "docs/finance/invoicing-cost-control-and-credit.md",
+    "heading": "Financial record boundaries",
+    "start_line": 11,
+    "end_line": 32,
+    "section_sha256": "b4441e550bbb75c83840283dacc9c8848f81cade6b6b9faf4270cdf2446a2225",
+    "section_text": "## Financial record boundaries\n\nFrostline distinguishes:\n\n- customer account;\n- contracting legal entity;\n- site and operational contact;\n- quotation or contract;\n- customer purchase order;\n- job or project;\n- attendance;\n- supplier purchase order;\n- supplier invoice;\n- customer invoice;\n- credit note;\n- warranty claim or recovery; and\n- payment.\n\nThese records may be linked many-to-many. One customer invoice may cover several jobs. One job may use several supplier invoices. One warranty recovery may relate to a failed component originally purchased for a project and replaced on a later remedial job.\n\nUsing one reference field to stand in for all of these relationships creates fragile accounting and poor auditability.\n\n"
+  },
+  {
+    "id": "E023",
+    "path": "docs/field-engineering/site-visits-and-engineer-workflow.md",
+    "heading": "Testing and recommissioning",
+    "start_line": 239,
+    "end_line": 255,
+    "section_sha256": "ef42de8792473c0b1e7ee5c25dd0b62a77e87aed8f29174b061d96bcdf62e47d",
+    "section_text": "## Testing and recommissioning\n\nAfter intervention, the engineer tests enough to support the claimed outcome. Tests may include:\n\n- pressure, vacuum or leak checks;\n- electrical measurements;\n- temperatures and pressures;\n- control sequence and demand;\n- alarms and safeties;\n- drainage;\n- airflow or water flow;\n- combustion or emissions where applicable;\n- configuration review; and\n- observation through a suitable cycle or load condition.\n\nThe record states test conditions and limitations. A unit starting briefly does not prove durable repair or design performance.\n\n"
+  },
+  {
+    "id": "E024",
+    "path": "docs/finance/invoicing-cost-control-and-credit.md",
+    "heading": "Operational completion and financial closure",
+    "start_line": 146,
+    "end_line": 163,
+    "section_sha256": "7b1a64e4a40ec585309abe4ddee437952ed4d8bd7df4e745ab5ae64f3780db5e",
+    "section_text": "## Operational completion and financial closure\n\nFrostline distinguishes:\n\n- attendance complete;\n- authorised job scope complete;\n- project practically complete;\n- customer issue resolved;\n- invoiceable event achieved;\n- invoice issued;\n- invoice paid;\n- cost and recovery finalised; and\n- job or project financially closed.\n\nThese states may occur at different times. A job may be operationally complete but held from invoicing because authority or evidence is incomplete. A staged project invoice may be issued before practical completion. A warranty repair may be complete while manufacturer recovery remains outstanding.\n\nNo single generic \"closed\" status should conceal those differences.\n\n"
+  },
+  {
+    "id": "E025",
+    "path": "docs/finance/invoicing-cost-control-and-credit.md",
+    "heading": "Materials and stock cost",
+    "start_line": 242,
+    "end_line": 258,
+    "section_sha256": "afbc22bdded42b969251a26339e705c40157586a63b20ae898fbd76435da103b",
+    "section_text": "## Materials and stock cost\n\nMaterials may be:\n\n- purchased directly for a job or project;\n- issued from warehouse stock;\n- used from van stock;\n- returned unused;\n- transferred between jobs;\n- scrapped;\n- replaced under warranty; or\n- retained as project surplus.\n\nThe financial record should preserve quantity, cost basis, source, destination and relevant return or recovery.\n\nUnused project materials do not disappear from cost merely because they remain in a van or depot. They are returned to controlled stock, retained against a named future requirement or written off under authority.\n\n"
+  },
+  {
+    "id": "E026",
+    "path": "docs/finance/invoicing-cost-control-and-credit.md",
+    "heading": "Labour recording",
+    "start_line": 234,
+    "end_line": 241,
+    "section_sha256": "3f1aed08e1517c4545ee23eb12a759acdbc5d9af9c2b4eaa1fd8ab453afce071",
+    "section_text": "## Labour recording\n\nEngineers record time against work for costing, capacity and payroll-related purposes. Travel, site labour, workshop activity, training, absence, supervision and non-chargeable remedial work may need different treatment.\n\nTime recorded is not automatically time chargeable to the customer. Commercial rules, quotation basis, contract entitlement, warranty status and management judgement determine recoverability.\n\nCorrections to labour records preserve the original entry, reason, approver and revised allocation where material. Moving time between jobs solely to improve apparent margin is not acceptable.\n\n"
+  },
+  {
+    "id": "E027",
+    "path": "docs/governance/canonical-terminology-and-record-relationships.md",
+    "heading": "Cost",
+    "start_line": 189,
+    "end_line": 192,
+    "section_sha256": "b827266caaf2522924594dd33d05d6c3937069d9b3e4c897fb70466f87ed465c",
+    "section_text": "### Cost\n\nThe value consumed or committed by Frostline, including labour, materials, subcontractors, hire, travel and allocated overhead where applicable.\n\n"
+  },
+  {
+    "id": "E028",
+    "path": "docs/finance/invoicing-cost-control-and-credit.md",
+    "heading": "Invoice triggers",
+    "start_line": 118,
+    "end_line": 145,
+    "section_sha256": "6ee3fbace6d1ec2b0e7cd43c33882860c34d5fc44772d53c1a56efc0b5a16466",
+    "section_text": "## Invoice triggers\n\nInvoices may be raised on:\n\n- completion of a chargeable attendance;\n- completion of an approved repair;\n- delivery of a maintenance period or scheduled attendance group;\n- delivery of equipment or materials where contractually agreed;\n- project deposit or milestone;\n- application for payment;\n- practical completion;\n- approved variation;\n- cancellation or aborted attendance under agreed terms; or\n- another defined contractual event.\n\nThe invoice trigger must identify both the commercial entitlement and the evidence that the event occurred.\n\nCompletion in the engineer diary is not automatically sufficient. Finance may require:\n\n- accepted quotation, contract or rate basis;\n- customer purchase order or recorded exception;\n- attendance and labour evidence;\n- materials and subcontract detail;\n- completion or commissioning evidence;\n- variation approval;\n- customer acknowledgement where required; and\n- manager review of unusual or disputed treatment.\n\n"
+  },
+  {
+    "id": "E029",
+    "path": "docs/finance/invoicing-cost-control-and-credit.md",
+    "heading": "Invoice validation and release",
+    "start_line": 329,
+    "end_line": 346,
+    "section_sha256": "03f8d2144805152e38accdc2c90b8112e7803ab7dfb59561dc13d112d6cc38b5",
+    "section_text": "## Invoice validation and release\n\nBefore release, finance checks evidence proportionate to value and risk. Typical checks include:\n\n- correct customer legal entity;\n- billing address, portal and purchase-order requirements;\n- invoice trigger achieved;\n- scope and charging basis;\n- labour, material and subcontract completeness;\n- VAT treatment;\n- approved variations;\n- warranty or goodwill status;\n- previous deposits, applications or invoices;\n- retention and deductions; and\n- known disputes.\n\nAn invoice may be held where evidence is incomplete, but the hold itself must have a reason, owner and target action. \"Waiting for paperwork\" is insufficient without identifying what is missing and who must provide it.\n\n"
+  },
+  {
+    "id": "E030",
+    "path": "docs/field-engineering/site-visits-and-engineer-workflow.md",
+    "heading": "Sign-off",
+    "start_line": 315,
+    "end_line": 326,
+    "section_sha256": "d7b047fcdfd941cac176bf241a5868988c0b3f00afbc60d7a51ceba0ec5906db",
+    "section_text": "## Sign-off\n\nCustomer acknowledgement confirms attendance and receipt of the recorded outcome. It does not automatically:\n\n- approve unquoted charges;\n- accept technical design;\n- waive defects;\n- establish warranty responsibility; or\n- confirm final job closure.\n\nWhere no authorised contact is available, alternative evidence and communication are recorded.\n\n"
+  },
+  {
+    "id": "E031",
+    "path": "docs/field-engineering/site-visits-and-engineer-workflow.md",
+    "heading": "Customer handover",
+    "start_line": 300,
+    "end_line": 314,
+    "section_sha256": "a0041e4e3b8b59920c0cbac0fd2dc545b0d53b0c11e76e72c3bf2b2efb728a0f",
+    "section_text": "## Customer handover\n\nBefore leaving, the engineer explains in proportionate language:\n\n- what was found;\n- what was done;\n- current service and safety condition;\n- whether the measure is temporary;\n- any operating restriction;\n- what remains unresolved;\n- whether further work requires quotation or approval; and\n- who will contact the customer next.\n\nThe engineer avoids definitive liability or warranty statements unless that decision has been authorised.\n\n"
+  },
+  {
+    "id": "E032",
+    "path": "docs/field-engineering/site-visits-and-engineer-workflow.md",
+    "heading": "Authority to proceed",
+    "start_line": 136,
+    "end_line": 147,
+    "section_sha256": "1f91e5bd90b484734adf7794a22181ec6f2f3bdcccff0a3572f1b6953690afb9",
+    "section_text": "## Authority to proceed\n\nWhere diagnosis identifies work beyond the current scope, the engineer separates:\n\n- technical recommendation;\n- customer authority;\n- Frostline expenditure authority;\n- availability of parts or resources; and\n- decision to perform work now or create follow-on work.\n\nMaterial verbal approval records the person, time, scope and limit. The engineer does not promise price, programme, warranty acceptance or replacement unless authorised to do so.\n\n"
+  },
+  {
+    "id": "E033",
+    "path": "docs/service/planned-and-reactive-service.md",
+    "heading": "Maintenance completion states",
+    "start_line": 46,
+    "end_line": 59,
+    "section_sha256": "a0e35aae3f720fb490a71affd749ec19394913ab0fe236a4ccae069f807c9e31",
+    "section_text": "## Maintenance completion states\n\nA maintenance attendance may be:\n\n- complete;\n- partially complete;\n- unable to complete because of access;\n- unable to complete because of safety;\n- unable to complete because the asset or system could not be identified;\n- unable to complete because prerequisite customer action was absent; or\n- complete with defects or recommendations requiring separate follow-on action.\n\nThe maintenance job or contractual obligation must not be marked complete merely because an engineer attended site. Completion requires the authorised task set and evidence, or an explicit exception decision.\n\n"
+  },
+  {
+    "id": "E034",
+    "path": "docs/service/planned-and-reactive-service.md",
+    "heading": "Defects found during maintenance",
+    "start_line": 60,
+    "end_line": 79,
+    "section_sha256": "96061bdfaf3ffb1f2cc745193a7e120107909cd04d1a0b0b484bc7cc4fe35d29",
+    "section_text": "## Defects found during maintenance\n\nEngineers distinguish between maintenance completed within the authorised attendance and defects requiring further action.\n\nA defect may lead to:\n\n- an immediate minor repair within both customer and Frostline authority;\n- make-safe action;\n- isolation for safety;\n- a return attendance under existing authority;\n- a repair quotation;\n- a replacement recommendation;\n- specialist investigation;\n- a suspected warranty case; or\n- monitored deterioration with an agreed review point.\n\nFinding a defect is not authority to repair it. The engineer records the condition, consequence, evidence, technical recommendation and immediate safety status. Operations then establishes whether the next action is already covered, separately chargeable, subject to quotation or dependent on another party.\n\nVague notes such as \"unit faulty\" are not sufficient when a technical, safety or commercial decision is required.\n\n"
+  },
+  {
+    "id": "E035",
+    "path": "docs/assets/equipment-and-asset-records.md",
+    "heading": "Record quality",
+    "start_line": 134,
+    "end_line": 138,
+    "section_sha256": "f9ab7cf217a2a1e923389cbbefb64f0340481a15c65d84a2cecd710108985a22",
+    "section_text": "## Record quality\n\nAsset information improves incrementally. Engineers are often the best source of corrections because they can compare records with physical reality.\n\nFrostline values accuracy over false completeness. An explicitly unknown serial number is more useful than a copied value that belongs to a neighbouring unit. Where identity is uncertain, the uncertainty should remain visible until resolved."
+  },
+  {
+    "id": "E036",
+    "path": "docs/dispatch/resource-planning-and-scheduling.md",
+    "heading": "Customer access and site readiness",
+    "start_line": 164,
+    "end_line": 179,
+    "section_sha256": "a3fb9fa6e6328b2fda4d9e3d7a42d026ee2156ae0194aa5eca8e02b212fda543",
+    "section_text": "## Customer access and site readiness\n\nA confirmed appointment can fail if access dependencies are not prepared. Planning records relevant:\n\n- opening hours and contacts;\n- keys, codes, escorts and security clearance;\n- inductions and permits;\n- tenant or occupant notice;\n- asbestos and hazard information;\n- shutdown permission;\n- isolation ownership;\n- loading, parking and delivery access; and\n- restricted work periods.\n\nWhere the customer owns an access action, Frostline still owns the decision to chase, proceed provisionally or reschedule.\n\n"
+  },
+  {
+    "id": "E037",
+    "path": "docs/service/planned-and-reactive-service.md",
+    "heading": "Maintenance obligations and schedules",
+    "start_line": 30,
+    "end_line": 45,
+    "section_sha256": "854cf98c469bffbc727c5672bc6355a8ff234a2321076f62c538eff12a48a05b",
+    "section_text": "## Maintenance obligations and schedules\n\nMaintenance can be scheduled annually, six-monthly, quarterly or at another agreed frequency. Different assets at the same site may require different frequencies, task sets or evidence.\n\nThe company distinguishes:\n\n- contractual maintenance obligations;\n- statutory or certification-related activities;\n- manufacturer-recommended maintenance;\n- customer-requested additional tasks; and\n- advisory activities that are not part of the current contract.\n\nCoordinators try to group work efficiently by site and geography without allowing contractual dates to drift. School holidays, retail peaks, hospitality occupancy, tenant access and plant shutdown windows can constrain attendance.\n\nA missed attendance does not disappear. The associated obligation remains active until it is completed, formally rescheduled, varied, cancelled under authority or recorded as no longer recoverable with the consequences understood. Where a contract defines SLA targets for maintenance delivery (such as completing all quarterly visits within the quarter), the missed-maintenance obligation and any resulting SLA breach are recorded against the contractual period in which they were due, not the period in which they are eventually completed.\n\n"
+  },
+  {
+    "id": "E038",
+    "path": "docs/finance/invoicing-cost-control-and-credit.md",
+    "heading": "Reactive and service invoicing",
+    "start_line": 164,
+    "end_line": 180,
+    "section_sha256": "70b2dff5ba02a231e9f541ff15462eb4f13094655e77cfa4951dc3f71718533c",
+    "section_text": "## Reactive and service invoicing\n\nReactive work commonly combines call-out, labour, travel, parts, access equipment and subcontract cost. Contract cover may remove, cap or alter some charges.\n\nA single reported fault can create several attendances, purchases and decisions. Frostline may:\n\n- invoice the diagnostic attendance separately;\n- invoice authorised temporary or make-safe work;\n- quote follow-on repair;\n- invoice each stage under schedule-of-rates terms;\n- consolidate after resolution; or\n- hold customer charging pending a suspected warranty decision.\n\nThe chosen treatment follows the contract, authority and customer communication. It must not be inferred solely from the job description.\n\nMaintenance contracts may be billed annually, quarterly, monthly or against visit completion. Billing timing does not necessarily match the physical delivery pattern. Deferred or missed maintenance obligations remain visible even where periodic billing has already occurred.\n\n"
+  },
+  {
+    "id": "E039",
+    "path": "docs/contracts/slas-response-and-coverage.md",
+    "heading": "Service credits",
+    "start_line": 282,
+    "end_line": 289,
+    "section_sha256": "3a31315000b9300b4016a59b6dc13cfd1f619badfb463421baad892cc43d1892",
+    "section_text": "## Service credits\n\nService credits apply only where contract conditions are met. Credit calculation, caps, exclusions, evidence and approval are kept separate from the technical incident record.\n\nA credit does not automatically establish negligence or full liability. Equally, a low-value credit does not remove the need to investigate recurring service failure.\n\nWhere an attendance occurs outside normal hours and attracts premium rates, the contract determines whether different response targets apply and whether those targets affect credit eligibility. The mere fact that Frostline chose to attend out of hours to meet a target does not alter the credit calculation unless the contract specifies otherwise.\n\n"
+  },
+  {
+    "id": "E040",
+    "path": "docs/reporting/business-metrics-and-kpis.md",
+    "heading": "Planned maintenance completion",
+    "start_line": 33,
+    "end_line": 36,
+    "section_sha256": "09f61147bda1852c1a6f3a0c8d674a83478381defec4ab4edf19aaec46105215",
+    "section_text": "### Planned maintenance completion\n\nThe percentage of due planned visits completed within the agreed maintenance window. Reporting should distinguish customer cancellation, no access, Frostline capacity and formally rescheduled work.\n\n"
+  },
+  {
+    "id": "E041",
+    "path": "docs/dispatch/resource-planning-and-scheduling.md",
+    "heading": "Planned-maintenance capacity",
+    "start_line": 262,
+    "end_line": 269,
+    "section_sha256": "37719935d8c7b6c4a04be7edf85e1f8b20aa807801bbc26ba37679beb524d088",
+    "section_text": "## Planned-maintenance capacity\n\nMaintenance obligations are forecast by contract, site, asset group, due window, geography and required competence.\n\nWhere forecast demand exceeds capacity, the issue is surfaced before visits breach. Responses may include bringing work forward within allowed windows, using approved subcontractors, changing route design, negotiating access or reviewing the commercial service model.\n\nReactive work must not repeatedly consume maintenance capacity without visible backlog, customer communication and management ownership.\n\n"
+  },
+  {
+    "id": "E042",
+    "path": "docs/service/planned-and-reactive-service.md",
+    "heading": "Priority and urgency",
+    "start_line": 100,
+    "end_line": 118,
+    "section_sha256": "6380f54ba12bb37729079042ad669071f663e6c2ec1afb995a7d62a4d383c57d",
+    "section_text": "## Priority and urgency\n\nFrostline considers several factors when prioritising reactive work:\n\n- risk to people or property;\n- complete or partial loss of critical service;\n- site type and operating hours;\n- vulnerable occupants;\n- food, stock, process or technology risk;\n- contractual response commitment;\n- availability of safe temporary measures;\n- customer relationship;\n- engineer travel and capability; and\n- the effect of displacing already-promised work.\n\nPriority is a decision, not simply a label supplied by the requester. It is not determined only by who calls most loudly. A loss of cooling in a server room or refrigeration failure may outrank a comfort complaint even when the latter customer is more persistent.\n\nWhere reprioritisation threatens another contractual commitment, the displaced work receives its own owner, communication and recovery plan.\n\n"
+  },
+  {
+    "id": "E043",
+    "path": "docs/contracts/service-contracts.md",
+    "heading": "Asset schedules",
+    "start_line": 46,
+    "end_line": 64,
+    "section_sha256": "771870b0d44ba19736f1b19569121fe83d35aac0b9bb3e33dcca0134ed450997",
+    "section_text": "## Asset schedules\n\nThe asset schedule identifies the equipment covered by the agreement. It may record:\n\n- site and location;\n- asset identifier;\n- equipment type;\n- manufacturer and model;\n- serial number;\n- duty or served area;\n- refrigerant where applicable;\n- maintenance frequency;\n- known condition; and\n- specific exclusions or limitations.\n\nAn asset not listed is not automatically covered merely because it is physically present at the site. Equally, Frostline should not knowingly continue charging for equipment that has been removed or permanently decommissioned.\n\nAsset schedules are reviewed when equipment is added, replaced, relocated or removed. Material changes may require a contract variation and repricing.\n\n"
+  },
+  {
+    "id": "E044",
+    "path": "docs/assets/equipment-and-asset-records.md",
+    "heading": "Replacement and retirement",
+    "start_line": 121,
+    "end_line": 133,
+    "section_sha256": "4464556415082523265236c59f13a029224f96de6af6100b1351a7d4450715ee",
+    "section_text": "## Replacement and retirement\n\nWhen equipment is replaced, the old record remains part of the site's history. The replacement should be distinguishable from the removed equipment even when it serves the same location and purpose.\n\nRetired equipment may still matter for:\n\n- historic invoices and certificates;\n- warranty or dispute evidence;\n- refrigerant records;\n- project costing;\n- recurring site problems; and\n- understanding changes to system configuration.\n\n"
+  },
+  {
+    "id": "E045",
+    "path": "docs/contracts/service-contracts.md",
+    "heading": "Review and renewal",
+    "start_line": 172,
+    "end_line": 188,
+    "section_sha256": "23361897d2278d3b1472901c22fd34b3804a1c185f1bd192f1521fb08b9971e9",
+    "section_text": "## Review and renewal\n\nContracts are reviewed before renewal. The review considers:\n\n- asset changes;\n- maintenance completion;\n- reactive demand;\n- parts and subcontract cost;\n- response performance;\n- recurring defects;\n- customer feedback;\n- equipment condition;\n- price adequacy; and\n- any changes in law, standards or manufacturer requirements.\n\nRenewal is not purely an inflation exercise. A contract may need redesign where the service pattern or risk has materially changed.\n\n"
+  },
+  {
+    "id": "E046",
+    "path": "docs/contracts/service-contracts.md",
+    "heading": "Multi-site contracts",
+    "start_line": 148,
+    "end_line": 153,
+    "section_sha256": "09f5ccc665c531d58ae2eeee2bb83115a9f41466989246943e61470f671b3b48",
+    "section_text": "## Multi-site contracts\n\nMulti-site agreements may contain a common commercial framework with site-specific schedules. Different sites can have different operating hours, asset mixes, response priorities and access rules.\n\nPerformance should be considered both across the portfolio and at individual sites. Strong overall statistics should not conceal repeated failure at one location.\n\n"
+  },
+  {
+    "id": "E047",
+    "path": "docs/contracts/service-contracts.md",
+    "heading": "Frostline obligations",
+    "start_line": 142,
+    "end_line": 147,
+    "section_sha256": "45bd7741552aa8b13076da648197a381ea91b4a8bd42ff247b057ceffdf58d47",
+    "section_text": "## Frostline obligations\n\nFrostline is responsible for delivering the agreed services with competent personnel, suitable records and reasonable care. It maintains appropriate certifications, insurance, tools and management controls for the work undertaken.\n\nFrostline also communicates material findings, safety concerns, delays, outstanding defects and actions requiring customer approval.\n\n"
+  },
+  {
+    "id": "E048",
+    "path": "docs/contracts/service-contracts.md",
+    "heading": "Variations",
+    "start_line": 189,
+    "end_line": 194,
+    "section_sha256": "20daa31a2365239e0769ec86c01eda1f96ff34dabe5f4aceef70747a73f4fe08",
+    "section_text": "## Variations\n\nA contract variation records an agreed change in scope, price, term or service level. Verbal requests should not quietly become permanent obligations.\n\nCommon variations include adding assets, changing visit frequency, extending coverage hours, adding sites or revising reporting requirements.\n\n"
+  },
+  {
+    "id": "E049",
+    "path": "docs/contracts/slas-response-and-coverage.md",
+    "heading": "Coverage hours",
+    "start_line": 84,
+    "end_line": 97,
+    "section_sha256": "43d38614aeebf5b37990c95650016daadb12f2b7aa61e487492af4aa26727339",
+    "section_text": "## Coverage hours\n\nThe agreement states:\n\n- time zone;\n- covered days and hours;\n- public-holiday treatment;\n- seasonal arrangements;\n- whether clocks run continuously or only in covered time;\n- service channels valid out of hours; and\n- whether remote response and attendance have different coverage.\n\nA four-working-hour target is materially different from four elapsed hours. Reporting preserves that distinction.\n\n"
+  },
+  {
+    "id": "E050",
+    "path": "docs/contracts/slas-response-and-coverage.md",
+    "heading": "Attendance targets",
+    "start_line": 130,
+    "end_line": 145,
+    "section_sha256": "85792004e67ee2cffa3b83776e20bdd7eec6b6ed1f633b6003826f59025aabd7",
+    "section_text": "## Attendance targets\n\nAn attendance target defines:\n\n- start event;\n- target duration;\n- priority;\n- coverage calendar;\n- geographic scope;\n- required engineer suitability;\n- permitted clock stops;\n- evidence of arrival; and\n- treatment of no access or incorrect site information.\n\nA person reaching the car park does not necessarily constitute meaningful attendance where the agreed service location remains inaccessible. Equally, customer delay after a documented arrival may trigger a permitted clock stop.\n\n"
+  },
+  {
+    "id": "E051",
+    "path": "docs/contracts/slas-response-and-coverage.md",
+    "heading": "Clock stops",
+    "start_line": 161,
+    "end_line": 181,
+    "section_sha256": "596b03de88bd1c50166ad999caf52bd15aa7962724096e921788087922268a76",
+    "section_text": "## Clock stops\n\nA clock stop is permitted only where the contract allows it and the dependency genuinely prevents the measured action.\n\nCommon reasons include:\n\n- no access;\n- absent permit or induction;\n- customer-directed delay;\n- waiting for customer authority;\n- unsafe conditions outside Frostline's control;\n- unavailable utilities;\n- third-party work;\n- specialist access arrangements;\n- manufacturer decision; or\n- part availability.\n\nThe record includes reason, start time, evidence, expected actor, Frostline owner, chase or review point and restart event.\n\nClock stops must not be added retrospectively merely to improve attainment.\n\n"
+  },
+  {
+    "id": "E052",
+    "path": "docs/contracts/slas-response-and-coverage.md",
+    "heading": "Restoration and resolution",
+    "start_line": 146,
+    "end_line": 160,
+    "section_sha256": "cc6e9144e466abb53c49f048f55b2e4c3dab8e013c2fd85bb2e1d3a7f5620afd",
+    "section_text": "## Restoration and resolution\n\nRestoration is defined in customer-relevant terms, such as minimum temperature control, operation of one duty unit, safe restricted use or temporary equipment.\n\nA temporary restoration records:\n\n- achieved service level;\n- operating limits;\n- residual risk;\n- expiry or review trigger;\n- customer understanding; and\n- owner of permanent resolution.\n\nResolution targets are used only where Frostline can reasonably control the dependencies. Where parts, third parties or customer decisions dominate elapsed time, the contract may instead require diagnosis, action planning, escalation and scheduled updates.\n\n"
+  },
+  {
+    "id": "E053",
+    "path": "docs/contracts/slas-response-and-coverage.md",
+    "heading": "Subcontractor and third-party dependencies",
+    "start_line": 197,
+    "end_line": 202,
+    "section_sha256": "53fdc3596f2f7edf79ddca21854f5a7757fb6ac0257d45ecbcaa3229b4c79982",
+    "section_text": "## Subcontractor and third-party dependencies\n\nWhere resolution depends on a subcontractor or specialist trade, Frostline remains accountable to the customer for SLA targets unless the contract explicitly transfers that accountability. The relevant Frostline manager monitors subcontractor progress, escalates delay and arranges alternatives where the subcontractor's programme threatens a contracted target.\n\nClock stops may apply where the contract permits them for defined third-party dependencies, but cannot be claimed merely because Frostline chose to use a subcontractor rather than completing the work directly.\n\n"
+  },
+  {
+    "id": "E054",
+    "path": "docs/operations/exceptions-handoffs-and-next-action-control.md",
+    "heading": "Temporary measures",
+    "start_line": 165,
+    "end_line": 181,
+    "section_sha256": "f5a02f0f3d0e3247a3ce858c7284ed2d42c734d6c15b557c4c3d39ab08542a84",
+    "section_text": "## Temporary measures\n\nTemporary repairs, overrides, loan equipment and partial-service arrangements create a mandatory future action.\n\nThe record should state:\n\n- what temporary measure was introduced;\n- why it was necessary;\n- operational limits;\n- residual risk;\n- who approved it;\n- customer understanding;\n- inspection or expiry date; and\n- permanent resolution owner.\n\nA temporary measure without an expiry or review trigger is an undocumented permanent change waiting to cause trouble.\n\n"
+  },
+  {
+    "id": "E055",
+    "path": "docs/dispatch/resource-planning-and-scheduling.md",
+    "heading": "On-call and working-time control",
+    "start_line": 270,
+    "end_line": 275,
+    "section_sha256": "8c3021cdda70f3f8b9f299e8726ba8e05067c73f06636340f86e663ea89d3854",
+    "section_text": "## On-call and working-time control\n\nThe rota identifies primary and backup engineers, capability restrictions, escalation contacts and coverage periods.\n\nPlanning considers rest after overnight work, cumulative hours, driving and whether fatigue changes safe competence. Contractual coverage does not justify creating an unsafe following-day schedule.\n\n"
+  },
+  {
+    "id": "E056",
+    "path": "docs/governance/decision-rights-and-operational-authority.md",
+    "heading": "Safety decisions",
+    "start_line": 22,
+    "end_line": 27,
+    "section_sha256": "6bc847d3ccfafb820ee99683e67f670af69834e9bb87616ca22a0f5300d00f39",
+    "section_text": "### Safety decisions\n\nAny person may stop work where they reasonably believe conditions are unsafe, uncontrolled or outside their competence. Work does not resume until the relevant hazard, method, competence or authority has been reviewed.\n\nStopping work requires no commercial approval. Restarting may require engineering, operational, customer or project approval depending on the cause.\n\n"
+  },
+  {
+    "id": "E057",
+    "path": "docs/dispatch/resource-planning-and-scheduling.md",
+    "heading": "Multi-person and supervised work",
+    "start_line": 231,
+    "end_line": 244,
+    "section_sha256": "1d1b65260fd0364b7859283d1c96a7173d9310fee9ae8055e32e3d891d16033e",
+    "section_text": "## Multi-person and supervised work\n\nWhere work requires several people, all essential roles are planned together. The plan identifies:\n\n- lead person;\n- required competence mix;\n- supervision arrangement;\n- simultaneous or staggered attendance;\n- shared tools and access equipment;\n- safe lifting or isolation needs; and\n- consequence if one participant becomes unavailable.\n\nSplitting a planned team to absorb reactive demand requires an explicit judgement that the remaining method stays safe and viable.\n\n"
+  },
+  {
+    "id": "E058",
+    "path": "docs/people/roles-skills-and-availability.md",
+    "heading": "Apprentices and supervision",
+    "start_line": 54,
+    "end_line": 59,
+    "section_sha256": "e094f8f01d5dc1eeeb8aecfe60336f8fd2d2c5dc5d8d6b6984d3aedcb518350b",
+    "section_text": "## Apprentices and supervision\n\nApprentices are assigned work appropriate to their stage of development. They may travel with experienced engineers, assist on installation projects or complete limited activities under defined supervision.\n\nSupervision can be direct, where the responsible engineer is present, or structured but remote for work that the apprentice has been authorised to perform. The supervising person remains accountable for ensuring the arrangement is suitable.\n\n"
+  },
+  {
+    "id": "E059",
+    "path": "docs/dispatch/resource-planning-and-scheduling.md",
+    "heading": "Emergency displacement",
+    "start_line": 197,
+    "end_line": 209,
+    "section_sha256": "aa2bfea863b8d8af71674a885419770a10d80a6449c9a3c0cfa422045359f15c",
+    "section_text": "## Emergency displacement\n\nWhen urgent work displaces existing commitments, the decision record should identify:\n\n- why displacement was justified;\n- who authorised material reprioritisation;\n- which work was affected;\n- customer communication required;\n- new owner and next action for displaced work; and\n- whether repeated displacement indicates a capacity or contract problem.\n\nThe latest loud request should not silently become the highest priority.\n\n"
+  },
+  {
+    "id": "E060",
+    "path": "docs/dispatch/resource-planning-and-scheduling.md",
+    "heading": "Dynamic rescheduling",
+    "start_line": 180,
+    "end_line": 196,
+    "section_sha256": "07d0a1db2c8769a908bdfeec4d0fe2d2e44ae04cec5d49eb0f017d1923006e6a",
+    "section_text": "## Dynamic rescheduling\n\nThe schedule is reviewed when:\n\n- an emergency arrives;\n- diagnosis changes the required competence or duration;\n- an attendance completes early or overruns;\n- an engineer becomes unavailable;\n- access fails;\n- materials are delayed or found unsuitable;\n- weather prevents safe work;\n- a customer cancels or reprioritises;\n- another trade or utility fails to perform; or\n- a temporary measure approaches its review point.\n\nRescheduling is a decision with consequences, not drag-and-drop administration. The coordinator assesses downstream customer commitments, contractual risk, project disruption, travel, fatigue and whether the displaced work has a new owner and date.\n\n"
+  },
+  {
+    "id": "E061",
+    "path": "docs/dispatch/resource-planning-and-scheduling.md",
+    "heading": "Scheduling objectives",
+    "start_line": 11,
+    "end_line": 26,
+    "section_sha256": "24252ba7889caa952c866f6f88e6e7429a3f33adef79514827d32490603102ae",
+    "section_text": "## Scheduling objectives\n\nA controlled schedule aims to:\n\n- protect people, property and critical operations;\n- meet contractual response and maintenance commitments;\n- assign people who are competent and authorised for the work;\n- reduce avoidable travel and mobilisation;\n- complete planned work within agreed windows;\n- preserve resilience for reactive demand;\n- avoid unsafe fatigue and unrealistic workload;\n- protect project continuity and customer promises; and\n- make dependencies and uncertainty visible.\n\nThese objectives compete. A diary filled to theoretical capacity may appear efficient while being incapable of absorbing an emergency, overrun or sickness absence.\n\n"
+  },
+  {
+    "id": "E062",
+    "path": "docs/finance/invoicing-cost-control-and-credit.md",
+    "heading": "Customer stop and continued work",
+    "start_line": 378,
+    "end_line": 394,
+    "section_sha256": "6b2fdaf380ad7cc5e9014fdbb909bf317c322b680e44c5ad9149e690070b7239",
+    "section_text": "## Customer stop and continued work\n\nFrostline may restrict further non-essential work for customers materially outside terms. The decision considers:\n\n- debt age and value;\n- dispute credibility;\n- current exposure;\n- critical site or safety implications;\n- existing contractual obligations;\n- deposits or security;\n- customer communication; and\n- likelihood of recovery.\n\nFinance controls credit status, but operational and safety implications are escalated rather than handled by a rigid automatic rule.\n\nEmergency make-safe work may proceed under separate authority without implying that wider service has been released or that old debt is waived.\n\n"
+  },
+  {
+    "id": "E063",
+    "path": "docs/field-engineering/site-visits-and-engineer-workflow.md",
+    "heading": "Emergency and make-safe work",
+    "start_line": 148,
+    "end_line": 164,
+    "section_sha256": "41a2eeb89ad701c82275acc079da54656ea3a8def44776349f1541e84695770a",
+    "section_text": "## Emergency and make-safe work\n\nEmergency action may proceed where needed to control immediate risk. It should be limited to the reasonable make-safe or damage-prevention outcome.\n\nThe engineer records:\n\n- condition encountered;\n- immediate risk;\n- action taken;\n- equipment state left;\n- customer informed;\n- authority relied upon;\n- cost or materials committed; and\n- mandatory follow-up.\n\nMake-safe is not restoration, permanent repair or job closure.\n\n"
+  },
+  {
+    "id": "E064",
+    "path": "docs/field-engineering/site-visits-and-engineer-workflow.md",
+    "heading": "Specific hazard responses",
+    "start_line": 221,
+    "end_line": 238,
+    "section_sha256": "88abe6ba989081b2f44c82c526102b75d8093f1b6d4f3c52bc611d204923fa1f",
+    "section_text": "## Specific hazard responses\n\n### Gas or combustion concern\n\nThe engineer follows applicable emergency and gas-safety procedures, protects occupants, isolates where competent and escalates to the appropriate competent person or emergency service.\n\n### Electrical hazard\n\nExposed live parts, damaged supplies or unsafe isolation arrangements are controlled. Work outside the engineer's defined electrical competence is referred onward.\n\n### Refrigerant leak\n\nThe engineer considers refrigerant type, concentration risk, ventilation, leak location, environmental duty and recovery requirements. Routine topping up without addressing a known leak is not accepted as permanent repair.\n\n### Water escape or condensate risk\n\nThe engineer controls immediate damage where practical, identifies whether drainage, pump, installation, maintenance or external building conditions contributed, and records any areas requiring customer or third-party action.\n\n"
+  },
+  {
+    "id": "E065",
+    "path": "docs/governance/decision-rights-and-operational-authority.md",
+    "heading": "Emergency authority",
+    "start_line": 112,
+    "end_line": 128,
+    "section_sha256": "ad9b57abedd33873290d28171a066da83def6999954911bd8b67fef0631f4a39",
+    "section_text": "## Emergency authority\n\nEmergency authority exists to protect people, property, critical operations and equipment where delay would materially worsen the outcome.\n\nEmergency action should be limited to what is reasonably necessary to make safe, prevent escalation or provide a controlled temporary measure. It is not a blanket authority to complete an entire repair or replacement without commercial review.\n\nThe decision record should capture:\n\n- the condition encountered;\n- the immediate risk;\n- alternatives considered;\n- who was contacted;\n- what authority was relied upon;\n- expenditure or commitment made;\n- temporary limitations; and\n- required follow-up.\n\n"
+  },
+  {
+    "id": "E066",
+    "path": "docs/procurement/purchasing-and-supplier-control.md",
+    "heading": "Purchase authority",
+    "start_line": 102,
+    "end_line": 119,
+    "section_sha256": "dc0054f51a607478dd802dbf6c63ea90b48110010ed6bbb2a51bbfaa864fd3da",
+    "section_text": "## Purchase authority\n\nApproval limits consider value and risk. Additional review may be required for:\n\n- deposits or prepayment;\n- non-returnable or made-to-order goods;\n- foreign currency;\n- unusual supplier terms;\n- new or unapproved supplier;\n- long lead time;\n- uncertain customer recovery;\n- low-margin quoted work;\n- safety-critical substitution;\n- warranty cost awaiting recovery; or\n- cumulative exposure across several related orders.\n\nSplitting orders to avoid an approval threshold is prohibited.\n\n"
+  },
+  {
+    "id": "E067",
+    "path": "docs/governance/decision-rights-and-operational-authority.md",
+    "heading": "Credit and invoice decisions",
+    "start_line": 76,
+    "end_line": 81,
+    "section_sha256": "173d3fdb15f761cde9631f38e7e7176325218c7b40c0a087c3f3a569b8ac8020",
+    "section_text": "### Credit and invoice decisions\n\nFinance controls customer-account status, credit limits, invoice release, credit notes, write-offs and collection escalation.\n\nOperational managers may confirm whether work was completed or commercially disputed, but they do not unilaterally erase a valid debt. Finance does not decide technical completion without operational evidence.\n\n"
+  },
+  {
+    "id": "E068",
+    "path": "docs/governance/canonical-terminology-and-record-relationships.md",
+    "heading": "Make safe",
+    "start_line": 179,
+    "end_line": 182,
+    "section_sha256": "bbfde5a0b102989141c29c3b2b514683be71799c4de87e188fc41d23f8abb117",
+    "section_text": "### Make safe\n\nWork limited to controlling immediate risk. It does not imply restoration of normal operation or completion of the permanent repair.\n\n"
+  },
+  {
+    "id": "E069",
+    "path": "docs/quoting/estimating-and-quotation.md",
+    "heading": "Revision control",
+    "start_line": 214,
+    "end_line": 221,
+    "section_sha256": "4ed70a03cdd0fb8b56e3dd1368fa13a346af19c881ccb20afb9c0c0772a07048",
+    "section_text": "## Revision control\n\nChanged quotations retain a clear revision history. Revisions identify what changed and supersede earlier versions where appropriate.\n\nVerbal discussion is recorded when it affects price, scope or programme. Frostline does not rely on memory to distinguish the accepted offer from an earlier draft.\n\nA revised quotation does not automatically cancel an already accepted contract. Where acceptance has occurred, subsequent changes are controlled as clarifications, amendments or variations according to their legal and commercial effect.\n\n"
+  },
+  {
+    "id": "E070",
+    "path": "docs/quoting/estimating-and-quotation.md",
+    "heading": "Acceptance validation",
+    "start_line": 222,
+    "end_line": 237,
+    "section_sha256": "fecf72aeb8660547712f7be7a018f918631b95ddd9a8d57edd599b750738043c",
+    "section_text": "## Acceptance validation\n\nBefore treating a quotation as accepted, Frostline checks:\n\n- the accepting party is identifiable and has suitable authority;\n- the accepted quotation number and revision are clear;\n- selected options are unambiguous;\n- the purchase order or acceptance value matches the offer;\n- customer terms do not introduce unreviewed conditions;\n- requested dates are still achievable;\n- quotation validity and supplier pricing remain usable;\n- credit or deposit requirements are satisfied or explicitly waived; and\n- qualifications, assumptions and exclusions have not been contradicted.\n\nA purchase order with a familiar number is not sufficient if its scope, value, legal entity or terms do not match the quotation.\n\n"
+  },
+  {
+    "id": "E071",
+    "path": "docs/quoting/estimating-and-quotation.md",
+    "heading": "Options and alternatives",
+    "start_line": 162,
+    "end_line": 177,
+    "section_sha256": "175f14e03c7685f219b6209ff62ee31e9128f3e08f2238792d55ab2667579620",
+    "section_text": "## Options and alternatives\n\nWhere useful, Frostline may present:\n\n- a compliant base solution;\n- higher-efficiency equipment;\n- enhanced controls;\n- alternative manufacturers;\n- phased replacement;\n- maintenance options; or\n- separately priced remedial work.\n\nOptions should be genuinely comparable and clearly identify any change in performance or scope.\n\nThe customer's acceptance must identify which option or combination is authorised. Acceptance of one option does not authorise omitted enhancements or assumptions from another.\n\n"
+  },
+  {
+    "id": "E072",
+    "path": "docs/customers/customer-and-site-model.md",
+    "heading": "Contracting entity and billing entity",
+    "start_line": 90,
+    "end_line": 95,
+    "section_sha256": "724c7f3be15ab2b93a7c6e56d7cb89a1ff109a321fa8398a80a21eb467d16da4",
+    "section_text": "## Contracting entity and billing entity\n\nThe familiar trading name used by staff does not always identify the legal entity that is contractually liable and expected to pay. A customer group may contain several registered companies, and invoices addressed to the wrong entity can be rejected on administrative grounds regardless of service quality.\n\nFinance requires the correct legal entity, company registration details, VAT number and billing address for each contracting arrangement. Where a facilities manager, managing agent or procurement body places orders on behalf of another party, Frostline establishes which entity is the payer and whether the intermediary has authority to bind them.\n\n"
+  },
+  {
+    "id": "E073",
+    "path": "docs/governance/canonical-terminology-and-record-relationships.md",
+    "heading": "Identity and duplicate records",
+    "start_line": 300,
+    "end_line": 313,
+    "section_sha256": "cdf99fd9024e55944b3ebc1075a4d93c6c95d50abce909d54c4f47b73ca31423",
+    "section_text": "## Identity and duplicate records\n\nRecords that appear similar must not be merged solely on name, address or description. Frostline may encounter:\n\n- trading names differing from legal entities;\n- multiple customers at one site;\n- one customer with several billing accounts;\n- replaced assets retaining old labels;\n- duplicate serial numbers entered incorrectly;\n- several jobs concerning the same symptom; and\n- contacts moving between organisations.\n\nReconciliation should preserve source evidence, explain the chosen relationship and retain aliases where they are operationally useful.\n\n"
+  },
+  {
+    "id": "E074",
+    "path": "docs/quoting/estimating-and-quotation.md",
+    "heading": "Internal approval",
+    "start_line": 199,
+    "end_line": 213,
+    "section_sha256": "fcbd753ae71f272eea0a5b360dbdc6459bdedc5f7245617368c128c1ff402d82",
+    "section_text": "## Internal approval\n\nHigher-value, lower-margin or higher-risk quotations receive additional review. Approval may consider technical solution, supplier evidence, labour allowance, contractual risk, cash flow, warranty exposure and delivery capacity.\n\nInternal approval should identify:\n\n- the quotation revision approved;\n- the proposed price and expected margin;\n- material qualifications or departures;\n- approval conditions;\n- delegated authority relied upon; and\n- any matter requiring director, finance, technical or legal review.\n\nApproval to issue is not approval to purchase equipment or commence delivery. Those commitments arise only after valid customer authority, credit acceptance where required and operational release.\n\n"
+  },
+  {
+    "id": "E075",
+    "path": "docs/finance/invoicing-cost-control-and-credit.md",
+    "heading": "Commercial release",
+    "start_line": 101,
+    "end_line": 117,
+    "section_sha256": "f2385e39cd0f88c1badc14650153bd43a429a11ea3100ed1bc18ecfd4d711a7e",
+    "section_text": "## Commercial release\n\nCustomer acceptance is necessary but may not be sufficient for Frostline to commit cost.\n\nBefore significant procurement or mobilisation, the appropriate owner confirms:\n\n- accepted scope and revision;\n- valid customer authority;\n- credit or deposit position;\n- Frostline delegated approval;\n- expected margin and risk;\n- supplier or subcontract commitment required;\n- invoicing route and evidence requirements; and\n- material conditions still outstanding.\n\nRelease may be limited to a defined purchase, survey, mobilisation stage or value. Conditional release is recorded with the condition, owner and review point.\n\n"
+  },
+  {
+    "id": "E076",
+    "path": "docs/quoting/estimating-and-quotation.md",
+    "heading": "Commercial release to delivery",
+    "start_line": 238,
+    "end_line": 253,
+    "section_sha256": "42ed78e9149f0233f6c97804b0a8a712f2b11a93a043c4d4f53536713ff16df8",
+    "section_text": "## Commercial release to delivery\n\nAward creates a controlled transition from opportunity to authorised work. Frostline records:\n\n- the customer authority relied upon;\n- the internally approved quotation revision;\n- the job or project created;\n- budget ownership;\n- required deposits or credit conditions;\n- permitted purchasing commitments;\n- promised milestones;\n- unresolved dependencies; and\n- the person owning the next action.\n\nWhere acceptance is incomplete or conditional, the work remains awaiting commercial release rather than being described vaguely as “won” or “live”.\n\n"
+  },
+  {
+    "id": "E077",
+    "path": "docs/quoting/estimating-and-quotation.md",
+    "heading": "Handover after award",
+    "start_line": 254,
+    "end_line": 261,
+    "section_sha256": "b79bd42c990a70f999d157bee2de73416548a2f545675fc3e0af720e39521ab5",
+    "section_text": "## Handover after award\n\nThe estimator hands the accepted basis to operations or project delivery. The handover includes surveys, correspondence, supplier quotations, assumptions, exclusions, programme commitments and commercial risks.\n\nA signed customer order does not repair a weak internal handover.\n\nThe receiving owner reviews the handover rather than merely receiving files. Any contradiction between accepted scope, estimate, delivery plan or customer expectation is raised before irreversible commitments are made.\n\n"
+  },
+  {
+    "id": "E078",
+    "path": "docs/projects/installation-project-delivery.md",
+    "heading": "Handover from sales and estimating",
+    "start_line": 37,
+    "end_line": 59,
+    "section_sha256": "68f5540bf0b654dfd85ece477f4719565cd94597a06a2de6203d4b00ad06111a",
+    "section_text": "## Handover from sales and estimating\n\nSales and estimating transfer the accepted commercial basis to installation operations. A complete handoff identifies:\n\n- customer and site contacts and their authority;\n- quotation number, revision and accepted value;\n- inclusions, exclusions and assumptions;\n- equipment and principal materials;\n- estimate maturity and unresolved uncertainty;\n- design and survey information;\n- promised, requested and provisional dates;\n- access and working restrictions;\n- subcontracted elements;\n- payment terms, deposit and credit conditions;\n- warranty and maintenance commitments;\n- known technical and commercial risks;\n- customer responsibilities; and\n- documents or decisions still outstanding.\n\nThe estimator retains responsibility for the handoff until the receiving project owner accepts it or explicitly rejects it because information, authority or feasibility is inadequate.\n\nThe estimator's understanding often contains context not obvious from the quotation alone. Complex or unusual projects therefore require a structured conversation and evidence transfer, not merely forwarding a PDF.\n\n"
+  },
+  {
+    "id": "E079",
+    "path": "docs/information/records-documents-and-communication.md",
+    "heading": "Corrections and history",
+    "start_line": 89,
+    "end_line": 94,
+    "section_sha256": "39e581b406dc8e4d18db3ceb18d670f73be30837892ee350b499941c087188e4",
+    "section_text": "## Corrections and history\n\nOperational records sometimes require correction. Frostline preserves enough history to understand significant changes, especially to commercial approval, compliance evidence, asset identity and invoicing.\n\nA corrected typo need not create a formal investigation. Replacing an engineer conclusion, changing a quoted price or altering evidence after a dispute requires greater transparency.\n\n"
+  },
+  {
+    "id": "E080",
+    "path": "docs/quoting/estimating-and-quotation.md",
+    "heading": "Estimate maturity",
+    "start_line": 28,
+    "end_line": 39,
+    "section_sha256": "1a136df154222fe847e790f064da9ba6a937d85e927584b3c46e4721a11b11b7",
+    "section_text": "## Estimate maturity\n\nFrostline distinguishes between different levels of cost and price confidence:\n\n- **budget indication** — an early range used for feasibility or customer planning;\n- **concept estimate** — based on a proposed solution but still subject to survey, design or supplier confirmation;\n- **developed estimate** — supported by a sufficiently defined scope, measured quantities, labour plan and current supplier evidence;\n- **approved quotation basis** — internally reviewed and suitable to issue as a formal offer; and\n- **delivery forecast** — the current expected cost after award, incorporating approved changes and known delivery information.\n\nThese are related records but not interchangeable. A budget indication must not silently become a fixed-price commitment, and a delivery forecast must not rewrite the accepted quotation history.\n\n"
+  },
+  {
+    "id": "E081",
+    "path": "docs/quoting/estimating-and-quotation.md",
+    "heading": "Site survey",
+    "start_line": 40,
+    "end_line": 60,
+    "section_sha256": "b8fbed4c2329a2d38b97d3e56091284ff463c35b715ac9f4c6a76094050e9709",
+    "section_text": "## Site survey\n\nThe estimator gathers enough information to understand existing conditions. A survey may record:\n\n- site layout and access;\n- existing plant and controls;\n- model and serial details;\n- served areas and operating requirements;\n- electrical supplies and isolators;\n- pipework, ductwork and drainage routes;\n- lifting and working-at-height requirements;\n- fire stopping and builders' work;\n- asbestos information;\n- working-hour restrictions;\n- noise or planning constraints; and\n- commissioning and handover expectations.\n\nPhotographs, sketches and measurements support the written survey but do not replace clear notes.\n\nWhere information remains unverified, the estimate records the uncertainty and how it is treated: further survey, customer dependency, provisional allowance, exclusion, option or explicit risk acceptance. “Site to be confirmed” is not a sufficient control for a material unknown.\n\n"
+  },
+  {
+    "id": "E082",
+    "path": "docs/quoting/estimating-and-quotation.md",
+    "heading": "Cost, margin and price",
+    "start_line": 127,
+    "end_line": 136,
+    "section_sha256": "90c2547f7f58041e9deb69b1bc0a03aef190dbaaabf37f18d70123c7668b6ace",
+    "section_text": "## Cost, margin and price\n\nThe estimate brings together direct labour, materials, subcontract cost, plant hire, travel, project management, overhead contribution, risk and profit margin.\n\nMargin is not the same as mark-up. Internal review checks that the intended gross margin remains credible after foreseeable delivery cost.\n\nVAT treatment is stated correctly and consistently.\n\nThe cost model, proposed price and approval decision remain distinguishable. A reviewer may approve issuing a quotation at a particular price without asserting that every underlying cost is certain.\n\n"
+  },
+  {
+    "id": "E083",
+    "path": "docs/commercial/commercial-model.md",
+    "heading": "Pricing approaches",
+    "start_line": 64,
+    "end_line": 77,
+    "section_sha256": "c520db4a1a4d8887c742ecb6888ef0683afa2cb3606578328fd112662a76f455",
+    "section_text": "## Pricing approaches\n\nFrostline uses several pricing approaches:\n\n- fixed-price quotation;\n- schedule of rates;\n- time and materials;\n- contract price;\n- capped diagnostic or investigation charge;\n- staged project valuation; and\n- negotiated variation.\n\nThe company does not use one universal margin percentage. Commercial judgement reflects technical risk, customer relationship, competition, workload, payment terms and confidence in the scope.\n\n"
+  },
+  {
+    "id": "E084",
+    "path": "docs/quoting/estimating-and-quotation.md",
+    "heading": "Quotation content",
+    "start_line": 178,
+    "end_line": 198,
+    "section_sha256": "880d575fdf025fb1212039e59bb72dffcbf2b08b0aa41702a217acfd7b9a07ab",
+    "section_text": "## Quotation content\n\nA formal quotation normally includes:\n\n- customer and site;\n- quotation number and revision;\n- scope of works;\n- equipment and principal materials;\n- programme or lead-time statement;\n- price and VAT;\n- payment terms;\n- validity period;\n- assumptions and exclusions;\n- warranty position;\n- customer responsibilities; and\n- acceptance method.\n\nWhere relevant it also identifies key systems and assets, expected outage, design responsibility, provisional sums, options, required access, dependencies, deliverables and the boundary between making safe, temporary restoration and permanent completion.\n\nA provisional sum within an otherwise fixed-price quotation means the stated value is an allowance subject to adjustment once the identified uncertainty is resolved. The quotation states what triggers the adjustment, how the final value will be determined and whether customer approval is required before the provisional element proceeds. A provisional sum is not an invitation for Frostline to incur any cost and recover it later without agreement.\n\n"
+  },
+  {
+    "id": "E085",
+    "path": "docs/quoting/estimating-and-quotation.md",
+    "heading": "Assumptions",
+    "start_line": 137,
+    "end_line": 153,
+    "section_sha256": "0663bd76bc70cd1bcc9db6f75dea5847beea28bc026526febdd1c70e00ca736b",
+    "section_text": "## Assumptions\n\nAssumptions make the basis of price visible. Examples include:\n\n- work during normal hours;\n- unrestricted access to agreed areas;\n- suitable existing electrical supply;\n- structurally adequate mounting surfaces;\n- no asbestos disturbance;\n- customer-provided shutdown approval;\n- clear routes for pipework or ductwork; and\n- use of specified equipment remaining available.\n\nAn assumption should be realistic and relevant. It should not quietly transfer every foreseeable risk to the customer.\n\nEach material assumption should be testable. Where failure of an assumption would change price, programme or method, the quotation states the consequence or variation route rather than leaving it implicit.\n\n"
+  },
+  {
+    "id": "E086",
+    "path": "docs/quoting/estimating-and-quotation.md",
+    "heading": "Materials and bought-in services",
+    "start_line": 99,
+    "end_line": 118,
+    "section_sha256": "8bc000066c66bbf6458c6ccf26acd7b3c69b01d84833411ffa934f6671625426",
+    "section_text": "## Materials and bought-in services\n\nMaterial estimates may include equipment, pipework, ductwork, insulation, controls, electrical components, fixings, supports, consumables, refrigerant, filters and disposal materials.\n\nBought-in services may include:\n\n- crane or lifting operations;\n- scaffolding or powered access;\n- electrical work;\n- roofing or builders' work;\n- asbestos surveys or removal;\n- fire stopping;\n- specialist commissioning;\n- controls integration; and\n- waste disposal.\n\nSupplier prices, freight, lead times and validity dates are checked where they could affect the offer.\n\nA supplier quotation is evidence of likely cost, not authority to purchase. Frostline purchase commitments follow the separate approval and purchasing controls defined in the governance and supply-chain references.\n\n"
+  },
+  {
+    "id": "E087",
+    "path": "docs/procurement/purchasing-and-supplier-control.md",
+    "heading": "Customer approval and company approval",
+    "start_line": 120,
+    "end_line": 127,
+    "section_sha256": "2a96be922aad76449f0b5b057a099e39982dfd4978c8516e424541c0bec670a1",
+    "section_text": "## Customer approval and company approval\n\nCustomer authority to pay does not itself authorise Frostline to purchase. Frostline must still decide whether the commitment is commercially and operationally acceptable.\n\nLikewise, internal budget approval does not prove the customer has agreed to the resulting charge.\n\nWhere the order proceeds before customer authority, the responsible manager records why Frostline is accepting that exposure.\n\n"
+  },
+  {
+    "id": "E088",
+    "path": "docs/quoting/estimating-and-quotation.md",
+    "heading": "Risk and contingency",
+    "start_line": 119,
+    "end_line": 126,
+    "section_sha256": "cb5a33ba6abaf794e17a321a413a6e0e9d72268c2e7390a10ab9697584e4a7f9",
+    "section_text": "## Risk and contingency\n\nRisk allowances reflect identifiable uncertainty rather than hidden profit. Relevant risks include poor records, concealed services, fragile existing equipment, difficult access, uncertain ground or roof conditions, phased working and volatile supplier pricing.\n\nContingency should be proportionate and subject to internal judgement. It does not excuse an incomplete survey.\n\nMaterial risks are recorded with an owner and treatment. The treatment may be to avoid, reduce, transfer, price, qualify or consciously accept the risk. A contingency value without an explanation provides weak handover evidence and is easily consumed by unrelated cost.\n\n"
+  },
+  {
+    "id": "E089",
+    "path": "docs/projects/installation-project-delivery.md",
+    "heading": "Project release states",
+    "start_line": 60,
+    "end_line": 77,
+    "section_sha256": "041c295ae320c5d0df8e56b478a64c241379b79516e7030dd2332e768f24fa08",
+    "section_text": "## Project release states\n\nFrostline distinguishes the following states:\n\n- **accepted, not reviewed** — customer acceptance received but internal validation not complete;\n- **commercially held** — acceptance exists but deposit, credit, order wording, margin or contractual issue prevents commitment;\n- **technically held** — design, survey, selection or responsibility issue prevents release;\n- **operationally held** — labour, access, programme, permits or dependencies are not ready;\n- **released for procurement** — approved commitments may be placed within defined limits;\n- **released for mobilisation** — site work may commence against the agreed plan;\n- **in delivery** — authorised work is being executed;\n- **partially complete** — defined scope remains outstanding;\n- **practically complete** — intended operational outcome is available subject to recorded residual items;\n- **commercially unresolved** — variation, valuation, retention, claim or invoice remains open; and\n- **closed** — operational, documentary and commercial closure criteria are satisfied or remaining obligations have been explicitly transferred.\n\nThese states may overlap in controlled ways. For example, procurement may be released before mobilisation, and practical completion may precede final commercial closure.\n\n"
+  },
+  {
+    "id": "E090",
+    "path": "docs/procurement/purchasing-and-supplier-control.md",
+    "heading": "Purchase orders",
+    "start_line": 128,
+    "end_line": 146,
+    "section_sha256": "efb8a3dfe1c27ebc1eb56dcea64fe71af6cf1e00c93e2675a64f312696e4d573",
+    "section_text": "## Purchase orders\n\nA purchase order records the agreed commitment and normally includes:\n\n- supplier;\n- delivery and invoice addresses;\n- job, project or stock reference;\n- item, quantity and specification;\n- agreed price and VAT basis;\n- carriage;\n- required or confirmed date;\n- delivery contact;\n- technical conditions;\n- documentation or certification requirements;\n- warranty and return references where relevant; and\n- authorising person.\n\nA verbal emergency order is documented promptly with the same essential evidence.\n\n"
+  },
+  {
+    "id": "E091",
+    "path": "docs/procurement/purchasing-and-supplier-control.md",
+    "heading": "Supplier acknowledgement",
+    "start_line": 147,
+    "end_line": 161,
+    "section_sha256": "eb9085c17b59f63d6842b1efacfbca76c2e6532f4110448dd62ae2ab2507c565",
+    "section_text": "## Supplier acknowledgement\n\nCritical orders are not treated as secure until the supplier confirms:\n\n- accepted specification;\n- quantity;\n- price;\n- expected dispatch or delivery;\n- any back-order;\n- substitutions;\n- cancellation status; and\n- special conditions.\n\nSilence after issuing a purchase order is not positive confirmation.\n\n"
+  },
+  {
+    "id": "E092",
+    "path": "docs/projects/installation-project-delivery.md",
+    "heading": "Internal release decision",
+    "start_line": 78,
+    "end_line": 94,
+    "section_sha256": "8b602d14c8f66887f002e275b9847a12f02e1ec33930e1c6f518fdbeaefdb9cc",
+    "section_text": "## Internal release decision\n\nBefore significant commitment, the project owner confirms:\n\n- the accepted scope is identifiable and internally understood;\n- quotation assumptions remain valid or have been resolved;\n- the customer's order does not introduce unreviewed terms or scope;\n- required deposit, credit and commercial approvals exist;\n- design responsibility and deliverables are clear;\n- major equipment selection is technically supported;\n- procurement authority and budget exist;\n- proposed dates are achievable enough to communicate;\n- critical customer and third-party actions are owned; and\n- unacceptable risks have been escalated.\n\nRelease may be conditional. Conditions must be explicit, owned and time-bound. A vague instruction to \"get started while we sort the paperwork\" is not a controlled release.\n\n"
+  },
+  {
+    "id": "E093",
+    "path": "docs/projects/installation-project-delivery.md",
+    "heading": "Pre-start planning",
+    "start_line": 103,
+    "end_line": 124,
+    "section_sha256": "db356200cbdd26932a8bf8986e9c6c2cf7a434a92f12b73a257f1dff234b93fa",
+    "section_text": "## Pre-start planning\n\nBefore mobilisation, Frostline confirms preparation proportionate to the risk and complexity of the project. This may include:\n\n- final survey or validation attendance;\n- design information, calculations and equipment selection;\n- drawings, schematics or marked-up plans;\n- method statements and risk assessments;\n- site induction and permit arrangements;\n- electrical, structural or builders' work requirements;\n- lifting plans, access equipment or scaffolding;\n- isolation and shutdown windows;\n- delivery, unloading and storage arrangements;\n- waste and refrigerant handling;\n- subcontractor appointment and scope;\n- customer decisions and enabling work;\n- interface responsibilities with other trades;\n- commissioning and handover expectations; and\n- contingency for foreseeable disruption.\n\nA start date remains provisional until the dependencies necessary for that commitment are confirmed.\n\n"
+  },
+  {
+    "id": "E094",
+    "path": "docs/projects/installation-project-delivery.md",
+    "heading": "Design and responsibility boundaries",
+    "start_line": 125,
+    "end_line": 138,
+    "section_sha256": "03479baf4e693e8fe92a07024c08b5fd4580be0c8108ae7fb98914efec280eec",
+    "section_text": "## Design and responsibility boundaries\n\nProjects may involve design by Frostline, a manufacturer, a consultant, the customer or another contractor. The project record identifies:\n\n- who owns the design basis;\n- what Frostline has verified;\n- what information Frostline is entitled to rely upon;\n- interfaces requiring coordination;\n- review and approval responsibilities;\n- design changes and their authority; and\n- limitations that remain with another party.\n\nApproval of a drawing does not automatically transfer all design responsibility to the approver. Equally, Frostline must not install an obviously unsuitable or unsafe design merely because another party produced it.\n\n"
+  },
+  {
+    "id": "E095",
+    "path": "docs/projects/installation-project-delivery.md",
+    "heading": "Materials and equipment",
+    "start_line": 158,
+    "end_line": 175,
+    "section_sha256": "f8abd2a9757c0b555cd33f3b25a97feeb16c88c7b3185a5b1d52add8244497c4",
+    "section_text": "## Materials and equipment\n\nMajor equipment is commonly ordered specifically for the project. Ancillaries may come from stock, local suppliers or staged project orders.\n\nThe team controls more than an ordered/not-ordered status. It needs to know:\n\n- approved specification and revision;\n- supplier and purchase authority;\n- acknowledgement and promised date;\n- actual delivery status;\n- location and custody;\n- completeness;\n- damage or discrepancy;\n- allocation to the project; and\n- return, warranty or storage constraints.\n\nShortages, damage or incorrect equipment can affect several linked activities. Substitution requires technical approval, customer or consultant approval where applicable, and commercial approval where price, warranty, performance or programme changes.\n\n"
+  },
+  {
+    "id": "E096",
+    "path": "docs/projects/installation-project-delivery.md",
+    "heading": "Programme and resource planning",
+    "start_line": 139,
+    "end_line": 157,
+    "section_sha256": "195dd5330b06ebfe9d6479e39288250f6dd246c4830504db4c1744a1e6923cf9",
+    "section_text": "## Programme and resource planning\n\nProjects compete with service operations for people, vehicles and specialist skills. Frostline aims to keep an installation team together where practical, but engineers may move between projects to provide commissioning, welding, controls or supervisory capability.\n\nThe programme distinguishes:\n\n- elapsed dates;\n- engineer-days or trade effort;\n- customer and third-party dependencies;\n- equipment and material lead times;\n- hold points;\n- commissioning windows;\n- float and contingency; and\n- dates formally promised to the customer.\n\nA project needing ten engineer-days may span several weeks because of phased access, equipment delivery, other trades or customer shutdown periods.\n\nChanges to one project must consider the work displaced elsewhere. Reallocation without an owner for the affected commitment merely moves the failure.\n\n"
+  },
+  {
+    "id": "E097",
+    "path": "docs/governance/decision-rights-and-operational-authority.md",
+    "heading": "Decision evidence",
+    "start_line": 148,
+    "end_line": 163,
+    "section_sha256": "5ac05003a5084b84febc4d140e4637d3c03287e8b4783b34d8b97a242e50b598",
+    "section_text": "## Decision evidence\n\nMaterial decisions should preserve:\n\n- the decision made;\n- the decision-maker;\n- date and time;\n- evidence considered;\n- assumptions and uncertainties;\n- limits or conditions;\n- affected customer, site, asset, job, quote, order or invoice;\n- follow-up owner; and\n- superseding decision where one later changes the position.\n\nAn approval is not merely a status label. It is a traceable business event with scope and limits.\n\n"
+  },
+  {
+    "id": "E098",
+    "path": "docs/projects/installation-project-delivery.md",
+    "heading": "Project creation and identity",
+    "start_line": 17,
+    "end_line": 36,
+    "section_sha256": "e56ec1103f5929594030a3c22f3f7bf072a87e25335ff22f2a41d8259ba2e786",
+    "section_text": "## Project creation and identity\n\nA project record is created when the work requires coordinated control of outcome, programme, budget, resources and dependencies beyond a routine service job.\n\nThe project should identify:\n\n- customer and contracting entity;\n- site or sites;\n- accepted quotation, contract or order;\n- project owner;\n- technical or design owner where applicable;\n- commercial owner;\n- authorised value and current forecast;\n- required outcome;\n- key milestones;\n- major dependencies; and\n- current release state.\n\nA customer purchase order, supplier order and project identifier are related but distinct records. None should be used as a substitute for another merely because their references are familiar.\n\n"
+  },
+  {
+    "id": "E099",
+    "path": "docs/projects/installation-project-delivery.md",
+    "heading": "Completion states",
+    "start_line": 309,
+    "end_line": 323,
+    "section_sha256": "8a625bb184e205aa8ebe2d8d8ca02bc29a085de531be3214498ec2f4e9461d22",
+    "section_text": "## Completion states\n\nFrostline distinguishes:\n\n- **operationally available** — the relevant service can be used, possibly with limitations;\n- **installation complete** — authorised physical installation scope is complete;\n- **commissioned** — defined testing and functional verification are complete;\n- **practically complete** — intended outcome is available with only recorded minor residual work;\n- **documentation complete** — required handover records are delivered;\n- **financially complete** — applications, invoices, variations, credits and retention treatment are resolved as far as due;\n- **warranty registered** — required manufacturer registration is accepted; and\n- **project closed** — all required closure conditions are met or residual obligations have been explicitly transferred and remain controlled elsewhere.\n\nOne state must not be used as evidence of another without justification.\n\n"
+  },
+  {
+    "id": "E100",
+    "path": "docs/governance/decision-rights-and-operational-authority.md",
+    "heading": "Delegated limits",
+    "start_line": 94,
+    "end_line": 111,
+    "section_sha256": "84f39296e4c116e902ee3cd6b6058ebdd5fdc698be7206c2ede05039238a6fcd",
+    "section_text": "## Delegated limits\n\nFrostline uses role-based delegated limits rather than assuming that job title alone grants unrestricted authority.\n\nA delegated limit may be constrained by:\n\n- financial value;\n- customer or contract;\n- work type;\n- urgency;\n- margin;\n- supplier;\n- duration;\n- legal or safety exposure; and\n- whether the commitment is reversible.\n\nDelegation may be temporary, suspended or narrowed. Absence of the usual approver does not automatically pass their authority to the next available person.\n\n"
+  },
+  {
+    "id": "E101",
+    "path": "docs/projects/installation-project-delivery.md",
+    "heading": "Change classification",
+    "start_line": 194,
+    "end_line": 212,
+    "section_sha256": "bbe581da16388fa7f21165df665edf5822ca88a2b98bc32524221c375604d2c6",
+    "section_text": "## Change classification\n\nNot every departure from plan is a customer variation. A discovered issue is classified before commercial treatment is assumed.\n\nPossible classifications include:\n\n- customer-requested scope change;\n- consultant or design change;\n- unforeseeable site condition;\n- customer or third-party failure to meet a responsibility;\n- supplier or manufacturer issue;\n- Frostline estimating omission;\n- Frostline design or workmanship correction;\n- clarification within existing scope;\n- acceleration or changed working method; or\n- emergency make-safe action.\n\nClassification may remain provisional while evidence is gathered. The project owner preserves chronology and cost without forcing an early conclusion merely to keep work moving.\n\n"
+  },
+  {
+    "id": "E102",
+    "path": "docs/projects/installation-project-delivery.md",
+    "heading": "Variations and scope authority",
+    "start_line": 213,
+    "end_line": 234,
+    "section_sha256": "b67c8989b25bb647cfb8947061b24bf004f75f3b5ee675cea0f178a8eff4867c",
+    "section_text": "## Variations and scope authority\n\nA variation is a documented change to authorised scope, price, programme or responsibility. Discovery or discussion alone is not approval.\n\nA variation record should identify:\n\n- original accepted basis;\n- requested or discovered change;\n- reason and classification;\n- technical consequence;\n- price or valuation basis;\n- programme consequence;\n- assumptions and exclusions;\n- customer decision-maker;\n- Frostline approver;\n- date and form of authority; and\n- effect on procurement and site instructions.\n\nEngineers should not casually promise additional work. Where immediate action is necessary to protect safety, property or completed work, emergency authority is limited to that protective action and the commercial position is escalated separately.\n\nNot every complication is recoverable from the customer. Frostline remains responsible for matters that should reasonably have been included, were caused by its own error or fall within an accepted risk.\n\n"
+  },
+  {
+    "id": "E103",
+    "path": "docs/projects/installation-project-delivery.md",
+    "heading": "Progress and commercial control",
+    "start_line": 243,
+    "end_line": 262,
+    "section_sha256": "95e5da4b7dcfda70624380da2aa603e3f0c5edec652bbcc72b4651fba6987546",
+    "section_text": "## Progress and commercial control\n\nLonger projects may be invoiced through deposits, staged payments, applications for payment or completion invoices. Operational progress and financial progress are related but not identical.\n\nA project can be physically advanced but commercially blocked by missing evidence. It can also be invoiced ahead of final completion where the contract permits staged billing.\n\nManagers monitor:\n\n- authorised value;\n- pending and approved variations;\n- committed purchase cost;\n- actual labour and subcontract cost;\n- expected final cost;\n- application, certification, invoice and cash status;\n- retention;\n- warranty exposure; and\n- expected final margin.\n\nForecast deterioration is made visible when identified. It is not deferred until completion simply because the final value remains uncertain.\n\n"
+  },
+  {
+    "id": "E104",
+    "path": "docs/quoting/estimating-and-quotation.md",
+    "heading": "Changes after award",
+    "start_line": 262,
+    "end_line": 275,
+    "section_sha256": "81ad8b603b47f69556ce052c4bce66523469bd73c65cd097ccedd82554a7b5db",
+    "section_text": "## Changes after award\n\nNew information after award is classified before action:\n\n- clarification within the accepted scope;\n- correction of Frostline's own error;\n- customer-requested change;\n- site condition differing from an explicit assumption;\n- omission or dependency belonging to another party;\n- emergency make-safe work; or\n- separately proposed follow-on work.\n\nThe classification affects technical response, customer communication, cost responsibility and whether a variation is required. Discovery alone does not constitute approval.\n\n"
+  },
+  {
+    "id": "E105",
+    "path": "docs/projects/installation-project-delivery.md",
+    "heading": "Instructions and contemporaneous records",
+    "start_line": 235,
+    "end_line": 242,
+    "section_sha256": "73b8a6969310a4f12669605efe22c357a8f89666ec838a44c44c6c267ae1c209",
+    "section_text": "## Instructions and contemporaneous records\n\nMaterial verbal instructions are recorded promptly with who gave them, what they authorised, any stated limit and the site circumstances. Written confirmation is sought as soon as practical.\n\nWhere parties disagree later, Frostline preserves the original record and subsequent evidence rather than rewriting the instruction to create false certainty.\n\nSite meeting notes, emails, marked-up drawings and photographs may support the chronology but should link back to the decision or variation they evidence.\n\n"
+  },
+  {
+    "id": "E106",
+    "path": "docs/projects/installation-project-delivery.md",
+    "heading": "Testing and commissioning",
+    "start_line": 263,
+    "end_line": 272,
+    "section_sha256": "f60d186e37eaa5e4bab728ff80b9cd6fff5dbe1523314e1f39997d0fbb7c80f1",
+    "section_text": "## Testing and commissioning\n\nTesting confirms that installed work is safe, complete and operating as intended. Commissioning may include pressure testing, evacuation, charging, electrical checks, airflow or temperature measurements, controls setup and functional testing.\n\nCommissioning responsibility must be explicit. It may be completed by the installation team, a specialist engineer, a manufacturer or another contractor for a defined part of the system.\n\nCommissioning evidence identifies test conditions, instruments where material, readings, settings, exceptions and the person accepting the result.\n\nEquipment running is not automatically commissioned. Partial operation does not prove performance across design conditions or interfaces.\n\n"
+  },
+  {
+    "id": "E107",
+    "path": "docs/projects/installation-project-delivery.md",
+    "heading": "Handover",
+    "start_line": 290,
+    "end_line": 308,
+    "section_sha256": "3ff7c81a242ccfe0f3284f7cc097ff58ac5be56168eb9290091a41f699426286",
+    "section_text": "## Handover\n\nHandover evidence varies by project but may include:\n\n- equipment schedules and serial numbers;\n- commissioning sheets;\n- test results and certificates;\n- photographs;\n- manufacturer documentation;\n- warranty registration and conditions;\n- operating guidance;\n- maintenance recommendations and contract implications;\n- drawings or marked-up records;\n- training provided;\n- keys, passwords or configuration information under controlled handling; and\n- outstanding, temporary or excluded items.\n\nThe recipient of technical handover may differ from the customer contact who authorised or pays for the work. Acceptance of technical information does not necessarily constitute commercial acceptance or waive defects.\n\n"
+  },
+  {
+    "id": "E108",
+    "path": "docs/manufacturers/manufacturer-relationships.md",
+    "heading": "Warranty registration",
+    "start_line": 154,
+    "end_line": 177,
+    "section_sha256": "d3ad8674cc0a8e275a2c14b5cbb7743de3b92d12e1214fd782c0c831c9bf3a08",
+    "section_text": "## Warranty registration\n\nMany equipment warranties depend on timely and accurate registration. Required information may include:\n\n- installer details;\n- installation and commissioning date;\n- site and customer;\n- model and serial numbers;\n- commissioning readings;\n- proof of purchase;\n- service history; and\n- evidence of approved installation.\n\nFrostline distinguishes:\n\n- registration required;\n- registration submitted;\n- registration accepted;\n- evidence incomplete;\n- registration rejected; and\n- warranty conditions still requiring future maintenance or inspection.\n\nSubmission is not the same as acceptance. Late or incomplete registration can weaken a valid claim. Frostline treats registration as a controlled handover activity rather than optional administration.\n\n"
+  },
+  {
+    "id": "E109",
+    "path": "docs/projects/installation-project-delivery.md",
+    "heading": "Defects, snags and incomplete work",
+    "start_line": 273,
+    "end_line": 289,
+    "section_sha256": "ca12947084cfb368b0872703beb34e979ee442ad236be28a3b4f8f684f5d466c",
+    "section_text": "## Defects, snags and incomplete work\n\nA defect is work that does not meet the required standard. A snag may be a minor defect or incomplete item identified near handover. An excluded item is not a snag merely because the customer expected it.\n\nEach residual item should identify:\n\n- classification;\n- location and affected asset or system;\n- required outcome;\n- responsible party;\n- target date;\n- access or dependency;\n- commercial treatment where relevant; and\n- evidence required for closure.\n\nThe project should not be described as \"nearly finished\" without a defined residual list and owners.\n\n"
+  },
+  {
+    "id": "E110",
+    "path": "docs/projects/installation-project-delivery.md",
+    "heading": "Project closure review",
+    "start_line": 330,
+    "end_line": 346,
+    "section_sha256": "ac3e898db229ae9adbb056d9ee80a9723ba4070956fcea93ef88d7db67fe58b3",
+    "section_text": "## Project closure review\n\nBefore closure, the project owner confirms:\n\n- authorised scope and approved variations are accounted for;\n- residual items are complete or transferred to named owners;\n- commissioning and handover evidence is retained;\n- asset and warranty records are updated;\n- supplier and subcontract issues are resolved or controlled;\n- final cost and value are credible;\n- invoicing and retention positions are understood;\n- customer commitments are complete;\n- temporary measures have permanent owners; and\n- learning actions are recorded where material.\n\nClosure is a business decision supported by evidence, not merely removal from the active-project list.\n\n"
+  },
+  {
+    "id": "E111",
+    "path": "docs/finance/invoicing-cost-control-and-credit.md",
+    "heading": "Project invoicing",
+    "start_line": 181,
+    "end_line": 203,
+    "section_sha256": "e30e1630b4b692bfdbd57027e6060e090a5c4aee1cb364e256a7226b221a4f89",
+    "section_text": "## Project invoicing\n\nInstallation projects may use deposits, staged invoices, applications for payment, completion invoices and retention. The commercial basis is inherited from the accepted quotation or contract and any approved variations.\n\nFrostline distinguishes:\n\n- value applied for;\n- value assessed or certified;\n- value invoiced;\n- value paid;\n- retention withheld;\n- variations pending approval;\n- contra-charges or deductions; and\n- final account position.\n\nThe difference between applied, certified, invoiced and paid values remains visible until resolved.\n\nWhere retention is withheld pending a defects or warranty period, the retention release is a distinct financial event from warranty-case closure. Retention may be released once the contractual defects period expires without outstanding notified defects, even if a separate warranty recovery against a manufacturer remains in progress. Conversely, a warranty case closed in Frostline's favour does not automatically trigger retention release if other contractual conditions remain unsatisfied. Each record has its own owner and review date.\n\nVariations need enough contemporaneous evidence to support entitlement and value. Work performed without timely commercial notice may be technically valid but difficult to recover.\n\nA disputed valuation is an active exception with an owner, evidence requirement, next action and escalation point.\n\n"
+  },
+  {
+    "id": "E112",
+    "path": "docs/finance/invoicing-cost-control-and-credit.md",
+    "heading": "Financial closure",
+    "start_line": 451,
+    "end_line": 464,
+    "section_sha256": "00b5273a1972de389e6d6136d3ecfd802e691a42cb2e460b2248a7da7aab015c",
+    "section_text": "## Financial closure\n\nA job or project is financially closed when:\n\n- all material labour, materials and subcontract costs are recorded or deliberately accrued;\n- invoicing entitlement has been exercised or consciously waived under authority;\n- customer credits and disputes are resolved or transferred to controlled cases;\n- supplier credits and returns are processed or written off;\n- warranty recoveries are received, rejected or closed under authority;\n- final value and expected margin are credible; and\n- no ownerless financial action remains.\n\nFinancial closure does not erase future warranty obligations, retention or latent disputes. Those remain linked records with their own owners and review dates.\n\n"
+  },
+  {
+    "id": "E113",
+    "path": "docs/finance/invoicing-cost-control-and-credit.md",
+    "heading": "Warranty cost and recovery",
+    "start_line": 292,
+    "end_line": 312,
+    "section_sha256": "fd3096669543e58c089cb9d66c7b628c9047864593cee3d5dc0ffd4b1c114332",
+    "section_text": "## Warranty cost and recovery\n\nWarranty treatment follows [Warranty responsibility and remedial work](../warranty/warranty-responsibility-and-remedial-work.md).\n\nFrostline records separately:\n\n- remedial labour and travel;\n- parts, refrigerant and consumables;\n- access, freight and subcontract cost;\n- customer invoice or agreed charge;\n- customer credit or goodwill value;\n- manufacturer or supplier claim;\n- subcontract recovery;\n- value approved;\n- value actually received; and\n- final cost absorbed by Frostline.\n\nZero-price customer work is not zero-cost work. A promised manufacturer credit is not recovered value until confirmed and processed.\n\nThe remedial job may close operationally while the warranty case remains financially open. Conversely, a claim credit may arrive after the original project has otherwise closed and must still be attributed to the correct case and reporting period.\n\n"
+  },
+  {
+    "id": "E114",
+    "path": "docs/assets/equipment-and-asset-records.md",
+    "heading": "Identity",
+    "start_line": 26,
+    "end_line": 40,
+    "section_sha256": "61998c9ef26c0d7f17f73cd4b63fd5064ff8fb59e26669b10c56ea12bccafb5f",
+    "section_text": "## Identity\n\nAn equipment record is most useful when it can be matched confidently to the physical item on site. Identification may use:\n\n- manufacturer and model;\n- serial number;\n- customer asset tag;\n- Frostline reference;\n- plant-room or room location;\n- system designation;\n- indoor-to-outdoor unit relationship; and\n- photographs or label details.\n\nIn older buildings, labels may be missing, duplicated, inaccessible or inaccurate. Engineers sometimes have to identify equipment by location and description until better evidence is available.\n\n"
+  },
+  {
+    "id": "E115",
+    "path": "docs/governance/canonical-terminology-and-record-relationships.md",
+    "heading": "Asset identifier",
+    "start_line": 55,
+    "end_line": 58,
+    "section_sha256": "329c6601c4b78bac61ebb40a32c6ecdf7b4472bfef72922acb80a3422e9c94b9",
+    "section_text": "### Asset identifier\n\nFrostline's internal identifier for an asset. Manufacturer serial numbers, customer labels and site labels remain separate identifiers because each may be absent, duplicated, changed or recorded incorrectly.\n\n"
+  },
+  {
+    "id": "E116",
+    "path": "docs/customers/customer-and-site-model.md",
+    "heading": "Commercial relationships",
+    "start_line": 26,
+    "end_line": 40,
+    "section_sha256": "94d8b0be67cf12120b1107bf906662b7e6f1a000050056abee5527e736108f78",
+    "section_text": "## Commercial relationships\n\nA single organisation can have more than one commercial arrangement with Frostline. For example, a hotel group may hold a maintenance contract for twelve sites while also commissioning a separate replacement project at one hotel.\n\nDifferent people within the same customer organisation may perform different roles:\n\n- commercial or procurement contacts approve suppliers and prices;\n- facilities contacts report faults and coordinate access;\n- site managers confirm local arrangements;\n- finance contacts receive invoices and statements;\n- technical contacts review designs or compliance evidence; and\n- senior sponsors handle escalations and relationship matters.\n\nThe person who reports a fault may not be authorised to approve expenditure. The person who approves expenditure may never visit the affected site.\n\n"
+  },
+  {
+    "id": "E117",
+    "path": "docs/assets/equipment-and-asset-records.md",
+    "heading": "Assets under contract",
+    "start_line": 99,
+    "end_line": 104,
+    "section_sha256": "2f52e787d641d5c07f19a6db27daaf793bffe426c089bed51bf100e8d67d4a68",
+    "section_text": "## Assets under contract\n\nA maintenance agreement may cover all maintainable equipment at a site or only a stated schedule of assets. Coverage can differ by equipment type, visit frequency, labour entitlement and response commitment.\n\nThe asset schedule used for pricing can become inaccurate when customers add, remove or replace equipment without updating the agreement. Engineers are expected to flag discrepancies, but commercial responsibility for changing the contract sits with management.\n\n"
+  },
+  {
+    "id": "E118",
+    "path": "docs/service/planned-and-reactive-service.md",
+    "heading": "Suspected warranty service",
+    "start_line": 217,
+    "end_line": 224,
+    "section_sha256": "56cf4ac88e95b093cb7513707046ca43941555d5a979d236c2f26b6a70e01c3c",
+    "section_text": "## Suspected warranty service\n\nA report concerning recently supplied, installed or repaired equipment creates a suspected warranty case, not an automatic free job.\n\nFrostline follows [Warranty responsibility and remedial work](../warranty/warranty-responsibility-and-remedial-work.md) to separate immediate customer support from technical cause, contractual responsibility and financial recovery.\n\nThe remedial attendance may be operationally complete while manufacturer recovery, subcontract responsibility or customer charging remains unresolved. These are linked records with separate owners and closure criteria.\n\n"
+  },
+  {
+    "id": "E119",
+    "path": "docs/assets/equipment-and-asset-records.md",
+    "heading": "Service and work history",
+    "start_line": 82,
+    "end_line": 98,
+    "section_sha256": "aad3a52401b25e6221eeaddbedf2004402ee32ce512de994040e88a07e1eaee2",
+    "section_text": "## Service and work history\n\nEquipment history can include:\n\n- planned-maintenance visits;\n- faults and reactive attendances;\n- parts replaced;\n- refrigerant work;\n- test readings;\n- recommendations;\n- warranty claims;\n- modifications;\n- commissioning evidence; and\n- replacement or removal.\n\nA reliable history helps engineers avoid repeating diagnosis, allows managers to identify recurring faults and supports informed repair-versus-replacement decisions.\n\n"
+  },
+  {
+    "id": "E120",
+    "path": "docs/procurement/purchasing-and-supplier-control.md",
+    "heading": "Purchase requirement",
+    "start_line": 11,
+    "end_line": 31,
+    "section_sha256": "a8820210ad4248775403e75672253800332f054417f9fbb2e46f4ca758daf685",
+    "section_text": "## Purchase requirement\n\nA purchase requirement should identify:\n\n- requesting person and accountable work owner;\n- job, project, stock or overhead purpose;\n- customer and site where relevant;\n- description and quantity;\n- manufacturer, model and part number where known;\n- technical ratings and compatibility constraints;\n- required date and delivery location;\n- whether the item is for diagnosis, permanent repair, temporary repair or warranty remediation;\n- acceptable alternatives and who may approve them;\n- expected cost or budget basis;\n- customer authority where cost depends on customer approval;\n- Frostline expenditure authority;\n- evidence-preservation or return requirements; and\n- consequence of delay.\n\nA photograph or informal message may support identification, but it does not replace a usable requirement.\n\n"
+  },
+  {
+    "id": "E121",
+    "path": "docs/procurement/purchasing-and-supplier-control.md",
+    "heading": "Requirement maturity",
+    "start_line": 32,
+    "end_line": 47,
+    "section_sha256": "2c8dbcf11d9f2043c475dadf0b8a17b5e27d8c9c7f5827a871f48942b2422c7e",
+    "section_text": "## Requirement maturity\n\nProcurement distinguishes between:\n\n- **identification requested** — technical assistance is needed to determine the item;\n- **price requested** — specification is sufficiently stable for supplier quotation;\n- **approval requested** — price and terms are known but authority is outstanding;\n- **ready to order** — specification, supplier, price, authority and delivery basis are confirmed;\n- **ordered** — Frostline has issued a commitment;\n- **supplier acknowledged** — the supplier has accepted scope, price and expected date;\n- **dispatched**;\n- **received**; and\n- **technically accepted or quarantined**.\n\nThese states prevent “ordered” being used loosely to mean that somebody has merely asked a supplier a question.\n\n"
+  },
+  {
+    "id": "E122",
+    "path": "docs/technical-support/diagnostics-controls-and-technical-escalation.md",
+    "heading": "Diagnostic principles",
+    "start_line": 9,
+    "end_line": 27,
+    "section_sha256": "fa21702876ae47c97e24fcdafd8a5863bceb608b89b521b7e3855d99887cdb5c",
+    "section_text": "## Diagnostic principles\n\nDiagnosis aims to identify the verified cause of a problem, not merely the component that currently shows an alarm.\n\nEngineers work from symptoms and evidence, considering:\n\n- customer description;\n- equipment state on arrival;\n- alarms and fault history;\n- operating conditions;\n- electrical supply and controls demand;\n- temperatures, pressures and flows;\n- sensors and interlocks;\n- previous work;\n- environmental conditions; and\n- manufacturer information.\n\nParts should not be replaced solely because they are associated with a fault code. A code may identify the detected condition rather than its root cause.\n\n"
+  },
+  {
+    "id": "E123",
+    "path": "docs/procurement/purchasing-and-supplier-control.md",
+    "heading": "Substitutions",
+    "start_line": 170,
+    "end_line": 190,
+    "section_sha256": "bc91b3191ea09dae668f9666309921b585be14e8bb4eb474c125843124abcc02",
+    "section_text": "## Substitutions\n\nA proposed substitute is reviewed for:\n\n- duty and performance;\n- dimensions and connections;\n- electrical characteristics;\n- refrigerant or medium compatibility;\n- controls and communications;\n- compliance and certification;\n- installation method;\n- maintenance and spare parts;\n- warranty;\n- customer specification;\n- programme; and\n- price and margin.\n\nTechnical approval, customer approval and commercial approval remain separate where each applies.\n\nA supplier cannot approve equivalence on Frostline's behalf.\n\n"
+  },
+  {
+    "id": "E124",
+    "path": "docs/manufacturers/manufacturer-relationships.md",
+    "heading": "Spare parts and supersession",
+    "start_line": 309,
+    "end_line": 325,
+    "section_sha256": "007e0a225557b80fb75c6daa58dc89da06b153754cb12c4ba5194eb82c57e766",
+    "section_text": "## Spare parts and supersession\n\nManufacturer support is judged partly by:\n\n- accuracy of parts identification;\n- stock availability;\n- lead time;\n- distribution network;\n- technical documentation;\n- supersession information;\n- compatibility evidence; and\n- support for older products.\n\nA superseded part is not assumed equivalent solely because it replaces an old number in a catalogue. Frostline confirms any required wiring, controls, mounting, firmware or commissioning change.\n\nA low equipment purchase price can be outweighed by poor parts availability over the asset life.\n\n"
+  },
+  {
+    "id": "E125",
+    "path": "docs/procurement/purchasing-and-supplier-control.md",
+    "heading": "Approved, conditional and restricted suppliers",
+    "start_line": 68,
+    "end_line": 82,
+    "section_sha256": "638bf4c1760025fab4865db8503c19d67fdb465257024d351d4f5109282e6e50",
+    "section_text": "## Approved, conditional and restricted suppliers\n\nApproved status is scoped. A supplier may be suitable for standard consumables but not specialist controls, refrigerants, safety-critical equipment or subcontract labour.\n\nA supplier may be:\n\n- approved;\n- approved with category or value restrictions;\n- approved only for emergency use;\n- under performance review;\n- suspended; or\n- prohibited.\n\nUse outside the normal approval scope requires explicit authority and recorded rationale.\n\n"
+  },
+  {
+    "id": "E126",
+    "path": "docs/dispatch/resource-planning-and-scheduling.md",
+    "heading": "Parts and materials readiness",
+    "start_line": 134,
+    "end_line": 150,
+    "section_sha256": "d5a4c583c483f25e41674059fb535ecc85f6c6cdfce0410caa3ce05e1f4ad80a",
+    "section_text": "## Parts and materials readiness\n\nA part being requested, quoted, ordered, acknowledged, dispatched, delivered and available for use are different states.\n\nWork requiring a specific item is not normally ready until Frostline knows:\n\n- exact item or approved alternative;\n- quantity and condition;\n- current location;\n- reservation or allocation;\n- expected availability date;\n- collection or delivery plan;\n- associated consumables and tools; and\n- whether return, warranty or evidence-preservation requirements apply.\n\nThe physical presence of a part does not prove that it is unallocated, technically suitable or commercially authorised for the job.\n\n"
+  },
+  {
+    "id": "E127",
+    "path": "docs/service/planned-and-reactive-service.md",
+    "heading": "Parts and return attendances",
+    "start_line": 183,
+    "end_line": 192,
+    "section_sha256": "620224eda826f36932b59b594909632af6f6698846a62ab93c43ce25ef8c3f74",
+    "section_text": "## Parts and return attendances\n\nWhere parts are required, the engineer or coordinator provides enough evidence for procurement to identify the correct item. This may include photographs, model and serial details, verified part numbers, dimensions and technical discussion with the supplier or manufacturer.\n\nA return attendance continues authorised work only where the remaining scope and commercial basis are clear. Otherwise the finding creates follow-on work requiring separate authority.\n\nA return attendance should not be booked until the necessary dependencies are understood. Having the part in the depot is not enough if lifting access, isolation, another trade, customer shutdown approval or specialist competence is also required.\n\nThe waiting state should identify the exact dependency, expected actor, owner of the chase and review date.\n\n"
+  },
+  {
+    "id": "E128",
+    "path": "docs/procurement/purchasing-and-supplier-control.md",
+    "heading": "Open purchasing exceptions",
+    "start_line": 307,
+    "end_line": 320,
+    "section_sha256": "f4478c526e709c88ad740303f61f9027287d2eefc34373a611caf176e4257dec",
+    "section_text": "## Open purchasing exceptions\n\nActive purchasing exceptions identify:\n\n- exact state;\n- work affected;\n- operational and financial impact;\n- supplier action expected;\n- Frostline owner;\n- next chase or decision date; and\n- escalation route.\n\n“Supplier issue” is not a meaningful status.\n\n"
+  },
+  {
+    "id": "E129",
+    "path": "docs/procurement/purchasing-and-supplier-control.md",
+    "heading": "Direct deliveries",
+    "start_line": 191,
+    "end_line": 205,
+    "section_sha256": "8cbe23a90cbff21522fe4619add4ba98ede066a11debd443735955f0998f07a6",
+    "section_text": "## Direct deliveries\n\nDirect delivery to an engineer, customer site or project requires:\n\n- named recipient;\n- delivery location and access;\n- expected date and time window;\n- checking responsibility;\n- proof of condition;\n- storage plan;\n- allocation reference; and\n- escalation if nobody can accept the goods.\n\nA carrier signature proves a delivery event, not necessarily correct specification, complete quantity or undamaged condition.\n\n"
+  },
+  {
+    "id": "E130",
+    "path": "docs/procurement/purchasing-and-supplier-control.md",
+    "heading": "Receipt and technical acceptance",
+    "start_line": 206,
+    "end_line": 222,
+    "section_sha256": "50f46c5696e3d311d1e409682aea894140ae53401b324bd8ee8a63450ced5990",
+    "section_text": "## Receipt and technical acceptance\n\nReceipt confirms goods arrived. Technical acceptance may require later checks, unpacking, documentation review or engineer inspection.\n\nGoods remain quarantined where they are:\n\n- damaged;\n- incorrect;\n- incomplete;\n- of uncertain provenance;\n- missing certificates;\n- electrically or mechanically suspect;\n- potentially contaminated; or\n- subject to a warranty evidence hold.\n\nQuarantined goods are not included in available stock.\n\n"
+  },
+  {
+    "id": "E131",
+    "path": "docs/warehouse/warehouse-stock-and-material-control.md",
+    "heading": "Receipt exceptions",
+    "start_line": 73,
+    "end_line": 86,
+    "section_sha256": "84d3c3f0c329eaa0960cc49ce50f4d006919c82097da1f6b443a9cb272107e30",
+    "section_text": "## Receipt exceptions\n\nWhere goods are damaged, incomplete, incorrect or undocumented, the receiver:\n\n- separates them from available stock;\n- records photographs and packaging condition where useful;\n- links the purchase order and delivery evidence;\n- notifies procurement;\n- identifies operational impact;\n- assigns the next action; and\n- preserves return deadlines.\n\nQuietly placing uncertain goods on a shelf creates false availability and weakens supplier recovery.\n\n"
+  },
+  {
+    "id": "E132",
+    "path": "docs/procurement/purchasing-and-supplier-control.md",
+    "heading": "Supplier errors and returns",
+    "start_line": 223,
+    "end_line": 238,
+    "section_sha256": "fdf3d700cdcdf718b2db8e92e4da845edd69181aed1851cd940daa9cb0099980",
+    "section_text": "## Supplier errors and returns\n\nIncorrect, damaged or surplus goods are protected from use and linked to:\n\n- original purchase order;\n- receipt evidence;\n- photographs;\n- supplier notification;\n- return authority;\n- carriage responsibility;\n- replacement requirement;\n- expected credit; and\n- next-action owner.\n\nWhere Frostline ordered incorrectly, the cause and cost remain visible rather than being reclassified as supplier failure.\n\n"
+  },
+  {
+    "id": "E133",
+    "path": "docs/procurement/purchasing-and-supplier-control.md",
+    "heading": "Invoice matching",
+    "start_line": 269,
+    "end_line": 282,
+    "section_sha256": "892e692a188f1557ad80ecd7e81d95f9a7804431551c514d6f40ca90635379ff",
+    "section_text": "## Invoice matching\n\nSupplier invoices are matched to:\n\n- approved purchase commitment;\n- supplier acknowledgement;\n- receipt or service evidence;\n- price and quantity;\n- carriage and extras;\n- returns and credits; and\n- job, project, stock or overhead allocation.\n\nA valid undisputed amount should not be delayed merely because another line is under review. Disputed and undisputed treatment is separated where practical.\n\n"
+  },
+  {
+    "id": "E134",
+    "path": "docs/finance/invoicing-cost-control-and-credit.md",
+    "heading": "Supplier invoices",
+    "start_line": 259,
+    "end_line": 276,
+    "section_sha256": "d3c5489031a91ec65b1275cf4297c07d3b6a7b9a51314c62aa9cbcdffcbbc1ee",
+    "section_text": "## Supplier invoices\n\nPurchase invoices are matched where practical to:\n\n- approved supplier order;\n- goods or service receipt;\n- job, project, stock or overhead destination;\n- agreed price and quantity;\n- delivery and carriage;\n- returns or shortages; and\n- applicable VAT treatment.\n\nDifferences may arise from carriage, restocking, substitutions, partial deliveries, price changes or consolidated supplier billing.\n\nMaterials bought locally during urgent work may arrive through card receipts or engineer expenses rather than the normal purchase-order route. These still need evidence, authority and attribution to the correct job or overhead category.\n\nWhere an invoice cannot be matched, the exception identifies the disputed element, operational owner, supplier action and payment decision. Finance should not guess technical equivalence or receipt from a vague description.\n\n"
+  },
+  {
+    "id": "E135",
+    "path": "docs/finance/invoicing-cost-control-and-credit.md",
+    "heading": "Accruals and uninvoiced cost",
+    "start_line": 277,
+    "end_line": 291,
+    "section_sha256": "5bc8a7fda8b0cd54ce94bb95c36a7823931eb0b9ffbb0102a98a26aca2acf9e5",
+    "section_text": "## Accruals and uninvoiced cost\n\nWork may consume goods or services before the supplier invoice arrives. Material uninvoiced cost is accrued or forecast so project and period performance are not overstated.\n\nSources include:\n\n- supplier goods received but not invoiced;\n- subcontract attendance completed;\n- access or hire still running;\n- estimated utility or disposal charges;\n- engineer expenses not yet submitted; and\n- warranty replacements expected to become chargeable if recovery fails.\n\nAccruals are reviewed and released when actual invoices, credits or final decisions arrive.\n\n"
+  },
+  {
+    "id": "E136",
+    "path": "docs/warehouse/warehouse-stock-and-material-control.md",
+    "heading": "Available, reserved and quarantined states",
+    "start_line": 95,
+    "end_line": 110,
+    "section_sha256": "86690037ca4bdb3d6eebd8497e61daa481a4c055e2c0b4a82186e517a82a7c81",
+    "section_text": "## Available, reserved and quarantined states\n\nFrostline distinguishes:\n\n- **available** — suitable and uncommitted for authorised issue;\n- **reserved** — committed to a named job, project, customer or purpose;\n- **picked** — removed from normal storage for imminent issue;\n- **issued** — custody transferred to an engineer, van, site or project;\n- **quarantined** — not permitted for use pending decision;\n- **return pending** — controlled for supplier or manufacturer return;\n- **evidence hold** — preserved for technical, warranty, insurance or dispute reasons;\n- **obsolete** — no longer suitable for normal use; and\n- **disposed** — removed under authorised disposal control.\n\nOne generic “in stock” status is insufficient.\n\n"
+  },
+  {
+    "id": "E137",
+    "path": "docs/warehouse/warehouse-stock-and-material-control.md",
+    "heading": "Customer-owned and consignment stock",
+    "start_line": 187,
+    "end_line": 202,
+    "section_sha256": "571cd02ea7c80d80a4ece6839e72d27c7993a5d778948caeb32b9d4ccd370d13",
+    "section_text": "## Customer-owned and consignment stock\n\nCustomer-owned, consignment or manufacturer-loaned goods remain distinct from Frostline-owned inventory.\n\nRecords identify:\n\n- owner;\n- agreement or purpose;\n- custody location;\n- permitted use;\n- insurance or loss position;\n- replenishment responsibility; and\n- return conditions.\n\nPhysical possession does not transfer ownership.\n\n"
+  },
+  {
+    "id": "E138",
+    "path": "docs/dispatch/resource-planning-and-scheduling.md",
+    "heading": "Van stock and distributed inventory",
+    "start_line": 151,
+    "end_line": 163,
+    "section_sha256": "986c053273a1276242e55db3f11733a25781a745876acc9cee853cfd25630607",
+    "section_text": "## Van stock and distributed inventory\n\nVan stock can support first-time completion but remains part of controlled inventory. Planning may consider:\n\n- which engineer carries likely items;\n- whether recorded stock is physically credible;\n- whether an item is reserved or already consumed;\n- transfer time between engineers;\n- replenishment consequences; and\n- whether using scarce stock would disadvantage a higher-priority need.\n\nInformal promises such as “Dave has one somewhere” are treated as unconfirmed until verified.\n\n"
+  },
+  {
+    "id": "E139",
+    "path": "docs/warehouse/warehouse-stock-and-material-control.md",
+    "heading": "Van stock",
+    "start_line": 203,
+    "end_line": 212,
+    "section_sha256": "b0b22797fc2ec16c2b1a46526897cc1268a970796a46c907a227bdb5f4c5c6f1",
+    "section_text": "## Van stock\n\nVan stock is distributed inventory, not personal property or invisible contingency.\n\nProfiles reflect engineer role, geography, common work and vehicle capacity. Replenishment considers actual use, criticality and scarcity.\n\nTransfers between vans record the item, quantity, source, destination and job where relevant. Informal transfers without records undermine both stock availability and job cost.\n\nEngineers should not hoard scarce parts because they may be useful later.\n\n"
+  },
+  {
+    "id": "E140",
+    "path": "docs/warehouse/warehouse-stock-and-material-control.md",
+    "heading": "Picking and issue",
+    "start_line": 129,
+    "end_line": 146,
+    "section_sha256": "6fbbca496fc2edbb966df022c227d3af69844f8a6072a8707fdacab532b2d93d",
+    "section_text": "## Picking and issue\n\nPicking confirms that the intended item, quantity and condition have been selected for the correct work.\n\nIssue records may include:\n\n- job or project;\n- engineer or recipient;\n- van or site destination;\n- item and quantity;\n- serial or batch where relevant;\n- date and time;\n- source location;\n- whether the issue is chargeable, included, warranty-related or temporary; and\n- required return of unused or failed material.\n\nPhysical custody and financial allocation are related but not identical. A part can be issued before its final warranty or customer-charge treatment is known.\n\n"
+  },
+  {
+    "id": "E141",
+    "path": "docs/warehouse/warehouse-stock-and-material-control.md",
+    "heading": "Reservation and allocation",
+    "start_line": 111,
+    "end_line": 128,
+    "section_sha256": "14d3870c73394b6f311ff7d733bd0fe672c7dc3a075912c018f720cdca4b496a",
+    "section_text": "## Reservation and allocation\n\nA reservation identifies:\n\n- item and quantity;\n- intended job, project, contract or customer;\n- requester;\n- accountable work owner;\n- required date;\n- reservation date;\n- review or expiry date;\n- substitution permission; and\n- consequence if reallocated.\n\nReserved stock is not reassigned merely because another job is urgent. Reallocation requires review of both commitments and notification to the displaced owner.\n\nLong-standing reservations are reviewed so cancelled, delayed or superseded work does not lock useful inventory indefinitely.\n\n"
+  },
+  {
+    "id": "E142",
+    "path": "docs/procurement/purchasing-and-supplier-control.md",
+    "heading": "Lead times and expediting",
+    "start_line": 162,
+    "end_line": 169,
+    "section_sha256": "57dad9565be1a1c1ab7638cc31205555c1aec1966b5dd224c34384a947aa2107",
+    "section_text": "## Lead times and expediting\n\nLead time may mean time to manufacture, dispatch or deliver. Procurement records which event the supplier has promised and the confidence of that promise.\n\nExpediting checks the actual dependency, such as production allocation, inbound shipment, test completion, dispatch booking or courier movement.\n\nWhere a date changes, the work owner is informed with impact, confidence and available alternatives rather than only “delayed”.\n\n"
+  },
+  {
+    "id": "E143",
+    "path": "docs/governance/canonical-terminology-and-record-relationships.md",
+    "heading": "Responsible party",
+    "start_line": 273,
+    "end_line": 276,
+    "section_sha256": "084cce8f92fb272586d6e5ed340e8c937e5aedeb721ebfdcb7b7f5fd780a2bf7",
+    "section_text": "### Responsible party\n\nThe party contractually or operationally expected to bear an obligation or cost. Responsibility may remain disputed until evidence is reviewed.\n\n"
+  },
+  {
+    "id": "E144",
+    "path": "docs/operations/exceptions-handoffs-and-next-action-control.md",
+    "heading": "Cancellation and abandonment",
+    "start_line": 201,
+    "end_line": 206,
+    "section_sha256": "bdb9e25460bd98942632a32e20ea0f3521f3e9d2a68f152f42e8e9d3aa5afa26",
+    "section_text": "## Cancellation and abandonment\n\nWork may be cancelled by the customer, Frostline or another authorised party. Cancellation should record commercial consequences, materials already committed, site condition, outstanding safety issues and whether any records or recommendations remain active.\n\nFrostline may close an item as no longer pursued only after making the reason explicit. “No response” should state what contact attempts were made, what warning was given and whether the underlying risk was transferred back to the customer.\n\n"
+  },
+  {
+    "id": "E145",
+    "path": "docs/procurement/purchasing-and-supplier-control.md",
+    "heading": "Cancellation and surplus commitments",
+    "start_line": 255,
+    "end_line": 268,
+    "section_sha256": "c518dda005e0dde577c955bb16c4eb94a0fc93ddb829fd836c5bc5c1f988cb4c",
+    "section_text": "## Cancellation and surplus commitments\n\nWhen work changes or is cancelled, procurement reviews:\n\n- whether the supplier order can be cancelled;\n- cancellation or restocking cost;\n- ownership of made-to-order goods;\n- alternative use;\n- customer recovery entitlement;\n- storage and obsolescence risk; and\n- financial provision required.\n\nThe operational job may be cancelled while the purchasing exposure remains active.\n\n"
+  },
+  {
+    "id": "E146",
+    "path": "docs/warehouse/warehouse-stock-and-material-control.md",
+    "heading": "Returns from engineers and sites",
+    "start_line": 147,
+    "end_line": 166,
+    "section_sha256": "83cdc3f5f87abd8e28f55757b72ef870bc7d3bccc1019f11284522332f64c9a5",
+    "section_text": "## Returns from engineers and sites\n\nReturned items are assessed before re-entry to available stock.\n\nThe assessment considers whether the item is:\n\n- unused and sealed;\n- opened but complete;\n- damaged;\n- contaminated;\n- electrically or mechanically suspect;\n- missing accessories;\n- customer-owned;\n- removed from service;\n- subject to supplier return;\n- warranty evidence; or\n- suitable only for disposal.\n\nA returned item is not automatically reusable merely because it looks intact.\n\n"
+  },
+  {
+    "id": "E147",
+    "path": "docs/finance/invoicing-cost-control-and-credit.md",
+    "heading": "Credit approval and exposure",
+    "start_line": 54,
+    "end_line": 71,
+    "section_sha256": "79181c25350c61588bf3595c277092164c0955a74c765dcf3e94081adaaf934f",
+    "section_text": "## Credit approval and exposure\n\nNew customers and material increases in exposure may require credit checks, deposits, pro-forma payment or director approval.\n\nCredit exposure includes more than issued invoices. Frostline considers:\n\n- overdue and not-yet-due debt;\n- uninvoiced completed work;\n- work in progress;\n- committed materials and subcontract cost;\n- accepted but not yet started work;\n- retention;\n- disputed value;\n- pending credits; and\n- obligations that cannot readily be cancelled.\n\nA customer can appear within its credit limit while Frostline has substantial unbilled commitment. Significant release decisions therefore use current and forecast exposure, not ledger balance alone.\n\n"
+  },
+  {
+    "id": "E148",
+    "path": "docs/warehouse/warehouse-stock-and-material-control.md",
+    "heading": "Obsolete and slow-moving stock",
+    "start_line": 318,
+    "end_line": 335,
+    "section_sha256": "3fc7aaef01abf9c677771933978b98634e3c3438dad9c68caf4363379324a351",
+    "section_text": "## Obsolete and slow-moving stock\n\nStock may become obsolete because of:\n\n- equipment-range change;\n- part supersession;\n- refrigerant transition;\n- shelf-life expiry;\n- damage or contamination;\n- lost customer base;\n- changed regulation;\n- unsupported controls platform; or\n- project cancellation.\n\nReview considers return, redeployment, sale, component recovery where safe, controlled retention, write-down or disposal.\n\nPast purchase cost is not evidence of current value.\n\n"
+  },
+  {
+    "id": "E149",
+    "path": "docs/warehouse/warehouse-stock-and-material-control.md",
+    "heading": "Write-offs and disposal",
+    "start_line": 342,
+    "end_line": 347,
+    "section_sha256": "848aa0b8c0fbb427db2f9f7f0741a0785ac190670420e4345b7dd01f83ad5440",
+    "section_text": "## Write-offs and disposal\n\nStock write-off requires evidence of item, quantity, reason, value, authority and disposal route.\n\nTechnical disposal, environmental disposal and financial write-off may require separate actions. Marking an item as obsolete does not physically or financially dispose of it.\n\n"
+  },
+  {
+    "id": "E150",
+    "path": "docs/warranty/warranty-responsibility-and-remedial-work.md",
+    "heading": "Core principle",
+    "start_line": 11,
+    "end_line": 25,
+    "section_sha256": "acfa42ac301ffebc97067714d8fcd0c5658cd535de7669ce3959d151fb493949",
+    "section_text": "## Core principle\n\nA report that recently supplied or worked-on equipment has failed creates a **suspected warranty case**, not an automatic conclusion that Frostline must absorb every resulting cost.\n\nThe business must distinguish:\n\n1. whether a defect or failure exists;\n2. the verified or likely cause;\n3. whether immediate action is needed to make safe or restore service;\n4. which party is contractually responsible;\n5. which costs are recoverable and from whom; and\n6. what evidence is needed to close the case.\n\nCustomer care may justify rapid attendance before responsibility is known. That service decision must remain visible rather than silently becoming an admission of liability.\n\n"
+  },
+  {
+    "id": "E151",
+    "path": "docs/warranty/warranty-responsibility-and-remedial-work.md",
+    "heading": "Warranty records",
+    "start_line": 46,
+    "end_line": 62,
+    "section_sha256": "2d179cdf5b7bb662ef2782ef43f63e7773b244beefac230a66872766cd4a13d5",
+    "section_text": "## Warranty records\n\nFrostline retains distinct but linked records for:\n\n- the original quotation, contract or project;\n- the installed or serviced asset;\n- commissioning and completion evidence;\n- the customer's defect report;\n- the suspected warranty case;\n- each diagnostic or remedial job;\n- manufacturer or supplier claim references;\n- costs incurred and recoveries received;\n- technical conclusions; and\n- final responsibility decision.\n\nA remedial job can be operationally complete while the warranty case remains financially unresolved.\n\n"
+  },
+  {
+    "id": "E152",
+    "path": "docs/warranty/warranty-responsibility-and-remedial-work.md",
+    "heading": "Cost control",
+    "start_line": 225,
+    "end_line": 243,
+    "section_sha256": "d01cb998eb8470fe05ee3ce9f7833fb7a0f9f347fc28bdfd257551b6134d3c08",
+    "section_text": "## Cost control\n\nWarranty cost includes all directly attributable value, including:\n\n- engineer and management time;\n- travel;\n- replacement parts and freight;\n- refrigerant and consumables;\n- access equipment;\n- subcontractors;\n- temporary equipment;\n- disposal and return charges;\n- credits issued; and\n- unrecovered manufacturer or supplier claims.\n\nCosts are recorded even where Frostline deliberately absorbs them. Zero-price customer work is not zero-cost work.\n\nRecoveries are recorded separately from costs so that gross exposure, recovery performance and final net cost remain visible.\n\n"
+  },
+  {
+    "id": "E153",
+    "path": "docs/manufacturers/manufacturer-relationships.md",
+    "heading": "Labour and warranty recovery",
+    "start_line": 230,
+    "end_line": 246,
+    "section_sha256": "1a7e612903dc77403816f48522c5475a774684a45b2225478240f5c02b34fa5f",
+    "section_text": "## Labour and warranty recovery\n\nManufacturer warranty may cover replacement parts without covering all Frostline labour, travel, access equipment, refrigerant, freight or consequential work. The customer contract and manufacturer terms determine how cost is treated.\n\nFrostline records separately:\n\n- gross cost incurred;\n- customer charge;\n- manufacturer claim value;\n- supplier or distributor credit;\n- subcontract recovery;\n- goodwill contribution;\n- amount received; and\n- final unrecovered cost.\n\nA promised replacement or credit is not treated as recovered value until confirmed and processed.\n\n"
+  },
+  {
+    "id": "E154",
+    "path": "docs/warehouse/warehouse-stock-and-material-control.md",
+    "heading": "Warranty and evidence custody",
+    "start_line": 167,
+    "end_line": 186,
+    "section_sha256": "eafe64c65d6b7fcbb687abbea4ebe689aebd11c06a2387d376d120c5fd7b3322",
+    "section_text": "## Warranty and evidence custody\n\nRemoved components linked to suspected warranty, product failure, insurance or technical investigation are controlled through chain of custody.\n\nThe record should identify:\n\n- source customer, site, system and asset;\n- related job and warranty case;\n- date removed;\n- engineer;\n- reported and observed failure;\n- photographs or test references;\n- condition and packaging;\n- storage location;\n- return or inspection deadline;\n- manufacturer or supplier reference; and\n- person owning the next action.\n\nEvidence items are not stripped for parts, scrapped or mixed with general returns until authorised.\n\n"
+  },
+  {
+    "id": "E155",
+    "path": "docs/risk/insurance-claims-and-business-risk.md",
+    "heading": "Evidence preservation",
+    "start_line": 53,
+    "end_line": 58,
+    "section_sha256": "d573a6770d47eb1d39d467d9334d30947616deb02f100430b47fff76c8c21270",
+    "section_text": "## Evidence preservation\n\nUseful evidence may include photographs, damaged components, engineer notes, witness details, risk assessments, permits, test results, communications and equipment history.\n\nFailed parts should not be discarded or returned to a supplier before responsibility for evidence has been considered. Where a warranty case and an insurance claim may involve the same incident, evidence requirements from [Warranty responsibility and remedial work](../warranty/warranty-responsibility-and-remedial-work.md) and insurance notification timescales must both be satisfied.\n\n"
+  },
+  {
+    "id": "E156",
+    "path": "docs/manufacturers/manufacturer-relationships.md",
+    "heading": "Returns and RMAs",
+    "start_line": 247,
+    "end_line": 254,
+    "section_sha256": "286417dc3c3b55053893620253eb32c445eb3cd1c4b99b493003dff9caadd483",
+    "section_text": "## Returns and RMAs\n\nReturned-material-authorisation processes may require a reference, packaging, failure description and return within a defined period. Credit can be refused where parts are damaged, incomplete, contaminated, lost or returned without approval.\n\nRemoved components are labelled with the related customer, site, asset, job and claim. Custody and disposal state remain visible until the return, investigation or authorised disposal is complete.\n\nReturned evidence must not be mixed with scrap merely because the remedial attendance has finished.\n\n"
+  },
+  {
+    "id": "E157",
+    "path": "docs/warranty/warranty-responsibility-and-remedial-work.md",
+    "heading": "Closure criteria",
+    "start_line": 270,
+    "end_line": 285,
+    "section_sha256": "b6b7740628f50de76cd6c02ed6a32e667e40e1a65d8e18d05d94c1f359dc9faa",
+    "section_text": "## Closure criteria\n\nA warranty case closes only when:\n\n- immediate safety and operational actions are complete;\n- the affected job or project records are linked;\n- technical findings are recorded at an appropriate level of confidence;\n- responsibility has been decided or the unresolved position explicitly accepted;\n- customer communication is complete;\n- remedial work is tested;\n- supplier, manufacturer or subcontract recoveries are resolved or written off under authority;\n- customer charges, credits or goodwill decisions are completed; and\n- learning actions have owners where required.\n\nClosing the remedial job is not sufficient if the recovery, dispute or root-cause action remains ownerless.\n\n"
+  },
+  {
+    "id": "E158",
+    "path": "docs/warranty/warranty-responsibility-and-remedial-work.md",
+    "heading": "Customer communication",
+    "start_line": 244,
+    "end_line": 258,
+    "section_sha256": "b4d02c9f12eb41617b601b8a03d6ee6175d4305e22fea0a5a7e7296c13bfe711",
+    "section_text": "## Customer communication\n\nCustomers receive clear updates covering:\n\n- current operational condition;\n- immediate safety position;\n- tests or remedial work completed;\n- temporary limitations;\n- what remains uncertain;\n- next action and owner;\n- expected response or review point; and\n- current commercial position where known.\n\nTechnical uncertainty is expressed honestly. Frostline does not imply confirmed manufacturer acceptance before a claim is approved.\n\n"
+  },
+  {
+    "id": "E159",
+    "path": "docs/manufacturers/manufacturer-relationships.md",
+    "heading": "Claim authority",
+    "start_line": 197,
+    "end_line": 212,
+    "section_sha256": "cec31adac3595697ff734f7b5c7c78e7338abb62a2899cda46406ab321f3677f",
+    "section_text": "## Claim authority\n\nA manufacturer may require prior approval before parts are changed, removed or returned. Frostline records whether approval covers:\n\n- diagnosis only;\n- replacement part supply;\n- field labour;\n- travel;\n- refrigerant or consumables;\n- access equipment;\n- return carriage;\n- specialist attendance; or\n- a maximum authorised value.\n\nA claim number alone is not proof that every cost is recoverable. Work outside the stated authorisation requires separate Frostline and customer decisions.\n\n"
+  },
+  {
+    "id": "E160",
+    "path": "docs/warranty/warranty-responsibility-and-remedial-work.md",
+    "heading": "Customer-chargeable outcomes",
+    "start_line": 184,
+    "end_line": 202,
+    "section_sha256": "758d256414241e88c4ce322ebd7ae3ecb3ea7dcbd8754584d1b5e0af628cb1cc",
+    "section_text": "## Customer-chargeable outcomes\n\nAn attendance may become customer chargeable where evidence supports causes such as:\n\n- no defect in Frostline-supplied work;\n- customer misuse or unauthorised alteration;\n- missed required maintenance;\n- external power, controls, water, drainage or environmental conditions;\n- consumable replacement;\n- accidental damage;\n- work outside warranty scope or period; or\n- unrelated failure.\n\nThe decision to convert a warranty investigation to a customer charge requires three inputs: the engineer's technical conclusion (evidence that the cause is not a Frostline or supplier defect), an operational or account manager's confirmation that the customer should be informed and invoiced, and finance's agreement that the commercial basis and evidence are sufficient to raise the charge. No single role completes this decision alone.\n\nChargeability is communicated with evidence and reference to applicable terms. Frostline avoids surprising the customer with an unexplained invoice after repeatedly calling the case “warranty”.\n\nWhere the commercial position is sensitive, account management may choose a goodwill contribution. Goodwill is an explicit business decision and does not rewrite technical responsibility.\n\n"
+  },
+  {
+    "id": "E161",
+    "path": "docs/governance/decision-rights-and-operational-authority.md",
+    "heading": "Warranty decisions",
+    "start_line": 82,
+    "end_line": 93,
+    "section_sha256": "3f13bf4718c17424a74acf491232f081d97ccfe71ef62e56ecf1bccec669258d",
+    "section_text": "### Warranty decisions\n\nWarranty treatment requires a separate conclusion about:\n\n- whether a defect exists;\n- whether it falls within Frostline workmanship responsibility, manufacturer warranty, subcontract responsibility or customer charge;\n- whether exclusions apply;\n- who authorises remedial attendance; and\n- who ultimately bears the cost.\n\nCalling work “warranty” before responsibility is established can conceal cost and weaken recovery from the correct party.\n\n"
+  },
+  {
+    "id": "E162",
+    "path": "docs/finance/invoicing-cost-control-and-credit.md",
+    "heading": "Disputes",
+    "start_line": 395,
+    "end_line": 415,
+    "section_sha256": "2dfd5ba7948370486b979bc30db6188d76dafbc59ddf37b8cff936c4463683ab",
+    "section_text": "## Disputes\n\nInvoice disputes often require input from engineers, coordinators, estimators, project managers or account owners. Finance records the disputed amount and reason but does not invent the operational answer.\n\nA useful dispute record includes:\n\n- invoice and disputed line or amount;\n- customer's stated reason;\n- accepted scope and authority;\n- delivery evidence;\n- chronology;\n- relevant correspondence;\n- Frostline technical and commercial position;\n- owner of the response;\n- next action and due date; and\n- proposed outcome or escalation.\n\nResolution may involve additional evidence, correction of administrative details, commercial negotiation, partial credit, variation agreement or firm enforcement of the original charge.\n\nThe undisputed portion should remain separately visible and collectible where appropriate.\n\n"
+  },
+  {
+    "id": "E163",
+    "path": "docs/finance/invoicing-cost-control-and-credit.md",
+    "heading": "Credits, write-offs and goodwill",
+    "start_line": 313,
+    "end_line": 328,
+    "section_sha256": "830830d43c9a6f2cd9218b78a934106f3f91a05400ce08f7cae08574505853db",
+    "section_text": "## Credits, write-offs and goodwill\n\nFrostline distinguishes:\n\n- correction of an incorrect invoice;\n- contractual credit;\n- service-recovery goodwill;\n- warranty responsibility;\n- bad-debt write-off;\n- supplier credit; and\n- accounting adjustment.\n\nA customer credit note changes the financial record but does not delete the original operational history or technical conclusion.\n\nMaterial credits and write-offs require a recorded reason and delegated approval. Goodwill is a commercial decision; it must not be used to disguise recurring delivery defects or rewrite responsibility.\n\n"
+  },
+  {
+    "id": "E164",
+    "path": "docs/manufacturers/manufacturer-relationships.md",
+    "heading": "Product recalls and safety notices",
+    "start_line": 272,
+    "end_line": 290,
+    "section_sha256": "3c833d589b64a65385026377f196d67c5f494bc136100d84ec5bd2389db987d2",
+    "section_text": "## Product recalls and safety notices\n\nManufacturers may issue recalls, safety notices or mandatory modifications. Frostline assesses:\n\n- authenticity and scope of the notice;\n- affected product, model and serial population;\n- customers, sites and assets potentially affected;\n- risk level and required timescale;\n- interim operating restrictions;\n- parts and labour arrangements;\n- communication responsibility;\n- access and scheduling dependencies;\n- commercial recovery; and\n- evidence of completion.\n\nUrgent safety action is prioritised even where commercial responsibility is still being resolved.\n\nA recall campaign is controlled as a portfolio of linked affected assets and actions, not a loose collection of emails.\n\n"
+  },
+  {
+    "id": "E165",
+    "path": "docs/field-engineering/site-visits-and-engineer-workflow.md",
+    "heading": "Unsafe or restricted systems",
+    "start_line": 206,
+    "end_line": 220,
+    "section_sha256": "81bc737313b2fb3e23bd7356e3c44881542b06513812c6b39dde5f9d8b7d317b",
+    "section_text": "## Unsafe or restricted systems\n\nWhere equipment cannot safely remain in normal operation, the engineer controls it within competence and authority through isolation, warning, restricted use or escalation.\n\nThe record states:\n\n- hazard;\n- control applied;\n- residual risk;\n- who was informed;\n- whether the customer accepted custody of an isolated system; and\n- next required action.\n\nCustomer objection to downtime does not authorise unsafe operation.\n\n"
+  },
+  {
+    "id": "E166",
+    "path": "docs/fleet/vans-tools-and-calibration.md",
+    "heading": "Out-of-calibration equipment",
+    "start_line": 136,
+    "end_line": 141,
+    "section_sha256": "fb695121c7ed43858f71d43faa76236ad91a7364b11322f0be43a25e1e20b5ee",
+    "section_text": "## Out-of-calibration equipment\n\nWhere an instrument is found outside acceptable tolerance, Frostline considers whether previous work or recorded results may have been affected. The response depends on the size of error, work performed and safety significance.\n\nThe instrument is removed from use until adjusted, repaired or replaced.\n\n"
+  },
+  {
+    "id": "E167",
+    "path": "docs/fleet/vans-tools-and-calibration.md",
+    "heading": "Calibration",
+    "start_line": 120,
+    "end_line": 135,
+    "section_sha256": "e84be36745286bf42e2d44c8580af4ff71af5f27fa80fa3c0e3531d70f4a3e7e",
+    "section_text": "## Calibration\n\nCalibration provides confidence that an instrument's readings are acceptably related to recognised standards. Not every tool requires formal calibration, but instruments used for safety, commissioning, compliance or technical evidence may require controlled verification.\n\nCalibration records may include:\n\n- asset and serial number;\n- calibration date;\n- result and certificate;\n- due date;\n- range or limitations;\n- repair or adjustment; and\n- assigned engineer.\n\nAn in-date label does not replace the certificate or condition check.\n\n"
+  },
+  {
+    "id": "E168",
+    "path": "docs/fleet/vans-tools-and-calibration.md",
+    "heading": "Gas analysers and specialist instruments",
+    "start_line": 142,
+    "end_line": 147,
+    "section_sha256": "20c17f8d641caecfe62db42a6c68d4479ccf3d7b61807cbd7ff87129211691b4",
+    "section_text": "## Gas analysers and specialist instruments\n\nCombustion analysers, leak detectors and similar instruments may require regular calibration, sensor replacement, charging, clean filters and controlled storage.\n\nEngineers perform pre-use checks and do not assume that formal calibration guarantees correct operation after contamination or damage.\n\n"
+  },
+  {
+    "id": "E169",
+    "path": "docs/compliance/safety-quality-and-environment.md",
+    "heading": "Quality control",
+    "start_line": 66,
+    "end_line": 73,
+    "section_sha256": "20f02acfe723ede64ae7f2882cf9747a720d18eb14e322aea920f8c60dc0f622",
+    "section_text": "## Quality control\n\nQuality means that work meets the agreed scope, technical requirements, manufacturer instructions and reasonable customer expectations.\n\nControls may include design review, material checks, supervisory visits, test results, commissioning records, photographs, peer support and post-completion review.\n\nThe level of independent checking depends on risk and complexity. A routine filter change does not need the same assurance as a large refrigerant installation or critical-system replacement.\n\n"
+  },
+  {
+    "id": "E170",
+    "path": "docs/people/training-competence-and-career-development.md",
+    "heading": "Expiring qualifications",
+    "start_line": 59,
+    "end_line": 64,
+    "section_sha256": "99b2d14a5cacfb29da2ca0f9849596346dda7d4171b91122fedb998755bfb2cc",
+    "section_text": "## Expiring qualifications\n\nRenewals are planned before expiry. The lead time should allow for course availability, assessment, resits and operational cover.\n\nAn expired qualification may prevent particular work from being assigned even where the engineer remains technically experienced. Commercial pressure does not override legal or scheme requirements.\n\n"
+  },
+  {
+    "id": "E171",
+    "path": "docs/people/training-competence-and-career-development.md",
+    "heading": "Competence records",
+    "start_line": 43,
+    "end_line": 58,
+    "section_sha256": "196d99b3bb2cd405db42410f04bcb5338fdc3e4831a1ffc66944355755aa926a",
+    "section_text": "## Competence records\n\nRecords normally include:\n\n- qualifications and certificates;\n- expiry or renewal dates;\n- manufacturer courses;\n- equipment familiarisation;\n- internal assessments;\n- supervised-work evidence;\n- restrictions or development needs;\n- toolbox talks attended; and\n- role-specific authorisations.\n\nRecords must distinguish attendance from successful assessment and current competence from historical exposure.\n\n"
+  },
+  {
+    "id": "E172",
+    "path": "docs/people/training-competence-and-career-development.md",
+    "heading": "Authorisation and restriction",
+    "start_line": 129,
+    "end_line": 134,
+    "section_sha256": "041771a14625d3ac176ddce08131d7091a7f04fa55d92bda727b4af1d006644a",
+    "section_text": "## Authorisation and restriction\n\nFrostline may authorise an employee for some tasks while restricting others. Restrictions are communicated clearly to coordinators and supervisors so unsuitable work is not assigned accidentally.\n\nEngineers are expected to recognise their own limits and request support. Escalating unfamiliar work is evidence of professional judgement, not weakness.\n\n"
+  },
+  {
+    "id": "E173",
+    "path": "docs/compliance/safety-quality-and-environment.md",
+    "heading": "Incident and near-miss management",
+    "start_line": 58,
+    "end_line": 65,
+    "section_sha256": "be0bd7d380232a26964b0c19fa4830fdf8d52e296ba9a199a44d6ec6bcd3d9fc",
+    "section_text": "## Incident and near-miss management\n\nInjuries, dangerous occurrences, environmental releases, vehicle incidents, property damage and significant near misses are reported promptly.\n\nThe immediate priority is safety and containment. Subsequent review establishes what happened, underlying causes, required notifications, corrective actions and whether similar work elsewhere is affected.\n\nThe purpose of review is learning and control, not automatic blame. Reckless conduct, concealment or deliberate breach is treated differently from an honest error in a weak system.\n\n"
+  },
+  {
+    "id": "E174",
+    "path": "docs/customer-service/complaints-escalations-and-service-recovery.md",
+    "heading": "What counts as a complaint",
+    "start_line": 9,
+    "end_line": 25,
+    "section_sha256": "9cc8cf2388acda447078f8d5e0d1e136910cb526d1deaba4b8209ce0f9c6637c",
+    "section_text": "## What counts as a complaint\n\nA complaint is any clear expression that Frostline's service, conduct, work, communication or commercial treatment was unacceptable. It does not need to use the word \"complaint\" or arrive through a formal channel.\n\nCommon subjects include:\n\n- missed or late attendance;\n- failure to provide updates;\n- repeat breakdowns;\n- disputed diagnosis or workmanship;\n- damage or cleanliness concerns;\n- engineer behaviour;\n- unexpected charges;\n- invoice discrepancies;\n- failure to meet a contractual commitment; and\n- dissatisfaction with the proposed remedy.\n\n"
+  },
+  {
+    "id": "E175",
+    "path": "docs/customer-service/complaints-escalations-and-service-recovery.md",
+    "heading": "Complaint ownership",
+    "start_line": 41,
+    "end_line": 46,
+    "section_sha256": "dcbf3e2f1e1b7038ea993b2ee6c6c78a478a2a88bf6c28f2687bbd17d363ba92",
+    "section_text": "## Complaint ownership\n\nEach complaint has a named owner responsible for coordination and communication. The owner may be a service manager, project manager, commercial manager or director depending on severity and subject.\n\nOwnership does not mean conducting every investigation personally. It means ensuring that evidence is gathered, actions are assigned and the customer is not left to chase several people.\n\n"
+  },
+  {
+    "id": "E176",
+    "path": "docs/customer-service/complaints-escalations-and-service-recovery.md",
+    "heading": "Initial response",
+    "start_line": 26,
+    "end_line": 40,
+    "section_sha256": "72f2adae62119e17bfc4c035a32fb182a195f05630a18a13eff0267255c4d1f8",
+    "section_text": "## Initial response\n\nThe first recipient should listen, acknowledge the concern and capture the facts without becoming defensive or admitting liability prematurely.\n\nImmediate questions include:\n\n- Is anyone at risk?\n- Is equipment unsafe or causing damage?\n- Is the site without a critical service?\n- Does evidence need to be preserved?\n- Is urgent attendance required?\n- Who owns the next communication?\n\nA prompt acknowledgement is valuable even when investigation will take longer.\n\n"
+  },
+  {
+    "id": "E177",
+    "path": "docs/risk/insurance-claims-and-business-risk.md",
+    "heading": "Incident response",
+    "start_line": 39,
+    "end_line": 52,
+    "section_sha256": "d0f41c03903889535a0100c86e05191649a1c380cb2747c483f960f7d76b7caf",
+    "section_text": "## Incident response\n\nFollowing an incident, priorities are:\n\n1. protect life and prevent further harm;\n2. make the site safe within competence and authority;\n3. contact emergency services or specialists where required;\n4. preserve evidence;\n5. notify management;\n6. meet regulatory or contractual reporting duties; and\n7. notify insurers or brokers within policy timescales.\n\nEmployees should not speculate about blame or promise compensation at the scene.\n\n"
+  },
+  {
+    "id": "E178",
+    "path": "docs/customer-service/complaints-escalations-and-service-recovery.md",
+    "heading": "Service recovery",
+    "start_line": 80,
+    "end_line": 96,
+    "section_sha256": "2cb696c3a0811198230e1909aee36f6c6edb1be78d6104c55fbaa6950ce6449e",
+    "section_text": "## Service recovery\n\nPossible remedies include:\n\n- explanation or apology;\n- urgent reattendance;\n- corrective work;\n- independent inspection;\n- replacement parts or equipment;\n- invoice correction;\n- credit or refund;\n- contribution toward reasonable loss;\n- revised operating guidance; and\n- termination of the relationship where trust cannot be restored.\n\nThe remedy should address the actual failure. A small credit is not an adequate substitute for unresolved unsafe workmanship, and repeated free visits may not solve a fundamentally unsuitable system.\n\n"
+  },
+  {
+    "id": "E179",
+    "path": "docs/customer-service/complaints-escalations-and-service-recovery.md",
+    "heading": "Severity and escalation",
+    "start_line": 64,
+    "end_line": 79,
+    "section_sha256": "518ba7443eb49345fdcaf4edb6d65e25975d1d6558bc565c3b841c6252aeca8d",
+    "section_text": "## Severity and escalation\n\nHigher-level escalation is appropriate where there is:\n\n- actual or potential injury;\n- gas, electrical, pressure or refrigerant safety risk;\n- significant property damage;\n- allegation of dishonesty, discrimination or serious misconduct;\n- regulatory involvement;\n- likely legal action;\n- substantial financial exposure;\n- major customer relationship risk; or\n- evidence of a repeated systemic failure.\n\nInsurers, legal advisers, manufacturers or regulators may need to be notified. Notifications should not be delayed merely to complete an internal investigation.\n\n"
+  },
+  {
+    "id": "E180",
+    "path": "docs/risk/insurance-claims-and-business-risk.md",
+    "heading": "Claims handling",
+    "start_line": 59,
+    "end_line": 64,
+    "section_sha256": "e9e29812204107c8d98c92b6a95d1c405efd2d84d0a55e853b8ce567538dd3ce",
+    "section_text": "## Claims handling\n\nClaims are coordinated through an authorised manager, with insurer, broker, legal adviser, customer and technical specialists involved as needed.\n\nFrostline remains constructive with the customer while protecting its legal and insurance position. Referral to insurers does not justify silence or indifference.\n\n"
+  },
+  {
+    "id": "E181",
+    "path": "docs/customer-service/complaints-escalations-and-service-recovery.md",
+    "heading": "Liability and goodwill",
+    "start_line": 97,
+    "end_line": 102,
+    "section_sha256": "2fa062ed1f7c09201bceb390848254e95c677c9c5d2c63cb5b126a1d67b449f2",
+    "section_text": "## Liability and goodwill\n\nA goodwill gesture may be offered without accepting legal liability. Conversely, Frostline should not avoid responsibility where evidence shows that its work caused the problem.\n\nCommercial settlements require suitable authority and a clear record of what has been agreed. Confidentiality or full-and-final-settlement terms are used only where appropriate and properly reviewed.\n\n"
+  },
+  {
+    "id": "E182",
+    "path": "docs/risk/insurance-claims-and-business-risk.md",
+    "heading": "Insurance arrangements",
+    "start_line": 27,
+    "end_line": 32,
+    "section_sha256": "d188a8556c6895a01fb51c13130835fefdeabe9d91f26c5230d362786296ebd3",
+    "section_text": "## Insurance arrangements\n\nRelevant covers may include employers' liability, public liability, products liability, professional indemnity where design responsibility exists, motor insurance, property and stock cover, tools in transit, business interruption and cyber cover.\n\nPolicy scope, exclusions, excesses, territorial limits and notification requirements are reviewed. A certificate showing a large headline limit does not prove that every activity is covered.\n\n"
+  },
+  {
+    "id": "E183",
+    "path": "docs/customer-service/complaints-escalations-and-service-recovery.md",
+    "heading": "Closure",
+    "start_line": 115,
+    "end_line": 127,
+    "section_sha256": "6b1c5f503a766ea52167f5601807b49c1ebd6a8d7ef6b92baf64b80a6b95e3be",
+    "section_text": "## Closure\n\nA complaint is closed when:\n\n- the findings have been communicated;\n- agreed corrective actions are complete or scheduled;\n- financial adjustments are authorised;\n- any safety or compliance actions are complete;\n- the customer's response is recorded; and\n- learning actions have owners.\n\nA customer does not have to agree with the outcome for the complaint to be closed, but Frostline must be able to explain the basis of its decision.\n\n"
+  },
+  {
+    "id": "E184",
+    "path": "docs/customer-service/complaints-escalations-and-service-recovery.md",
+    "heading": "Learning and prevention",
+    "start_line": 128,
+    "end_line": 132,
+    "section_sha256": "fb5eaf0089047644b11c8609202ad57aaa4b391b4a1fb1093ad34a1d5088f5c8",
+    "section_text": "## Learning and prevention\n\nComplaints are reviewed for patterns including poor handovers, weak diagnosis, inadequate notes, recurring supplier faults, unrealistic scheduling and unclear quotation wording.\n\nThe useful measure is not simply complaint count. Low recorded complaints can mean excellent service, or it can mean complaints are being hidden, discouraged or handled informally without learning."
+  },
+  {
+    "id": "E185",
+    "path": "docs/information/records-documents-and-communication.md",
+    "heading": "Access and confidentiality",
+    "start_line": 81,
+    "end_line": 88,
+    "section_sha256": "a08925beebea3150a72e94be392afd5d0517ff8b7d09d21c9562a011e245890b",
+    "section_text": "## Access and confidentiality\n\nStaff access information needed for their role. Finance, personnel, customer-security and commercially sensitive records require tighter control than routine site instructions.\n\nEngineers may need access to site contacts and asset history while mobile, but not every employee needs every customer contract, margin or personnel record.\n\nCustomer-provided information is used for the intended business purpose and shared with subcontractors only where necessary for delivery.\n\n"
+  },
+  {
+    "id": "E186",
+    "path": "docs/operations/exceptions-handoffs-and-next-action-control.md",
+    "heading": "Service coordination to engineer",
+    "start_line": 107,
+    "end_line": 112,
+    "section_sha256": "fb5a203bfccc7c2063a79a182e70d32b6801e5ce7d6e172806db8f76482c52f2",
+    "section_text": "### Service coordination to engineer\n\nThe engineer should receive the reported problem, customer priority, site and asset information, contract status, access arrangements, known hazards, previous relevant history and commercial limits.\n\nA diary entry containing only a postcode and “unit not working” is not an adequate handoff.\n\n"
+  },
+  {
+    "id": "E187",
+    "path": "docs/information/records-documents-and-communication.md",
+    "heading": "Customer-facing records",
+    "start_line": 75,
+    "end_line": 80,
+    "section_sha256": "831dbba366fc0e5f03c0522f41cdbd1b7676733793c30b646c7a4ce754a7922e",
+    "section_text": "## Customer-facing records\n\nCustomers receive information appropriate to the work and agreement. This may include quotations, visit reports, remedial recommendations, maintenance summaries, certificates, commissioning data, invoices and warranty documentation.\n\nInternal notes may contain candid diagnosis, provisional reasoning, supplier pricing or staff discussion and are not automatically customer-facing.\n\n"
+  },
+  {
+    "id": "E188",
+    "path": "docs/information/records-documents-and-communication.md",
+    "heading": "Retention and disposal",
+    "start_line": 95,
+    "end_line": 100,
+    "section_sha256": "ffa8b7da2feb1ff736787fd7f2b31c544a9eded5a05bed5e7740a5833847e334",
+    "section_text": "## Retention and disposal\n\nRetention depends on legal, contractual, warranty, tax, safety and practical service needs. Some records remain useful for the life of equipment or customer relationships; others have limited short-term value.\n\nFrostline avoids indefinite retention without reason, but disposal must not remove evidence needed for an active claim, investigation, warranty or contractual obligation.\n\n"
+  },
+  {
+    "id": "E189",
+    "path": "docs/reporting/business-metrics-and-kpis.md",
+    "heading": "First-time fix rate",
+    "start_line": 41,
+    "end_line": 46,
+    "section_sha256": "ecd9de73ca3e20e18a62f397237c2520398ad0c846d284e4a520c89add6d65f9",
+    "section_text": "### First-time fix rate\n\nThe percentage of suitable reactive issues durably restored or resolved during the first attendance without an unplanned further engineering attendance.\n\nIt excludes cases where return work was always planned, where investigation was the authorised scope, or where no safe and justified repair could reasonably be expected. Frostline does not sacrifice diagnosis quality to improve the measure.\n\n"
+  },
+  {
+    "id": "E190",
+    "path": "docs/service/planned-and-reactive-service.md",
+    "heading": "First-time fix",
+    "start_line": 167,
+    "end_line": 182,
+    "section_sha256": "b87f35a7a524b362bffe9ab02fbe9b784895696dc08be52fd4c31522e6eea085",
+    "section_text": "## First-time fix\n\nA first-time fix is desirable but not always realistic. It is more likely when:\n\n- the fault description is accurate;\n- asset information is available;\n- the engineer has the right skills;\n- common parts are held in van stock;\n- access is available;\n- the repair is within scope and competence; and\n- both customer and Frostline commercial authority exist.\n\nFor reporting, first-time fix means that the suitable reactive issue was durably restored or resolved during the first attendance without an unplanned further engineering attendance. It excludes cases where return work was always planned, where investigation was the authorised scope, or where no safe and justified repair could reasonably be expected.\n\nEngineers must not fit speculative parts merely to improve the measure.\n\n"
+  },
+  {
+    "id": "E191",
+    "path": "docs/reporting/business-metrics-and-kpis.md",
+    "heading": "Recall or callback rate",
+    "start_line": 71,
+    "end_line": 74,
+    "section_sha256": "9fab9a34e2dc8c053062145833a050299457feb8e861f3c82aea2375a83c089d",
+    "section_text": "### Recall or callback rate\n\nThe proportion of operationally completed jobs requiring a return attendance because the original work was incomplete, incorrect or failed prematurely. Planned follow-on work and unrelated new faults are excluded.\n\n"
+  },
+  {
+    "id": "E192",
+    "path": "docs/reporting/business-metrics-and-kpis.md",
+    "heading": "Mean time to respond",
+    "start_line": 47,
+    "end_line": 52,
+    "section_sha256": "5f2b141911739625e6b05c4edd5537f7557b67c297587290005204bb3db33bc8",
+    "section_text": "### Mean time to respond\n\nAverage elapsed time between the defined request point and the measured event. The metric must state which SLA event it measures — initial response and attendance are distinct events with different targets and should not be conflated in a single measure.\n\nAverages are accompanied by percentiles or breach counts because a small number of long delays can be hidden.\n\n"
+  },
+  {
+    "id": "E193",
+    "path": "docs/reporting/business-metrics-and-kpis.md",
+    "heading": "Mean time to repair",
+    "start_line": 53,
+    "end_line": 56,
+    "section_sha256": "f80583726908f76ea7f7c5f38089f4b545f698a3ffb79a91af7ba2f046c0e791",
+    "section_text": "### Mean time to repair\n\nAverage time from incident start to the measured outcome event. Restoration (return to agreed minimum service level) and resolution (completion of agreed permanent remedy) are distinct events and should be reported as separate measures. This is segmented where parts, customer approval or external dependencies materially affect elapsed time.\n\n"
+  },
+  {
+    "id": "E194",
+    "path": "docs/contracts/slas-response-and-coverage.md",
+    "heading": "Performance measurement",
+    "start_line": 264,
+    "end_line": 281,
+    "section_sha256": "8e9c9f97940cf98f2733d06677059f80ba39a8160fbe0fab1458021538aeb13f",
+    "section_text": "## Performance measurement\n\nReporting may include:\n\n- acknowledgement attainment;\n- initial-response attainment;\n- attendance attainment;\n- restoration attainment;\n- resolution attainment where applicable;\n- breaches by priority and cause;\n- clock-stop frequency and duration;\n- priority changes;\n- update compliance;\n- repeat incidents; and\n- unresolved incidents by age and dependency.\n\nEvery measure states denominator, exclusions, time basis and source event. Averages are supplemented by percentiles, breach counts and significant-case narrative.\n\n"
+  },
+  {
+    "id": "E195",
+    "path": "docs/reporting/business-metrics-and-kpis.md",
+    "heading": "Gross margin",
+    "start_line": 103,
+    "end_line": 106,
+    "section_sha256": "5337bc4caa3f49593aef9468f37fe7fe612bd0d28641cbb87a7824ad0a42adce",
+    "section_text": "### Gross margin\n\nRevenue less direct delivery cost, expressed as value and percentage. Direct-cost treatment is applied consistently across labour, materials, subcontractors and project expenses.\n\n"
+  },
+  {
+    "id": "E196",
+    "path": "docs/reporting/business-metrics-and-kpis.md",
+    "heading": "Data quality",
+    "start_line": 247,
+    "end_line": 261,
+    "section_sha256": "b39fb27c72815d985ec0fb9c1cc2ee918c724c3cb00e34eaf6b751447ca8d556",
+    "section_text": "## Data quality\n\nCommon data-quality problems include:\n\n- inconsistent job closure;\n- missing labour or materials;\n- duplicate customer or asset records;\n- inaccurate priority codes;\n- open jobs without next actions;\n- delayed invoice status;\n- changed KPI definitions; and\n- manual adjustments without explanation.\n\nPoor data is identified rather than silently converted into confident reporting.\n\n"
+  },
+  {
+    "id": "E197",
+    "path": "docs/reporting/business-metrics-and-kpis.md",
+    "heading": "Ownership and action",
+    "start_line": 262,
+    "end_line": 266,
+    "section_sha256": "365cf5f16c247d1152c21074ba3d70318f2f3c5c9bfb921f9641e37842cf1672",
+    "section_text": "## Ownership and action\n\nEach important KPI has an owner responsible for definition, review and follow-up. Ownership does not mean that one person controls every underlying cause.\n\nWhere a measure moves outside an acceptable range, the response is to understand the cause, agree action and review whether the measure itself remains useful. KPIs are decision tools, not decorative scorekeeping."
+  },
+  {
+    "id": "E198",
+    "path": "docs/sales/customer-acquisition-and-account-development.md",
+    "heading": "Qualification",
+    "start_line": 24,
+    "end_line": 39,
+    "section_sha256": "f8e17291cec37f038dbca1eb894da9d871a53a6b863559f7884e330d7daaa505",
+    "section_text": "## Qualification\n\nFrostline does not pursue every enquiry automatically. Initial qualification considers:\n\n- location and travel implications;\n- equipment and service type;\n- required accreditations or technical capability;\n- likely contract value;\n- timescale;\n- customer payment risk;\n- access and working-hour constraints;\n- whether the opportunity fits Frostline's commercial model; and\n- whether capacity exists to deliver responsibly.\n\nDeclining unsuitable work early is preferable to accepting work that cannot be delivered safely, profitably or to the expected standard.\n\n"
+  },
+  {
+    "id": "E199",
+    "path": "docs/sales/customer-acquisition-and-account-development.md",
+    "heading": "Tenders and frameworks",
+    "start_line": 82,
+    "end_line": 87,
+    "section_sha256": "546c25b65c2f642e74a0aa255a4cc20ec04a3aa2d5c3e7e1c80a11eb3fa36560",
+    "section_text": "## Tenders and frameworks\n\nFormal tenders may require policy documents, insurance evidence, accreditations, references, method statements, pricing schedules and acceptance of customer terms.\n\nFrostline reviews obligations before submission. A prestigious customer is not automatically attractive if the tender transfers unreasonable risk, imposes unworkable response commitments or requires unsustainable pricing.\n\n"
+  },
+  {
+    "id": "E200",
+    "path": "docs/quoting/estimating-and-quotation.md",
+    "heading": "Opportunity qualification",
+    "start_line": 11,
+    "end_line": 27,
+    "section_sha256": "fae435ed233af4e0abfde4d746b9b002746fc38adfef14f3c442998a3ee1a596",
+    "section_text": "## Opportunity qualification\n\nBefore investing significant estimating effort, Frostline considers:\n\n- customer fit and payment history;\n- location and delivery capacity;\n- technical competence required;\n- timescale and access constraints;\n- likelihood of award;\n- tender requirements;\n- project value and risk; and\n- whether the opportunity matches Frostline's services.\n\nSome enquiries are declined where the scope is unsuitable, information is inadequate or the requested programme cannot be responsibly supported.\n\nQualification is a decision to pursue, not a promise to quote and not customer authority to begin work. The opportunity record identifies its owner, next action, decision date and any information still required.\n\n"
+  },
+  {
+    "id": "E201",
+    "path": "docs/contracts/slas-response-and-coverage.md",
+    "heading": "Geographic coverage",
+    "start_line": 106,
+    "end_line": 121,
+    "section_sha256": "968edd31859586fa099a80bb230899a51685aac0415beba0aebf6f039a361128",
+    "section_text": "## Geographic coverage\n\nTargets reflect realistic travel, engineer distribution, site access and competence. Geographic zones may have different commitments.\n\nAttendance risk is affected by:\n\n- travel from actual engineer locations;\n- congestion and road closures;\n- parking and security;\n- rural or remote access;\n- weather;\n- specialist competence availability; and\n- whether travel occurs inside or outside normal hours.\n\nThe company avoids selling response commitments based only on depot-to-postcode distance.\n\n"
+  },
+  {
+    "id": "E202",
+    "path": "docs/sales/customer-acquisition-and-account-development.md",
+    "heading": "Sales conduct",
+    "start_line": 108,
+    "end_line": 119,
+    "section_sha256": "a9908c5cc9a3a9f32d7280249bce67d3a53d33cffad42508c01e83d40466e46f",
+    "section_text": "## Sales conduct\n\nFrostline does not:\n\n- invent urgency;\n- disparage competitors without evidence;\n- promise unavailable engineers or parts;\n- misrepresent accreditation or manufacturer status;\n- hide exclusions likely to affect the decision; or\n- use technical complexity to pressure a customer.\n\nSustainable growth depends on work that Frostline can deliver well, collect payment for and support after completion."
+  },
+  {
+    "id": "E203",
+    "path": "docs/environment/refrigerants-energy-and-environmental-performance.md",
+    "heading": "Energy performance",
+    "start_line": 39,
+    "end_line": 56,
+    "section_sha256": "67e100ff896eff952898682c341739488c6096403aa0b6412e16956b2effad61",
+    "section_text": "## Energy performance\n\nEnergy performance depends on more than nominal equipment efficiency. Actual consumption is affected by:\n\n- correct sizing;\n- building fabric and internal gains;\n- controls and set points;\n- operating hours;\n- simultaneous heating and cooling;\n- maintenance condition;\n- airflow and water flow;\n- refrigerant charge;\n- sensor accuracy;\n- user behaviour; and\n- weather.\n\nFrostline avoids claiming guaranteed savings without a credible baseline, defined assumptions and a way to measure the outcome.\n\n"
+  },
+  {
+    "id": "E204",
+    "path": "docs/environment/refrigerants-energy-and-environmental-performance.md",
+    "heading": "Controls and optimisation",
+    "start_line": 63,
+    "end_line": 68,
+    "section_sha256": "ebfb207cb503b4a97e27103c7eeae0ce889403c46e2572e000ae3121d69fc3a6",
+    "section_text": "## Controls and optimisation\n\nLow-cost improvements may include correcting schedules, dead bands, set points, sensor locations, simultaneous operation and unoccupied running.\n\nOptimisation should preserve comfort, process requirements, indoor air quality and equipment protection. Energy reduction is not achieved responsibly by disabling necessary ventilation or allowing unsafe temperatures.\n\n"
+  },
+  {
+    "id": "E205",
+    "path": "docs/risk/insurance-claims-and-business-risk.md",
+    "heading": "Contract review",
+    "start_line": 33,
+    "end_line": 38,
+    "section_sha256": "63efb0422495ad2a9e1ef6472a9e4c65fd7886023b56d09053abc33bd417f57f",
+    "section_text": "## Contract review\n\nCustomer contracts may require particular insurance limits or attempt to transfer broad liabilities to Frostline.\n\nBefore acceptance, Frostline considers whether obligations are insurable, proportionate and consistent with the quoted price. Unlimited liability, responsibility for indirect loss or acceptance of design duties can materially change the risk.\n\n"
+  },
+  {
+    "id": "E206",
+    "path": "docs/manufacturers/manufacturer-relationships.md",
+    "heading": "Approved installer programmes",
+    "start_line": 23,
+    "end_line": 39,
+    "section_sha256": "582401d321c2d7bca6968ef261408ec4484b9635744fffc730465b78a68164f6",
+    "section_text": "## Approved installer programmes\n\nSome manufacturers operate approved, accredited or partner installer schemes. Membership may require:\n\n- technical training;\n- minimum installation standards;\n- evidence of insurance and certification;\n- warranty registration performance;\n- use of approved commissioning procedures;\n- periodic assessment;\n- minimum sales or purchase levels; and\n- compliance with brand rules.\n\nProgramme status may provide extended warranty options, technical access, sales support or customer referrals. It should not be presented as independent proof that a product is suitable for every site or that every Frostline engineer is authorised on every product.\n\nProgramme conditions, renewal dates, engineer-level restrictions and consequences of lapse are retained where they affect customer commitments.\n\n"
+  },
+  {
+    "id": "E207",
+    "path": "docs/sales/customer-acquisition-and-account-development.md",
+    "heading": "Sales stages",
+    "start_line": 67,
+    "end_line": 81,
+    "section_sha256": "3999554937e5072ef8c66409bd963b1f211c0f3ef355c2474b2fcb72fd4ab3c2",
+    "section_text": "## Sales stages\n\nAn opportunity may progress through:\n\n1. identified;\n2. qualified;\n3. surveyed or investigated;\n4. solution developed;\n5. quotation or tender submitted;\n6. clarification or negotiation;\n7. won, lost, deferred or withdrawn; and\n8. handed into delivery.\n\nStages should reflect reality. A quotation sent without confirmed funding or authority is not necessarily close to award.\n\n"
+  },
+  {
+    "id": "E208",
+    "path": "docs/sales/customer-acquisition-and-account-development.md",
+    "heading": "Pricing and negotiation",
+    "start_line": 88,
+    "end_line": 93,
+    "section_sha256": "1886c6eb16fe67910e267fed0d4d5916ece19389449f90e83125b332eb16e87f",
+    "section_text": "## Pricing and negotiation\n\nNegotiation may concern price, scope, programme, payment terms, exclusions, warranties or contract duration. Reducing price without changing anything else reduces margin and risk tolerance.\n\nWhere concessions are made, Frostline seeks a corresponding change such as reduced scope, improved payment terms, a longer contract, grouped visits or customer-provided access.\n\n"
+  },
+  {
+    "id": "E209",
+    "path": "docs/governance/decision-rights-and-operational-authority.md",
+    "heading": "Commercial decisions",
+    "start_line": 64,
+    "end_line": 69,
+    "section_sha256": "072ddd807c4b9bf3dc206e1cd96b70cecfc5302db8d5b63542ed28ca6345902e",
+    "section_text": "### Commercial decisions\n\nCommercial authority determines the price, margin, contractual position and risk Frostline is willing to accept.\n\nEstimators and account managers may prepare proposals within their delegated limits. Discounts, non-standard terms, unpriced commitments, margin exceptions and significant exclusions require approval at the level set by the value and risk of the decision.\n\n"
+  },
+  {
+    "id": "E210",
+    "path": "docs/manufacturers/manufacturer-relationships.md",
+    "heading": "Advice records and authority",
+    "start_line": 112,
+    "end_line": 136,
+    "section_sha256": "5e983650526450f3812db85a420f1af216611f87cfa238a677340d15786a3aa1",
+    "section_text": "## Advice records and authority\n\nMaterial manufacturer advice is recorded with:\n\n- support case or reference;\n- person or team providing advice;\n- date and communication route;\n- evidence supplied;\n- advice received;\n- conditions or caveats;\n- tests or actions authorised;\n- parts or software identified; and\n- next action and owner.\n\nThe engineer on site remains responsible for local safety and must not follow advice they reasonably believe is unsafe or outside competence.\n\nManufacturer advice can inform a technical decision. It does not by itself:\n\n- authorise customer expenditure;\n- authorise Frostline purchasing;\n- amend a contract;\n- approve a variation;\n- admit liability; or\n- guarantee reimbursement.\n\n"
+  },
+  {
+    "id": "E211",
+    "path": "docs/manufacturers/manufacturer-relationships.md",
+    "heading": "Software and firmware",
+    "start_line": 291,
+    "end_line": 308,
+    "section_sha256": "1230c092ad11b876eaa432c7cddf469a0f3f2346361810a203d055075cc1b3dd",
+    "section_text": "## Software and firmware\n\nModern controls and connected equipment may depend on software or firmware. Updates can correct faults, add compatibility or address security concerns, but may also alter behaviour.\n\nBefore a significant update, Frostline considers:\n\n- reason and authority;\n- current and target version;\n- release notes and known issues;\n- configuration backup;\n- controls and network dependencies;\n- downtime and rollback;\n- recommissioning requirements;\n- customer or controls-contractor involvement; and\n- warranty or support implications.\n\nThe update and resulting tests are recorded. An undocumented firmware change can make future diagnosis and responsibility assessment materially harder.\n\n"
+  },
+  {
+    "id": "E212",
+    "path": "docs/technical-support/diagnostics-controls-and-technical-escalation.md",
+    "heading": "Controls and BMS interfaces",
+    "start_line": 70,
+    "end_line": 90,
+    "section_sha256": "3506db3d65ee86bcd5db2654eb0b01b65eee17ecd933a070995b8aaea8c34d80",
+    "section_text": "## Controls and BMS interfaces\n\nHVAC faults often involve the boundary between mechanical equipment, local controls and a building-management system.\n\nChecks may include:\n\n- enable signals;\n- schedules and occupancy modes;\n- set points and dead bands;\n- sensor values;\n- interlocks;\n- network communication;\n- actuator commands and feedback;\n- alarm routing;\n- overrides; and\n- responsibility boundaries.\n\nA unit that does not run may be operating correctly in response to an absent enable. Equally, a BMS alarm may be caused by a local equipment fault.\n\nFrostline avoids altering customer controls without understanding the wider sequence and obtaining appropriate authority.\n\n"
+  },
+  {
+    "id": "E213",
+    "path": "docs/governance/decision-rights-and-operational-authority.md",
+    "heading": "Technical decisions",
+    "start_line": 28,
+    "end_line": 41,
+    "section_sha256": "91f7eb4f29bbab7ea95f8b6dfb82d40aa50517d0b48107737bba9ba3c726681d",
+    "section_text": "### Technical decisions\n\nTechnical decisions establish what is known, what remains uncertain, what tests are justified and what remedy is recommended.\n\nEngineers may normally:\n\n- diagnose within their competence;\n- select routine methods and materials within an authorised scope;\n- reject an unsafe or technically unsuitable instruction;\n- recommend repair, replacement, monitoring or further investigation; and\n- request technical escalation.\n\nThey may not represent an unverified diagnosis as fact, alter a materially different system without review, or commit the customer to unapproved follow-on work.\n\n"
+  },
+  {
+    "id": "E214",
+    "path": "docs/technical-support/diagnostics-controls-and-technical-escalation.md",
+    "heading": "Temporary measures",
+    "start_line": 91,
+    "end_line": 96,
+    "section_sha256": "b6f846e1f736a34b945f68d3d3391c6f62906841c479509c20071e2370dad70c",
+    "section_text": "## Temporary measures\n\nTemporary measures may restore partial service or protect equipment while a permanent solution is arranged. Examples include controlled manual operation, temporary cooling or heating, isolation of one circuit or revised operating hours.\n\nTemporary measures require documented limits, customer understanding and a follow-up plan. An undocumented override can become a hidden permanent condition.\n\n"
+  },
+  {
+    "id": "E215",
+    "path": "docs/manufacturers/manufacturer-relationships.md",
+    "heading": "Escalation and relationship ownership",
+    "start_line": 392,
+    "end_line": 405,
+    "section_sha256": "39269dbafcff3a0299b54f595575529bdda623538694f13c15a63a73318e2999",
+    "section_text": "## Escalation and relationship ownership\n\nFrostline maintains named sales, technical, warranty and service contacts where possible. Significant unresolved issues are escalated with:\n\n- a clear question or required outcome;\n- chronology;\n- supporting evidence;\n- customer and operational impact;\n- cost exposure;\n- previous responses;\n- required decision date; and\n- Frostline owner.\n\nA friendly relationship is useful, but it is not a control. Unresolved manufacturer actions remain visible until accepted, concluded, transferred or deliberately written off under authority."
+  },
+  {
+    "id": "E216",
+    "path": "docs/governance/decision-rights-and-operational-authority.md",
+    "heading": "Verbal instructions",
+    "start_line": 129,
+    "end_line": 134,
+    "section_sha256": "b0249f211003b1091bfc0892105a470b354829c1032858187074456695fe1be6",
+    "section_text": "## Verbal instructions\n\nVerbal instructions are sometimes unavoidable, especially out of hours or during live incidents. They should identify the person giving authority, the scope authorised, any financial limit and the time of the instruction.\n\nMaterial verbal instructions are confirmed in writing as soon as practical. Where confirmation is disputed, Frostline preserves the contemporaneous record rather than rewriting history to create false certainty.\n\n"
+  },
+  {
+    "id": "E217",
+    "path": "docs/governance/decision-rights-and-operational-authority.md",
+    "heading": "Conflicts and escalation",
+    "start_line": 135,
+    "end_line": 147,
+    "section_sha256": "4d18b95ad2e125c121d2bcdd9e031548904ce94d98c3a2d88d6300593e8c79e3",
+    "section_text": "## Conflicts and escalation\n\nCommon conflicts include:\n\n- a customer demanding unsafe work;\n- an engineer recommending work beyond the authorised budget;\n- a coordinator needing to displace another contractual commitment;\n- a manager wanting work completed before a purchase order is received;\n- finance placing a customer on stop while operations considers the site critical; and\n- a manufacturer declining warranty where Frostline believes the failure is covered.\n\nThe correct response is explicit escalation, not silent assumption. Until resolved, the record should show the current constraint and the owner of the next decision.\n\n"
+  }
+]

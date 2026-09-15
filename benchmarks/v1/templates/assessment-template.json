@@ -1,0 +1,21 @@
+{
+  "run_id": "replace-with-immutable-run-id",
+  "scenario_id": "B002",
+  "scenario_version": "1.0.0",
+  "suite_version": "1.0.0",
+  "canonical_baseline": "e61e7c4199aeafb0d232f8fb1f31c1eb61ec10a2",
+  "release_fingerprint": "replace-with-release-fingerprint",
+  "observation_bundle_sha256": "replace-with-64-hex-observation-bundle-hash",
+  "evaluator": {"id": "replace-with-evaluator-id", "model": "record-model-or-human", "configuration": "record-prompt-and-tool-provenance", "date": "YYYY-MM-DD"},
+  "completed_stages": [1, 2],
+  "judgement_status": "resolved",
+  "checkpoints": [
+    {"id": "B002-C1.1", "score": 0, "observation_refs": [], "evidence_ids": [], "reason": "Copy all ten checkpoint IDs from this scenario oracle; explain actual observed business elements."}
+  ],
+  "critical_failures": [],
+  "uncertain_judgements": [],
+  "secondary_findings": [],
+  "adjudication": {"status": "independent", "original_assessment_refs": [], "decisions": []},
+  "confidence": "record-overall-confidence-with-limitations",
+  "raw_assessment_reference": "record-preserved-raw-assessor-output"
+}

@@ -1,0 +1,269 @@
+{
+  "scenario_id": "B010",
+  "version": "1.0.0",
+  "total_points": 100,
+  "criteria": [
+    {
+      "id": "B010-C1",
+      "label": "Authorised stage",
+      "points": 20,
+      "expected_outcome": "Approved procurement can progress.",
+      "evidence_ids": [
+        "E089",
+        "E090",
+        "E091"
+      ],
+      "checkpoints": [
+        {
+          "id": "B010-C1.1",
+          "points": 10,
+          "outcome": "Issue specified U-10 order within £24,000 scoped release and agreed £23,500 basis; avoid needless blanket hold of approved purchase.",
+          "evidence_ids": [
+            "E089",
+            "E090",
+            "E091"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B010-C1.2",
+          "points": 10,
+          "outcome": "Record exact specification, budget/authority, non-cancellable condition, delivery allocation and acknowledgement chase after issue.",
+          "evidence_ids": [
+            "E089",
+            "E090",
+            "E091"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B010-C2",
+      "label": "Mobilisation",
+      "points": 20,
+      "expected_outcome": "Procurement release does not release unsafe site work.",
+      "evidence_ids": [
+        "E092",
+        "E093"
+      ],
+      "checkpoints": [
+        {
+          "id": "B010-C2.1",
+          "points": 10,
+          "outcome": "Keep Monday start provisional/operationally and technically held for named enabling prerequisites.",
+          "evidence_ids": [
+            "E092",
+            "E093"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B010-C2.2",
+          "points": 10,
+          "outcome": "Do not send installation labour for dependent physical work before reviewed readiness/mobilisation authority.",
+          "evidence_ids": [
+            "E092",
+            "E093"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B010-C3",
+      "label": "Design boundaries",
+      "points": 20,
+      "expected_outcome": "Outside design ownership does not permit blind installation.",
+      "evidence_ids": [
+        "E094"
+      ],
+      "checkpoints": [
+        {
+          "id": "B010-C3.1",
+          "points": 10,
+          "outcome": "Identify consultant/customer structural design ownership and what Frostline has/has not verified.",
+          "evidence_ids": [
+            "E094"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B010-C3.2",
+          "points": 10,
+          "outcome": "Escalate unsupported structural suitability rather than infer all design responsibility transferred from drawing approval.",
+          "evidence_ids": [
+            "E094"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B010-C4",
+      "label": "Preparation",
+      "points": 20,
+      "expected_outcome": "Dependencies have accountable decision paths.",
+      "evidence_ids": [
+        "E095",
+        "E096",
+        "E009"
+      ],
+      "checkpoints": [
+        {
+          "id": "B010-C4.1",
+          "points": 10,
+          "outcome": "Assign structural/electrical customer actors and Frostline chase owner with hold-point dates.",
+          "evidence_ids": [
+            "E095",
+            "E096",
+            "E009"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B010-C4.2",
+          "points": 10,
+          "outcome": "Protect delivery/storage and resource plan from provisional dates and assess delay/non-cancellable exposure.",
+          "evidence_ids": [
+            "E095",
+            "E096",
+            "E009"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B010-C5",
+      "label": "Customer record",
+      "points": 20,
+      "expected_outcome": "The permitted stage and held stage are clear.",
+      "evidence_ids": [
+        "E097",
+        "E098",
+        "E099"
+      ],
+      "checkpoints": [
+        {
+          "id": "B010-C5.1",
+          "points": 10,
+          "outcome": "Tell customer what has been released, what prevents start and next evidence/update requirement.",
+          "evidence_ids": [
+            "E097",
+            "E098",
+            "E099"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B010-C5.2",
+          "points": 10,
+          "outcome": "Preserve release decision scope/conditions and linked customer, purchase and project references without collapsing states.",
+          "evidence_ids": [
+            "E097",
+            "E098",
+            "E099"
+          ],
+          "stage": 1
+        }
+      ]
+    }
+  ],
+  "acceptable_alternatives": [
+    {
+      "outcome": "A separately reviewed survey/preparation attendance is permissible without implying dependent installation mobilisation; purchase date may vary within supplier terms if rationale and exposure are explicit.",
+      "evidence_ids": [
+        "E009",
+        "E018",
+        "E019",
+        "E089",
+        "E090",
+        "E091",
+        "E092",
+        "E093",
+        "E094",
+        "E095",
+        "E096",
+        "E097",
+        "E098",
+        "E099",
+        "E100"
+      ]
+    }
+  ],
+  "prohibited_outcomes": [
+    {
+      "outcome": "Mobilise dependent installation on unsupported structures from customer urgency, drawing approval or procurement release.",
+      "evidence_ids": [
+        "E094",
+        "E093"
+      ],
+      "critical_failure_id": "B010-CF1"
+    },
+    {
+      "outcome": "Extend procurement beyond the specified released item/value without new authority.",
+      "evidence_ids": [
+        "E092",
+        "E100"
+      ],
+      "critical_failure_id": "B010-CF2"
+    }
+  ],
+  "critical_failures": [
+    {
+      "id": "B010-CF1",
+      "outcome": "Mobilise dependent installation on unsupported structures from customer urgency, drawing approval or procurement release.",
+      "evidence_ids": [
+        "E094",
+        "E093"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    },
+    {
+      "id": "B010-CF2",
+      "outcome": "Extend procurement beyond the specified released item/value without new authority.",
+      "evidence_ids": [
+        "E092",
+        "E100"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    }
+  ],
+  "evidence_ids": [
+    "E009",
+    "E018",
+    "E019",
+    "E089",
+    "E090",
+    "E091",
+    "E092",
+    "E093",
+    "E094",
+    "E095",
+    "E096",
+    "E097",
+    "E098",
+    "E099",
+    "E100"
+  ],
+  "uncertainty": [
+    {
+      "fact": "Structural enabling evidence, electrical readiness and shutdown approval",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Mobilisation release and achievable start date",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    }
+  ],
+  "observation_rule": "Score actual resulting state/actions and candidate-origin recorded decisions. An unexecuted recommendation cannot satisfy an action checkpoint; see protocol for decision-support-only comparisons. No credit from evaluator-written repairs or hidden mental reasoning."
+}

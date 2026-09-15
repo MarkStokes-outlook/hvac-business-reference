@@ -138,3 +138,9 @@ Each benchmark records a semantic version and repository baseline. Increment:
 Public-brand briefs carry their own version because a changed public projection may alter what an evaluated agent can observe or infer without changing the internal business model.
 
 Changes to domain documents must trigger a review of dependent benchmarks. Benchmark evidence maps and public-brand briefs are dependencies, not copied truth. The registry must show benchmarks awaiting review rather than allowing silent drift.
+
+## Application fit-for-purpose Benchmark V1
+
+[FrostLine Benchmark V1](v1/README.md) extends this initial reasoning framework into 27 implementation-neutral business scenarios evaluating whether FrostLine could correctly and safely operate through an application. It keeps canonical business truth in `docs/`, observes resulting state and consequences, credits required refusal/escalation/inaction, and separates candidate inputs from hidden evaluation material.
+
+Use the V1 [framework supplement](v1/framework-supplement.md), [administration protocol](v1/administration-protocol.md), [coverage](v1/coverage.md), [scoring](v1/scoring-policy.md) and [freeze checklist](v1/freeze-checklist.md). The suite is a frozen review candidate for labelled pilot administration until its recorded release approvals and independent calibration are complete. Legacy B001 remains historical; provide candidates only allowlist-exported V1 inputs and canonical docs, never the complete benchmark checkout.

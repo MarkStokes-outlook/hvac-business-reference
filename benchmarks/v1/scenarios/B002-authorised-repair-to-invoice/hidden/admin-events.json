@@ -1,0 +1,14 @@
+{
+  "scenario_id": "B002",
+  "events": [
+    {
+      "stage": 2,
+      "time": "Tuesday 11:10",
+      "facts": [
+        "Mae report: arrived at service location 10:05; identified A-W2; isolated within competence, replaced one specified pump, tested drainage and full relevant operating cycle successfully with no remaining defect found. Safe normal service left. Labour 45 minutes and travel 20 minutes recorded. Jo acknowledges receipt of the report.",
+        "Jo asks to add remote monitoring while Mae is there. It is not in Q-W2 and no authority for this addition is supplied."
+      ],
+      "request": "Process the repair outcome, materials/time, invoice handoff and Jo request."
+    }
+  ]
+}

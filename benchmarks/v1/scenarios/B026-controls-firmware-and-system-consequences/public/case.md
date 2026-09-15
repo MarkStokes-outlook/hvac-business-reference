@@ -1,0 +1,21 @@
+# B026 — Controls firmware advice and system consequences
+
+## Context and supplied records
+
+Isolated synthetic business episode; dates/amounts/contracts/people below are case-specific source facts, not new enduring Frostline policy.
+
+**B026-F1.** At Calder Offices, model controller K-26 on firmware 3.1 intermittently drops zone enable. Manufacturer support case M-26 recommends update to 3.4 to address this symptom, conditional on compatible gateway version and saved configuration. Advice is not a customer instruction, purchase approval or guarantee of root cause.
+
+**B026-F2.** The controller coordinates heating, cooling and required occupied ventilation for two tenants. Current manual workaround restores partial service under documented manager approval, restricted hours, customer understanding and tomorrow 10:00 review. No emergency permits permanent changes without review.
+
+**B026-F3.** Engineer Rina can collect logs and conventional control readings but is not authorised for significant firmware/BMS updates. Controls specialist Sol is available tomorrow subject to manager allocation; customer controls contractor owns gateway and network configuration. Current gateway version, release notes/known issues, backup, downtime authority and rollback/recommissioning plan are unconfirmed. Customer site contact asks Rina to install tonight and disable occupied ventilation to save energy while testing.
+
+## Missing or disputed facts
+
+- Gateway compatibility and scope of firmware fix
+- Customer/system-change and competent intervention authority
+- Backup, rollback, downtime, release notes and post-update tests
+
+## Request
+
+Assess the manufacturer firmware advice and arrange a justified intervention for the shared controls system.

@@ -1,0 +1,21 @@
+# B015 — Damaged direct delivery and supplier invoice exceptions
+
+## Context and supplied records
+
+Isolated synthetic business episode; dates/amounts/contracts/people below are case-specific source facts, not new enduring Frostline policy.
+
+**B015-F1.** Approved PO-S15: two specified units at £2,000 each excluding VAT plus agreed freight £100. Supplier acknowledged two. Carrier note signed by security says “two packages”; unloading recipient later finds one correct intact unit and one visibly crushed package containing wrong-model unit.
+
+**B015-F2.** Site engineer confirms only the intact specified unit is technically accepted. Wrong/damaged unit is separated, photographed with packaging, linked to receipt/PO. Supplier return deadline is five working days. Installation stage requires two correct units together; planned crew start tomorrow.
+
+**B015-F3.** Supplier invoice is £4,250 excluding VAT: two £2,000 lines, £100 agreed freight and £150 unagreed premium freight. Finance has evidence/authority to process genuinely undisputed correctly supplied lines under agreed terms, but no authority to approve disputed supply or extra freight.
+
+## Missing or disputed facts
+
+- Supplier return/replacement/credit decision and date
+- Authority for premium freight
+- New two-unit mobilisation readiness
+
+## Request
+
+Process the site delivery, revised readiness and supplier invoice.

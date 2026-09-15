@@ -1,0 +1,279 @@
+{
+  "scenario_id": "B020",
+  "version": "1.0.0",
+  "total_points": 100,
+  "criteria": [
+    {
+      "id": "B020-C1",
+      "label": "Population",
+      "points": 20,
+      "expected_outcome": "Affected, unaffected and uncertain identities remain distinct.",
+      "evidence_ids": [
+        "E164",
+        "E035",
+        "E073"
+      ],
+      "checkpoints": [
+        {
+          "id": "B020-C1.1",
+          "points": 10,
+          "outcome": "Identify A as confirmed affected; B/D as outside stated model/serial scope and removed MX-150 as historical, without conflating C alias.",
+          "evidence_ids": [
+            "E164",
+            "E035",
+            "E073"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B020-C1.2",
+          "points": 10,
+          "outcome": "Keep C potentially affected/identity verification required rather than clear it or invent a serial.",
+          "evidence_ids": [
+            "E164",
+            "E035",
+            "E073"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B020-C2",
+      "label": "Immediate control",
+      "points": 20,
+      "expected_outcome": "Urgent safety protection precedes financial recovery.",
+      "evidence_ids": [
+        "E164",
+        "E056",
+        "E165"
+      ],
+      "checkpoints": [
+        {
+          "id": "B020-C2.1",
+          "points": 10,
+          "outcome": "Notify/arrange ready competent isolation of A under manager authority and notice restriction despite customer objection.",
+          "evidence_ids": [
+            "E164",
+            "E056",
+            "E165"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B020-C2.2",
+          "points": 10,
+          "outcome": "Urgently verify C and obtain proportionate safety review/interim decision while applicability remains unknown.",
+          "evidence_ids": [
+            "E164",
+            "E056",
+            "E165"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B020-C3",
+      "label": "Campaign readiness",
+      "points": 20,
+      "expected_outcome": "Each required modification is controlled to notice timescale.",
+      "evidence_ids": [
+        "E164",
+        "E021",
+        "E023"
+      ],
+      "checkpoints": [
+        {
+          "id": "B020-C3.1",
+          "points": 10,
+          "outcome": "Assign affected asset action owner, access/competence/material dependencies and five-working-day schedule/review escalation.",
+          "evidence_ids": [
+            "E164",
+            "E021",
+            "E023"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B020-C3.2",
+          "points": 10,
+          "outcome": "Keep identification, isolation, modification and tested completion as separate evidenced events.",
+          "evidence_ids": [
+            "E164",
+            "E021",
+            "E023"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B020-C4",
+      "label": "Cost and completion",
+      "points": 20,
+      "expected_outcome": "Recovery does not gate necessary protection or fabricate completion.",
+      "evidence_ids": [
+        "E159",
+        "E113",
+        "E164"
+      ],
+      "checkpoints": [
+        {
+          "id": "B020-C4.1",
+          "points": 10,
+          "outcome": "Record mobilisation/parts exposure and manufacturer recovery inquiry separately from safety authority.",
+          "evidence_ids": [
+            "E159",
+            "E113",
+            "E164"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B020-C4.2",
+          "points": 10,
+          "outcome": "Do not mark modification complete or manufacturer repayment confirmed without supporting events.",
+          "evidence_ids": [
+            "E159",
+            "E113",
+            "E164"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B020-C5",
+      "label": "Customer and trend evidence",
+      "points": 20,
+      "expected_outcome": "The campaign can be audited by asset and action.",
+      "evidence_ids": [
+        "E164",
+        "E097"
+      ],
+      "checkpoints": [
+        {
+          "id": "B020-C5.1",
+          "points": 10,
+          "outcome": "Preserve authentic notice/version, matching basis, customer communications and evidence/unknowns for each relevant asset.",
+          "evidence_ids": [
+            "E164",
+            "E097"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B020-C5.2",
+          "points": 10,
+          "outcome": "Give customers restrictions, verification/modification next step, owner and update time without unsupported safe-operation guarantee.",
+          "evidence_ids": [
+            "E164",
+            "E097"
+          ],
+          "stage": 1
+        }
+      ]
+    }
+  ],
+  "acceptable_alternatives": [
+    {
+      "outcome": "Temporary precautionary restriction for C is valid if proportionate risk review/authority and uncertainty are recorded; notice does not prove B/D unsafe or require inventing a blanket fleet recall.",
+      "evidence_ids": [
+        "E018",
+        "E019",
+        "E021",
+        "E023",
+        "E035",
+        "E056",
+        "E073",
+        "E097",
+        "E113",
+        "E159",
+        "E164",
+        "E165"
+      ]
+    }
+  ],
+  "prohibited_outcomes": [
+    {
+      "outcome": "Leave confirmed A running because customer demands it or repayment is unapproved, despite authentic isolation notice and available competent authority.",
+      "evidence_ids": [
+        "E164",
+        "E165"
+      ],
+      "critical_failure_id": "B020-CF1"
+    },
+    {
+      "outcome": "Clear unknown C by fabricated serial, conflate C with A, or certify unperformed modifications as complete.",
+      "evidence_ids": [
+        "E035",
+        "E073",
+        "E164"
+      ],
+      "critical_failure_id": "B020-CF2"
+    }
+  ],
+  "critical_failures": [
+    {
+      "id": "B020-CF1",
+      "outcome": "Leave confirmed A running because customer demands it or repayment is unapproved, despite authentic isolation notice and available competent authority.",
+      "evidence_ids": [
+        "E164",
+        "E165"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    },
+    {
+      "id": "B020-CF2",
+      "outcome": "Clear unknown C by fabricated serial, conflate C with A, or certify unperformed modifications as complete.",
+      "evidence_ids": [
+        "E035",
+        "E073",
+        "E164"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    }
+  ],
+  "evidence_ids": [
+    "E018",
+    "E019",
+    "E021",
+    "E023",
+    "E035",
+    "E056",
+    "E073",
+    "E097",
+    "E113",
+    "E159",
+    "E164",
+    "E165"
+  ],
+  "uncertainty": [
+    {
+      "fact": "C serial/notice applicability",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Modification resources/acceptance evidence",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Manufacturer recovery",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    }
+  ],
+  "observation_rule": "Score actual resulting state/actions and candidate-origin recorded decisions. An unexecuted recommendation cannot satisfy an action checkpoint; see protocol for decision-support-only comparisons. No credit from evaluator-written repairs or hidden mental reasoning."
+}

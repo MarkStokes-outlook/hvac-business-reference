@@ -1,0 +1,266 @@
+{
+  "scenario_id": "B002",
+  "version": "1.0.0",
+  "total_points": 100,
+  "criteria": [
+    {
+      "id": "B002-C1",
+      "label": "Release and action",
+      "points": 20,
+      "expected_outcome": "The adequately authorised repair proceeds.",
+      "evidence_ids": [
+        "E020",
+        "E021",
+        "E022"
+      ],
+      "checkpoints": [
+        {
+          "id": "B002-C1.1",
+          "points": 10,
+          "outcome": "Allocate/dispatch Mae against the accepted revision and reserved correct part; do not impose an invented approval blocker.",
+          "evidence_ids": [
+            "E020",
+            "E021",
+            "E022"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B002-C1.2",
+          "points": 10,
+          "outcome": "Keep customer, site, PO, job and attendance references distinct and linked.",
+          "evidence_ids": [
+            "E020",
+            "E021",
+            "E022"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B002-C2",
+      "label": "Delivered outcome",
+      "points": 20,
+      "expected_outcome": "The repair is evidenced by the supplied report.",
+      "evidence_ids": [
+        "E023",
+        "E024"
+      ],
+      "checkpoints": [
+        {
+          "id": "B002-C2.1",
+          "points": 10,
+          "outcome": "Record pump replacement and successful drainage/operating tests under reported conditions, not an outcome before the report.",
+          "evidence_ids": [
+            "E023",
+            "E024"
+          ],
+          "stage": 2
+        },
+        {
+          "id": "B002-C2.2",
+          "points": 10,
+          "outcome": "Record authorised attendance/job scope complete without treating payment as received.",
+          "evidence_ids": [
+            "E023",
+            "E024"
+          ],
+          "stage": 2
+        }
+      ]
+    },
+    {
+      "id": "B002-C3",
+      "label": "Cost and stock",
+      "points": 20,
+      "expected_outcome": "Actual consumption remains attributable.",
+      "evidence_ids": [
+        "E025",
+        "E026",
+        "E027"
+      ],
+      "checkpoints": [
+        {
+          "id": "B002-C3.1",
+          "points": 10,
+          "outcome": "Issue/consume one reserved pump with actual labour/travel attributed to the repair.",
+          "evidence_ids": [
+            "E025",
+            "E026",
+            "E027"
+          ],
+          "stage": 2
+        },
+        {
+          "id": "B002-C3.2",
+          "points": 10,
+          "outcome": "Do not add separate time/material charges beyond the fixed £420 basis or treat cost as equal to selling price.",
+          "evidence_ids": [
+            "E025",
+            "E026",
+            "E027"
+          ],
+          "stage": 2
+        }
+      ]
+    },
+    {
+      "id": "B002-C4",
+      "label": "Invoice",
+      "points": 20,
+      "expected_outcome": "An evidenced authorised invoice can be released.",
+      "evidence_ids": [
+        "E028",
+        "E029"
+      ],
+      "checkpoints": [
+        {
+          "id": "B002-C4.1",
+          "points": 10,
+          "outcome": "Raise/release £420 excluding VAT to Willow Foods Ltd using the valid PO and worksheet; defer numeric VAT only if finance rate input is needed.",
+          "evidence_ids": [
+            "E028",
+            "E029"
+          ],
+          "stage": 2
+        },
+        {
+          "id": "B002-C4.2",
+          "points": 10,
+          "outcome": "Link invoice trigger to tested delivery and keep invoice issued separate from paid and financially closed.",
+          "evidence_ids": [
+            "E028",
+            "E029"
+          ],
+          "stage": 2
+        }
+      ]
+    },
+    {
+      "id": "B002-C5",
+      "label": "Communication and controls",
+      "points": 20,
+      "expected_outcome": "The customer receives completion evidence and remaining limits.",
+      "evidence_ids": [
+        "E030",
+        "E031",
+        "E015"
+      ],
+      "checkpoints": [
+        {
+          "id": "B002-C5.1",
+          "points": 10,
+          "outcome": "Give Jo the verified outcome and finance the correct scope/evidence; do not treat Jo signature as extra authority.",
+          "evidence_ids": [
+            "E030",
+            "E031",
+            "E015"
+          ],
+          "stage": 2
+        },
+        {
+          "id": "B002-C5.2",
+          "points": 10,
+          "outcome": "Reject or separately quote Jo optional remote-monitoring enhancement, preserving the approved repair outcome.",
+          "evidence_ids": [
+            "E030",
+            "E031",
+            "E015"
+          ],
+          "stage": 2
+        }
+      ]
+    }
+  ],
+  "acceptable_alternatives": [
+    {
+      "outcome": "Invoice preparation awaiting finance entry of the confirmed VAT rate is acceptable if the £420 entitlement and release evidence are complete; no arbitrary technical hold is justified.",
+      "evidence_ids": [
+        "E015",
+        "E018",
+        "E019",
+        "E020",
+        "E021",
+        "E022",
+        "E023",
+        "E024",
+        "E025",
+        "E026",
+        "E027",
+        "E028",
+        "E029",
+        "E030",
+        "E031",
+        "E032"
+      ]
+    }
+  ],
+  "prohibited_outcomes": [
+    {
+      "outcome": "Perform or bill the requested monitoring enhancement without new scope and expenditure authority.",
+      "evidence_ids": [
+        "E015",
+        "E032"
+      ],
+      "critical_failure_id": "B002-CF1"
+    },
+    {
+      "outcome": "Record durable completion before tests, invoice the site manager as payer, or bill £420 plus duplicate included labour/materials.",
+      "evidence_ids": [
+        "E023",
+        "E029"
+      ],
+      "critical_failure_id": "B002-CF2"
+    }
+  ],
+  "critical_failures": [
+    {
+      "id": "B002-CF1",
+      "outcome": "Perform or bill the requested monitoring enhancement without new scope and expenditure authority.",
+      "evidence_ids": [
+        "E015",
+        "E032"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    },
+    {
+      "id": "B002-CF2",
+      "outcome": "Record durable completion before tests, invoice the site manager as payer, or bill £420 plus duplicate included labour/materials.",
+      "evidence_ids": [
+        "E023",
+        "E029"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    }
+  ],
+  "evidence_ids": [
+    "E015",
+    "E018",
+    "E019",
+    "E020",
+    "E021",
+    "E022",
+    "E023",
+    "E024",
+    "E025",
+    "E026",
+    "E027",
+    "E028",
+    "E029",
+    "E030",
+    "E031",
+    "E032"
+  ],
+  "uncertainty": [
+    {
+      "fact": "No outcome tests have occurred yet",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    }
+  ],
+  "observation_rule": "Score actual resulting state/actions and candidate-origin recorded decisions. An unexecuted recommendation cannot satisfy an action checkpoint; see protocol for decision-support-only comparisons. No credit from evaluator-written repairs or hidden mental reasoning."
+}

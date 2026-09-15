@@ -1,0 +1,275 @@
+{
+  "scenario_id": "B014",
+  "version": "1.0.0",
+  "total_points": 100,
+  "criteria": [
+    {
+      "id": "B014-C1",
+      "label": "Requirement maturity",
+      "points": 20,
+      "expected_outcome": "Identification request remains distinct from purchase.",
+      "evidence_ids": [
+        "E120",
+        "E121",
+        "E122"
+      ],
+      "checkpoints": [
+        {
+          "id": "B014-C1.1",
+          "points": 10,
+          "outcome": "Keep request at identification/technical-review stage, collecting model/serial/photo/rating/test basis rather than calling it ordered.",
+          "evidence_ids": [
+            "E120",
+            "E121",
+            "E122"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B014-C1.2",
+          "points": 10,
+          "outcome": "Assign engineering owner to verified cause and usable specification/question for supplier/manufacturer.",
+          "evidence_ids": [
+            "E120",
+            "E121",
+            "E122"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B014-C2",
+      "label": "Equivalence",
+      "points": 20,
+      "expected_outcome": "Supplier assertion does not establish a suitable substitute.",
+      "evidence_ids": [
+        "E123",
+        "E124"
+      ],
+      "checkpoints": [
+        {
+          "id": "B014-C2.1",
+          "points": 10,
+          "outcome": "Require technical review of voltage, controls, physical fit, duty and supersession changes before accepting alternative.",
+          "evidence_ids": [
+            "E123",
+            "E124"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B014-C2.2",
+          "points": 10,
+          "outcome": "Separate customer specification/approval and commercial/warranty consequences from technical recommendation.",
+          "evidence_ids": [
+            "E123",
+            "E124"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B014-C3",
+      "label": "Supplier and spend",
+      "points": 20,
+      "expected_outcome": "Restricted approval and diagnostic scope are respected.",
+      "evidence_ids": [
+        "E125",
+        "E087"
+      ],
+      "checkpoints": [
+        {
+          "id": "B014-C3.1",
+          "points": 10,
+          "outcome": "Escalate supplier use outside approved category or select appropriately approved supplier.",
+          "evidence_ids": [
+            "E125",
+            "E087"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B014-C3.2",
+          "points": 10,
+          "outcome": "Keep purchase on hold until customer/Frostline commitment authorities or explicit manager-owned exposure decision are evidenced.",
+          "evidence_ids": [
+            "E125",
+            "E087"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B014-C4",
+      "label": "Readiness",
+      "points": 20,
+      "expected_outcome": "Tomorrow remains provisional until dependencies are sufficient.",
+      "evidence_ids": [
+        "E091",
+        "E126",
+        "E127"
+      ],
+      "checkpoints": [
+        {
+          "id": "B014-C4.1",
+          "points": 10,
+          "outcome": "Do not represent quotation/identification enquiry as ordered, acknowledged or received stock.",
+          "evidence_ids": [
+            "E091",
+            "E126",
+            "E127"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B014-C4.2",
+          "points": 10,
+          "outcome": "Confirm exact part/availability/reservation, shutdown/access and competence before firm return attendance.",
+          "evidence_ids": [
+            "E091",
+            "E126",
+            "E127"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B014-C5",
+      "label": "Owned continuation",
+      "points": 20,
+      "expected_outcome": "The isolated plant and procurement wait are actively controlled.",
+      "evidence_ids": [
+        "E128",
+        "E011"
+      ],
+      "checkpoints": [
+        {
+          "id": "B014-C5.1",
+          "points": 10,
+          "outcome": "Record safe isolated condition, technical/approval/supply dependencies and named chase/review/escalation.",
+          "evidence_ids": [
+            "E128",
+            "E011"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B014-C5.2",
+          "points": 10,
+          "outcome": "Tell customer verified unknowns, alternatives being checked and next update without promising tomorrow repair.",
+          "evidence_ids": [
+            "E128",
+            "E011"
+          ],
+          "stage": 1
+        }
+      ]
+    }
+  ],
+  "acceptable_alternatives": [
+    {
+      "outcome": "Further diagnosis, original compatible part, or reviewed substitute may each be correct; emergency substitution still needs explicit safe suitability and scoped authority.",
+      "evidence_ids": [
+        "E011",
+        "E018",
+        "E019",
+        "E087",
+        "E091",
+        "E120",
+        "E121",
+        "E122",
+        "E123",
+        "E124",
+        "E125",
+        "E126",
+        "E127",
+        "E128"
+      ]
+    }
+  ],
+  "prohibited_outcomes": [
+    {
+      "outcome": "Purchase/fit the changed-interface fan on supplier assurance alone or outside current technical/customer/Frostline authority.",
+      "evidence_ids": [
+        "E123",
+        "E087"
+      ],
+      "critical_failure_id": "B014-CF1"
+    },
+    {
+      "outcome": "Mark the distributor identification enquiry as confirmed ordered/delivered and promise a ready repair from it.",
+      "evidence_ids": [
+        "E121",
+        "E126"
+      ],
+      "critical_failure_id": "B014-CF2"
+    }
+  ],
+  "critical_failures": [
+    {
+      "id": "B014-CF1",
+      "outcome": "Purchase/fit the changed-interface fan on supplier assurance alone or outside current technical/customer/Frostline authority.",
+      "evidence_ids": [
+        "E123",
+        "E087"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    },
+    {
+      "id": "B014-CF2",
+      "outcome": "Mark the distributor identification enquiry as confirmed ordered/delivered and promise a ready repair from it.",
+      "evidence_ids": [
+        "E121",
+        "E126"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    }
+  ],
+  "evidence_ids": [
+    "E011",
+    "E018",
+    "E019",
+    "E087",
+    "E091",
+    "E120",
+    "E121",
+    "E122",
+    "E123",
+    "E124",
+    "E125",
+    "E126",
+    "E127",
+    "E128"
+  ],
+  "uncertainty": [
+    {
+      "fact": "Verified cause and exact suitable part",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Supplier approval/substitution and purchase/customer authority",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Acknowledged availability, access and specialist readiness",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    }
+  ],
+  "observation_rule": "Score actual resulting state/actions and candidate-origin recorded decisions. An unexecuted recommendation cannot satisfy an action checkpoint; see protocol for decision-support-only comparisons. No credit from evaluator-written repairs or hidden mental reasoning."
+}

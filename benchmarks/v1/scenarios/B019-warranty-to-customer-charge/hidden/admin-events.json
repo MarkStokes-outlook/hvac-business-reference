@@ -1,0 +1,14 @@
+{
+  "scenario_id": "B019",
+  "events": [
+    {
+      "stage": 2,
+      "time": "Next working day 10:00",
+      "facts": [
+        "Known authorised account manager records customer call: explained cause, evidence and accepted £350 conditional term, confirms customer should be invoiced. Customer acknowledges explanation but remains unhappy. No goodwill change was agreed.",
+        "Finance reviews accepted conditional terms, engineer evidence, correct customer legal entity/PO exception and confirmed VAT classification; records commercial evidence sufficient and authorises £350 excluding VAT invoice. Numeric VAT rate can be supplied by finance for computation."
+      ],
+      "request": "Apply the completed charge decision and preserve the remaining records."
+    }
+  ]
+}

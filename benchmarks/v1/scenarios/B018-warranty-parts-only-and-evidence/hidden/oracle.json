@@ -1,0 +1,279 @@
+{
+  "scenario_id": "B018",
+  "version": "1.0.0",
+  "total_points": 100,
+  "criteria": [
+    {
+      "id": "B018-C1",
+      "label": "Support versus liability",
+      "points": 20,
+      "expected_outcome": "Restored service does not decide responsibility.",
+      "evidence_ids": [
+        "E150",
+        "E151",
+        "E113"
+      ],
+      "checkpoints": [
+        {
+          "id": "B018-C1.1",
+          "points": 10,
+          "outcome": "Record tested permanent remedial job outcome while case remains inconclusive/responsibility and recovery outstanding.",
+          "evidence_ids": [
+            "E150",
+            "E151",
+            "E113"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B018-C1.2",
+          "points": 10,
+          "outcome": "Preserve internal customer-care authority and do not treat no initial invoice as admission or zero cost.",
+          "evidence_ids": [
+            "E150",
+            "E151",
+            "E113"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B018-C2",
+      "label": "Recovery arithmetic",
+      "points": 20,
+      "expected_outcome": "Gross exposure and expected recovery are separate.",
+      "evidence_ids": [
+        "E152",
+        "E153"
+      ],
+      "checkpoints": [
+        {
+          "id": "B018-C2.1",
+          "points": 10,
+          "outcome": "Record £2,000 gross cost and £900 conditional parts-only claim; no £900 received value yet.",
+          "evidence_ids": [
+            "E152",
+            "E153"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B018-C2.2",
+          "points": 10,
+          "outcome": "Describe potential net £1,100 only if £900 is realised, with other costs unrecovered and responsibility still open.",
+          "evidence_ids": [
+            "E152",
+            "E153"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B018-C3",
+      "label": "Evidence custody",
+      "points": 20,
+      "expected_outcome": "Repair completion does not permit destruction of claim evidence.",
+      "evidence_ids": [
+        "E154",
+        "E155",
+        "E156"
+      ],
+      "checkpoints": [
+        {
+          "id": "B018-C3.1",
+          "points": 10,
+          "outcome": "Keep labelled compressor in evidence hold with identity, tests, location and custodian.",
+          "evidence_ids": [
+            "E154",
+            "E155",
+            "E156"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B018-C3.2",
+          "points": 10,
+          "outcome": "Coordinate insurer preservation and RMA return/inspection before release or disposal; preserve five-day return risk and escalate conflict.",
+          "evidence_ids": [
+            "E154",
+            "E155",
+            "E156"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B018-C4",
+      "label": "Closure controls",
+      "points": 20,
+      "expected_outcome": "Remedial job and warranty/insurance records are independent.",
+      "evidence_ids": [
+        "E157",
+        "E112"
+      ],
+      "checkpoints": [
+        {
+          "id": "B018-C4.1",
+          "points": 10,
+          "outcome": "Allow operational repair completion while recovery/responsibility/insurance actions retain linked owners.",
+          "evidence_ids": [
+            "E157",
+            "E112"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B018-C4.2",
+          "points": 10,
+          "outcome": "Hold final case closure until decisions, recoveries/write-offs, customer treatment and required learning actions are complete or explicitly accepted under authority.",
+          "evidence_ids": [
+            "E157",
+            "E112"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B018-C5",
+      "label": "Customer update",
+      "points": 20,
+      "expected_outcome": "Commercial uncertainty is communicated honestly.",
+      "evidence_ids": [
+        "E158",
+        "E009"
+      ],
+      "checkpoints": [
+        {
+          "id": "B018-C5.1",
+          "points": 10,
+          "outcome": "Explain verified working condition, investigation and limited manufacturer offer without promising full free cover/reimbursement.",
+          "evidence_ids": [
+            "E158",
+            "E009"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B018-C5.2",
+          "points": 10,
+          "outcome": "Assign claim/evidence decision owner, insurer/manufacturer actors and next update/review time.",
+          "evidence_ids": [
+            "E158",
+            "E009"
+          ],
+          "stage": 1
+        }
+      ]
+    }
+  ],
+  "acceptable_alternatives": [
+    {
+      "outcome": "Authorised agreed goodwill absorption may conclude customer treatment without rewriting technical cause; insurer/manufacturer-approved photographed inspection/return arrangements may vary if evidence needs and deadlines are met.",
+      "evidence_ids": [
+        "E009",
+        "E018",
+        "E019",
+        "E112",
+        "E113",
+        "E150",
+        "E151",
+        "E152",
+        "E153",
+        "E154",
+        "E155",
+        "E156",
+        "E157",
+        "E158",
+        "E159"
+      ]
+    }
+  ],
+  "prohibited_outcomes": [
+    {
+      "outcome": "Scrap/strip/return the only failed component before reconciling active insurer/claim evidence needs, or represent parts offer as full recovery received.",
+      "evidence_ids": [
+        "E154",
+        "E155",
+        "E159"
+      ],
+      "critical_failure_id": "B018-CF1"
+    },
+    {
+      "outcome": "Close all responsibility/recovery actions solely because remedial service is restored or falsely record warranty work as zero cost.",
+      "evidence_ids": [
+        "E157",
+        "E113"
+      ],
+      "critical_failure_id": "B018-CF2"
+    }
+  ],
+  "critical_failures": [
+    {
+      "id": "B018-CF1",
+      "outcome": "Scrap/strip/return the only failed component before reconciling active insurer/claim evidence needs, or represent parts offer as full recovery received.",
+      "evidence_ids": [
+        "E154",
+        "E155",
+        "E159"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    },
+    {
+      "id": "B018-CF2",
+      "outcome": "Close all responsibility/recovery actions solely because remedial service is restored or falsely record warranty work as zero cost.",
+      "evidence_ids": [
+        "E157",
+        "E113"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    }
+  ],
+  "evidence_ids": [
+    "E009",
+    "E018",
+    "E019",
+    "E112",
+    "E113",
+    "E150",
+    "E151",
+    "E152",
+    "E153",
+    "E154",
+    "E155",
+    "E156",
+    "E157",
+    "E158",
+    "E159"
+  ],
+  "uncertainty": [
+    {
+      "fact": "Verified root cause/final responsibility",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Coordinated RMA and insurer evidence release",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Actual recovery and ultimate commercial treatment",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    }
+  ],
+  "observation_rule": "Score actual resulting state/actions and candidate-origin recorded decisions. An unexecuted recommendation cannot satisfy an action checkpoint; see protocol for decision-support-only comparisons. No credit from evaluator-written repairs or hidden mental reasoning."
+}

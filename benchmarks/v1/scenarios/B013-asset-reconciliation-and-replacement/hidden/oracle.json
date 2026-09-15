@@ -1,0 +1,276 @@
+{
+  "scenario_id": "B013",
+  "version": "1.0.0",
+  "total_points": 100,
+  "criteria": [
+    {
+      "id": "B013-C1",
+      "label": "Physical identity",
+      "points": 20,
+      "expected_outcome": "Verified replacement identity supersedes copied labels without erasing history.",
+      "evidence_ids": [
+        "E114",
+        "E044",
+        "E115"
+      ],
+      "checkpoints": [
+        {
+          "id": "B013-C1.1",
+          "points": 10,
+          "outcome": "Distinguish NEW-13 from retired OLD-13 despite retained tag/location.",
+          "evidence_ids": [
+            "E114",
+            "E044",
+            "E115"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B013-C1.2",
+          "points": 10,
+          "outcome": "Keep separate manufacturer serial/customer tag/internal identity and preserve replacement relationship/source evidence.",
+          "evidence_ids": [
+            "E114",
+            "E044",
+            "E115"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B013-C2",
+      "label": "Cross-tenant relationships",
+      "points": 20,
+      "expected_outcome": "Shared address does not merge separate obligations.",
+      "evidence_ids": [
+        "E073",
+        "E116",
+        "E035"
+      ],
+      "checkpoints": [
+        {
+          "id": "B013-C2.1",
+          "points": 10,
+          "outcome": "Keep Tenant A/B commercial relationships, systems and B-13 history separate.",
+          "evidence_ids": [
+            "E073",
+            "E116",
+            "E035"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B013-C2.2",
+          "points": 10,
+          "outcome": "Flag uncertain copied F-13/Calder association, retaining aliases and provenance until reconciled rather than asserting false certainty.",
+          "evidence_ids": [
+            "E073",
+            "E116",
+            "E035"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B013-C3",
+      "label": "Contract authority",
+      "points": 20,
+      "expected_outcome": "Replacement does not silently amend agreed cover.",
+      "evidence_ids": [
+        "E043",
+        "E117"
+      ],
+      "checkpoints": [
+        {
+          "id": "B013-C3.1",
+          "points": 10,
+          "outcome": "Refer OLD-13 to NEW-13 schedule discrepancy to management for coverage/variation review.",
+          "evidence_ids": [
+            "E043",
+            "E117"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B013-C3.2",
+          "points": 10,
+          "outcome": "Do not automatically grant all new-unit entitlement or knowingly renew billing for removed equipment without review.",
+          "evidence_ids": [
+            "E043",
+            "E117"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B013-C4",
+      "label": "Response control",
+      "points": 20,
+      "expected_outcome": "New fault can progress under an explicit authorised route.",
+      "evidence_ids": [
+        "E004",
+        "E118",
+        "E009"
+      ],
+      "checkpoints": [
+        {
+          "id": "B013-C4.1",
+          "points": 10,
+          "outcome": "Create symptom-led triage/new-unit response with separate contract, warranty/customer-care or diagnostic-release decision.",
+          "evidence_ids": [
+            "E004",
+            "E118",
+            "E009"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B013-C4.2",
+          "points": 10,
+          "outcome": "Record specific owner, missing coverage/authority, physical access and near-term next action/escalation.",
+          "evidence_ids": [
+            "E004",
+            "E118",
+            "E009"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B013-C5",
+      "label": "Auditable correction",
+      "points": 20,
+      "expected_outcome": "Historical delivery/commercial evidence remains correctly attributable.",
+      "evidence_ids": [
+        "E079",
+        "E119"
+      ],
+      "checkpoints": [
+        {
+          "id": "B013-C5.1",
+          "points": 10,
+          "outcome": "Keep OLD-13 invoices/warranty/refrigerant work attached to old identity with correction explanation.",
+          "evidence_ids": [
+            "E079",
+            "E119"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B013-C5.2",
+          "points": 10,
+          "outcome": "Communicate corrected asset/scope discrepancy to engineers/account/finance as needed without inventing new history.",
+          "evidence_ids": [
+            "E079",
+            "E119"
+          ],
+          "stage": 1
+        }
+      ]
+    }
+  ],
+  "acceptable_alternatives": [
+    {
+      "outcome": "Logical duplicate entries can be consolidated after evidenced reconciliation if old source references, distinct replaced plant and tenant boundaries survive; implementation-specific record counts do not matter.",
+      "evidence_ids": [
+        "E004",
+        "E009",
+        "E015",
+        "E018",
+        "E019",
+        "E035",
+        "E043",
+        "E044",
+        "E073",
+        "E079",
+        "E114",
+        "E115",
+        "E116",
+        "E117",
+        "E118",
+        "E119"
+      ]
+    }
+  ],
+  "prohibited_outcomes": [
+    {
+      "outcome": "Merge tenants/assets on postal address or CU-1 label, overwrite OLD-13 history with NEW-13, or copy unverified serials to complete the register.",
+      "evidence_ids": [
+        "E073",
+        "E035",
+        "E044"
+      ],
+      "critical_failure_id": "B013-CF1"
+    },
+    {
+      "outcome": "Commit to new-unit contract entitlement solely because the replaced unit was listed.",
+      "evidence_ids": [
+        "E043",
+        "E015"
+      ],
+      "critical_failure_id": "B013-CF2"
+    }
+  ],
+  "critical_failures": [
+    {
+      "id": "B013-CF1",
+      "outcome": "Merge tenants/assets on postal address or CU-1 label, overwrite OLD-13 history with NEW-13, or copy unverified serials to complete the register.",
+      "evidence_ids": [
+        "E073",
+        "E035",
+        "E044"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    },
+    {
+      "id": "B013-CF2",
+      "outcome": "Commit to new-unit contract entitlement solely because the replaced unit was listed.",
+      "evidence_ids": [
+        "E043",
+        "E015"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    }
+  ],
+  "evidence_ids": [
+    "E004",
+    "E009",
+    "E015",
+    "E018",
+    "E019",
+    "E035",
+    "E043",
+    "E044",
+    "E073",
+    "E079",
+    "E114",
+    "E115",
+    "E116",
+    "E117",
+    "E118",
+    "E119"
+  ],
+  "uncertainty": [
+    {
+      "fact": "Commercial coverage/release for replacement under current contract",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Correct lineage/identity basis for copied F-13 entry",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    }
+  ],
+  "observation_rule": "Score actual resulting state/actions and candidate-origin recorded decisions. An unexecuted recommendation cannot satisfy an action checkpoint; see protocol for decision-support-only comparisons. No credit from evaluator-written repairs or hidden mental reasoning."
+}

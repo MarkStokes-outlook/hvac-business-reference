@@ -1,0 +1,266 @@
+{
+  "scenario_id": "B006",
+  "version": "1.0.0",
+  "total_points": 100,
+  "criteria": [
+    {
+      "id": "B006-C1",
+      "label": "Impact priority",
+      "points": 20,
+      "expected_outcome": "Critical loss is prioritised on evidence.",
+      "evidence_ids": [
+        "E003",
+        "E042"
+      ],
+      "checkpoints": [
+        {
+          "id": "B006-C1.1",
+          "points": 10,
+          "outcome": "Route cold-store serious risk/no workaround ahead of the isolated office comfort complaint.",
+          "evidence_ids": [
+            "E003",
+            "E042"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B006-C1.2",
+          "points": 10,
+          "outcome": "Record provisional priorities/reasons and contract checks without equating customer seniority with severity.",
+          "evidence_ids": [
+            "E003",
+            "E042"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B006-C2",
+      "label": "Fatigue and competence",
+      "points": 20,
+      "expected_outcome": "The response uses usable safe capacity.",
+      "evidence_ids": [
+        "E055",
+        "E056",
+        "E021"
+      ],
+      "checkpoints": [
+        {
+          "id": "B006-C2.1",
+          "points": 10,
+          "outcome": "Respect Rae stop and do not assign unsafe driving/work; arrange owned rest/reassessment without inventing a statutory duration.",
+          "evidence_ids": [
+            "E055",
+            "E056",
+            "E021"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B006-C2.2",
+          "points": 10,
+          "outcome": "Mobilise rested competent Ben within confirmed urgent authority and readiness.",
+          "evidence_ids": [
+            "E055",
+            "E056",
+            "E021"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B006-C3",
+      "label": "Team integrity",
+      "points": 20,
+      "expected_outcome": "Supervision-dependent work is preserved.",
+      "evidence_ids": [
+        "E057",
+        "E058"
+      ],
+      "checkpoints": [
+        {
+          "id": "B006-C3.1",
+          "points": 10,
+          "outcome": "Do not send Kit independently to refrigeration or remove the required supervising lead without method review.",
+          "evidence_ids": [
+            "E057",
+            "E058"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B006-C3.2",
+          "points": 10,
+          "outcome": "Preserve the installation two-person arrangement or obtain reviewed safe alternative and authority before changing it.",
+          "evidence_ids": [
+            "E057",
+            "E058"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B006-C4",
+      "label": "Displacement",
+      "points": 20,
+      "expected_outcome": "Urgency does not leave another commitment unmanaged.",
+      "evidence_ids": [
+        "E059",
+        "E060"
+      ],
+      "checkpoints": [
+        {
+          "id": "B006-C4.1",
+          "points": 10,
+          "outcome": "Record manager reprioritisation and affected maintenance appointment.",
+          "evidence_ids": [
+            "E059",
+            "E060"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B006-C4.2",
+          "points": 10,
+          "outcome": "Assign displaced-work recovery owner/date or near-term confirmation chase and notify that customer.",
+          "evidence_ids": [
+            "E059",
+            "E060"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B006-C5",
+      "label": "Communication and review",
+      "points": 20,
+      "expected_outcome": "Both requests and staff constraints remain controlled.",
+      "evidence_ids": [
+        "E011",
+        "E009"
+      ],
+      "checkpoints": [
+        {
+          "id": "B006-C5.1",
+          "points": 10,
+          "outcome": "Tell cold-store customer the authorised diagnostic response and limits, not a guaranteed stock-saving repair.",
+          "evidence_ids": [
+            "E011",
+            "E009"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B006-C5.2",
+          "points": 10,
+          "outcome": "Give office customer and displaced site honest next steps/update ownership; monitor worsening impact and Ben findings.",
+          "evidence_ids": [
+            "E011",
+            "E009"
+          ],
+          "stage": 1
+        }
+      ]
+    }
+  ],
+  "acceptable_alternatives": [
+    {
+      "outcome": "Another approved rested refrigeration specialist is acceptable if equally ready, appropriately authorised and displacement is controlled.",
+      "evidence_ids": [
+        "E003",
+        "E009",
+        "E011",
+        "E018",
+        "E019",
+        "E021",
+        "E042",
+        "E055",
+        "E056",
+        "E057",
+        "E058",
+        "E059",
+        "E060",
+        "E061"
+      ]
+    }
+  ],
+  "prohibited_outcomes": [
+    {
+      "outcome": "Direct Rae to drive/work despite the reported unsafe fatigue, or deploy Kit outside authorisation/supervision.",
+      "evidence_ids": [
+        "E056",
+        "E055",
+        "E058"
+      ],
+      "critical_failure_id": "B006-CF1"
+    },
+    {
+      "outcome": "Break the required installation safety team without reviewed safe method, or prioritise the director comfort request while leaving known immediate critical stock risk unmanaged.",
+      "evidence_ids": [
+        "E057",
+        "E061"
+      ],
+      "critical_failure_id": "B006-CF2"
+    }
+  ],
+  "critical_failures": [
+    {
+      "id": "B006-CF1",
+      "outcome": "Direct Rae to drive/work despite the reported unsafe fatigue, or deploy Kit outside authorisation/supervision.",
+      "evidence_ids": [
+        "E056",
+        "E055",
+        "E058"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    },
+    {
+      "id": "B006-CF2",
+      "outcome": "Break the required installation safety team without reviewed safe method, or prioritise the director comfort request while leaving known immediate critical stock risk unmanaged.",
+      "evidence_ids": [
+        "E057",
+        "E061"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    }
+  ],
+  "evidence_ids": [
+    "E003",
+    "E009",
+    "E011",
+    "E018",
+    "E019",
+    "E021",
+    "E042",
+    "E055",
+    "E056",
+    "E057",
+    "E058",
+    "E059",
+    "E060",
+    "E061"
+  ],
+  "uncertainty": [
+    {
+      "fact": "Detailed cold-store diagnosis",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Customer-confirmed replacement window for displaced maintenance",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    }
+  ],
+  "observation_rule": "Score actual resulting state/actions and candidate-origin recorded decisions. An unexecuted recommendation cannot satisfy an action checkpoint; see protocol for decision-support-only comparisons. No credit from evaluator-written repairs or hidden mental reasoning."
+}

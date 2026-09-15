@@ -1,0 +1,3073 @@
+[
+  {
+    "id": "B001",
+    "slug": "reactive-callout-triage-and-control",
+    "title": "Reactive callout triage and control",
+    "domains": [
+      "service",
+      "contracts",
+      "dispatch",
+      "authority"
+    ],
+    "role": "service coordinator",
+    "request": "Priya asks for urgent attendance under the contract and heating restored before the managing director arrives at 15:00. Take control of the call and arrange the next operational step.",
+    "facts": [
+      "Tuesday 10:20, cold spell. Northbank Property Holdings Ltd is the active customer; Priya Shah is facilities manager at Northbank House, Manchester. Only floors 4–5 are cold; floors 0–3 remain comfortable. Portable electric heaters are being used. No smoke, water leak, unusual smell or alarm is reported.",
+      "The account summary says reactive labour for covered assets is included in normal hours. Parts and specialist subcontractors are chargeable unless specifically included. Visible contract lists boilers, pumps and AHUs; refurbished upper-floor controls coverage is unclear. Annual maintenance PO exists without demonstrated reactive scope.",
+      "Two boilers serve heating zones. Floors 4–5 were refurbished by another contractor eighteen months ago. Generic upper-floor controls entry has no confirmed model or panel location. Three weeks ago an engineer reset an intermittently communicating controller and recommended a controls survey; no survey quotation was accepted.",
+      "Samir can arrive approximately 12:00 and is competent on boilers, pumps and conventional controls, but not advanced BMS. Ellie, controls specialist, is commissioning a project until about 14:30 and could arrive about 15:15 if released on time. Moving her requires Service Manager Helen Brooks and project-manager agreement. Helen is available for urgent contact and leaves a meeting at 10:45.",
+      "Priya can arrange plant-room and floor access and normal induction. Managing-agent key for refurbished controls riser is not confirmed. No engineer has accepted dispatch. Coordinator can dispatch routine work where coverage and competence are clear; no exceptional cost/resource authority is established."
+    ],
+    "unknowns": [
+      "Applicable SLA, priority and clock position",
+      "Controls coverage and reactive PO validity",
+      "Fault cause and riser access"
+    ],
+    "criteria": [
+      {
+        "label": "Impact and evidence",
+        "expected_outcome": "A symptom-led request remains under triage with contract and impact checks.",
+        "checkpoints": [
+          "Record partial service loss and reported safety facts without inventing a cause or emergency status.",
+          "Assign urgent checks of applicable contract, covered equipment, priority and response target."
+        ],
+        "evidence": [
+          "service|Reactive requests",
+          "sla|Impact assessment",
+          "sla|Priority and severity"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Bounded competent response",
+        "expected_outcome": "A useful diagnostic response can progress within released scope.",
+        "checkpoints": [
+          "Dispatch or prepare Samir only for commercially released diagnosis within his competence, with engineer acceptance.",
+          "Keep advanced BMS intervention conditional on specialist competence and access evidence."
+        ],
+        "evidence": [
+          "service|Attendance authority",
+          "dispatch|Engineer capability",
+          "field|Dispatch acceptance"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Resource and cost authority",
+        "expected_outcome": "Specialist movement and chargeable work remain conditional.",
+        "checkpoints": [
+          "Seek Helen/project-owner decision before displacing Ellie and preserve commissioning consequences.",
+          "Validate authority for chargeable diagnosis, parts and specialist cost; annual maintenance PO is not unlimited approval."
+        ],
+        "evidence": [
+          "authority|Operational decisions",
+          "finance|Customer authority and purchase orders"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Continuing control",
+        "expected_outcome": "The unresolved request has an accountable next action.",
+        "checkpoints": [
+          "Retain coordinator ownership of coverage/access/dispatch checks until an accepted handoff.",
+          "Set a concrete near-term review, such as 10:45, and manager escalation if a material dependency persists."
+        ],
+        "evidence": [
+          "exceptions|The next-action principle",
+          "exceptions|Handoffs"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Customer commitment",
+        "expected_outcome": "Priya receives an honest operational update.",
+        "checkpoints": [
+          "Communicate the next checks, conditional response and useful access/impact clarification.",
+          "Record update timing and preserve attendance/restoration/resolution differences without promising repair by 15:00."
+        ],
+        "evidence": [
+          "service|Customer communication",
+          "sla|Core terminology",
+          "sla|Communication commitments"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "Bounded Samir diagnosis, brief owned hold for urgent checks, or management-approved specialist reservation are equivalent if authority, delay and displaced work are controlled."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Commit to controls being covered, emergency/SLA entitlement or restoration by 15:00 without the missing evidence.",
+        "evidence": [
+          "sla|Contract hierarchy",
+          "authority|Customer-scope decisions"
+        ]
+      },
+      {
+        "prohibited_outcome": "Direct advanced BMS work by Samir, move Ellie without the required management decision, or authorise chargeable reactive spend on the maintenance PO without validation.",
+        "evidence": [
+          "dispatch|Engineer capability",
+          "authority|Operational decisions",
+          "finance|Customer authority and purchase orders"
+        ]
+      },
+      {
+        "prohibited_outcome": "Mark the customer issue permanently resolved or the job operationally complete merely from dispatch.",
+        "evidence": [
+          "terms|Resolution",
+          "life|10. Closure and retained knowledge"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B002",
+    "slug": "authorised-repair-to-invoice",
+    "title": "Authorised repair through delivery and invoicing",
+    "domains": [
+      "service",
+      "field",
+      "finance",
+      "customers"
+    ],
+    "role": "service coordinator",
+    "request": "Complete the agreed repair workflow at Willow Bakery and process the engineer report when received. The customer wants the approved repair carried out this morning.",
+    "facts": [
+      "Tuesday 09:00. Willow Foods Ltd contracts and pays; Willow Bakery, Bolton, is the trading site. Site manager Jo reports the fault and provides access but has no additional spend delegation.",
+      "Accepted quotation Q-W2 revision 2 and matching valid customer PO authorise replacement of the identified failed condensate pump on asset A-W2 for £420 excluding VAT, including labour, travel and the specified pump. No enhancements are included. Finance confirms credit release; Service Manager confirms internal labour/material authority for this repair.",
+      "Engineer Mae has current relevant competence and authorisation. Correct pump is technically accepted, available and reserved to this job. Access, induction, isolation/shutdown permission, tools and appointment 10:00–11:00 are confirmed. Mae accepts dispatch. The quotation permits invoicing after tested repair and worksheet evidence; VAT classification is confirmed by finance but no numeric VAT rate is supplied."
+    ],
+    "unknowns": [
+      "No outcome tests have occurred yet"
+    ],
+    "criteria": [
+      {
+        "label": "Release and action",
+        "expected_outcome": "The adequately authorised repair proceeds.",
+        "checkpoints": [
+          "Allocate/dispatch Mae against the accepted revision and reserved correct part; do not impose an invented approval blocker.",
+          "Keep customer, site, PO, job and attendance references distinct and linked."
+        ],
+        "evidence": [
+          "field|Minor repairs",
+          "dispatch|Readiness checks",
+          "finance|Financial record boundaries"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Delivered outcome",
+        "expected_outcome": "The repair is evidenced by the supplied report.",
+        "checkpoints": [
+          "Record pump replacement and successful drainage/operating tests under reported conditions, not an outcome before the report.",
+          "Record authorised attendance/job scope complete without treating payment as received."
+        ],
+        "evidence": [
+          "field|Testing and recommissioning",
+          "finance|Operational completion and financial closure"
+        ],
+        "stage": 2
+      },
+      {
+        "label": "Cost and stock",
+        "expected_outcome": "Actual consumption remains attributable.",
+        "checkpoints": [
+          "Issue/consume one reserved pump with actual labour/travel attributed to the repair.",
+          "Do not add separate time/material charges beyond the fixed £420 basis or treat cost as equal to selling price."
+        ],
+        "evidence": [
+          "finance|Materials and stock cost",
+          "finance|Labour recording",
+          "terms|Cost"
+        ],
+        "stage": 2
+      },
+      {
+        "label": "Invoice",
+        "expected_outcome": "An evidenced authorised invoice can be released.",
+        "checkpoints": [
+          "Raise/release £420 excluding VAT to Willow Foods Ltd using the valid PO and worksheet; defer numeric VAT only if finance rate input is needed.",
+          "Link invoice trigger to tested delivery and keep invoice issued separate from paid and financially closed."
+        ],
+        "evidence": [
+          "finance|Invoice triggers",
+          "finance|Invoice validation and release"
+        ],
+        "stage": 2
+      },
+      {
+        "label": "Communication and controls",
+        "expected_outcome": "The customer receives completion evidence and remaining limits.",
+        "checkpoints": [
+          "Give Jo the verified outcome and finance the correct scope/evidence; do not treat Jo signature as extra authority.",
+          "Reject or separately quote Jo optional remote-monitoring enhancement, preserving the approved repair outcome."
+        ],
+        "evidence": [
+          "field|Sign-off",
+          "field|Customer handover",
+          "authority|Customer-scope decisions"
+        ],
+        "stage": 2
+      }
+    ],
+    "alternatives": [
+      "Invoice preparation awaiting finance entry of the confirmed VAT rate is acceptable if the £420 entitlement and release evidence are complete; no arbitrary technical hold is justified."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Perform or bill the requested monitoring enhancement without new scope and expenditure authority.",
+        "evidence": [
+          "authority|Customer-scope decisions",
+          "field|Authority to proceed"
+        ]
+      },
+      {
+        "prohibited_outcome": "Record durable completion before tests, invoice the site manager as payer, or bill £420 plus duplicate included labour/materials.",
+        "evidence": [
+          "field|Testing and recommissioning",
+          "finance|Invoice validation and release"
+        ]
+      }
+    ],
+    "event": {
+      "time": "Tuesday 11:10",
+      "facts": [
+        "Mae report: arrived at service location 10:05; identified A-W2; isolated within competence, replaced one specified pump, tested drainage and full relevant operating cycle successfully with no remaining defect found. Safe normal service left. Labour 45 minutes and travel 20 minutes recorded. Jo acknowledges receipt of the report.",
+        "Jo asks to add remote monitoring while Mae is there. It is not in Q-W2 and no authority for this addition is supplied."
+      ],
+      "request": "Process the repair outcome, materials/time, invoice handoff and Jo request."
+    }
+  },
+  {
+    "id": "B003",
+    "slug": "maintenance-partial-and-defects",
+    "title": "Maintenance completion with access gaps and defects",
+    "domains": [
+      "maintenance",
+      "contracts",
+      "field",
+      "exceptions"
+    ],
+    "role": "service coordinator",
+    "request": "Process the school maintenance report and provide the customer with a delivery summary and next actions.",
+    "facts": [
+      "Cedar Academy Trust, one Manchester campus. The accepted schedule requires quarterly servicing of AHU-1, AHU-2 and boiler B-1; remedial motors and specialist access are excluded. Periodic contract billing has already occurred.",
+      "Today engineer Arun completed every authorised task and readings on AHU-1. Found a noisy motor with measured evidence of wear; normal operation remains safe with a stated monitoring recommendation. Replacement motor is outside maintenance authority.",
+      "AHU-2 could not be reached because the required roof-access permit was unavailable. B-1 identity could not be reconciled: two boilers have the same customer tag, and their serial plates were inaccessible. Neither received its required task set. The caretaker signed attendance but did not approve extra spend.",
+      "The next access window is Wednesday 08:00–10:00 if the school confirms permit and caretaker support. Arun submitted report at 16:00; coordinator Lena owns the maintenance job."
+    ],
+    "unknowns": [
+      "Roof permit confirmation",
+      "Which physical boiler is scheduled B-1",
+      "Approval for remedial motor work"
+    ],
+    "criteria": [
+      {
+        "label": "Scope completion",
+        "expected_outcome": "Only evidenced maintenance is complete.",
+        "checkpoints": [
+          "Recognise AHU-1 maintenance completed with defect recommendation, not failed merely because a defect was found.",
+          "Preserve AHU-2 and B-1 outstanding obligations with their specific access/identity reasons."
+        ],
+        "evidence": [
+          "service|Maintenance completion states",
+          "service|Defects found during maintenance"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Defect authority",
+        "expected_outcome": "Motor replacement follows a separate controlled path.",
+        "checkpoints": [
+          "Create owned repair quotation/review recommendation from measured wear and safety condition.",
+          "Do not perform/authorise motor replacement from maintenance entitlement or caretaker acknowledgement."
+        ],
+        "evidence": [
+          "service|Defects found during maintenance",
+          "field|Sign-off"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Identity and access",
+        "expected_outcome": "The next attendance is prepared rather than blindly repeated.",
+        "checkpoints": [
+          "Assign permit confirmation and physical boiler reconciliation without copying a serial or merging boiler histories.",
+          "Keep Wednesday provisional until access and identification method/competence are sufficient."
+        ],
+        "evidence": [
+          "assets|Record quality",
+          "dispatch|Customer access and site readiness"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Obligation and billing",
+        "expected_outcome": "The contractual obligation survives the attendance and billing.",
+        "checkpoints": [
+          "Retain partial maintenance/job status and due-period obligations despite signed attendance and prior billing.",
+          "Review any due-window risk against actual contract; do not invent automatic credits or waived duties."
+        ],
+        "evidence": [
+          "service|Maintenance obligations and schedules",
+          "finance|Reactive and service invoicing",
+          "sla|Service credits"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Owned handoff",
+        "expected_outcome": "Lena controls the incomplete work and customer update.",
+        "checkpoints": [
+          "Record named chase owner, school actor, next review and escalation for permit and identity waits.",
+          "Send a summary separating work delivered, work omitted, safety finding and separately proposed repair."
+        ],
+        "evidence": [
+          "exceptions|The next-action principle",
+          "service|Customer communication"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "One partial job or linked attendance/obligation records are equivalent; AHU-1 may close independently if unresolved tasks remain visible and owned."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Certify all scheduled maintenance complete from site attendance/signature, or fabricate boiler identity/readings.",
+        "evidence": [
+          "service|Maintenance completion states",
+          "assets|Record quality"
+        ]
+      },
+      {
+        "prohibited_outcome": "Replace the excluded motor without both required authorities.",
+        "evidence": [
+          "service|Defects found during maintenance",
+          "authority|Core principle"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B004",
+    "slug": "missed-maintenance-and-renewal",
+    "title": "Missed maintenance period and evidence-led renewal",
+    "domains": [
+      "maintenance",
+      "contracts",
+      "commercial",
+      "reporting"
+    ],
+    "role": "service manager",
+    "request": "Recover the overdue visit and prepare the renewal review for Alder Care; the account owner proposes copying last year scope with an inflation increase.",
+    "facts": [
+      "Monday 5 October 2026. Alder Care Ltd contract requires one complete maintenance attendance per site within each calendar quarter. Quarter 3 had four due sites. Three were completed by 30 September; Site D was displaced twice by Frostline reactive work and is still uncompleted. No customer cancellation, variation or rescheduling authority changes the Q3 window.",
+      "Site D can provide safe access on 7 October. A competent engineer and required materials are available. The contract renewal is due 1 November.",
+      "Engineer evidence: two scheduled assets removed in August; one new maintainable heat pump installed by another contractor. Account owner has not agreed an asset-schedule variation. Last-year renewal scope still contains the two removed assets; the heat pump is unpriced. Recorded reactive labour consumption and subcontract/access costs rose; response failures concentrate at Site D despite strong portfolio average."
+    ],
+    "unknowns": [
+      "Verified new asset specifications and cover",
+      "Renewal price approval and customer agreement",
+      "Applicable SLA remedies, if any"
+    ],
+    "criteria": [
+      {
+        "label": "Period integrity",
+        "expected_outcome": "The Q3 miss remains attributed to its due period.",
+        "checkpoints": [
+          "Record Q3 delivery 3/4 or 75%, with Site D capacity/displacement cause and breach against Q3 requirement.",
+          "October recovery does not relabel Q3 as on time or create a second Q4 completion from the same obligation."
+        ],
+        "evidence": [
+          "service|Maintenance obligations and schedules",
+          "kpi|Planned maintenance completion"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Practical recovery",
+        "expected_outcome": "Authorised recovery is scheduled and owned.",
+        "checkpoints": [
+          "Arrange the available 7 October attendance with customer confirmation and maintained safety/competence readiness.",
+          "Record a manager-owned recovery/communication plan for repeated displacement, rather than erasing overdue work."
+        ],
+        "evidence": [
+          "dispatch|Planned-maintenance capacity",
+          "service|Priority and urgency"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Schedule truth",
+        "expected_outcome": "The renewal reflects installed equipment.",
+        "checkpoints": [
+          "Verify removal/new installation evidence and retain retired histories.",
+          "Route schedule variation/repricing to management/customer; avoid knowingly charging removed plant or silently including new assets."
+        ],
+        "evidence": [
+          "contract|Asset schedules",
+          "assets|Replacement and retirement"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Economics and performance",
+        "expected_outcome": "Renewal is reviewed beyond inflation.",
+        "checkpoints": [
+          "Use actual labour, access/subcontract costs, equipment condition and site-specific response failures to review sustainable scope/price.",
+          "Keep proposed terms and approval separate from accepted contract, and do not award invented credits."
+        ],
+        "evidence": [
+          "contract|Review and renewal",
+          "contract|Multi-site contracts",
+          "sla|Service credits"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Controlled decisions",
+        "expected_outcome": "Open renewal inputs and customer commitments have owners.",
+        "checkpoints": [
+          "Assign new-asset survey, cost review and authorised renewal offer decisions with dates before 1 November.",
+          "Explain Q3 miss/recovery and proposed review honestly, with Site D consequences visible."
+        ],
+        "evidence": [
+          "exceptions|The next-action principle",
+          "contract|Frostline obligations"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "Recovery can be brought forward if an equally ready agreed window exists; renewal options can vary if evidence-backed and separately approved."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Rewrite the Q3 completion/breach history as compliant because the visit occurs in October.",
+        "evidence": [
+          "service|Maintenance obligations and schedules"
+        ]
+      },
+      {
+        "prohibited_outcome": "Automatically renew a knowingly inaccurate schedule charging removed equipment or granting unagreed new cover.",
+        "evidence": [
+          "contract|Asset schedules",
+          "contract|Variations"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B005",
+    "slug": "sla-events-and-working-clock",
+    "title": "Working-hour SLA with access and subcontract dependencies",
+    "domains": [
+      "contracts",
+      "service",
+      "reporting"
+    ],
+    "role": "service manager",
+    "request": "Assess the attendance commitment, event history and proposed clock-stop claim for Moor Offices.",
+    "facts": [
+      "All times Europe/London; no public holiday. Signed case contract: covered weekdays 09:00–17:00, four covered working hours from sufficient request at monitored desk to suitable engineer able to begin at agreed plant room. Desk received sufficient request Friday 16:00; acknowledgement 16:05; meaningful remote triage 16:20.",
+      "Monday engineer in car park 11:30; required plant-room key denied by customer until 12:15; competent engineer then begins. Contemporaneous no-access record starts 11:30, expected actor customer keyholder, owner coordinator Pat, chase 11:45, actual key access/restart 12:15.",
+      "The contract expressly permits exclusion of customer-denied access only while it prevents the measured action, with contemporaneous evidence, owner and restart. It does not exclude delays merely from use of a Frostline subcontractor. Supplier delay may pause a separate resolution measure only after contract review; no resolution target is supplied.",
+      "An authorised temporary unit restores agreed minimum service Monday 14:00; permanent repair completes and passes relevant tests Wednesday 10:00. The subcontractor asks Frostline to retrospectively pause Friday 16:20–Monday 11:30 as a third-party dependency. Credits terms and credit approval are not supplied."
+    ],
+    "unknowns": [
+      "Any resolution commitment or credit formula"
+    ],
+    "criteria": [
+      {
+        "label": "Clock arithmetic",
+        "expected_outcome": "The attendance deadline follows covered time.",
+        "checkpoints": [
+          "Calculate nominal deadline Monday 12:00: Friday one hour plus Monday three.",
+          "Apply the evidenced 45-minute permitted no-access stop to give adjusted deadline Monday 12:45; attendance 12:15 attains it with 3h30 measured working time."
+        ],
+        "evidence": [
+          "sla|Coverage hours",
+          "sla|Attendance targets",
+          "sla|Clock stops"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Event integrity",
+        "expected_outcome": "Different service events remain distinct.",
+        "checkpoints": [
+          "Record receipt, acknowledgement, remote response, car-park arrival and meaningful attendance separately.",
+          "Record restoration Monday 14:00 and resolution Wednesday 10:00; do not call temporary service permanent repair."
+        ],
+        "evidence": [
+          "sla|Core terminology",
+          "sla|Restoration and resolution"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Stop evidence",
+        "expected_outcome": "Only permitted genuinely blocking time is excluded.",
+        "checkpoints": [
+          "Retain no-access evidence, exact interval, expected keyholder, Pat chase and restart event.",
+          "Reject retrospective subcontractor-choice clock stop rather than removing Frostline accountability."
+        ],
+        "evidence": [
+          "sla|Clock stops",
+          "sla|Subcontractor and third-party dependencies"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Commercial boundary",
+        "expected_outcome": "Attainment is not an invented service-credit decision.",
+        "checkpoints": [
+          "Do not calculate or grant credit without applicable contractual eligibility/formula and authorised finance treatment.",
+          "Do not invent a resolution target or use out-of-hours/premium assumptions to change credit terms."
+        ],
+        "evidence": [
+          "sla|Service credits",
+          "sla|Restoration and resolution"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Customer and follow-up",
+        "expected_outcome": "The event analysis remains actionable.",
+        "checkpoints": [
+          "Provide customer-attainable explanation of measured attendance and access delay without obscuring elapsed experience.",
+          "Retain temporary limits/review and owner of permanent repair in history, plus owner for contract/credit questions."
+        ],
+        "evidence": [
+          "sla|Communication commitments",
+          "exceptions|Temporary measures"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "Report both unadjusted breach and contract-adjusted attainment if labels, stop evidence and arithmetic are clear; alternative clock representation is acceptable with identical measured time."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Use car-park time to certify meaningful attendance, or create the retrospective subcontractor stop to improve performance.",
+        "evidence": [
+          "sla|Attendance targets",
+          "sla|Clock stops",
+          "sla|Subcontractor and third-party dependencies"
+        ]
+      },
+      {
+        "prohibited_outcome": "Claim permanent resolution from Monday temporary restoration, or invent service-credit entitlement.",
+        "evidence": [
+          "sla|Core terminology",
+          "sla|Service credits"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B006",
+    "slug": "priority-displacement-and-rest",
+    "title": "Competing demand, safe teams and overnight fatigue",
+    "domains": [
+      "dispatch",
+      "people",
+      "projects",
+      "service"
+    ],
+    "role": "service manager",
+    "request": "Set the next response plan for two new requests while protecting existing commitments.",
+    "facts": [
+      "Tuesday 08:30. Request R-6C: contracted cold store loses all duty and backup cooling; temperature rising, customer reports stock at immediate risk and no adequate workaround. Current covered agreement authorises urgent diagnostic attendance; no guaranteed repair deadline. Request R-6O: prominent office client reports one meeting room uncomfortable and demands immediate response because a director is visiting; remainder operates normally.",
+      "Rae is refrigeration-competent and currently authorised, but worked overnight until 05:30 and reports fatigue makes driving/field work unsafe now. No statutory numeric rest period is supplied. Backup Ben is competent, rested, has safe vehicle/equipment, accepted urgent rota mobilisation authority and can reach the cold store at 09:30.",
+      "Ben was promised to a planned maintenance appointment this morning. Manager can materially reprioritise with recovery communication. Apprentice Kit is assigned to a two-person installation with senior lead Noor; approved method requires both and direct supervision. Kit is not authorised for independent refrigeration response. Moving Noor alone would invalidate the team method."
+    ],
+    "unknowns": [
+      "Detailed cold-store diagnosis",
+      "Customer-confirmed replacement window for displaced maintenance"
+    ],
+    "criteria": [
+      {
+        "label": "Impact priority",
+        "expected_outcome": "Critical loss is prioritised on evidence.",
+        "checkpoints": [
+          "Route cold-store serious risk/no workaround ahead of the isolated office comfort complaint.",
+          "Record provisional priorities/reasons and contract checks without equating customer seniority with severity."
+        ],
+        "evidence": [
+          "sla|Priority and severity",
+          "service|Priority and urgency"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Fatigue and competence",
+        "expected_outcome": "The response uses usable safe capacity.",
+        "checkpoints": [
+          "Respect Rae stop and do not assign unsafe driving/work; arrange owned rest/reassessment without inventing a statutory duration.",
+          "Mobilise rested competent Ben within confirmed urgent authority and readiness."
+        ],
+        "evidence": [
+          "dispatch|On-call and working-time control",
+          "authority|Safety decisions",
+          "dispatch|Readiness checks"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Team integrity",
+        "expected_outcome": "Supervision-dependent work is preserved.",
+        "checkpoints": [
+          "Do not send Kit independently to refrigeration or remove the required supervising lead without method review.",
+          "Preserve the installation two-person arrangement or obtain reviewed safe alternative and authority before changing it."
+        ],
+        "evidence": [
+          "dispatch|Multi-person and supervised work",
+          "people|Apprentices and supervision"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Displacement",
+        "expected_outcome": "Urgency does not leave another commitment unmanaged.",
+        "checkpoints": [
+          "Record manager reprioritisation and affected maintenance appointment.",
+          "Assign displaced-work recovery owner/date or near-term confirmation chase and notify that customer."
+        ],
+        "evidence": [
+          "dispatch|Emergency displacement",
+          "dispatch|Dynamic rescheduling"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Communication and review",
+        "expected_outcome": "Both requests and staff constraints remain controlled.",
+        "checkpoints": [
+          "Tell cold-store customer the authorised diagnostic response and limits, not a guaranteed stock-saving repair.",
+          "Give office customer and displaced site honest next steps/update ownership; monitor worsening impact and Ben findings."
+        ],
+        "evidence": [
+          "service|Customer communication",
+          "exceptions|The next-action principle"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "Another approved rested refrigeration specialist is acceptable if equally ready, appropriately authorised and displacement is controlled."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Direct Rae to drive/work despite the reported unsafe fatigue, or deploy Kit outside authorisation/supervision.",
+        "evidence": [
+          "authority|Safety decisions",
+          "dispatch|On-call and working-time control",
+          "people|Apprentices and supervision"
+        ]
+      },
+      {
+        "prohibited_outcome": "Break the required installation safety team without reviewed safe method, or prioritise the director comfort request while leaving known immediate critical stock risk unmanaged.",
+        "evidence": [
+          "dispatch|Multi-person and supervised work",
+          "dispatch|Scheduling objectives"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B007",
+    "slug": "make-safe-on-credit-stop",
+    "title": "Emergency protection on an account under credit stop",
+    "domains": [
+      "finance",
+      "service",
+      "safety",
+      "authority"
+    ],
+    "role": "on-call coordinator",
+    "request": "Respond to the on-call leak report and the customer demand for a full overnight replacement.",
+    "facts": [
+      "Saturday 22:00. Brook Hotel Ltd has a finance-controlled stop for serious overdue debt; wider non-essential work is not released. Water escape from plant threatens occupied rooms and nearby electrical equipment. The known keyholder can provide safe entry and reports the situation; they have no replacement spend delegation.",
+      "On-call qualified engineer Lee can reach site safely and is competent to isolate the leaking plant without intrusive electrical work. Duty Operations Manager approves limited emergency labour/material commitment solely to make safe/prevent further harm, record exposure and contact finance. No full-replacement approval or customer payment authority exists.",
+      "A replacement assembly could be bought locally but is non-returnable and selection is not confirmed. Customer asks Lee to replace everything overnight and says the old debt should be cancelled for inconvenience. Finance is available via duty escalation."
+    ],
+    "unknowns": [
+      "Permanent defect/repair scope",
+      "Authority and terms for wider replacement",
+      "Invoice basis for emergency action"
+    ],
+    "criteria": [
+      {
+        "label": "Protection",
+        "expected_outcome": "Immediate harm is controlled through separate authority.",
+        "checkpoints": [
+          "Mobilise the competent engineer for necessary safe isolation/containment under the recorded emergency decision; do not refuse all protection solely from credit stop.",
+          "Keep electrical danger outside Lee competence and escalate to relevant specialists/emergency route as needed."
+        ],
+        "evidence": [
+          "finance|Customer stop and continued work",
+          "field|Emergency and make-safe work",
+          "field|Specific hazard responses"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Emergency limits",
+        "expected_outcome": "Make-safe does not release a replacement.",
+        "checkpoints": [
+          "Limit authorised commitment to proportionate protective work, recording conditions, risk and manager authority.",
+          "Hold non-returnable replacement purchase/full repair until selection, customer and Frostline release are sufficient."
+        ],
+        "evidence": [
+          "authority|Emergency authority",
+          "purchase|Purchase authority"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Credit and debt",
+        "expected_outcome": "Finance retains financial authority.",
+        "checkpoints": [
+          "Keep account stop/old debt intact pending finance decision, distinguishing emergency exception from wider credit release.",
+          "Do not grant unilateral compensation, debt waiver or unexplained emergency charging."
+        ],
+        "evidence": [
+          "authority|Credit and invoice decisions",
+          "finance|Customer stop and continued work"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Safe outcome and continuation",
+        "expected_outcome": "The isolated system remains an owned unresolved issue.",
+        "checkpoints": [
+          "Record plant left, areas protected, residual outage/risk and customer understanding; make-safe is not restored normal service.",
+          "Assign next diagnosis/permanent repair/finance decision owners with an early review and escalation."
+        ],
+        "evidence": [
+          "field|Emergency and make-safe work",
+          "exceptions|The next-action principle"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Decision evidence",
+        "expected_outcome": "The customer and finance receive a traceable bounded decision.",
+        "checkpoints": [
+          "Capture decision maker/time, risk, alternatives, contacts, commitment and authority conditions.",
+          "Communicate protective attendance, restricted service, unresolved cost position and next update without promising full repair."
+        ],
+        "evidence": [
+          "authority|Emergency authority",
+          "service|Customer communication"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "A safe remote protective step within site-contact competence may precede attendance; no hazardous remote instruction or uncontrolled delay is acceptable."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Refuse all urgent protection solely because of credit stop, despite available competent authorised make-safe response.",
+        "evidence": [
+          "finance|Customer stop and continued work",
+          "authority|Emergency authority"
+        ]
+      },
+      {
+        "prohibited_outcome": "Buy/perform the unapproved non-returnable full replacement, waive old debt, or represent make-safe as permanent restoration.",
+        "evidence": [
+          "authority|Emergency authority",
+          "authority|Credit and invoice decisions",
+          "terms|Make safe"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B008",
+    "slug": "acceptance-revision-and-payer",
+    "title": "Quotation acceptance, options and contracting entity",
+    "domains": [
+      "quoting",
+      "customers",
+      "finance",
+      "projects"
+    ],
+    "role": "estimator",
+    "request": "Validate the order from Harbour Workspace and hand authorised work to delivery when appropriate.",
+    "facts": [
+      "Q-H8 revision 1 offered base replacement £18,000; revision 2, sent before any acceptance, supersedes revision 1: base £19,000 excluding VAT, optional enhanced controls £2,000. The enhanced option is separately selectable. Supplier pricing remains valid.",
+      "Tenant contact Morgan emails “go ahead with your quote, use PO-81”. PO document names Harbour Tenant Ltd, revision 1, £18,000 and “all controls included”. Survey/requesting account was landlord Harbour Estates Ltd; tenant approval to bind landlord is unestablished. No accepted variation exists.",
+      "Frostline internal approval permits issuing Q-H8 revision 2; it is not procurement approval. Deposit condition is 30% before major purchase unless finance explicitly waives it. No deposit, waiver or credit release has occurred. Supplier wants immediate non-cancellable order."
+    ],
+    "unknowns": [
+      "Correct contracting/paying entity and Morgan authority",
+      "Accepted revision/options/price/terms",
+      "Finance release/deposit and purchase authority"
+    ],
+    "criteria": [
+      {
+        "label": "Acceptance truth",
+        "expected_outcome": "Ambiguous acceptance stays under validation.",
+        "checkpoints": [
+          "Preserve Q-H8 revision histories; identify PO revision/value/scope mismatch rather than mark revision 2 unconditionally accepted.",
+          "Clarify selected base/controls option and customer terms with an identifiable authorised party."
+        ],
+        "evidence": [
+          "quote|Revision control",
+          "quote|Acceptance validation",
+          "quote|Options and alternatives"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Payer",
+        "expected_outcome": "Commercial customer and site contact remain distinct.",
+        "checkpoints": [
+          "Validate landlord/tenant contracting entity and intermediary authority before billing/release.",
+          "Preserve issued PO/reference and evidence rather than merging group companies or silently editing the order."
+        ],
+        "evidence": [
+          "customer|Contracting entity and billing entity",
+          "terms|Identity and duplicate records"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Release boundary",
+        "expected_outcome": "Approval to issue is not authority to procure.",
+        "checkpoints": [
+          "Retain commercially held/awaiting acceptance validation state for incompatible order and deposit/credit conditions.",
+          "Do not place the non-cancellable purchase from verbal “go ahead” or issue approval alone."
+        ],
+        "evidence": [
+          "quote|Internal approval",
+          "finance|Commercial release"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Owned resolution",
+        "expected_outcome": "Mismatch has an active resolution path.",
+        "checkpoints": [
+          "Assign estimator/account owner to acceptance/entity clarification, and finance/purchasing actors for release decisions.",
+          "Record chase/deadline and supplier price/availability review trigger before irreversible commitment."
+        ],
+        "evidence": [
+          "exceptions|The next-action principle",
+          "quote|Commercial release to delivery"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Handoff and communication",
+        "expected_outcome": "Delivery receives only the validated accepted basis.",
+        "checkpoints": [
+          "Communicate the specific mismatches and remaining conditions honestly to customer without inventing a confirmed start.",
+          "Keep handoff responsibility with estimator until receiving project owner accepts an adequate scope/release package."
+        ],
+        "evidence": [
+          "quote|Handover after award",
+          "project|Handover from sales and estimating"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "Conditional reservation with no cost commitment may be explored; a limited survey may proceed only under separate explicit authority, not implied order acceptance."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Treat this mismatched PO as unconditional authority for revision 2 plus enhanced controls or order non-cancellable equipment before release.",
+        "evidence": [
+          "quote|Acceptance validation",
+          "quote|Internal approval"
+        ]
+      },
+      {
+        "prohibited_outcome": "Invent Morgan authority to bind landlord or silently change the liable customer/accepted quotation history.",
+        "evidence": [
+          "customer|Contracting entity and billing entity",
+          "info|Corrections and history"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B009",
+    "slug": "estimate-maturity-and-provisional-cost",
+    "title": "Estimate maturity, margin and provisional scope",
+    "domains": [
+      "quoting",
+      "commercial",
+      "finance"
+    ],
+    "role": "estimator",
+    "request": "Prepare a responsible quotation basis for a roof-unit replacement and respond to the proposed price and provisional-sum instruction.",
+    "facts": [
+      "Customer seeks firm price by 16:00. Current concept estimate has labour/material/bought-in direct-cost forecast £8,000 excluding VAT and a proposed selling price £10,000 excluding VAT. No universal target margin exists in the supplied policy. Roof bearing/support condition and crane access are unverified material survey dependencies.",
+      "A £1,000 provisional crane allowance is proposed within the £10,000 price. The actual crane quote is £1,600 and price/terms are not yet customer-approved. The proposed quotation has no adjustment mechanism or authority condition for the provisional element.",
+      "Sales suggests calling £10,000 a guaranteed fixed price, claiming “25% gross margin” and placing the crane order now because customer funding is likely. Internal approval to issue formal offer is still outstanding. No purchase approval or customer acceptance is present."
+    ],
+    "unknowns": [
+      "Roof suitability and crane method/access",
+      "Approved provisional adjustment and price basis",
+      "Formal issue, customer and purchase authorities"
+    ],
+    "criteria": [
+      {
+        "label": "Maturity",
+        "expected_outcome": "Concept evidence is not promoted to guaranteed commitment.",
+        "checkpoints": [
+          "Retain concept/budget status or qualify/hold a firm offer until material survey risks are resolved or explicitly treated.",
+          "Assign roof and access validation with consequence for method, price and programme."
+        ],
+        "evidence": [
+          "quote|Estimate maturity",
+          "quote|Site survey"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Arithmetic",
+        "expected_outcome": "Margin and mark-up are distinguishable.",
+        "checkpoints": [
+          "Calculate £2,000 gross contribution on the supplied direct-cost basis and 20% gross margin (£2,000/£10,000), versus 25% mark-up on cost.",
+          "State forecast cost scope/uncertainty and avoid claiming a universal acceptable Frostline margin."
+        ],
+        "evidence": [
+          "quote|Cost, margin and price",
+          "commercial|Pricing approaches"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Provisional control",
+        "expected_outcome": "The crane allowance has an agreed adjustment route.",
+        "checkpoints": [
+          "Identify £600 allowance-to-quote increase and clarify what cost forecast includes before revising forecast/margin; do not double count.",
+          "Define adjustment trigger/value basis/customer authority requirement in proposed terms before provisional crane proceeds."
+        ],
+        "evidence": [
+          "quote|Quotation content",
+          "quote|Assumptions"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Separate approvals",
+        "expected_outcome": "Issue and purchase decisions remain separate.",
+        "checkpoints": [
+          "Seek appropriate technical/commercial issue review for the material risks and price.",
+          "Do not order crane from supplier quote/funding likelihood alone; establish purchase and customer/release evidence."
+        ],
+        "evidence": [
+          "quote|Internal approval",
+          "quote|Materials and bought-in services",
+          "purchase|Customer approval and company approval"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Practical offer",
+        "expected_outcome": "The customer receives a usable controlled next step.",
+        "checkpoints": [
+          "Offer evidence-backed conditional range, survey, options or reviewed quotation with explicit dependencies and exclusions.",
+          "Record owner and review time for 16:00 response and unknown inputs without inventing load/structural conclusions."
+        ],
+        "evidence": [
+          "quote|Risk and contingency",
+          "exceptions|The next-action principle"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "A conditional offer, survey-first hold or explicitly approved risk allowance can all be valid. Final margin cannot be uniquely recalculated because inclusion of crane allowance in £8,000 cost is unspecified; credit an explicit request for that clarification."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Guarantee a firm safe roof installation while material roof/access evidence is unresolved and untreated.",
+        "evidence": [
+          "quote|Site survey",
+          "quote|Assumptions"
+        ]
+      },
+      {
+        "prohibited_outcome": "Place crane order without purchase/release authority or treat provisional sum as unlimited recoverable customer spend.",
+        "evidence": [
+          "quote|Quotation content",
+          "purchase|Customer approval and company approval"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B010",
+    "slug": "staged-project-release",
+    "title": "Project procurement release and mobilisation hold",
+    "domains": [
+      "projects",
+      "procurement",
+      "dispatch",
+      "authority"
+    ],
+    "role": "project owner",
+    "request": "Execute the approved procurement stage and decide whether the installation team can start Monday.",
+    "facts": [
+      "Q-P10 accepted with valid authority; deposit and credit conditions satisfied. Project owner accepted estimating handoff. Written delegated release authorises purchase of specified unit U-10 up to £24,000 excluding VAT from approved supplier, confirmed price £23,500, made-to-order non-cancellable status explicitly reviewed. Release expressly excludes site mobilisation.",
+      "Unit specification/selection within supplied load basis is technically approved. Supplier acknowledged availability and commercial offer; order has not yet been issued. Required delivery in three weeks is confirmed conditional on this order.",
+      "Customer/consultant owns structural support design; Frostline review identifies no signed support calculation or installed load-bearing supports. Electrical enabling work and shutdown permission are also unconfirmed. A consultant drawing marked “approved” does not evidence these completions. Customer asks the team to start Monday anyway."
+    ],
+    "unknowns": [
+      "Structural enabling evidence, electrical readiness and shutdown approval",
+      "Mobilisation release and achievable start date"
+    ],
+    "criteria": [
+      {
+        "label": "Authorised stage",
+        "expected_outcome": "Approved procurement can progress.",
+        "checkpoints": [
+          "Issue specified U-10 order within £24,000 scoped release and agreed £23,500 basis; avoid needless blanket hold of approved purchase.",
+          "Record exact specification, budget/authority, non-cancellable condition, delivery allocation and acknowledgement chase after issue."
+        ],
+        "evidence": [
+          "project|Project release states",
+          "purchase|Purchase orders",
+          "purchase|Supplier acknowledgement"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Mobilisation",
+        "expected_outcome": "Procurement release does not release unsafe site work.",
+        "checkpoints": [
+          "Keep Monday start provisional/operationally and technically held for named enabling prerequisites.",
+          "Do not send installation labour for dependent physical work before reviewed readiness/mobilisation authority."
+        ],
+        "evidence": [
+          "project|Internal release decision",
+          "project|Pre-start planning"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Design boundaries",
+        "expected_outcome": "Outside design ownership does not permit blind installation.",
+        "checkpoints": [
+          "Identify consultant/customer structural design ownership and what Frostline has/has not verified.",
+          "Escalate unsupported structural suitability rather than infer all design responsibility transferred from drawing approval."
+        ],
+        "evidence": [
+          "project|Design and responsibility boundaries"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Preparation",
+        "expected_outcome": "Dependencies have accountable decision paths.",
+        "checkpoints": [
+          "Assign structural/electrical customer actors and Frostline chase owner with hold-point dates.",
+          "Protect delivery/storage and resource plan from provisional dates and assess delay/non-cancellable exposure."
+        ],
+        "evidence": [
+          "project|Materials and equipment",
+          "project|Programme and resource planning",
+          "exceptions|The next-action principle"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Customer record",
+        "expected_outcome": "The permitted stage and held stage are clear.",
+        "checkpoints": [
+          "Tell customer what has been released, what prevents start and next evidence/update requirement.",
+          "Preserve release decision scope/conditions and linked customer, purchase and project references without collapsing states."
+        ],
+        "evidence": [
+          "authority|Decision evidence",
+          "project|Project creation and identity",
+          "project|Completion states"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "A separately reviewed survey/preparation attendance is permissible without implying dependent installation mobilisation; purchase date may vary within supplier terms if rationale and exposure are explicit."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Mobilise dependent installation on unsupported structures from customer urgency, drawing approval or procurement release.",
+        "evidence": [
+          "project|Design and responsibility boundaries",
+          "project|Pre-start planning"
+        ]
+      },
+      {
+        "prohibited_outcome": "Extend procurement beyond the specified released item/value without new authority.",
+        "evidence": [
+          "project|Internal release decision",
+          "authority|Delegated limits"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B011",
+    "slug": "project-change-and-own-error",
+    "title": "Project changes versus Frostline correction",
+    "domains": [
+      "projects",
+      "quoting",
+      "commercial",
+      "field"
+    ],
+    "role": "project owner",
+    "request": "Classify two site issues, protect the works and prepare the correct scope/cost decisions.",
+    "facts": [
+      "Accepted office installation scope expressly includes proper condensate drainage and commissioning. Frostline survey showed the required existing drain route, but its estimator omitted necessary drainage fittings from the cost model. Site evidence confirms the same route is available, with no changed condition.",
+      "Customer separately requests enhanced controls not in the accepted base option. The site supervisor giving this request is an access contact only; authorised procurement decision maker is off site. Controls quote/value and variation approval do not exist.",
+      "Installation engineer identifies both needs. Temporary safe stoppage of affected work is possible without immediate harm. Customer supervisor offers to sign a worksheet saying “works complete including everything”. Commercial manager asks to put both on a customer variation to recover margin."
+    ],
+    "unknowns": [
+      "Value/programme and authority for enhanced controls",
+      "Internal reviewed cost forecast for drainage correction"
+    ],
+    "criteria": [
+      {
+        "label": "Classification",
+        "expected_outcome": "Own omission is separated from customer change.",
+        "checkpoints": [
+          "Treat necessary included drainage as Frostline estimating omission/correction rather than automatic customer-charge variation.",
+          "Treat enhanced controls as a separate proposed customer-requested scope change, not accepted from discovery."
+        ],
+        "evidence": [
+          "project|Change classification",
+          "project|Variations and scope authority"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Safe scope",
+        "expected_outcome": "Work only proceeds under a justified authorised basis.",
+        "checkpoints": [
+          "Arrange completion of included drainage under reviewed safe method and internal commitment authority.",
+          "Hold optional controls intervention/purchase until technical, customer and Frostline approval are adequate."
+        ],
+        "evidence": [
+          "field|Authority to proceed",
+          "project|Variations and scope authority"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Variation evidence",
+        "expected_outcome": "A proposed variation preserves its accepted baseline.",
+        "checkpoints": [
+          "Prepare controls change record with original scope, proposed outcome, price/programme consequences and identified customer decision maker.",
+          "Do not transform the access supervisor request/signature into unrestricted variation authority."
+        ],
+        "evidence": [
+          "project|Variations and scope authority",
+          "field|Sign-off"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Forecast and history",
+        "expected_outcome": "Margin deterioration is visible rather than transferred deceptively.",
+        "checkpoints": [
+          "Update/seek reviewed drainage cost forecast and preserve original accepted estimate history.",
+          "Retain contemporaneous facts and proposed-versus-approved controls change state, with owner and decision date."
+        ],
+        "evidence": [
+          "project|Progress and commercial control",
+          "quote|Changes after award",
+          "info|Corrections and history"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Completion and communication",
+        "expected_outcome": "Delivery evidence reflects actual scope.",
+        "checkpoints": [
+          "Do not accept blanket completion/sign-off before drainage and commissioning are complete.",
+          "Explain included correction versus optional addition and next actions to relevant customer/project/finance owners."
+        ],
+        "evidence": [
+          "project|Completion states",
+          "project|Instructions and contemporaneous records"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "Scope clarification may document included drainage without a price variation; enhanced controls can be declined or separately quoted. Neither requires labelling every site issue a customer variation."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Invoice known Frostline omission as an approved customer variation without new valid commercial agreement or perform optional controls without authority.",
+        "evidence": [
+          "project|Variations and scope authority",
+          "authority|Customer-scope decisions"
+        ]
+      },
+      {
+        "prohibited_outcome": "Fabricate changed-site evidence or completion to conceal the omitted drainage cost.",
+        "evidence": [
+          "project|Change classification",
+          "info|Corrections and history",
+          "project|Completion states"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B012",
+    "slug": "commissioning-handover-and-retention",
+    "title": "Commissioning, handover and independent retention events",
+    "domains": [
+      "projects",
+      "manufacturers",
+      "finance",
+      "assets"
+    ],
+    "role": "project owner",
+    "request": "Process project completion and the later retention request without collapsing the related records.",
+    "facts": [
+      "Wednesday 16:00. Accepted project requires full controls-sequence commissioning, equipment schedule/manual handover and warranty registration. Units run locally, but required BMS sequence/interface tests have not been performed. Customer has seen them running and asks to close the project.",
+      "Manuals and final serial schedule are outstanding. Registration submitted to manufacturer portal but status “evidence incomplete”, requiring commissioning results. Cosmetic panel touch-up is a minor recorded snag. No evidence says the untested controls interface is minor. Invoice stages follow accepted contract; final entitlement evidence is not yet complete.",
+      "Project owner Pat has internal authority to arrange remaining competent commissioning and documentation. Customer access for testing is available Friday 09:00–12:00."
+    ],
+    "unknowns": [
+      "Required interface test results",
+      "Registration acceptance",
+      "Final invoice/closure evidence"
+    ],
+    "criteria": [
+      {
+        "label": "Commissioning",
+        "expected_outcome": "Running plant is not certified commissioning.",
+        "checkpoints": [
+          "Retain uncommissioned/partially complete status for required untested controls interface; do not infer practical completion from local running.",
+          "Arrange authorised Friday competent commissioning/tests with result capture and conditions."
+        ],
+        "evidence": [
+          "project|Testing and commissioning",
+          "project|Completion states"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Handover",
+        "expected_outcome": "Outstanding documentation/registration are actively controlled.",
+        "checkpoints": [
+          "Assign final serial schedule/manuals, commissioning evidence submission and registration acceptance chase with owners/dates.",
+          "Keep registration submitted/evidence incomplete distinct from accepted warranty registration."
+        ],
+        "evidence": [
+          "project|Handover",
+          "maker|Warranty registration"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Residual and closure",
+        "expected_outcome": "Minor snag and material incomplete scope remain distinguishable.",
+        "checkpoints": [
+          "Classify cosmetic touch-up separately from required functional tests, with responsible owner and target date.",
+          "Keep project closure and unsupported final invoice held while mandatory evidence is absent, or explicitly transfer eligible residual obligations under authority."
+        ],
+        "evidence": [
+          "project|Defects, snags and incomplete work",
+          "project|Project closure review",
+          "finance|Invoice triggers"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Retention autonomy",
+        "expected_outcome": "Later contractual retention is assessed separately.",
+        "checkpoints": [
+          "On later notice, treat defects-period expiry/no notified defects as its own evidenced retention trigger, not dependent solely on manufacturer recovery.",
+          "Keep warranty recovery owner/review and retention-release owner/entitlement distinct."
+        ],
+        "evidence": [
+          "finance|Project invoicing",
+          "finance|Financial closure"
+        ],
+        "stage": 2
+      },
+      {
+        "label": "Communication",
+        "expected_outcome": "States and subsequent events are understandable.",
+        "checkpoints": [
+          "Give the initial customer a precise incomplete work/Friday test and handover update without promising manufacturer acceptance.",
+          "On later notice, communicate/release eligible retention through finance while keeping linked warranty recovery visible; do not erase project evidence."
+        ],
+        "evidence": [
+          "project|Completion states",
+          "finance|Warranty cost and recovery"
+        ],
+        "stage": 2
+      }
+    ],
+    "alternatives": [
+      "Practical completion may be decided after required tests pass with genuinely minor recorded residuals; operational project closure can transfer controlled continuing warranty obligations. No single status spelling is required."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Certify commissioning/practical completion/full closure before the required untested interface is resolved, or state registration accepted from submission.",
+        "evidence": [
+          "project|Testing and commissioning",
+          "project|Completion states",
+          "maker|Warranty registration"
+        ]
+      },
+      {
+        "prohibited_outcome": "Declare manufacturer recovery received from retention payment or close an ownerless recovery because retention has been released.",
+        "evidence": [
+          "finance|Project invoicing",
+          "finance|Warranty cost and recovery"
+        ]
+      }
+    ],
+    "event": {
+      "time": "Later contractual review date, after evidenced commissioning/handover completion",
+      "facts": [
+        "Required controls tests subsequently passed and documentation was delivered; registration was accepted, with those dated events retained. Contractual defects period now expired with no outstanding notified defects. Signed terms expressly release remaining £2,000 retention on these facts. Finance confirms authority and submission route.",
+        "A separate manufacturer claim for a remedied product defect remains approved but unprocessed; £700 recovery has not been received. Remedial service is permanently resolved; warranty recovery owner is procurement manager, next chase tomorrow."
+      ],
+      "request": "Process eligible retention release and the continuing manufacturer recovery separately."
+    }
+  },
+  {
+    "id": "B013",
+    "slug": "asset-reconciliation-and-replacement",
+    "title": "Asset identity reconciliation after replacement",
+    "domains": [
+      "assets",
+      "customers",
+      "contracts",
+      "information"
+    ],
+    "role": "service coordinator",
+    "request": "Reconcile inherited asset records and prepare a covered service response at Bridge Mill.",
+    "facts": [
+      "Bridge Mill has two separately contracted tenants at one postal address. Calder archive record C-13 describes roof outdoor unit tag CU-1, serial OLD-13 serving Tenant A. Frostline entry F-13 also says CU-1/OLD-13 but location “Tenant B roof”, copied during migration. No supporting physical identity evidence validates this copy.",
+      "Dated removal/project report and photos show Tenant A old unit OLD-13 was replaced last month by NEW-13 in the same location retaining customer label CU-1. Tenant B still has a different unit B-13 serving its own system. Engineer physically verifies NEW-13 label and associated Tenant A indoor units today.",
+      "Current Tenant A maintenance contract asset schedule lists OLD-13; no schedule variation expressly adding NEW-13 exists. Tenant A reports a fault on the new unit and assumes existing coverage. Access/diagnosis authority for new work is not otherwise established. Old invoices, warranty evidence and refrigerant work refer to OLD-13."
+    ],
+    "unknowns": [
+      "Commercial coverage/release for replacement under current contract",
+      "Correct lineage/identity basis for copied F-13 entry"
+    ],
+    "criteria": [
+      {
+        "label": "Physical identity",
+        "expected_outcome": "Verified replacement identity supersedes copied labels without erasing history.",
+        "checkpoints": [
+          "Distinguish NEW-13 from retired OLD-13 despite retained tag/location.",
+          "Keep separate manufacturer serial/customer tag/internal identity and preserve replacement relationship/source evidence."
+        ],
+        "evidence": [
+          "assets|Identity",
+          "assets|Replacement and retirement",
+          "terms|Asset identifier"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Cross-tenant relationships",
+        "expected_outcome": "Shared address does not merge separate obligations.",
+        "checkpoints": [
+          "Keep Tenant A/B commercial relationships, systems and B-13 history separate.",
+          "Flag uncertain copied F-13/Calder association, retaining aliases and provenance until reconciled rather than asserting false certainty."
+        ],
+        "evidence": [
+          "terms|Identity and duplicate records",
+          "customer|Commercial relationships",
+          "assets|Record quality"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Contract authority",
+        "expected_outcome": "Replacement does not silently amend agreed cover.",
+        "checkpoints": [
+          "Refer OLD-13 to NEW-13 schedule discrepancy to management for coverage/variation review.",
+          "Do not automatically grant all new-unit entitlement or knowingly renew billing for removed equipment without review."
+        ],
+        "evidence": [
+          "contract|Asset schedules",
+          "assets|Assets under contract"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Response control",
+        "expected_outcome": "New fault can progress under an explicit authorised route.",
+        "checkpoints": [
+          "Create symptom-led triage/new-unit response with separate contract, warranty/customer-care or diagnostic-release decision.",
+          "Record specific owner, missing coverage/authority, physical access and near-term next action/escalation."
+        ],
+        "evidence": [
+          "service|Attendance authority",
+          "service|Suspected warranty service",
+          "exceptions|The next-action principle"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Auditable correction",
+        "expected_outcome": "Historical delivery/commercial evidence remains correctly attributable.",
+        "checkpoints": [
+          "Keep OLD-13 invoices/warranty/refrigerant work attached to old identity with correction explanation.",
+          "Communicate corrected asset/scope discrepancy to engineers/account/finance as needed without inventing new history."
+        ],
+        "evidence": [
+          "info|Corrections and history",
+          "assets|Service and work history"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "Logical duplicate entries can be consolidated after evidenced reconciliation if old source references, distinct replaced plant and tenant boundaries survive; implementation-specific record counts do not matter."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Merge tenants/assets on postal address or CU-1 label, overwrite OLD-13 history with NEW-13, or copy unverified serials to complete the register.",
+        "evidence": [
+          "terms|Identity and duplicate records",
+          "assets|Record quality",
+          "assets|Replacement and retirement"
+        ]
+      },
+      {
+        "prohibited_outcome": "Commit to new-unit contract entitlement solely because the replaced unit was listed.",
+        "evidence": [
+          "contract|Asset schedules",
+          "authority|Customer-scope decisions"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B014",
+    "slug": "parts-identification-and-substitution",
+    "title": "Parts identification, restricted supplier and substitution",
+    "domains": [
+      "procurement",
+      "technical",
+      "manufacturers",
+      "dispatch"
+    ],
+    "role": "procurement and stores manager",
+    "request": "Handle the engineer parts message and proposed same-day alternative without causing another failed attendance.",
+    "facts": [
+      "Engineer message on J-14: “needs a fan”, photo of inaccessible label, no confirmed model/serial, voltage, dimensions, part number or root-cause test. Equipment currently isolated safely; controls failure remains possible. Customer has authorised diagnosis only, not a repair purchase.",
+      "Supplier S-Fast is approved only for general consumables, not specialist controls/motors. They offer a cheaper “equivalent” fan with changed voltage/control interface and claim catalogue supersession proves compatibility. No Frostline technical substitution review or customer approval exists.",
+      "Another approved distributor has been asked for identification/pricing but has not received a Frostline PO or acknowledged delivery. Coordinator proposes booking tomorrow as “part ordered”, although shutdown/access and required controls specialist availability are not confirmed."
+    ],
+    "unknowns": [
+      "Verified cause and exact suitable part",
+      "Supplier approval/substitution and purchase/customer authority",
+      "Acknowledged availability, access and specialist readiness"
+    ],
+    "criteria": [
+      {
+        "label": "Requirement maturity",
+        "expected_outcome": "Identification request remains distinct from purchase.",
+        "checkpoints": [
+          "Keep request at identification/technical-review stage, collecting model/serial/photo/rating/test basis rather than calling it ordered.",
+          "Assign engineering owner to verified cause and usable specification/question for supplier/manufacturer."
+        ],
+        "evidence": [
+          "purchase|Purchase requirement",
+          "purchase|Requirement maturity",
+          "technical|Diagnostic principles"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Equivalence",
+        "expected_outcome": "Supplier assertion does not establish a suitable substitute.",
+        "checkpoints": [
+          "Require technical review of voltage, controls, physical fit, duty and supersession changes before accepting alternative.",
+          "Separate customer specification/approval and commercial/warranty consequences from technical recommendation."
+        ],
+        "evidence": [
+          "purchase|Substitutions",
+          "maker|Spare parts and supersession"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Supplier and spend",
+        "expected_outcome": "Restricted approval and diagnostic scope are respected.",
+        "checkpoints": [
+          "Escalate supplier use outside approved category or select appropriately approved supplier.",
+          "Keep purchase on hold until customer/Frostline commitment authorities or explicit manager-owned exposure decision are evidenced."
+        ],
+        "evidence": [
+          "purchase|Approved, conditional and restricted suppliers",
+          "purchase|Customer approval and company approval"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Readiness",
+        "expected_outcome": "Tomorrow remains provisional until dependencies are sufficient.",
+        "checkpoints": [
+          "Do not represent quotation/identification enquiry as ordered, acknowledged or received stock.",
+          "Confirm exact part/availability/reservation, shutdown/access and competence before firm return attendance."
+        ],
+        "evidence": [
+          "purchase|Supplier acknowledgement",
+          "dispatch|Parts and materials readiness",
+          "service|Parts and return attendances"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Owned continuation",
+        "expected_outcome": "The isolated plant and procurement wait are actively controlled.",
+        "checkpoints": [
+          "Record safe isolated condition, technical/approval/supply dependencies and named chase/review/escalation.",
+          "Tell customer verified unknowns, alternatives being checked and next update without promising tomorrow repair."
+        ],
+        "evidence": [
+          "purchase|Open purchasing exceptions",
+          "service|Customer communication"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "Further diagnosis, original compatible part, or reviewed substitute may each be correct; emergency substitution still needs explicit safe suitability and scoped authority."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Purchase/fit the changed-interface fan on supplier assurance alone or outside current technical/customer/Frostline authority.",
+        "evidence": [
+          "purchase|Substitutions",
+          "purchase|Customer approval and company approval"
+        ]
+      },
+      {
+        "prohibited_outcome": "Mark the distributor identification enquiry as confirmed ordered/delivered and promise a ready repair from it.",
+        "evidence": [
+          "purchase|Requirement maturity",
+          "dispatch|Parts and materials readiness"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B015",
+    "slug": "damaged-delivery-and-invoice-match",
+    "title": "Damaged direct delivery and supplier invoice exceptions",
+    "domains": [
+      "procurement",
+      "warehouse",
+      "projects",
+      "finance"
+    ],
+    "role": "procurement and stores manager",
+    "request": "Process the site delivery, revised readiness and supplier invoice.",
+    "facts": [
+      "Approved PO-S15: two specified units at £2,000 each excluding VAT plus agreed freight £100. Supplier acknowledged two. Carrier note signed by security says “two packages”; unloading recipient later finds one correct intact unit and one visibly crushed package containing wrong-model unit.",
+      "Site engineer confirms only the intact specified unit is technically accepted. Wrong/damaged unit is separated, photographed with packaging, linked to receipt/PO. Supplier return deadline is five working days. Installation stage requires two correct units together; planned crew start tomorrow.",
+      "Supplier invoice is £4,250 excluding VAT: two £2,000 lines, £100 agreed freight and £150 unagreed premium freight. Finance has evidence/authority to process genuinely undisputed correctly supplied lines under agreed terms, but no authority to approve disputed supply or extra freight."
+    ],
+    "unknowns": [
+      "Supplier return/replacement/credit decision and date",
+      "Authority for premium freight",
+      "New two-unit mobilisation readiness"
+    ],
+    "criteria": [
+      {
+        "label": "Receipt and acceptance",
+        "expected_outcome": "Delivery signature does not create usable stock.",
+        "checkpoints": [
+          "Record two physical packages/one accepted unit and wrong-damaged quarantine with provenance.",
+          "Exclude wrong/damaged unit from available stock and two-unit readiness."
+        ],
+        "evidence": [
+          "purchase|Direct deliveries",
+          "purchase|Receipt and technical acceptance",
+          "stock|Receipt exceptions"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Recovery custody",
+        "expected_outcome": "Supplier exception protects replacement/credit rights.",
+        "checkpoints": [
+          "Preserve packaging/photos, exact wrong-model/condition, original PO and receipt evidence.",
+          "Assign procurement return authority/replacement/credit chase before five-working-day deadline."
+        ],
+        "evidence": [
+          "purchase|Supplier errors and returns",
+          "stock|Receipt exceptions"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Programme",
+        "expected_outcome": "Failed supply changes the dependent mobilisation.",
+        "checkpoints": [
+          "Notify project owner that tomorrow two-unit installation is not ready and decide reschedule/safe independent stage under authority.",
+          "Record affected labour/customer commitment, replacement date confidence and next review."
+        ],
+        "evidence": [
+          "project|Materials and equipment",
+          "dispatch|Dynamic rescheduling"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Invoice matching",
+        "expected_outcome": "Disputed and undisputed amounts are differentiated.",
+        "checkpoints": [
+          "Identify £2,000 correct unit and £100 agreed freight as evidenced potentially undisputed amounts, subject to confirmed delivery terms; wrong unit £2,000 and premium £150 remain disputed.",
+          "Do not pay full invoice from carrier signature or automatically withhold valid undisputed amount just to hide unmatched lines."
+        ],
+        "evidence": [
+          "purchase|Invoice matching",
+          "finance|Supplier invoices"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Cost and ownership",
+        "expected_outcome": "The unresolved financial and operational actions remain visible.",
+        "checkpoints": [
+          "Retain £2,150 disputed amount, expected credit/replacement and separate accepted cost allocation without treating credit as received.",
+          "Give finance/project/customer proportionate update with owner, due/review and invoice-payment decision route."
+        ],
+        "evidence": [
+          "finance|Accruals and uninvoiced cost",
+          "purchase|Open purchasing exceptions"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "If contract terms condition all freight on full correct delivery, mark £100 under reviewed uncertainty rather than force payment; fixture establishes agreed freight value but not that condition. A reviewed safe independent stage is acceptable."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Install or count the wrong/damaged unit as available, or certify two-unit readiness from signed packages.",
+        "evidence": [
+          "purchase|Receipt and technical acceptance",
+          "stock|Receipt exceptions"
+        ]
+      },
+      {
+        "prohibited_outcome": "Release full supplier invoice/extra freight solely from proof of delivery, or mark unreceived credit as cash recovery.",
+        "evidence": [
+          "purchase|Invoice matching",
+          "finance|Supplier invoices",
+          "finance|Warranty cost and recovery"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B016",
+    "slug": "scarce-stock-and-customer-ownership",
+    "title": "Scarce stock allocation and customer-owned spares",
+    "domains": [
+      "warehouse",
+      "dispatch",
+      "projects",
+      "commercial"
+    ],
+    "role": "procurement and stores manager",
+    "request": "Source a suitable replacement for the urgent repair and record any permitted transfer.",
+    "facts": [
+      "One compatible board at depot is reserved for Project P-16 commissioning tomorrow; reservation has owner Pat and a contracted fixed access window. One apparently identical board belongs to customer Lake Group and is held solely for their site under explicit custody agreement. Neither is freely available.",
+      "Engineer Dana reports one compatible unreserved Frostline-owned board in her van; physical count/condition not yet verified. Engineer Omar on urgent J-16 has accepted customer and internal repair authority including this exact board. Technical compatibility is established; site shutdown/access are confirmed. Urgent impact is significant but safely isolated with an adequate temporary workaround until tomorrow.",
+      "Coordinator requests “take whichever is nearest”. Pat has not approved displacement and Lake has not permitted other-customer use. Dana can meet Omar in one hour if physical count confirms stock. The report says supplier next-day replenishment is indicative, not acknowledged."
+    ],
+    "unknowns": [
+      "Physical van-board presence/condition",
+      "Project reallocation decision if van option fails",
+      "Confirmed supplier replacement date"
+    ],
+    "criteria": [
+      {
+        "label": "Usable stock",
+        "expected_outcome": "State and ownership qualify physical quantities.",
+        "checkpoints": [
+          "Identify reserved Project board and Lake-owned spare as unavailable for unrestricted urgent issue.",
+          "Verify Dana quantity/variant/condition/reservation before relying on van record."
+        ],
+        "evidence": [
+          "stock|Available, reserved and quarantined states",
+          "stock|Customer-owned and consignment stock",
+          "dispatch|Van stock and distributed inventory"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Controlled solution",
+        "expected_outcome": "A suitable authorised van transfer can meet the need.",
+        "checkpoints": [
+          "Choose/prepare Dana-to-Omar transfer after verification, within exact repair authority and practical travel.",
+          "Record item/quantity, source van, destination engineer/job, time, custody and replenishment consequence."
+        ],
+        "evidence": [
+          "stock|Van stock",
+          "stock|Picking and issue"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Reservation displacement",
+        "expected_outcome": "One urgent request does not silently steal another commitment.",
+        "checkpoints": [
+          "If reserved board is considered, seek reviewed authorised reallocation, Pat notification and impact/replacement plan.",
+          "Do not treat indicative supplier next-day date as confirmed cover for tomorrow commissioning."
+        ],
+        "evidence": [
+          "stock|Reservation and allocation",
+          "dispatch|Emergency displacement",
+          "purchase|Lead times and expediting"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Customer ownership",
+        "expected_outcome": "Custody does not create rights to use property.",
+        "checkpoints": [
+          "Keep Lake spare distinct and do not consume or relabel as Frostline property without agreement.",
+          "If Lake use is proposed, require permitted-use/owner and commercial/return/replenishment decision before issue."
+        ],
+        "evidence": [
+          "stock|Customer-owned and consignment stock",
+          "terms|Responsible party"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Owned waiting",
+        "expected_outcome": "Urgent and displaced dependencies remain visible.",
+        "checkpoints": [
+          "Record J-16 temporary workaround/limits, source-verification owner and near-term review/escalation.",
+          "Communicate confirmed versus provisional response to customer and affected project owner."
+        ],
+        "evidence": [
+          "exceptions|Temporary measures",
+          "exceptions|The next-action principle",
+          "service|Customer communication"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "Explicitly approved reservation reallocation is valid after both commitments are reviewed and displaced owner notified. Lake-owned use is possible only with newly evidenced agreement, not mere possession."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Take Lake property without permitted use/owner agreement or silently reassign reserved board without reviewed consequences/notification.",
+        "evidence": [
+          "stock|Customer-owned and consignment stock",
+          "stock|Reservation and allocation"
+        ]
+      },
+      {
+        "prohibited_outcome": "Fabricate physical availability or guaranteed next-day replenishment to certify repair/project readiness.",
+        "evidence": [
+          "dispatch|Van stock and distributed inventory",
+          "purchase|Lead times and expediting"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B017",
+    "slug": "cancelled-work-surplus-and-returns",
+    "title": "Cancelled work, surplus custody and continuing exposure",
+    "domains": [
+      "procurement",
+      "warehouse",
+      "finance",
+      "operations"
+    ],
+    "role": "project owner",
+    "request": "Cancel the customer project under the supplied instruction and control materials, returns and financial consequences.",
+    "facts": [
+      "Known authorised customer cancels P-17 in writing. Safe site condition is verified; no outstanding immediate hazards. No cancellation-charge clause/value is provided. Frostline had authorised non-returnable custom unit purchase £6,000; supplier confirms it cannot be cancelled and title remains with Frostline. No other customer has approved use.",
+      "Unused project materials £400 are sealed and assessed technically reusable; £100 opened electrical parts are mechanically suspect and unassessed. Both remain attributed to P-17 in depot/van. A separate £300 wrongly ordered part has approved supplier return/RMA within seven days and expected credit subject to receipt/inspection; goods have not been returned.",
+      "Project owner suggests removing all costs and closing everything because no invoice will be sent. Warehouse has authority to accept assessed reusable returns to controlled stock; financial write-off/credit decisions require finance approval."
+    ],
+    "unknowns": [
+      "Cancellation entitlement/customer settlement",
+      "Alternative authorised use or disposal of custom unit",
+      "Supplier credit receipt and suspect-part assessment"
+    ],
+    "criteria": [
+      {
+        "label": "Cancellation truth",
+        "expected_outcome": "Operational cancellation preserves remaining obligations.",
+        "checkpoints": [
+          "Record authorised cancellation, actual site condition and original commitments/history.",
+          "Separate operational project cancellation from unresolved purchase, return, stock and financial actions."
+        ],
+        "evidence": [
+          "exceptions|Cancellation and abandonment",
+          "purchase|Cancellation and surplus commitments"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Material custody",
+        "expected_outcome": "Reusable and suspect materials follow different states.",
+        "checkpoints": [
+          "Return assessed sealed £400 goods to controlled available stock with source/allocation trail under existing authority.",
+          "Quarantine £100 suspect parts for assessment; do not assume reuse or silently erase cost."
+        ],
+        "evidence": [
+          "stock|Returns from engineers and sites",
+          "finance|Materials and stock cost"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Non-returnable exposure",
+        "expected_outcome": "Custom purchase remains a real company commitment.",
+        "checkpoints": [
+          "Retain £6,000 exposure and reviewed named owner for alternative use/storage/value provision or disposal.",
+          "Do not automatically invoice customer absent cancellation entitlement or call custom goods worthless solely from cancellation."
+        ],
+        "evidence": [
+          "purchase|Cancellation and surplus commitments",
+          "finance|Credit approval and exposure",
+          "stock|Obsolete and slow-moving stock"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Return and credit",
+        "expected_outcome": "Approved return progresses before its deadline.",
+        "checkpoints": [
+          "Arrange £300 RMA dispatch/chain of custody and supplier receipt/credit chase within seven days.",
+          "Keep expected credit separate from received value and preserve original wrong-order responsibility."
+        ],
+        "evidence": [
+          "purchase|Supplier errors and returns",
+          "finance|Supplier invoices"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Financial control",
+        "expected_outcome": "Closure waits for or transfers controlled residual decisions.",
+        "checkpoints": [
+          "Record cost/allocation corrections transparently and seek delegated write-off/settlement decisions where needed.",
+          "Assign finance/procurement review and customer update dates; no ownerless return or exposure is lost at closure."
+        ],
+        "evidence": [
+          "finance|Financial closure",
+          "stock|Write-offs and disposal",
+          "exceptions|The next-action principle"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "Project operational closure with residual exposures transferred to linked accepted owners is valid; authorised redeployment/write-down/settlement may differ with evidence."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Delete committed cost/old delivery evidence on cancellation, mark expected supplier credit received or make suspect goods available without assessment.",
+        "evidence": [
+          "finance|Materials and stock cost",
+          "stock|Returns from engineers and sites",
+          "info|Corrections and history"
+        ]
+      },
+      {
+        "prohibited_outcome": "Automatically bill £6,000 cancellation loss or dispose of custom goods without the required entitlement/authority.",
+        "evidence": [
+          "finance|Invoice triggers",
+          "stock|Write-offs and disposal"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B018",
+    "slug": "warranty-parts-only-and-evidence",
+    "title": "Warranty restoration with parts-only recovery and evidence custody",
+    "domains": [
+      "warranty",
+      "manufacturers",
+      "warehouse",
+      "finance"
+    ],
+    "role": "service manager",
+    "request": "Process the remedial report and manufacturer offer; the customer wants assurance it was all a free warranty repair.",
+    "facts": [
+      "Equipment installed six months ago has a failed compressor. Cause/responsibility remains inconclusive: product defect and utility disturbance both possible. Manager explicitly authorised customer-care repair and Frostline exposure before final responsibility to restore critical service. Engineer is competent and replacement is tested as permanent remedial outcome; report/conditions retained.",
+      "Gross attributable remedial cost: labour/travel £700, purchased compressor £900, refrigerant £200, freight/access £200 = £2,000 excluding VAT. Manufacturer claim M-18 offers parts-only £900 credit pending return/test; no labour, refrigerant, freight or access acceptance. No credit processed or customer charge agreed.",
+      "Failed compressor labelled with customer/site/asset/job/claim sits in warehouse evidence hold. RMA return/test deadline five days; insurer has requested preservation because same failure caused separately investigated damage. Engineer proposes scrapping it now that service works. Customer is told support is initially no charge pending investigation, not admitted liability."
+    ],
+    "unknowns": [
+      "Verified root cause/final responsibility",
+      "Coordinated RMA and insurer evidence release",
+      "Actual recovery and ultimate commercial treatment"
+    ],
+    "criteria": [
+      {
+        "label": "Support versus liability",
+        "expected_outcome": "Restored service does not decide responsibility.",
+        "checkpoints": [
+          "Record tested permanent remedial job outcome while case remains inconclusive/responsibility and recovery outstanding.",
+          "Preserve internal customer-care authority and do not treat no initial invoice as admission or zero cost."
+        ],
+        "evidence": [
+          "warranty|Core principle",
+          "warranty|Warranty records",
+          "finance|Warranty cost and recovery"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Recovery arithmetic",
+        "expected_outcome": "Gross exposure and expected recovery are separate.",
+        "checkpoints": [
+          "Record £2,000 gross cost and £900 conditional parts-only claim; no £900 received value yet.",
+          "Describe potential net £1,100 only if £900 is realised, with other costs unrecovered and responsibility still open."
+        ],
+        "evidence": [
+          "warranty|Cost control",
+          "maker|Labour and warranty recovery"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Evidence custody",
+        "expected_outcome": "Repair completion does not permit destruction of claim evidence.",
+        "checkpoints": [
+          "Keep labelled compressor in evidence hold with identity, tests, location and custodian.",
+          "Coordinate insurer preservation and RMA return/inspection before release or disposal; preserve five-day return risk and escalate conflict."
+        ],
+        "evidence": [
+          "stock|Warranty and evidence custody",
+          "risk|Evidence preservation",
+          "maker|Returns and RMAs"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Closure controls",
+        "expected_outcome": "Remedial job and warranty/insurance records are independent.",
+        "checkpoints": [
+          "Allow operational repair completion while recovery/responsibility/insurance actions retain linked owners.",
+          "Hold final case closure until decisions, recoveries/write-offs, customer treatment and required learning actions are complete or explicitly accepted under authority."
+        ],
+        "evidence": [
+          "warranty|Closure criteria",
+          "finance|Financial closure"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Customer update",
+        "expected_outcome": "Commercial uncertainty is communicated honestly.",
+        "checkpoints": [
+          "Explain verified working condition, investigation and limited manufacturer offer without promising full free cover/reimbursement.",
+          "Assign claim/evidence decision owner, insurer/manufacturer actors and next update/review time."
+        ],
+        "evidence": [
+          "warranty|Customer communication",
+          "exceptions|The next-action principle"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "Authorised agreed goodwill absorption may conclude customer treatment without rewriting technical cause; insurer/manufacturer-approved photographed inspection/return arrangements may vary if evidence needs and deadlines are met."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Scrap/strip/return the only failed component before reconciling active insurer/claim evidence needs, or represent parts offer as full recovery received.",
+        "evidence": [
+          "stock|Warranty and evidence custody",
+          "risk|Evidence preservation",
+          "maker|Claim authority"
+        ]
+      },
+      {
+        "prohibited_outcome": "Close all responsibility/recovery actions solely because remedial service is restored or falsely record warranty work as zero cost.",
+        "evidence": [
+          "warranty|Closure criteria",
+          "finance|Warranty cost and recovery"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B019",
+    "slug": "warranty-to-customer-charge",
+    "title": "Warranty investigation converted to customer charge",
+    "domains": [
+      "warranty",
+      "finance",
+      "authority",
+      "service"
+    ],
+    "role": "account manager",
+    "request": "Handle the engineer request to invoice the customer and process any subsequent approval evidence.",
+    "facts": [
+      "Approved suspected-warranty investigation on J-19. Engineer tests and photographs establish unauthorised third-party controls alteration caused the fault, not Frostline/supplier defect. Customer terms explicitly permit diagnostic charge £350 excluding VAT in this outcome, and customer accepted that conditional basis before attendance.",
+      "Engineer report is complete, safe service is restored and tested within the authorised investigation scope. Engineer asks finance to send £350 immediately. Operational/account manager has not yet confirmed customer communication/invoice decision; finance has not yet assessed commercial evidence or release.",
+      "Customer says they believed “warranty” always means free. No goodwill approval or credit decision exists."
+    ],
+    "unknowns": [
+      "Operational/account manager communication and charging confirmation",
+      "Finance sufficiency agreement/release"
+    ],
+    "criteria": [
+      {
+        "label": "Technical input",
+        "expected_outcome": "Supported cause is recorded without exaggerating authority.",
+        "checkpoints": [
+          "Retain tests/photos establishing alteration as technical input and original suspected-warranty investigation history.",
+          "Do not let engineer technical conclusion alone execute conversion/invoice."
+        ],
+        "evidence": [
+          "warranty|Customer-chargeable outcomes",
+          "authority|Warranty decisions"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Three-part decision",
+        "expected_outcome": "Customer charge proposal waits for the remaining authorised inputs.",
+        "checkpoints": [
+          "Obtain operational/account manager confirmation that customer should be informed/invoiced with accepted conditional terms.",
+          "Obtain finance agreement that commercial basis and evidence suffice, distinguishing all three inputs."
+        ],
+        "evidence": [
+          "warranty|Customer-chargeable outcomes",
+          "finance|Disputes"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Customer fairness",
+        "expected_outcome": "Charging explanation preserves terms and diagnosis.",
+        "checkpoints": [
+          "Explain £350 conditional entitlement and tested third-party cause honestly before surprising invoice.",
+          "Keep customer objection/possible goodwill as separately owned commercial decision, not rewritten liability or erased cost."
+        ],
+        "evidence": [
+          "warranty|Customer-chargeable outcomes",
+          "finance|Credits, write-offs and goodwill"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Approved execution",
+        "expected_outcome": "Once remaining evidence arrives the correct charge can progress.",
+        "checkpoints": [
+          "On follow-up, release £350 excluding VAT under supplied finance authority, correct entity/reference and evidence.",
+          "Keep invoice-issued/debt/recovery and operationally complete states separate; no duplicate full-repair charge."
+        ],
+        "evidence": [
+          "finance|Invoice validation and release",
+          "finance|Operational completion and financial closure"
+        ],
+        "stage": 2
+      },
+      {
+        "label": "Ownership and audit",
+        "expected_outcome": "Initial hold and subsequent decision are traceable.",
+        "checkpoints": [
+          "Record customer-charge-proposed state, missing inputs, singular chase owner and near-term review/escalation.",
+          "Preserve dated technical finding, conditional customer basis and pending manager/finance decision state rather than retroactively calling initial attendance never warranty."
+        ],
+        "evidence": [
+          "authority|Decision evidence",
+          "exceptions|The next-action principle",
+          "info|Corrections and history"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "An explicitly authorised goodwill reduction/absorption is defensible with preserved cause/cost and delegated commercial approval. At initial phase, controlled hold is correct; after approvals, indefinite refusal is not."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Invoice conversion from engineer conclusion alone before manager communication confirmation and finance sufficiency decision.",
+        "evidence": [
+          "warranty|Customer-chargeable outcomes"
+        ]
+      },
+      {
+        "prohibited_outcome": "Fabricate terms/approval, surprise customer with unrelated extra charges, or erase technical alteration evidence to call work a confirmed manufacturer defect.",
+        "evidence": [
+          "warranty|Customer-chargeable outcomes",
+          "info|Corrections and history"
+        ]
+      }
+    ],
+    "event": {
+      "time": "Next working day 10:00",
+      "facts": [
+        "Known authorised account manager records customer call: explained cause, evidence and accepted £350 conditional term, confirms customer should be invoiced. Customer acknowledges explanation but remains unhappy. No goodwill change was agreed.",
+        "Finance reviews accepted conditional terms, engineer evidence, correct customer legal entity/PO exception and confirmed VAT classification; records commercial evidence sufficient and authorises £350 excluding VAT invoice. Numeric VAT rate can be supplied by finance for computation."
+      ],
+      "request": "Apply the completed charge decision and preserve the remaining records."
+    }
+  },
+  {
+    "id": "B020",
+    "slug": "recall-scope-and-unknown-serial",
+    "title": "Manufacturer safety notice with incomplete asset identity",
+    "domains": [
+      "manufacturers",
+      "assets",
+      "safety",
+      "dispatch"
+    ],
+    "role": "operations manager",
+    "request": "Administer the safety campaign and prepare immediate restrictions and customer actions.",
+    "facts": [
+      "Verified authentic manufacturer safety notice N-20 covers model MX serials 100–199 inclusive. Notice requires affected units isolated pending mandatory modification, prompt customer communication, competent authorised modification/test within five working days. Manufacturer labour/recovery terms remain unresolved. Notice is a case-specific product event, not general Frostline policy.",
+      "A-20A model MX serial 120, installed customer Site A; B-20B model MX serial 250, Site B; C-20C model MX serial unknown with blurry label photo, Site C; D-20D model MY serial 120, Site D. C has customer alias identical to A but is at a separate verified site. Archived removed MX-150 is clearly retired and no longer installed.",
+      "Operations manager has authority for necessary safety communications/competent isolation and identification attendance. Site contacts/access are known; safe isolation method for A is ready. Verification of C physical serial is possible today. No completion/notification events have occurred. Customer A asks to keep running until recovery is approved."
+    ],
+    "unknowns": [
+      "C serial/notice applicability",
+      "Modification resources/acceptance evidence",
+      "Manufacturer recovery"
+    ],
+    "criteria": [
+      {
+        "label": "Population",
+        "expected_outcome": "Affected, unaffected and uncertain identities remain distinct.",
+        "checkpoints": [
+          "Identify A as confirmed affected; B/D as outside stated model/serial scope and removed MX-150 as historical, without conflating C alias.",
+          "Keep C potentially affected/identity verification required rather than clear it or invent a serial."
+        ],
+        "evidence": [
+          "maker|Product recalls and safety notices",
+          "assets|Record quality",
+          "terms|Identity and duplicate records"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Immediate control",
+        "expected_outcome": "Urgent safety protection precedes financial recovery.",
+        "checkpoints": [
+          "Notify/arrange ready competent isolation of A under manager authority and notice restriction despite customer objection.",
+          "Urgently verify C and obtain proportionate safety review/interim decision while applicability remains unknown."
+        ],
+        "evidence": [
+          "maker|Product recalls and safety notices",
+          "authority|Safety decisions",
+          "field|Unsafe or restricted systems"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Campaign readiness",
+        "expected_outcome": "Each required modification is controlled to notice timescale.",
+        "checkpoints": [
+          "Assign affected asset action owner, access/competence/material dependencies and five-working-day schedule/review escalation.",
+          "Keep identification, isolation, modification and tested completion as separate evidenced events."
+        ],
+        "evidence": [
+          "maker|Product recalls and safety notices",
+          "dispatch|Readiness checks",
+          "field|Testing and recommissioning"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Cost and completion",
+        "expected_outcome": "Recovery does not gate necessary protection or fabricate completion.",
+        "checkpoints": [
+          "Record mobilisation/parts exposure and manufacturer recovery inquiry separately from safety authority.",
+          "Do not mark modification complete or manufacturer repayment confirmed without supporting events."
+        ],
+        "evidence": [
+          "maker|Claim authority",
+          "finance|Warranty cost and recovery",
+          "maker|Product recalls and safety notices"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Customer and trend evidence",
+        "expected_outcome": "The campaign can be audited by asset and action.",
+        "checkpoints": [
+          "Preserve authentic notice/version, matching basis, customer communications and evidence/unknowns for each relevant asset.",
+          "Give customers restrictions, verification/modification next step, owner and update time without unsupported safe-operation guarantee."
+        ],
+        "evidence": [
+          "maker|Product recalls and safety notices",
+          "authority|Decision evidence"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "Temporary precautionary restriction for C is valid if proportionate risk review/authority and uncertainty are recorded; notice does not prove B/D unsafe or require inventing a blanket fleet recall."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Leave confirmed A running because customer demands it or repayment is unapproved, despite authentic isolation notice and available competent authority.",
+        "evidence": [
+          "maker|Product recalls and safety notices",
+          "field|Unsafe or restricted systems"
+        ]
+      },
+      {
+        "prohibited_outcome": "Clear unknown C by fabricated serial, conflate C with A, or certify unperformed modifications as complete.",
+        "evidence": [
+          "assets|Record quality",
+          "terms|Identity and duplicate records",
+          "maker|Product recalls and safety notices"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B021",
+    "slug": "calibration-competence-and-prior-work",
+    "title": "Out-of-tolerance instruments and task-specific competence",
+    "domains": [
+      "fleet",
+      "people",
+      "compliance",
+      "projects"
+    ],
+    "role": "operations manager",
+    "request": "Respond to the instrument finding, allocate tomorrow tasks and review potentially affected prior commissioning.",
+    "facts": [
+      "Instrument I-21 used for material safety/commissioning measurements was found outside acceptable tolerance by a calibration laboratory today. It carries an apparently in-date label; laboratory report establishes unacceptable error. Last week reports for Projects A/B cite I-21. Error magnitude versus their acceptance margins has not yet been reviewed.",
+      "Tomorrow combustion-analysis task explicitly requires current qualification and verified instrument. Senior engineer Eli historical qualification expired yesterday; renewal course attendance is booked but successful assessment/current renewal is not evidenced. Apprentice Fen is restricted to defined filter maintenance under approved remote supervision, not combustion work.",
+      "Qualified authorised engineer Gia and verified suitable analyser G-21 are available for combustion work; Gia can also provide the already approved remote supervision for Fen filter task with suitable site access. Operations manager holds routine allocation authority and compliance coordinator can gather historical report evidence."
+    ],
+    "unknowns": [
+      "Scope/safety impact of I-21 error on prior A/B results",
+      "Eli renewed assessment/authorisation"
+    ],
+    "criteria": [
+      {
+        "label": "Instrument status",
+        "expected_outcome": "Failed calibration overrides apparent label.",
+        "checkpoints": [
+          "Remove/quarantine I-21 from measurement use pending adjustment/repair/replacement and evidence.",
+          "Use verified G-21 with pre-use condition checks for task requiring valid measurement; no invented calibration interval."
+        ],
+        "evidence": [
+          "fleet|Out-of-calibration equipment",
+          "fleet|Calibration",
+          "fleet|Gas analysers and specialist instruments"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Past consequences",
+        "expected_outcome": "Potentially invalid prior evidence is investigated.",
+        "checkpoints": [
+          "Link I-21 to A/B reports, lab error and test conditions; assign competent impact review.",
+          "Determine whether retest/customer safety/notifications are needed from error size and safety significance, without declaring all old tests valid or invalid unexamined."
+        ],
+        "evidence": [
+          "fleet|Out-of-calibration equipment",
+          "safety|Quality control"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Current competence",
+        "expected_outcome": "Historical experience/course attendance does not replace qualification.",
+        "checkpoints": [
+          "Do not assign Eli required combustion work on expired qualification or planned course attendance.",
+          "Allocate Gia current qualified/authorised task rather than unnecessarily blocking all safe work."
+        ],
+        "evidence": [
+          "training|Expiring qualifications",
+          "training|Competence records",
+          "dispatch|Engineer capability"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Supervision scope",
+        "expected_outcome": "Approved limited apprentice work remains usable.",
+        "checkpoints": [
+          "Allow Fen filter maintenance only within defined remote-supervision authorisation and suitable arrangement.",
+          "Do not promote Fen to combustion task or demand direct supervision for every task where approved remote supervision is sufficient."
+        ],
+        "evidence": [
+          "people|Apprentices and supervision",
+          "training|Authorisation and restriction"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Continuing control",
+        "expected_outcome": "Equipment/people review outcomes have owners and records.",
+        "checkpoints": [
+          "Assign I-21 repair/retest, A/B impact review and Eli renewal verification owners/review triggers.",
+          "Preserve original measurements and corrections, communicate material consequences through appropriate manager/compliance route."
+        ],
+        "evidence": [
+          "exceptions|The next-action principle",
+          "info|Corrections and history",
+          "safety|Incident and near-miss management"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "Approved competent alternative resource/equipment can substitute for Gia/G-21; historical review may conclude no retest necessary if evidenced impact is immaterial. Fen authorised remote-supervised filter work can proceed."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Use I-21 for material certification despite unacceptable error or allocate required combustion work to Eli/Fen without current competence/qualification.",
+        "evidence": [
+          "fleet|Out-of-calibration equipment",
+          "training|Expiring qualifications",
+          "people|Apprentices and supervision"
+        ]
+      },
+      {
+        "prohibited_outcome": "Erase/replace historical readings or declare affected prior safety evidence sound solely from in-date label.",
+        "evidence": [
+          "fleet|Out-of-calibration equipment",
+          "info|Corrections and history"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B022",
+    "slug": "complaint-incident-and-liability",
+    "title": "Service complaint, property incident and insurer notification",
+    "domains": [
+      "customer-service",
+      "risk",
+      "compliance",
+      "finance"
+    ],
+    "role": "service manager",
+    "request": "Take ownership of the hotel email, coordinate immediate action and review the proposed goodwill settlement.",
+    "facts": [
+      "Customer email at 09:00: “Your unit leaked again, stained our ceiling and nobody called us back. This is unacceptable.” Email does not use word complaint. Water still threatens nearby electrical fittings. Cause disputed: Frostline drainage work, customer blockage or another contractor alteration. Customer photos and failed pump/pipe section are available.",
+      "Competent authorised emergency engineer can isolate/contain safely now. Relevant policy notification route requires authorised manager to notify broker promptly before full investigation is complete; no precise statutory reporting deadline is supplied. Compliance coordinator can gather evidence; broker is contactable.",
+      "Customer demands £5,000 compensation and asks a junior coordinator to agree a full-and-final settlement today. No settlement/credit delegation is supplied. Coordinator proposes £100 goodwill and closing the issue because an engineer can visit. Finance invoice includes £400 undisputed maintenance and £300 disputed prior repair; no authorised adjustment exists."
+    ],
+    "unknowns": [
+      "Verified cause/liability and insurer coverage",
+      "Authorised settlement or invoice outcome",
+      "Necessary regulatory notifications following competent review"
+    ],
+    "criteria": [
+      {
+        "label": "Recognition and owner",
+        "expected_outcome": "The expressed dissatisfaction becomes an owned complaint.",
+        "checkpoints": [
+          "Capture complaint despite no formal word/channel and name a severity-appropriate manager communication owner.",
+          "Acknowledge promptly with evidence/investigation steps and realistic update rather than reflexive admission or denial."
+        ],
+        "evidence": [
+          "complaint|What counts as a complaint",
+          "complaint|Complaint ownership",
+          "complaint|Initial response"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Harm control",
+        "expected_outcome": "Ongoing property/electrical risk is protected.",
+        "checkpoints": [
+          "Arrange available competent authorised containment/isolation and relevant electrical escalation.",
+          "Preserve safe-state/residual risk and follow-on action; small goodwill or attendance is not safety closure."
+        ],
+        "evidence": [
+          "risk|Incident response",
+          "complaint|Service recovery",
+          "field|Specific hazard responses"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Evidence and notifications",
+        "expected_outcome": "Investigation and notification run under their own controls.",
+        "checkpoints": [
+          "Preserve photos/removed components/chronology, record cause alternatives and coordinate insurance/warranty evidence custody.",
+          "Notify management/broker promptly via authorised route; seek applicable regulatory/contract duties without inventing law or waiting for final blame."
+        ],
+        "evidence": [
+          "risk|Evidence preservation",
+          "complaint|Severity and escalation",
+          "risk|Claims handling"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Commercial authority",
+        "expected_outcome": "Goodwill, liability and debt are separate.",
+        "checkpoints": [
+          "Do not approve £5,000 settlement/full-and-final terms or £100 credit without delegated review, and do not promise insurer cover.",
+          "Keep £400 undisputed invoice value visible/collectible and £300 disputed with evidence/owner; do not erase all debt."
+        ],
+        "evidence": [
+          "complaint|Liability and goodwill",
+          "finance|Disputes",
+          "finance|Credits, write-offs and goodwill",
+          "risk|Insurance arrangements"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Closure and prevention",
+        "expected_outcome": "The complaint remains open until its controlled outcome.",
+        "checkpoints": [
+          "Record corrective/safety, commercial, communication and customer-response dependencies with owners/review dates.",
+          "Do not close just because attendance/apology/credit is offered; retain learning action for repeat leak/missed updates."
+        ],
+        "evidence": [
+          "complaint|Closure",
+          "complaint|Learning and prevention",
+          "exceptions|The next-action principle"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "Apology, independent inspection, authorised goodwill or firm evidence-backed liability outcome may differ; safety, notification, evidence and approval controls remain required. Domain complaint closure is used; reporting wording conflict is recorded in gaps."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Close complaint while known water/electrical risk remains uncontrolled, or defer required prompt broker notification solely until final investigation.",
+        "evidence": [
+          "complaint|Closure",
+          "risk|Incident response",
+          "complaint|Severity and escalation"
+        ]
+      },
+      {
+        "prohibited_outcome": "Promise compensation/full-and-final settlement or erase debt without delegated approval; destroy available active claim evidence.",
+        "evidence": [
+          "complaint|Liability and goodwill",
+          "finance|Credits, write-offs and goodwill",
+          "risk|Evidence preservation"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B023",
+    "slug": "purpose-limited-information-and-history",
+    "title": "Purpose-limited disclosure and active-claim record corrections",
+    "domains": [
+      "information",
+      "authority",
+      "customer-service"
+    ],
+    "role": "office and compliance coordinator",
+    "request": "Provide the subcontractor with the needed delivery information and handle the proposed record correction/deletion.",
+    "facts": [
+      "Approved subcontractor appointed under authorised fixed scope to diagnose ventilation at Site S-23. Needs agreed access contact/induction, relevant asset identity/history, current symptom/safety condition and scope/reporting limits. They request an export of “everything”: all customer accounts, internal margins, unrelated personnel records and security codes for other sites.",
+      "J-23 original engineer note said “probable drainage obstruction; cause not verified”. Later tests establish a cracked pump. Complaint/insurance investigation is active and uses original note/photos as chronology. Manager asks to replace old note with “verified pump failure” and delete old photos to simplify the customer report. No permission to destroy active evidence exists.",
+      "Coordinator is authorised to share necessary delivery information through a controlled agreed channel, issue attributable correction addendum and provide customer report appropriate to scope. No repository policy establishes exact record-retention years or blanket disclosure permission."
+    ],
+    "unknowns": [
+      "Any further specific delivery information genuinely required",
+      "Future lawful/contractual retention decisions after active claim"
+    ],
+    "criteria": [
+      {
+        "label": "Necessary handoff",
+        "expected_outcome": "Authorised delivery receives enough relevant information.",
+        "checkpoints": [
+          "Share relevant site contact/induction, asset history, symptoms/safety, scope and reporting limits through controlled channel.",
+          "Do not refuse all necessary records under an invented blanket confidentiality rule."
+        ],
+        "evidence": [
+          "info|Access and confidentiality",
+          "exceptions|Service coordination to engineer"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Boundary",
+        "expected_outcome": "Unrelated sensitive information is withheld.",
+        "checkpoints": [
+          "Exclude other customers/security codes, internal margins and unrelated personnel records from this purpose-limited export.",
+          "Record purpose/recipient/authority and seek reviewed justification for any genuinely necessary additional sensitive input."
+        ],
+        "evidence": [
+          "info|Access and confidentiality",
+          "info|Customer-facing records"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Correction integrity",
+        "expected_outcome": "New findings amend rather than rewrite the earlier uncertainty.",
+        "checkpoints": [
+          "Retain original probable/unverified note with source/time and add attributable later cracked-pump evidence/conclusion.",
+          "Make materially changed diagnosis transparent and link corrected facts to the right job/asset/claim."
+        ],
+        "evidence": [
+          "info|Corrections and history",
+          "authority|Decision evidence"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Active evidence",
+        "expected_outcome": "Convenience does not dispose of active claim material.",
+        "checkpoints": [
+          "Retain relevant original photos/notes needed by active complaint/insurance investigation and restrict unnecessary disclosure.",
+          "Do not invent a seven-year or indefinite retention policy; assign review when claim/contract/legal needs are resolved."
+        ],
+        "evidence": [
+          "info|Retention and disposal",
+          "risk|Evidence preservation"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Audience and ownership",
+        "expected_outcome": "Reports and unresolved disclosure decisions are controlled.",
+        "checkpoints": [
+          "Provide customer a supported appropriate report distinguishing latest verified facts from earlier uncertainty, excluding candid internal unrelated material.",
+          "Name owner/review trigger for any rejected disclosure/correction instruction and communicate limits to subcontract/manager."
+        ],
+        "evidence": [
+          "info|Customer-facing records",
+          "exceptions|The next-action principle"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "Redacted relevant extracts, controlled access or a purpose-built handoff packet are equivalent; necessary site-access secret can be supplied to approved recipient under controlled handling if justified, without unrelated-site disclosure."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Export unrelated personnel, internal margins, other-customer records/security codes to this subcontractor without necessity/authority.",
+        "evidence": [
+          "info|Access and confidentiality"
+        ]
+      },
+      {
+        "prohibited_outcome": "Rewrite original uncertain diagnosis as contemporaneously verified or delete photos needed for the active claim.",
+        "evidence": [
+          "info|Corrections and history",
+          "info|Retention and disposal",
+          "risk|Evidence preservation"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B024",
+    "slug": "management-metrics-and-business-state",
+    "title": "Management reporting from outcomes and incomplete financial evidence",
+    "domains": [
+      "reporting",
+      "finance",
+      "service",
+      "contracts"
+    ],
+    "role": "service manager preparing board evidence",
+    "request": "Produce a compact operational/commercial readout, with calculations, exceptions and owned management actions from these records. A draft headline says “100% repairs complete, 100% maintenance, £12,000 profit and no complaints”.",
+    "facts": [
+      "Reporting period just ended. Reactive issues R1–R6: R1 suitable authorised repair permanently resolved on first attendance; R2 suitable repair temporarily restored on first, permanent repair required unplanned second attendance; R3 authorised diagnosis-only scope complete, remedial quotation outstanding; R4 return attendance always planned; R5 no safe justified first-attendance repair could reasonably be expected due to confirmed inaccessible unsafe system; R6 suitable repair claimed complete first attendance, same original work failed prematurely and required corrective return. Those eligibility facts are accepted source evidence for this case.",
+      "Due maintenance obligations M1–M4 in period: M1/M2 complete in window; M3 no-access uncompleted; M4 displaced by Frostline capacity, completed after window. No formally varied/cancelled duty. Contract denominator is all four due obligations. No credit formula is supplied.",
+      "Two SLA incidents use identical elapsed time continuous basis with no exclusions: X receipt 09:00, meaningful initial response 09:10, service-location attendance 10:00, temporary restoration 12:00, tested permanent resolution next day 09:00. Y receipt 09:00, initial response 09:20, attendance 11:00, permanent restoration/resolution 13:00. Both attendance targets 2 elapsed hours inclusive. Customer X expresses unacceptable missed updates and repeat failure; complaint response/closure evidence is absent.",
+      "Project revenue £30,000 recognised under evidenced milestone. Actual recorded direct costs £18,000; additional completed subcontract work £4,000 not yet supplier-invoiced and not in £18,000; forecast total direct-cost basis is otherwise complete. Conditional manufacturer credit £1,000 is offered but unprocessed and not netted in costs. £8,000 customer invoice issued and not yet due, no payment received. Other cash/revenue data and satisfaction sample are not supplied."
+    ],
+    "unknowns": [
+      "Other cash/accounting data and realised recovery",
+      "Complaint investigation/closure",
+      "Wider portfolio trends and response distribution"
+    ],
+    "criteria": [
+      {
+        "label": "Fix eligibility",
+        "expected_outcome": "First-time fix reflects eligible durable outcomes.",
+        "checkpoints": [
+          "Calculate suitable denominator R1/R2/R6 = 3 and numerator R1 = 1; first-time fix 1/3 (33.3% rounded).",
+          "Separate diagnostic completion, planned return, unsafe/no justified repair exclusions and R6 callback; do not count temporary R2 as durable first-time success."
+        ],
+        "evidence": [
+          "kpi|First-time fix rate",
+          "service|First-time fix",
+          "kpi|Recall or callback rate"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Maintenance",
+        "expected_outcome": "Period delivery does not erase overdue obligations.",
+        "checkpoints": [
+          "Report on-time completion 2/4 = 50%, retaining M3 no-access and M4 late capacity cause.",
+          "Keep later recovery separate from in-window attainment and do not invent automatic service credits."
+        ],
+        "evidence": [
+          "service|Maintenance obligations and schedules",
+          "kpi|Planned maintenance completion",
+          "sla|Service credits"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "SLA outcome measures",
+        "expected_outcome": "Response, attendance, restoration and resolution are distinct.",
+        "checkpoints": [
+          "Report mean initial response 15 min, attendance 90 min and attendance attainment 2/2 = 100% including Y boundary.",
+          "Report mean restoration 3h30 and permanent resolution 14h; preserve X 24h versus Y 4h permanent outcomes and small-sample/breach context."
+        ],
+        "evidence": [
+          "kpi|Mean time to respond",
+          "kpi|Mean time to repair",
+          "sla|Performance measurement"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Margin and cash",
+        "expected_outcome": "Uninvoiced cost/recovery uncertainty are visible.",
+        "checkpoints": [
+          "Accrue/forecast £4,000 delivered subcontract cost: total £22,000; gross margin £8,000 and 26.7% of £30,000, not £12,000/40%. Do not treat conditional £1,000 as realised recovery.",
+          "Keep £8,000 invoice issued/not due separate from cash received (£0 for that invoice); do not assert whole-business profit or cash from missing data."
+        ],
+        "evidence": [
+          "finance|Accruals and uninvoiced cost",
+          "kpi|Gross margin",
+          "maker|Labour and warranty recovery",
+          "finance|Operational completion and financial closure"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Management consequences",
+        "expected_outcome": "The readout identifies actionable unresolved work.",
+        "checkpoints": [
+          "Capture X complaint despite no formal word, unresolved diagnostic/temporary/unsafe outcomes and responsible follow-up rather than declare everything complete/no complaints.",
+          "Assign owners/review for repeat failure, missed updates, maintenance backlog and financial evidence; disclose definitions/eligibility and insufficient trend/sample information."
+        ],
+        "evidence": [
+          "complaint|What counts as a complaint",
+          "kpi|Data quality",
+          "kpi|Ownership and action",
+          "exceptions|The next-action principle"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "Equivalent fractions and normal rounding are accepted. Callback count R6 = 1 is sufficient; no unique overall callback-rate denominator is established for these mixed issue records, so an explicit defensible scope or refusal to fabricate one receives credit."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Publish the proposed 100% fix/maintenance or no-complaint headline while suppressing known incomplete/late/complaint evidence.",
+        "evidence": [
+          "kpi|Data quality",
+          "service|Maintenance obligations and schedules",
+          "complaint|What counts as a complaint"
+        ]
+      },
+      {
+        "prohibited_outcome": "Represent £12,000 as actual gross margin ignoring delivered subcontract cost, conditional credit as received, or invoice as cash paid.",
+        "evidence": [
+          "finance|Accruals and uninvoiced cost",
+          "maker|Labour and warranty recovery",
+          "finance|Operational completion and financial closure"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B025",
+    "slug": "tender-qualification-and-energy-claims",
+    "title": "Tender qualification and unsupported performance commitments",
+    "domains": [
+      "sales",
+      "quoting",
+      "environment",
+      "risk"
+    ],
+    "role": "commercial manager",
+    "request": "Decide how to respond to the tender and draft only commitments Frostline can responsibly support.",
+    "facts": [
+      "Prestigious prospect seeks overnight coverage to all sites across England with guaranteed permanent repair within two hours, unlimited consequential-loss liability, and a fixed savings guarantee “at least 40% energy reduction”. Tender deadline tomorrow; proposal is not accepted and no work authority exists.",
+      "Frostline supplied capacity assessment shows no rested approved specialist cover for several remote sites, no confirmed model-specific parts availability and no travel/access basis supporting this promise. Customer has supplied only nameplate efficiency data; actual baseline, operating hours, controls state and load profile are missing. Manufacturer representative encourages an extended warranty claim but no programme membership/engineer eligibility/registration terms evidence supports this prospect.",
+      "Estimator proposes a qualified regional/defined-hours offering, agreed diagnostic/attendance milestones and a measured energy survey option. Directors/finance can review unusual contractual exposure; no unlimited-risk approval exists. Prospect says qualifications may reduce chance of award."
+    ],
+    "unknowns": [
+      "Accepted service model/capacity and supplier support",
+      "Legal/insurance review of liabilities",
+      "Credible measured savings basis and manufacturer eligibility"
+    ],
+    "criteria": [
+      {
+        "label": "Qualification",
+        "expected_outcome": "Unsuitable obligations are a pursuit decision, not automatic award.",
+        "checkpoints": [
+          "Assess geography, realistic rested capability, scope/parts and payment/risk fit before undertaking commitments.",
+          "Decline, defer or offer explicit negotiated qualification where unworkable commitments cannot be responsibly supported."
+        ],
+        "evidence": [
+          "sales|Qualification",
+          "sales|Tenders and frameworks",
+          "quote|Opportunity qualification"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Service semantics",
+        "expected_outcome": "Response promise does not pretend to guarantee repair.",
+        "checkpoints": [
+          "Distinguish attainable acknowledgement/attendance/diagnostic milestones from parts-dependent permanent resolution.",
+          "Do not offer universal national two-hour permanent repair from unsupported capacity/travel/parts evidence."
+        ],
+        "evidence": [
+          "sla|Geographic coverage",
+          "sla|Restoration and resolution",
+          "sales|Sales conduct"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Energy evidence",
+        "expected_outcome": "Efficiency nameplates do not justify a savings guarantee.",
+        "checkpoints": [
+          "Refuse/qualify 40% guarantee pending credible baseline, assumptions and measurement route.",
+          "Offer measured survey/controls/selection review that preserves comfort, required ventilation and equipment protection."
+        ],
+        "evidence": [
+          "environment|Energy performance",
+          "environment|Controls and optimisation"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Risk and manufacturer authority",
+        "expected_outcome": "Marketing and liability commitments are separately validated.",
+        "checkpoints": [
+          "Escalate unlimited consequential liability/insurability to authorised commercial/director/legal/broker review before acceptance.",
+          "Do not claim extended warranty/approved status from representative encouragement without programme/registration/engineer conditions."
+        ],
+        "evidence": [
+          "risk|Contract review",
+          "maker|Approved installer programmes",
+          "maker|Warranty registration"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Practical response",
+        "expected_outcome": "The prospect gets a clear constrained commercial position.",
+        "checkpoints": [
+          "Record qualification decision, alternatives/exclusions and evidence dependencies with owner/deadline before tender closes.",
+          "Keep tender submitted/negotiation distinct from won/released work, preserve customer-dependent promises and any authorised concessions."
+        ],
+        "evidence": [
+          "sales|Sales stages",
+          "sales|Pricing and negotiation",
+          "exceptions|The next-action principle"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "Evidence-backed decline, revised qualified tender or explicit negotiation are all valid; winning the tender is not scored. An appropriately approved risk acceptance can occur only from additional traceable authority, not general prestigious-customer preference."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Offer unsupported guaranteed national permanent repair, 40% savings or manufacturer entitlement as established fact.",
+        "evidence": [
+          "sales|Sales conduct",
+          "environment|Energy performance",
+          "maker|Approved installer programmes"
+        ]
+      },
+      {
+        "prohibited_outcome": "Accept unlimited liability or create purchasing/mobilisation commitment without the required reviewed authority/release.",
+        "evidence": [
+          "risk|Contract review",
+          "authority|Commercial decisions",
+          "quote|Internal approval"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B026",
+    "slug": "controls-firmware-and-system-consequences",
+    "title": "Controls firmware advice and system consequences",
+    "domains": [
+      "technical",
+      "manufacturers",
+      "projects",
+      "authority"
+    ],
+    "role": "service manager",
+    "request": "Assess the manufacturer firmware advice and arrange a justified intervention for the shared controls system.",
+    "facts": [
+      "At Calder Offices, model controller K-26 on firmware 3.1 intermittently drops zone enable. Manufacturer support case M-26 recommends update to 3.4 to address this symptom, conditional on compatible gateway version and saved configuration. Advice is not a customer instruction, purchase approval or guarantee of root cause.",
+      "The controller coordinates heating, cooling and required occupied ventilation for two tenants. Current manual workaround restores partial service under documented manager approval, restricted hours, customer understanding and tomorrow 10:00 review. No emergency permits permanent changes without review.",
+      "Engineer Rina can collect logs and conventional control readings but is not authorised for significant firmware/BMS updates. Controls specialist Sol is available tomorrow subject to manager allocation; customer controls contractor owns gateway and network configuration. Current gateway version, release notes/known issues, backup, downtime authority and rollback/recommissioning plan are unconfirmed. Customer site contact asks Rina to install tonight and disable occupied ventilation to save energy while testing."
+    ],
+    "unknowns": [
+      "Gateway compatibility and scope of firmware fix",
+      "Customer/system-change and competent intervention authority",
+      "Backup, rollback, downtime, release notes and post-update tests"
+    ],
+    "criteria": [
+      {
+        "label": "Advice and diagnosis",
+        "expected_outcome": "Manufacturer advice remains bounded technical evidence.",
+        "checkpoints": [
+          "Retain support case, symptom/log/test evidence, conditions and uncertain root cause rather than call update a proven complete remedy.",
+          "Keep manufacturer advice distinct from customer scope, Frostline expenditure and safe local execution authority."
+        ],
+        "evidence": [
+          "maker|Advice records and authority",
+          "technical|Diagnostic principles"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Competent change",
+        "expected_outcome": "Significant update requires supported prerequisites.",
+        "checkpoints": [
+          "Do not assign Rina significant firmware update beyond authorisation; arrange Sol/controls contractor under explicit allocation and scope authority.",
+          "Verify current/target versions, gateway dependencies, release notes and warranty/support effects before intervention."
+        ],
+        "evidence": [
+          "maker|Software and firmware",
+          "technical|Controls and BMS interfaces",
+          "authority|Technical decisions"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Reversible controlled plan",
+        "expected_outcome": "A system update includes change and testing controls.",
+        "checkpoints": [
+          "Arrange authorised downtime, configuration backup and rollback plan with customer/controls owner involvement.",
+          "Specify and retain recommissioning tests for heating/cooling/required ventilation and record resulting configuration/change, not just disappearance of alarm."
+        ],
+        "evidence": [
+          "maker|Software and firmware",
+          "field|Testing and recommissioning",
+          "project|Design and responsibility boundaries"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Cross-system consequences",
+        "expected_outcome": "Energy and troubleshooting do not defeat required service.",
+        "checkpoints": [
+          "Reject disabling required occupied ventilation as proposed energy saving/testing shortcut without a justified safe authorised method.",
+          "Preserve documented temporary workaround limits/review and permanent resolution owner while the update remains conditional."
+        ],
+        "evidence": [
+          "environment|Controls and optimisation",
+          "technical|Temporary measures",
+          "exceptions|Temporary measures"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Continuing ownership",
+        "expected_outcome": "The technical and authority dependencies remain actionable.",
+        "checkpoints": [
+          "Assign gateway/backup/customer-approval/specialist chase owner and decision review before tomorrow 10:00 workaround trigger.",
+          "Update both affected customer interests with verified partial service, unknowns and next action without promising permanent fix from advisory note."
+        ],
+        "evidence": [
+          "exceptions|The next-action principle",
+          "maker|Escalation and relationship ownership",
+          "service|Customer communication"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "Further diagnostic monitoring or a reviewed update may be chosen; temporary workaround continuation requires authorised reviewed limits. A gateway/controls-contractor intervention is valid only within its established safe scope and authority."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Direct significant firmware change outside competence/authority without compatibility, backup and controlled downtime/test prerequisites.",
+        "evidence": [
+          "maker|Software and firmware",
+          "authority|Technical decisions"
+        ]
+      },
+      {
+        "prohibited_outcome": "Disable required occupied ventilation to claim savings or leave the temporary workaround as unreviewed permanent service.",
+        "evidence": [
+          "environment|Controls and optimisation",
+          "exceptions|Temporary measures"
+        ]
+      }
+    ],
+    "event": null
+  },
+  {
+    "id": "B027",
+    "slug": "verbal-spend-limits-and-service-credit",
+    "title": "Verbal spend authority, premium attendance and service credits",
+    "domains": [
+      "contracts",
+      "finance",
+      "authority",
+      "service"
+    ],
+    "role": "service manager",
+    "request": "Review the out-of-hours attendance authority, disputed verbal instruction, costs and proposed service credit.",
+    "facts": [
+      "Signed case contract: valid monitored desk request Saturday 20:00 starts continuous four-elapsed-hour suitable attendance target; no permitted stop occurred. Qualified on-call engineer attended agreed accessible service location Sunday 00:30. Contract charges fixed out-of-hours diagnostic attendance £300 excluding VAT. If target exceeded by up to one hour, contract permits £100 attendance service credit after finance/delegated approval, with no premium-rate exclusion or negligence admission. This is the applicable case agreement, not general company tariff.",
+      "Known authorised customer duty facilities manager Ana gave recorded verbal authority at 20:10 for diagnosis and necessary minor repair up to total £600 excluding VAT. Contemporaneous note states name/time/scope/limit. Frostline duty manager separately approved up to this same £600 work commitment. Material verbal confirmation in writing is still sought.",
+      "Engineer performed authorised diagnosis (£300 fixed price basis), then recommended replacement motor with further price £500. No emergency requires immediate permanent motor replacement; asset is safe isolated. The engineer did not perform/order it. Later Ana denies agreeing any £600 limit and says “I only asked you to attend”. No other proof resolves dispute. Customer asks to net all old account debt against this incident. No motor authority, debt write-off or service-credit release is granted yet. Technical labour/cost entries remain actual recorded cost, not automatically customer billable time."
+    ],
+    "unknowns": [
+      "Disputed verbal scope confirmation and finance charging sufficiency",
+      "Authority for £500 motor repair above original total cap",
+      "Finance service-credit release and other debt treatment"
+    ],
+    "criteria": [
+      {
+        "label": "Event and credit entitlement",
+        "expected_outcome": "Premium attendance does not amend the agreed target.",
+        "checkpoints": [
+          "Calculate deadline Sunday 00:00, actual attendance 00:30 and 30-minute breach with no retrospective stop.",
+          "Identify £100 contractual credit eligibility subject to supplied approval condition; premium diagnostic rate does not remove credit under these terms."
+        ],
+        "evidence": [
+          "sla|Coverage hours",
+          "sla|Attendance targets",
+          "sla|Service credits"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Verbal authority history",
+        "expected_outcome": "Contemporaneous instruction and later dispute are both preserved.",
+        "checkpoints": [
+          "Retain Ana 20:10 diagnosis/minor-repair total £600 instruction and separate internal limit without rewriting history from later denial.",
+          "Seek written confirmation/escalate disputed scope and finance evidence sufficiency with source/time and uncertainty visible."
+        ],
+        "evidence": [
+          "authority|Verbal instructions",
+          "authority|Conflicts and escalation",
+          "finance|Disputes"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Scope and cap",
+        "expected_outcome": "Diagnostic authority is not unlimited motor spend.",
+        "checkpoints": [
+          "Recognise proposed £300+£500 = £800 exceeds original total £600 cap even if contemporaneous instruction is accepted.",
+          "Hold/quote motor separately until current valid customer and internal authority, safe readiness and approved price are adequate."
+        ],
+        "evidence": [
+          "service|Attendance authority",
+          "finance|Customer authority and purchase orders",
+          "authority|Delegated limits"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Financial decisions",
+        "expected_outcome": "Credits, billing and debt retain distinct approvals.",
+        "checkpoints": [
+          "Route £300 diagnosis charging and £100 service credit through finance/evidence/approval decisions; no invented automatic netting or motor invoice.",
+          "Do not erase unrelated old debt or move actual labour/cost merely to achieve apparent credit/margin outcome."
+        ],
+        "evidence": [
+          "finance|Credits, write-offs and goodwill",
+          "finance|Labour recording",
+          "authority|Credit and invoice decisions"
+        ],
+        "stage": 1
+      },
+      {
+        "label": "Owned safe continuation",
+        "expected_outcome": "Outage, dispute and breach recovery remain controlled.",
+        "checkpoints": [
+          "Record safely isolated asset, unresolved motor repair and named customer-approval/dispute/finance next action with due review/escalation.",
+          "Give customer verified late attendance, potential contractual credit, disputed instruction and permanent repair next steps without declaring liability resolved."
+        ],
+        "evidence": [
+          "service|Customer communication",
+          "exceptions|The next-action principle",
+          "sla|Service credits"
+        ],
+        "stage": 1
+      }
+    ],
+    "alternatives": [
+      "The £300 diagnostic charge may be held pending finance dispute review without abandoning contractual credit assessment; approved credit may later net against this invoice under finance direction, but cannot be assumed or erase other debt. A £200 potential net diagnosis invoice is conditional on entitlement/evidence and both approvals, not already released."
+    ],
+    "failures": [
+      {
+        "prohibited_outcome": "Remove or invent verbal authority evidence after denial, commit to the £500 motor under a £600 total cap, or claim unapproved motor work was delivered.",
+        "evidence": [
+          "authority|Verbal instructions",
+          "authority|Delegated limits",
+          "info|Corrections and history"
+        ]
+      },
+      {
+        "prohibited_outcome": "Deny stated service credit solely from premium attendance, invent a clock stop to erase breach or waive unrelated debt without finance authority.",
+        "evidence": [
+          "sla|Service credits",
+          "sla|Clock stops",
+          "authority|Credit and invoice decisions"
+        ]
+      }
+    ],
+    "event": null
+  }
+]

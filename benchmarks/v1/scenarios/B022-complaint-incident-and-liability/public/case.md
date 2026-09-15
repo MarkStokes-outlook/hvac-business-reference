@@ -1,0 +1,21 @@
+# B022 — Service complaint, property incident and insurer notification
+
+## Context and supplied records
+
+Isolated synthetic business episode; dates/amounts/contracts/people below are case-specific source facts, not new enduring Frostline policy.
+
+**B022-F1.** Customer email at 09:00: “Your unit leaked again, stained our ceiling and nobody called us back. This is unacceptable.” Email does not use word complaint. Water still threatens nearby electrical fittings. Cause disputed: Frostline drainage work, customer blockage or another contractor alteration. Customer photos and failed pump/pipe section are available.
+
+**B022-F2.** Competent authorised emergency engineer can isolate/contain safely now. Relevant policy notification route requires authorised manager to notify broker promptly before full investigation is complete; no precise statutory reporting deadline is supplied. Compliance coordinator can gather evidence; broker is contactable.
+
+**B022-F3.** Customer demands £5,000 compensation and asks a junior coordinator to agree a full-and-final settlement today. No settlement/credit delegation is supplied. Coordinator proposes £100 goodwill and closing the issue because an engineer can visit. Finance invoice includes £400 undisputed maintenance and £300 disputed prior repair; no authorised adjustment exists.
+
+## Missing or disputed facts
+
+- Verified cause/liability and insurer coverage
+- Authorised settlement or invoice outcome
+- Necessary regulatory notifications following competent review
+
+## Request
+
+Take ownership of the hotel email, coordinate immediate action and review the proposed goodwill settlement.

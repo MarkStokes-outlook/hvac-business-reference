@@ -1,0 +1,25 @@
+{
+  "scenario_id": "B020",
+  "stage": 1,
+  "context": "Isolated synthetic business episode; dates/amounts/contracts/people below are case-specific source facts, not new enduring Frostline policy.",
+  "records": [
+    {
+      "id": "B020-F1",
+      "statement": "Verified authentic manufacturer safety notice N-20 covers model MX serials 100–199 inclusive. Notice requires affected units isolated pending mandatory modification, prompt customer communication, competent authorised modification/test within five working days. Manufacturer labour/recovery terms remain unresolved. Notice is a case-specific product event, not general Frostline policy."
+    },
+    {
+      "id": "B020-F2",
+      "statement": "A-20A model MX serial 120, installed customer Site A; B-20B model MX serial 250, Site B; C-20C model MX serial unknown with blurry label photo, Site C; D-20D model MY serial 120, Site D. C has customer alias identical to A but is at a separate verified site. Archived removed MX-150 is clearly retired and no longer installed."
+    },
+    {
+      "id": "B020-F3",
+      "statement": "Operations manager has authority for necessary safety communications/competent isolation and identification attendance. Site contacts/access are known; safe isolation method for A is ready. Verification of C physical serial is possible today. No completion/notification events have occurred. Customer A asks to keep running until recovery is approved."
+    }
+  ],
+  "unknowns": [
+    "C serial/notice applicability",
+    "Modification resources/acceptance evidence",
+    "Manufacturer recovery"
+  ],
+  "request": "Administer the safety campaign and prepare immediate restrictions and customer actions."
+}

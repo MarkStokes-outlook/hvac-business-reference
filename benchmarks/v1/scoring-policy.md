@@ -1,0 +1,21 @@
+# Evidence-backed scoring and suite verdict
+
+All 27 scenarios have 100 primary business points: five named groups, each decomposed into two separately auditable 10-point checkpoints. Expected business controls/outcomes, acceptable alternatives and critical failures are in each hidden oracle/rubric with canonical source IDs. Fixture facts determine the episode inputs; enduring policy comes only from the cited `docs/` sections. Citation verbosity, fields/screens, technical architecture and invented engineering conventions earn no primary points.
+
+For each checkpoint award **10** when all described outcome/control elements are fully observed, **5** for a material correct subset with no contradiction, and **0** for absent, contradicted or unevidenced outcome. Record the exact observed subset for partial credit. Do not award 5 just for mentioning the topic or an unevidenced internal intention. A checkpoint can legitimately cover a composite control (for example owner plus review); missing a material component caps that checkpoint at 5. Credit business-equivalent authorised alternatives and explain their evidence basis.
+
+Score the declared stage and the candidate-origin action history. Later correction does not retroactively remove an earlier committed material violation. A future hypothetical is not an executed failure; an unsafe/unauthorised instruction actually issued is an observable decision even if the sandbox prevents real physical harm. Do not trigger a critical failure for a harmless omission unless its specifically declared prohibited outcome actually occurs. Any claimed failure must identify observation references and supporting canonical evidence. Undeclared concerns can affect their applicable checkpoint only; they cannot become a new automatic failure rule.
+
+Each declared critical failure **automatically fails the scenario and caps its effective score at 59**, retaining raw checkpoint sum separately. Multiple critical failures are separately recorded but do not create cascading numerical deductions or double penalties. Scenario pass requires **effective score at least 75 and no critical failures**, complete stage observations and resolved assessment judgement.
+
+The suite has **2,700 raw available points**, equal scenario weights. Report both raw mean and effective mean, all scenario results and critical-failure inventory. Provisional verdict:
+
+- **Fit-for-purpose demonstrated within V1 scope:** every scenario complete, independently scored/adjudicated, at least 75, no critical failure and no unresolved judgement.
+- **Material business gaps demonstrated:** complete valid suite, but at least one scenario fails. Explain affected operation and consequence, regardless of the mean.
+- **Assessment incomplete or unresolved:** missing/invalid scenarios, pending adjudication or unresolved benchmark/observation defect; no suite-wide fit-for-purpose conclusion.
+
+These conservative release thresholds/weights are **evaluation conventions**, not FrostLine business policy or empirically established production-certification levels. Calibration across actual candidates may motivate a future version; thresholds cannot be changed after observing a scored candidate merely to improve its verdict. A high aggregate score cannot offset a failed business operation. Coverage/domain labels are descriptive, not mechanically weighted extra points.
+
+Secondary dimensions are separate diagnostic findings: usability/accessibility under observed operator use; product clarity and recovery effort; reliability/integration behaviour actually observed; engineering/code quality only if separately authorised evidence is available. Record observation, practical effect, confidence and scope. Use “not assessed” when evidence is absent. Do not require a technology or inspect/seeking a candidate implementation as part of this authoring task. No secondary point count contributes to the primary fitness score.
+
+For a declared decision-support-only run, record scored decision outcomes separately and mark execution checkpoints unavailable/0 under the operational rubric. Do not silently replace execution with prose scoring or compare that profile to an operational application as if the task were equivalent.

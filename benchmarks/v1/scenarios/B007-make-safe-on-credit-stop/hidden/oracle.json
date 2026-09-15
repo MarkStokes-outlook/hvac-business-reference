@@ -1,0 +1,268 @@
+{
+  "scenario_id": "B007",
+  "version": "1.0.0",
+  "total_points": 100,
+  "criteria": [
+    {
+      "id": "B007-C1",
+      "label": "Protection",
+      "points": 20,
+      "expected_outcome": "Immediate harm is controlled through separate authority.",
+      "evidence_ids": [
+        "E062",
+        "E063",
+        "E064"
+      ],
+      "checkpoints": [
+        {
+          "id": "B007-C1.1",
+          "points": 10,
+          "outcome": "Mobilise the competent engineer for necessary safe isolation/containment under the recorded emergency decision; do not refuse all protection solely from credit stop.",
+          "evidence_ids": [
+            "E062",
+            "E063",
+            "E064"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B007-C1.2",
+          "points": 10,
+          "outcome": "Keep electrical danger outside Lee competence and escalate to relevant specialists/emergency route as needed.",
+          "evidence_ids": [
+            "E062",
+            "E063",
+            "E064"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B007-C2",
+      "label": "Emergency limits",
+      "points": 20,
+      "expected_outcome": "Make-safe does not release a replacement.",
+      "evidence_ids": [
+        "E065",
+        "E066"
+      ],
+      "checkpoints": [
+        {
+          "id": "B007-C2.1",
+          "points": 10,
+          "outcome": "Limit authorised commitment to proportionate protective work, recording conditions, risk and manager authority.",
+          "evidence_ids": [
+            "E065",
+            "E066"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B007-C2.2",
+          "points": 10,
+          "outcome": "Hold non-returnable replacement purchase/full repair until selection, customer and Frostline release are sufficient.",
+          "evidence_ids": [
+            "E065",
+            "E066"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B007-C3",
+      "label": "Credit and debt",
+      "points": 20,
+      "expected_outcome": "Finance retains financial authority.",
+      "evidence_ids": [
+        "E067",
+        "E062"
+      ],
+      "checkpoints": [
+        {
+          "id": "B007-C3.1",
+          "points": 10,
+          "outcome": "Keep account stop/old debt intact pending finance decision, distinguishing emergency exception from wider credit release.",
+          "evidence_ids": [
+            "E067",
+            "E062"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B007-C3.2",
+          "points": 10,
+          "outcome": "Do not grant unilateral compensation, debt waiver or unexplained emergency charging.",
+          "evidence_ids": [
+            "E067",
+            "E062"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B007-C4",
+      "label": "Safe outcome and continuation",
+      "points": 20,
+      "expected_outcome": "The isolated system remains an owned unresolved issue.",
+      "evidence_ids": [
+        "E063",
+        "E009"
+      ],
+      "checkpoints": [
+        {
+          "id": "B007-C4.1",
+          "points": 10,
+          "outcome": "Record plant left, areas protected, residual outage/risk and customer understanding; make-safe is not restored normal service.",
+          "evidence_ids": [
+            "E063",
+            "E009"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B007-C4.2",
+          "points": 10,
+          "outcome": "Assign next diagnosis/permanent repair/finance decision owners with an early review and escalation.",
+          "evidence_ids": [
+            "E063",
+            "E009"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B007-C5",
+      "label": "Decision evidence",
+      "points": 20,
+      "expected_outcome": "The customer and finance receive a traceable bounded decision.",
+      "evidence_ids": [
+        "E065",
+        "E011"
+      ],
+      "checkpoints": [
+        {
+          "id": "B007-C5.1",
+          "points": 10,
+          "outcome": "Capture decision maker/time, risk, alternatives, contacts, commitment and authority conditions.",
+          "evidence_ids": [
+            "E065",
+            "E011"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B007-C5.2",
+          "points": 10,
+          "outcome": "Communicate protective attendance, restricted service, unresolved cost position and next update without promising full repair.",
+          "evidence_ids": [
+            "E065",
+            "E011"
+          ],
+          "stage": 1
+        }
+      ]
+    }
+  ],
+  "acceptable_alternatives": [
+    {
+      "outcome": "A safe remote protective step within site-contact competence may precede attendance; no hazardous remote instruction or uncontrolled delay is acceptable.",
+      "evidence_ids": [
+        "E009",
+        "E011",
+        "E018",
+        "E019",
+        "E062",
+        "E063",
+        "E064",
+        "E065",
+        "E066",
+        "E067",
+        "E068"
+      ]
+    }
+  ],
+  "prohibited_outcomes": [
+    {
+      "outcome": "Refuse all urgent protection solely because of credit stop, despite available competent authorised make-safe response.",
+      "evidence_ids": [
+        "E062",
+        "E065"
+      ],
+      "critical_failure_id": "B007-CF1"
+    },
+    {
+      "outcome": "Buy/perform the unapproved non-returnable full replacement, waive old debt, or represent make-safe as permanent restoration.",
+      "evidence_ids": [
+        "E065",
+        "E067",
+        "E068"
+      ],
+      "critical_failure_id": "B007-CF2"
+    }
+  ],
+  "critical_failures": [
+    {
+      "id": "B007-CF1",
+      "outcome": "Refuse all urgent protection solely because of credit stop, despite available competent authorised make-safe response.",
+      "evidence_ids": [
+        "E062",
+        "E065"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    },
+    {
+      "id": "B007-CF2",
+      "outcome": "Buy/perform the unapproved non-returnable full replacement, waive old debt, or represent make-safe as permanent restoration.",
+      "evidence_ids": [
+        "E065",
+        "E067",
+        "E068"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    }
+  ],
+  "evidence_ids": [
+    "E009",
+    "E011",
+    "E018",
+    "E019",
+    "E062",
+    "E063",
+    "E064",
+    "E065",
+    "E066",
+    "E067",
+    "E068"
+  ],
+  "uncertainty": [
+    {
+      "fact": "Permanent defect/repair scope",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Authority and terms for wider replacement",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Invoice basis for emergency action",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    }
+  ],
+  "observation_rule": "Score actual resulting state/actions and candidate-origin recorded decisions. An unexecuted recommendation cannot satisfy an action checkpoint; see protocol for decision-support-only comparisons. No credit from evaluator-written repairs or hidden mental reasoning."
+}

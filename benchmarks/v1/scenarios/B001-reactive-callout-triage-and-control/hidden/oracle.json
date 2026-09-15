@@ -1,0 +1,307 @@
+{
+  "scenario_id": "B001",
+  "version": "2.0.0",
+  "total_points": 100,
+  "criteria": [
+    {
+      "id": "B001-C1",
+      "label": "Impact and evidence",
+      "points": 20,
+      "expected_outcome": "A symptom-led request remains under triage with contract and impact checks.",
+      "evidence_ids": [
+        "E001",
+        "E002",
+        "E003"
+      ],
+      "checkpoints": [
+        {
+          "id": "B001-C1.1",
+          "points": 10,
+          "outcome": "Record partial service loss and reported safety facts without inventing a cause or emergency status.",
+          "evidence_ids": [
+            "E001",
+            "E002",
+            "E003"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B001-C1.2",
+          "points": 10,
+          "outcome": "Assign urgent checks of applicable contract, covered equipment, priority and response target.",
+          "evidence_ids": [
+            "E001",
+            "E002",
+            "E003"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B001-C2",
+      "label": "Bounded competent response",
+      "points": 20,
+      "expected_outcome": "A useful diagnostic response can progress within released scope.",
+      "evidence_ids": [
+        "E004",
+        "E005",
+        "E006"
+      ],
+      "checkpoints": [
+        {
+          "id": "B001-C2.1",
+          "points": 10,
+          "outcome": "Dispatch or prepare Samir only for commercially released diagnosis within his competence, with engineer acceptance.",
+          "evidence_ids": [
+            "E004",
+            "E005",
+            "E006"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B001-C2.2",
+          "points": 10,
+          "outcome": "Keep advanced BMS intervention conditional on specialist competence and access evidence.",
+          "evidence_ids": [
+            "E004",
+            "E005",
+            "E006"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B001-C3",
+      "label": "Resource and cost authority",
+      "points": 20,
+      "expected_outcome": "Specialist movement and chargeable work remain conditional.",
+      "evidence_ids": [
+        "E007",
+        "E008"
+      ],
+      "checkpoints": [
+        {
+          "id": "B001-C3.1",
+          "points": 10,
+          "outcome": "Seek Helen/project-owner decision before displacing Ellie and preserve commissioning consequences.",
+          "evidence_ids": [
+            "E007",
+            "E008"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B001-C3.2",
+          "points": 10,
+          "outcome": "Validate authority for chargeable diagnosis, parts and specialist cost; annual maintenance PO is not unlimited approval.",
+          "evidence_ids": [
+            "E007",
+            "E008"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B001-C4",
+      "label": "Continuing control",
+      "points": 20,
+      "expected_outcome": "The unresolved request has an accountable next action.",
+      "evidence_ids": [
+        "E009",
+        "E010"
+      ],
+      "checkpoints": [
+        {
+          "id": "B001-C4.1",
+          "points": 10,
+          "outcome": "Retain coordinator ownership of coverage/access/dispatch checks until an accepted handoff.",
+          "evidence_ids": [
+            "E009",
+            "E010"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B001-C4.2",
+          "points": 10,
+          "outcome": "Set a concrete near-term review, such as 10:45, and manager escalation if a material dependency persists.",
+          "evidence_ids": [
+            "E009",
+            "E010"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B001-C5",
+      "label": "Customer commitment",
+      "points": 20,
+      "expected_outcome": "Priya receives an honest operational update.",
+      "evidence_ids": [
+        "E011",
+        "E012",
+        "E013"
+      ],
+      "checkpoints": [
+        {
+          "id": "B001-C5.1",
+          "points": 10,
+          "outcome": "Communicate the next checks, conditional response and useful access/impact clarification.",
+          "evidence_ids": [
+            "E011",
+            "E012",
+            "E013"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B001-C5.2",
+          "points": 10,
+          "outcome": "Record update timing and preserve attendance/restoration/resolution differences without promising repair by 15:00.",
+          "evidence_ids": [
+            "E011",
+            "E012",
+            "E013"
+          ],
+          "stage": 1
+        }
+      ]
+    }
+  ],
+  "acceptable_alternatives": [
+    {
+      "outcome": "Bounded Samir diagnosis, brief owned hold for urgent checks, or management-approved specialist reservation are equivalent if authority, delay and displaced work are controlled.",
+      "evidence_ids": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006",
+        "E007",
+        "E008",
+        "E009",
+        "E010",
+        "E011",
+        "E012",
+        "E013",
+        "E014",
+        "E015",
+        "E016",
+        "E017",
+        "E018",
+        "E019"
+      ]
+    }
+  ],
+  "prohibited_outcomes": [
+    {
+      "outcome": "Commit to controls being covered, emergency/SLA entitlement or restoration by 15:00 without the missing evidence.",
+      "evidence_ids": [
+        "E014",
+        "E015"
+      ],
+      "critical_failure_id": "B001-CF1"
+    },
+    {
+      "outcome": "Direct advanced BMS work by Samir, move Ellie without the required management decision, or authorise chargeable reactive spend on the maintenance PO without validation.",
+      "evidence_ids": [
+        "E005",
+        "E007",
+        "E008"
+      ],
+      "critical_failure_id": "B001-CF2"
+    },
+    {
+      "outcome": "Mark the customer issue permanently resolved or the job operationally complete merely from dispatch.",
+      "evidence_ids": [
+        "E016",
+        "E017"
+      ],
+      "critical_failure_id": "B001-CF3"
+    }
+  ],
+  "critical_failures": [
+    {
+      "id": "B001-CF1",
+      "outcome": "Commit to controls being covered, emergency/SLA entitlement or restoration by 15:00 without the missing evidence.",
+      "evidence_ids": [
+        "E014",
+        "E015"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    },
+    {
+      "id": "B001-CF2",
+      "outcome": "Direct advanced BMS work by Samir, move Ellie without the required management decision, or authorise chargeable reactive spend on the maintenance PO without validation.",
+      "evidence_ids": [
+        "E005",
+        "E007",
+        "E008"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    },
+    {
+      "id": "B001-CF3",
+      "outcome": "Mark the customer issue permanently resolved or the job operationally complete merely from dispatch.",
+      "evidence_ids": [
+        "E016",
+        "E017"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    }
+  ],
+  "evidence_ids": [
+    "E001",
+    "E002",
+    "E003",
+    "E004",
+    "E005",
+    "E006",
+    "E007",
+    "E008",
+    "E009",
+    "E010",
+    "E011",
+    "E012",
+    "E013",
+    "E014",
+    "E015",
+    "E016",
+    "E017",
+    "E018",
+    "E019"
+  ],
+  "uncertainty": [
+    {
+      "fact": "Applicable SLA, priority and clock position",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Controls coverage and reactive PO validity",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Fault cause and riser access",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    }
+  ],
+  "observation_rule": "Score actual resulting state/actions and candidate-origin recorded decisions. An unexecuted recommendation cannot satisfy an action checkpoint; see protocol for decision-support-only comparisons. No credit from evaluator-written repairs or hidden mental reasoning."
+}

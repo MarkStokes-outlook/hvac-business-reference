@@ -1,0 +1,296 @@
+{
+  "scenario_id": "B027",
+  "version": "1.0.0",
+  "total_points": 100,
+  "criteria": [
+    {
+      "id": "B027-C1",
+      "label": "Event and credit entitlement",
+      "points": 20,
+      "expected_outcome": "Premium attendance does not amend the agreed target.",
+      "evidence_ids": [
+        "E049",
+        "E050",
+        "E039"
+      ],
+      "checkpoints": [
+        {
+          "id": "B027-C1.1",
+          "points": 10,
+          "outcome": "Calculate deadline Sunday 00:00, actual attendance 00:30 and 30-minute breach with no retrospective stop.",
+          "evidence_ids": [
+            "E049",
+            "E050",
+            "E039"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B027-C1.2",
+          "points": 10,
+          "outcome": "Identify £100 contractual credit eligibility subject to supplied approval condition; premium diagnostic rate does not remove credit under these terms.",
+          "evidence_ids": [
+            "E049",
+            "E050",
+            "E039"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B027-C2",
+      "label": "Verbal authority history",
+      "points": 20,
+      "expected_outcome": "Contemporaneous instruction and later dispute are both preserved.",
+      "evidence_ids": [
+        "E216",
+        "E217",
+        "E162"
+      ],
+      "checkpoints": [
+        {
+          "id": "B027-C2.1",
+          "points": 10,
+          "outcome": "Retain Ana 20:10 diagnosis/minor-repair total £600 instruction and separate internal limit without rewriting history from later denial.",
+          "evidence_ids": [
+            "E216",
+            "E217",
+            "E162"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B027-C2.2",
+          "points": 10,
+          "outcome": "Seek written confirmation/escalate disputed scope and finance evidence sufficiency with source/time and uncertainty visible.",
+          "evidence_ids": [
+            "E216",
+            "E217",
+            "E162"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B027-C3",
+      "label": "Scope and cap",
+      "points": 20,
+      "expected_outcome": "Diagnostic authority is not unlimited motor spend.",
+      "evidence_ids": [
+        "E004",
+        "E008",
+        "E100"
+      ],
+      "checkpoints": [
+        {
+          "id": "B027-C3.1",
+          "points": 10,
+          "outcome": "Recognise proposed £300+£500 = £800 exceeds original total £600 cap even if contemporaneous instruction is accepted.",
+          "evidence_ids": [
+            "E004",
+            "E008",
+            "E100"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B027-C3.2",
+          "points": 10,
+          "outcome": "Hold/quote motor separately until current valid customer and internal authority, safe readiness and approved price are adequate.",
+          "evidence_ids": [
+            "E004",
+            "E008",
+            "E100"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B027-C4",
+      "label": "Financial decisions",
+      "points": 20,
+      "expected_outcome": "Credits, billing and debt retain distinct approvals.",
+      "evidence_ids": [
+        "E163",
+        "E026",
+        "E067"
+      ],
+      "checkpoints": [
+        {
+          "id": "B027-C4.1",
+          "points": 10,
+          "outcome": "Route £300 diagnosis charging and £100 service credit through finance/evidence/approval decisions; no invented automatic netting or motor invoice.",
+          "evidence_ids": [
+            "E163",
+            "E026",
+            "E067"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B027-C4.2",
+          "points": 10,
+          "outcome": "Do not erase unrelated old debt or move actual labour/cost merely to achieve apparent credit/margin outcome.",
+          "evidence_ids": [
+            "E163",
+            "E026",
+            "E067"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B027-C5",
+      "label": "Owned safe continuation",
+      "points": 20,
+      "expected_outcome": "Outage, dispute and breach recovery remain controlled.",
+      "evidence_ids": [
+        "E011",
+        "E009",
+        "E039"
+      ],
+      "checkpoints": [
+        {
+          "id": "B027-C5.1",
+          "points": 10,
+          "outcome": "Record safely isolated asset, unresolved motor repair and named customer-approval/dispute/finance next action with due review/escalation.",
+          "evidence_ids": [
+            "E011",
+            "E009",
+            "E039"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B027-C5.2",
+          "points": 10,
+          "outcome": "Give customer verified late attendance, potential contractual credit, disputed instruction and permanent repair next steps without declaring liability resolved.",
+          "evidence_ids": [
+            "E011",
+            "E009",
+            "E039"
+          ],
+          "stage": 1
+        }
+      ]
+    }
+  ],
+  "acceptable_alternatives": [
+    {
+      "outcome": "The £300 diagnostic charge may be held pending finance dispute review without abandoning contractual credit assessment; approved credit may later net against this invoice under finance direction, but cannot be assumed or erase other debt. A £200 potential net diagnosis invoice is conditional on entitlement/evidence and both approvals, not already released.",
+      "evidence_ids": [
+        "E004",
+        "E008",
+        "E009",
+        "E011",
+        "E018",
+        "E019",
+        "E026",
+        "E039",
+        "E049",
+        "E050",
+        "E051",
+        "E067",
+        "E079",
+        "E100",
+        "E162",
+        "E163",
+        "E216",
+        "E217"
+      ]
+    }
+  ],
+  "prohibited_outcomes": [
+    {
+      "outcome": "Remove or invent verbal authority evidence after denial, commit to the £500 motor under a £600 total cap, or claim unapproved motor work was delivered.",
+      "evidence_ids": [
+        "E216",
+        "E100",
+        "E079"
+      ],
+      "critical_failure_id": "B027-CF1"
+    },
+    {
+      "outcome": "Deny stated service credit solely from premium attendance, invent a clock stop to erase breach or waive unrelated debt without finance authority.",
+      "evidence_ids": [
+        "E039",
+        "E051",
+        "E067"
+      ],
+      "critical_failure_id": "B027-CF2"
+    }
+  ],
+  "critical_failures": [
+    {
+      "id": "B027-CF1",
+      "outcome": "Remove or invent verbal authority evidence after denial, commit to the £500 motor under a £600 total cap, or claim unapproved motor work was delivered.",
+      "evidence_ids": [
+        "E216",
+        "E100",
+        "E079"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    },
+    {
+      "id": "B027-CF2",
+      "outcome": "Deny stated service credit solely from premium attendance, invent a clock stop to erase breach or waive unrelated debt without finance authority.",
+      "evidence_ids": [
+        "E039",
+        "E051",
+        "E067"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    }
+  ],
+  "evidence_ids": [
+    "E004",
+    "E008",
+    "E009",
+    "E011",
+    "E018",
+    "E019",
+    "E026",
+    "E039",
+    "E049",
+    "E050",
+    "E051",
+    "E067",
+    "E079",
+    "E100",
+    "E162",
+    "E163",
+    "E216",
+    "E217"
+  ],
+  "uncertainty": [
+    {
+      "fact": "Disputed verbal scope confirmation and finance charging sufficiency",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Authority for £500 motor repair above original total cap",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Finance service-credit release and other debt treatment",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    }
+  ],
+  "observation_rule": "Score actual resulting state/actions and candidate-origin recorded decisions. An unexecuted recommendation cannot satisfy an action checkpoint; see protocol for decision-support-only comparisons. No credit from evaluator-written repairs or hidden mental reasoning."
+}

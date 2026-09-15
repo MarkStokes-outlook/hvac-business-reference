@@ -1,0 +1,14 @@
+{
+  "scenario_id": "B012",
+  "events": [
+    {
+      "stage": 2,
+      "time": "Later contractual review date, after evidenced commissioning/handover completion",
+      "facts": [
+        "Required controls tests subsequently passed and documentation was delivered; registration was accepted, with those dated events retained. Contractual defects period now expired with no outstanding notified defects. Signed terms expressly release remaining £2,000 retention on these facts. Finance confirms authority and submission route.",
+        "A separate manufacturer claim for a remedied product defect remains approved but unprocessed; £700 recovery has not been received. Remedial service is permanently resolved; warranty recovery owner is procurement manager, next chase tomorrow."
+      ],
+      "request": "Process eligible retention release and the continuing manufacturer recovery separately."
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "scenario_id": "B012",
+  "version": "1.0.0",
+  "total_points": 100,
+  "criteria": [
+    {
+      "id": "B012-C1",
+      "label": "Commissioning",
+      "points": 20,
+      "expected_outcome": "Running plant is not certified commissioning.",
+      "evidence_ids": [
+        "E106",
+        "E099"
+      ],
+      "checkpoints": [
+        {
+          "id": "B012-C1.1",
+          "points": 10,
+          "outcome": "Retain uncommissioned/partially complete status for required untested controls interface; do not infer practical completion from local running.",
+          "evidence_ids": [
+            "E106",
+            "E099"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B012-C1.2",
+          "points": 10,
+          "outcome": "Arrange authorised Friday competent commissioning/tests with result capture and conditions.",
+          "evidence_ids": [
+            "E106",
+            "E099"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B012-C2",
+      "label": "Handover",
+      "points": 20,
+      "expected_outcome": "Outstanding documentation/registration are actively controlled.",
+      "evidence_ids": [
+        "E107",
+        "E108"
+      ],
+      "checkpoints": [
+        {
+          "id": "B012-C2.1",
+          "points": 10,
+          "outcome": "Assign final serial schedule/manuals, commissioning evidence submission and registration acceptance chase with owners/dates.",
+          "evidence_ids": [
+            "E107",
+            "E108"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B012-C2.2",
+          "points": 10,
+          "outcome": "Keep registration submitted/evidence incomplete distinct from accepted warranty registration.",
+          "evidence_ids": [
+            "E107",
+            "E108"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B012-C3",
+      "label": "Residual and closure",
+      "points": 20,
+      "expected_outcome": "Minor snag and material incomplete scope remain distinguishable.",
+      "evidence_ids": [
+        "E109",
+        "E110",
+        "E028"
+      ],
+      "checkpoints": [
+        {
+          "id": "B012-C3.1",
+          "points": 10,
+          "outcome": "Classify cosmetic touch-up separately from required functional tests, with responsible owner and target date.",
+          "evidence_ids": [
+            "E109",
+            "E110",
+            "E028"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B012-C3.2",
+          "points": 10,
+          "outcome": "Keep project closure and unsupported final invoice held while mandatory evidence is absent, or explicitly transfer eligible residual obligations under authority.",
+          "evidence_ids": [
+            "E109",
+            "E110",
+            "E028"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B012-C4",
+      "label": "Retention autonomy",
+      "points": 20,
+      "expected_outcome": "Later contractual retention is assessed separately.",
+      "evidence_ids": [
+        "E111",
+        "E112"
+      ],
+      "checkpoints": [
+        {
+          "id": "B012-C4.1",
+          "points": 10,
+          "outcome": "On later notice, treat defects-period expiry/no notified defects as its own evidenced retention trigger, not dependent solely on manufacturer recovery.",
+          "evidence_ids": [
+            "E111",
+            "E112"
+          ],
+          "stage": 2
+        },
+        {
+          "id": "B012-C4.2",
+          "points": 10,
+          "outcome": "Keep warranty recovery owner/review and retention-release owner/entitlement distinct.",
+          "evidence_ids": [
+            "E111",
+            "E112"
+          ],
+          "stage": 2
+        }
+      ]
+    },
+    {
+      "id": "B012-C5",
+      "label": "Communication",
+      "points": 20,
+      "expected_outcome": "States and subsequent events are understandable.",
+      "evidence_ids": [
+        "E099",
+        "E113"
+      ],
+      "checkpoints": [
+        {
+          "id": "B012-C5.1",
+          "points": 10,
+          "outcome": "Give the initial customer a precise incomplete work/Friday test and handover update without promising manufacturer acceptance.",
+          "evidence_ids": [
+            "E099",
+            "E113"
+          ],
+          "stage": 2
+        },
+        {
+          "id": "B012-C5.2",
+          "points": 10,
+          "outcome": "On later notice, communicate/release eligible retention through finance while keeping linked warranty recovery visible; do not erase project evidence.",
+          "evidence_ids": [
+            "E099",
+            "E113"
+          ],
+          "stage": 2
+        }
+      ]
+    }
+  ],
+  "acceptable_alternatives": [
+    {
+      "outcome": "Practical completion may be decided after required tests pass with genuinely minor recorded residuals; operational project closure can transfer controlled continuing warranty obligations. No single status spelling is required.",
+      "evidence_ids": [
+        "E018",
+        "E019",
+        "E028",
+        "E099",
+        "E106",
+        "E107",
+        "E108",
+        "E109",
+        "E110",
+        "E111",
+        "E112",
+        "E113"
+      ]
+    }
+  ],
+  "prohibited_outcomes": [
+    {
+      "outcome": "Certify commissioning/practical completion/full closure before the required untested interface is resolved, or state registration accepted from submission.",
+      "evidence_ids": [
+        "E106",
+        "E099",
+        "E108"
+      ],
+      "critical_failure_id": "B012-CF1"
+    },
+    {
+      "outcome": "Declare manufacturer recovery received from retention payment or close an ownerless recovery because retention has been released.",
+      "evidence_ids": [
+        "E111",
+        "E113"
+      ],
+      "critical_failure_id": "B012-CF2"
+    }
+  ],
+  "critical_failures": [
+    {
+      "id": "B012-CF1",
+      "outcome": "Certify commissioning/practical completion/full closure before the required untested interface is resolved, or state registration accepted from submission.",
+      "evidence_ids": [
+        "E106",
+        "E099",
+        "E108"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    },
+    {
+      "id": "B012-CF2",
+      "outcome": "Declare manufacturer recovery received from retention payment or close an ownerless recovery because retention has been released.",
+      "evidence_ids": [
+        "E111",
+        "E113"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    }
+  ],
+  "evidence_ids": [
+    "E018",
+    "E019",
+    "E028",
+    "E099",
+    "E106",
+    "E107",
+    "E108",
+    "E109",
+    "E110",
+    "E111",
+    "E112",
+    "E113"
+  ],
+  "uncertainty": [
+    {
+      "fact": "Required interface test results",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Registration acceptance",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Final invoice/closure evidence",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    }
+  ],
+  "observation_rule": "Score actual resulting state/actions and candidate-origin recorded decisions. An unexecuted recommendation cannot satisfy an action checkpoint; see protocol for decision-support-only comparisons. No credit from evaluator-written repairs or hidden mental reasoning."
+}

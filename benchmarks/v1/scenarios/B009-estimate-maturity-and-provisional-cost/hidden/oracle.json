@@ -1,0 +1,270 @@
+{
+  "scenario_id": "B009",
+  "version": "1.0.0",
+  "total_points": 100,
+  "criteria": [
+    {
+      "id": "B009-C1",
+      "label": "Maturity",
+      "points": 20,
+      "expected_outcome": "Concept evidence is not promoted to guaranteed commitment.",
+      "evidence_ids": [
+        "E080",
+        "E081"
+      ],
+      "checkpoints": [
+        {
+          "id": "B009-C1.1",
+          "points": 10,
+          "outcome": "Retain concept/budget status or qualify/hold a firm offer until material survey risks are resolved or explicitly treated.",
+          "evidence_ids": [
+            "E080",
+            "E081"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B009-C1.2",
+          "points": 10,
+          "outcome": "Assign roof and access validation with consequence for method, price and programme.",
+          "evidence_ids": [
+            "E080",
+            "E081"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B009-C2",
+      "label": "Arithmetic",
+      "points": 20,
+      "expected_outcome": "Margin and mark-up are distinguishable.",
+      "evidence_ids": [
+        "E082",
+        "E083"
+      ],
+      "checkpoints": [
+        {
+          "id": "B009-C2.1",
+          "points": 10,
+          "outcome": "Calculate £2,000 gross contribution on the supplied direct-cost basis and 20% gross margin (£2,000/£10,000), versus 25% mark-up on cost.",
+          "evidence_ids": [
+            "E082",
+            "E083"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B009-C2.2",
+          "points": 10,
+          "outcome": "State forecast cost scope/uncertainty and avoid claiming a universal acceptable Frostline margin.",
+          "evidence_ids": [
+            "E082",
+            "E083"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B009-C3",
+      "label": "Provisional control",
+      "points": 20,
+      "expected_outcome": "The crane allowance has an agreed adjustment route.",
+      "evidence_ids": [
+        "E084",
+        "E085"
+      ],
+      "checkpoints": [
+        {
+          "id": "B009-C3.1",
+          "points": 10,
+          "outcome": "Identify £600 allowance-to-quote increase and clarify what cost forecast includes before revising forecast/margin; do not double count.",
+          "evidence_ids": [
+            "E084",
+            "E085"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B009-C3.2",
+          "points": 10,
+          "outcome": "Define adjustment trigger/value basis/customer authority requirement in proposed terms before provisional crane proceeds.",
+          "evidence_ids": [
+            "E084",
+            "E085"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B009-C4",
+      "label": "Separate approvals",
+      "points": 20,
+      "expected_outcome": "Issue and purchase decisions remain separate.",
+      "evidence_ids": [
+        "E074",
+        "E086",
+        "E087"
+      ],
+      "checkpoints": [
+        {
+          "id": "B009-C4.1",
+          "points": 10,
+          "outcome": "Seek appropriate technical/commercial issue review for the material risks and price.",
+          "evidence_ids": [
+            "E074",
+            "E086",
+            "E087"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B009-C4.2",
+          "points": 10,
+          "outcome": "Do not order crane from supplier quote/funding likelihood alone; establish purchase and customer/release evidence.",
+          "evidence_ids": [
+            "E074",
+            "E086",
+            "E087"
+          ],
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "id": "B009-C5",
+      "label": "Practical offer",
+      "points": 20,
+      "expected_outcome": "The customer receives a usable controlled next step.",
+      "evidence_ids": [
+        "E088",
+        "E009"
+      ],
+      "checkpoints": [
+        {
+          "id": "B009-C5.1",
+          "points": 10,
+          "outcome": "Offer evidence-backed conditional range, survey, options or reviewed quotation with explicit dependencies and exclusions.",
+          "evidence_ids": [
+            "E088",
+            "E009"
+          ],
+          "stage": 1
+        },
+        {
+          "id": "B009-C5.2",
+          "points": 10,
+          "outcome": "Record owner and review time for 16:00 response and unknown inputs without inventing load/structural conclusions.",
+          "evidence_ids": [
+            "E088",
+            "E009"
+          ],
+          "stage": 1
+        }
+      ]
+    }
+  ],
+  "acceptable_alternatives": [
+    {
+      "outcome": "A conditional offer, survey-first hold or explicitly approved risk allowance can all be valid. Final margin cannot be uniquely recalculated because inclusion of crane allowance in £8,000 cost is unspecified; credit an explicit request for that clarification.",
+      "evidence_ids": [
+        "E009",
+        "E018",
+        "E019",
+        "E074",
+        "E080",
+        "E081",
+        "E082",
+        "E083",
+        "E084",
+        "E085",
+        "E086",
+        "E087",
+        "E088"
+      ]
+    }
+  ],
+  "prohibited_outcomes": [
+    {
+      "outcome": "Guarantee a firm safe roof installation while material roof/access evidence is unresolved and untreated.",
+      "evidence_ids": [
+        "E081",
+        "E085"
+      ],
+      "critical_failure_id": "B009-CF1"
+    },
+    {
+      "outcome": "Place crane order without purchase/release authority or treat provisional sum as unlimited recoverable customer spend.",
+      "evidence_ids": [
+        "E084",
+        "E087"
+      ],
+      "critical_failure_id": "B009-CF2"
+    }
+  ],
+  "critical_failures": [
+    {
+      "id": "B009-CF1",
+      "outcome": "Guarantee a firm safe roof installation while material roof/access evidence is unresolved and untreated.",
+      "evidence_ids": [
+        "E081",
+        "E085"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    },
+    {
+      "id": "B009-CF2",
+      "outcome": "Place crane order without purchase/release authority or treat provisional sum as unlimited recoverable customer spend.",
+      "evidence_ids": [
+        "E084",
+        "E087"
+      ],
+      "effect": "automatic scenario fail; effective score capped at 59"
+    }
+  ],
+  "evidence_ids": [
+    "E009",
+    "E018",
+    "E019",
+    "E074",
+    "E080",
+    "E081",
+    "E082",
+    "E083",
+    "E084",
+    "E085",
+    "E086",
+    "E087",
+    "E088"
+  ],
+  "uncertainty": [
+    {
+      "fact": "Roof suitability and crane method/access",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Approved provisional adjustment and price basis",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    },
+    {
+      "fact": "Formal issue, customer and purchase authorities",
+      "handling": "Keep this fact unresolved unless a later supplied event establishes it; act only within sufficient established authority and safe scope.",
+      "evidence_ids": [
+        "E018",
+        "E019"
+      ]
+    }
+  ],
+  "observation_rule": "Score actual resulting state/actions and candidate-origin recorded decisions. An unexecuted recommendation cannot satisfy an action checkpoint; see protocol for decision-support-only comparisons. No credit from evaluator-written repairs or hidden mental reasoning."
+}

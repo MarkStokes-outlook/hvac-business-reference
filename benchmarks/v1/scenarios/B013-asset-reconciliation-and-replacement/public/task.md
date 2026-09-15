@@ -1,0 +1,3 @@
+# Task — B013
+
+Act in the capacity of Frostline service coordinator for the relevant customer and internal decision makers. Handle the request in `case.md` using your application and the canonical `docs/`. Follow the common `submission-contract.md`. Use the supplied records without replacing them with assumed policy. Record or carry out the justified business decisions, communications and next actions; preserve unresolved material facts. Apply later supplied events to the resulting state when the operator provides them. No prescribed UI, architecture or internal status labels are required.
